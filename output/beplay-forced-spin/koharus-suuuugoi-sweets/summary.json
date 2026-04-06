@@ -1,0 +1,28 @@
+{
+  "launchUrl": "http://127.0.0.1:8083/beplay/location?game=koharus-suuuugoi-sweets&key=&language=uk&operator=slotscity&lobbyUrl=https%3A%2F%2Fslotcity.ua%2F&currency=uah&depositUrl=https%3A%2F%2Fslotcity.ua%2Fcashbox%3Fbackgameurl%3Dbeplay-koharus-suuuugoi-sweets&exitTarget=self&channel=desktop&rgs=beplay&provider=beplay&forceAction=free-spins-buy&forceBet=60.00",
+  "game": "koharus-suuuugoi-sweets",
+  "playRequestCount": 1,
+  "playResponseCount": 1,
+  "completeRequestCount": 0,
+  "completeResponseCount": 0,
+  "pageErrors": 0,
+  "forcedAction": "free-spins-buy",
+  "forcedBet": "60.00",
+  "bodyText": "11:54\nДЕМО\nБАЛАНС 935,00 USD\nВИГРАШ\nСТАВКА 1,00 USD\nKOHARU’S SUUUUGOI SWEETS!\n10,00 USD",
+  "playRequest": {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8083/beplay/api/game/play",
+    "postData": "{\"game\":\"koharus-suuuugoi-sweets\",\"provider\":\"beplay\",\"action\":\"main\",\"complete\":false,\"asyncWin\":false,\"bet\":\"1.00\"}",
+    "at": 1775292733185
+  },
+  "playResponse": {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8083/beplay/api/game/play",
+    "body": "{\"roundId\":\"40c989f0-e116-4452-91dc-b698a94994e4\",\"wager\":{\"win\":10,\"state\":{\"bet\":1,\"display\":[[12,7,7],[12,4,7],[12,4,4],[9,9,12],[5,5,12]],\"scattersWin\":10,\"freeSpinsLeft\":10,\"freeSpinsTotalWin\":10,\"freeSpinsTriggerDisplay\":[[12,7,7],[12,4,7],[12,4,4],[9,9,12],[5,5,12]],\"freeSpinsPlayed\":0,\"isBuyfeature\":true,\"boostAction\":null,\"action\":\"free-spins-buy\"},\"data\":{\"scatterCount\":5,\"winLines\":[],\"currentAction\":\"free-spins-buy\",\"screenWins\":[{\"symbolId\":12,\"symbol\":\"SCATTER\",\"win\":10,\"oakIndex\":5,\"positions\":[{\"column\":0,\"row\":0},{\"column\":1,\"row\":0},{\"column\":2,\"row\":0},{\"column\":3,\"row\":2},{\"column\":4,\"row\":2}]}]},\"next\":[\"free-spins\"]},\"balance\":935}",
+    "at": 1775292737945
+  },
+  "completeRequest": null,
+  "completeResponse": null
+}

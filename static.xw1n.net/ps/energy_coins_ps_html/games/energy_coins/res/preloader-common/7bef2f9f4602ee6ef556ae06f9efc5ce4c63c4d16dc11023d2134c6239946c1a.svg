@@ -1,0 +1,17 @@
+<svg id="loading_bar_base" xmlns="http://www.w3.org/2000/svg" width="586" height="243" viewBox="0 0 586 243">
+  <defs>
+    <filter id="Rectangle_100" x="0" y="0" width="586" height="243" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="loading_bar_fill" transform="translate(60 50)">
+    <g transform="matrix(1, 0, 0, 1, -60, -50)" filter="url(#Rectangle_100)">
+      <rect width="466" height="123" rx="61.5" fill="groupColor-01" opacity="0.7"
+            transform="translate(60 50)"/>
+    </g>
+  </g>
+</svg>

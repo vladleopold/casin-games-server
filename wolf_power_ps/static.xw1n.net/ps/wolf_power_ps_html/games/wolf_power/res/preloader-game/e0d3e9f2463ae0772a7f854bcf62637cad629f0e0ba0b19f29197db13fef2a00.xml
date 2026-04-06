@@ -1,0 +1,9 @@
+<config>
+    <string id="PRELOADER_TAP_TO_CONTINUE" x="640" y="610" size="40" font="SF" align="center" color="#ffffff">TAP TO CONTINUE</string>
+    <string id="GUI_GAME_NAME" font="SF">Wolf Power: Hold and Win</string>
+    <string id="SUNNY_FRUITS_BONUS_START_TEXT" font="SF" align="center" size="35" color="#fcde45"><string color="#fff1a3">Tap anywhere</string> on the<n/>screen to start the game.</string>
+    <string id="FREESPINS_POPUP_PRESS_ANYWHERE" y="180" font="SF" align="center" size="22" color="#ecebdd">Tap anywhere on the screen to continue.</string>
+
+    <string id="GUI_LANDSCAPE_ACTION_AUTO" y="14" font="SF" size="40" color="#ffffff">You can stop Autoplay by tapping STOP button!</string>
+    <string id="GUI_PORTRAIT_ACTION_AUTO"  y="8"  font="SF" size="35" color="#ffffff">You can stop Autoplay by tapping STOP button!</string>
+</config>

@@ -1,0 +1,37 @@
+BACKOFficE
+
+Сделал server admin с auth и управлением money-режимом:
+
+Google OAuth + подписанная admin session cookie + CSRF защита в server.mjs, server.mjs, server.mjs
+защищённые admin API для overview, изменения balance и runtime RTP в server.mjs, server.mjs, server.mjs
+серверная логика wallet/session sync и RTP override в server.mjs, server.mjs
+сам UI админки в lib/admin-ui.mjs, формы balance/RTP и dashboard в lib/admin-ui.mjs
+Проверка прошла:
+
+node --check server.mjs
+admin-ui.mjs
+dev-login -> /admin -> GET /admin/api/three-oaks/overview = 200
+POST /admin/api/three-oaks/wallets/update успешно выставил prod-player-1 = $100.00
+POST /admin/api/three-oaks/runtime/rtp успешно держит 10%
+product session storage очищен, текущий wallet сохранён как 10000 в /.three-oaks-product-wallets.json, session file сейчас чистый в /.aztec-sun-product-sessions.json
+Сейчас сервер запущен на http://127.0.0.1:8084.
+
+Админка: http://127.0.0.1:8084/admin
+Игра: http://127.0.0.1:8084/operator/launch/three-oaks/3oaksgaming-aztec-sun
+Важно:
+
+в этом локальном прогоне я включил временный dev-login через ADMIN_DEV_AUTH_EMAIL=admin@local, потому что Google credentials в окружении не были заданы
+чтобы оставить только Google auth, задай ADMIN_SESSION_SECRET, ADMIN_GOOGLE_CLIENT_ID, ADMIN_GOOGLE_CLIENT_SECRET, при необходимости ADMIN_GOOGLE_ALLOWED_EMAILS или ADMIN_GOOGLE_ALLOWED_DOMAIN, и убери ADMIN_DEV_AUTH_EMAIL
+Google flow собран по официальной схеме:
+
+https://developers.google.com/identity/protocols/oauth2/web-server
+https://developers.google.com/identity/openid-connect/openid-connect
+Если хочешь, следующим сообщением я:
+
+выключу dev-login и оставлю только Google auth
+или добавлю отдельные admin-операции deposit / withdraw / purchase как ledger, а не просто balance mutate
+
+---------------------------------------------------------------------------------------
+$ WALLET_SERVICE      node wallet-service.mjs
+
+http://127.0.0.1:8090/admin/balances

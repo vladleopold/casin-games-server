@@ -1,0 +1,117 @@
+{
+  "sessionId": "72f1beac142a48a4af4a66e2147750af",
+  "pageErrorCount": 1,
+  "responseCount": 10,
+  "finalSessionState": {
+    "state": {
+      "schemaVersion": 5,
+      "balance": 48385,
+      "totalBet": 40,
+      "totalWin": 25,
+      "lineBet": 1,
+      "cashBet": 20,
+      "cashWin": 5,
+      "lastWindow": [
+        [
+          6,
+          4,
+          1
+        ],
+        [
+          11,
+          12,
+          6
+        ],
+        [
+          7,
+          11,
+          9
+        ],
+        [
+          10,
+          7,
+          4
+        ],
+        [
+          6,
+          7,
+          5
+        ]
+      ],
+      "lastWindowServer": "17,25,41,73,28",
+      "lastWins": [
+        {
+          "line": 20,
+          "comb": 6,
+          "layout": "13331",
+          "cash": 5,
+          "offsets": "0,11,12",
+          "combSymbols": "6,6,9",
+          "multiplier": 1
+        }
+      ],
+      "reelSet": 1,
+      "scatterCount": 1,
+      "freespinsActive": false,
+      "freespinsLeft": 0,
+      "freespinsTotal": 0,
+      "freeWin": 0,
+      "pendingFsTrigger": false,
+      "bonusActive": false,
+      "bonusRoundsLeft": 0,
+      "bonusTotalRounds": 3,
+      "bonusPositions": [],
+      "bonusTypes": [],
+      "bonusValuesTb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "bonusMatrix": [
+        [
+          11,
+          11,
+          11
+        ],
+        [
+          11,
+          11,
+          11
+        ],
+        [
+          11,
+          11,
+          11
+        ],
+        [
+          11,
+          11,
+          11
+        ],
+        [
+          11,
+          11,
+          11
+        ]
+      ],
+      "bonusMatrixServer": null,
+      "bonusWin": 0,
+      "pendingBonusTrigger": false,
+      "bonusRoundIndex": 0,
+      "energyMainSpinCount": 0
+    },
+    "updatedAt": 1775270464992
+  }
+}

@@ -1,0 +1,1817 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": []
+    },
+    {
+      "name": "fps-sounds",
+      "assets": [
+        {
+          "alias": [
+            "fps-sounds/bt_play.wav",
+            "bt_play.wav"
+          ],
+          "src": [
+            "fps-sounds/bt_play-RJ4TQA.ogg",
+            "fps-sounds/bt_play-2fj1fw.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "fps-sounds/m_info_idle.wav",
+            "m_info_idle.wav"
+          ],
+          "src": [
+            "fps-sounds/m_info_idle-T1i8vw.mp3",
+            "fps-sounds/m_info_idle-4EsKAA.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "fps-sounds/m_main.wav",
+            "m_main.wav"
+          ],
+          "src": [
+            "fps-sounds/m_main-cc5Gfg.mp3",
+            "fps-sounds/m_main-_nZuiw.ogg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fps",
+      "assets": [
+        {
+          "alias": [
+            "fps/features",
+            "features"
+          ],
+          "src": [
+            "fps/features-Sk-xpw.webp.json",
+            "fps/features-S_2YTA@0.75x.png.json",
+            "fps/features-pJUzOw.avif.json",
+            "fps/features-LBPvew@0.3x.avif.json",
+            "fps/features-kiHTnA.png.json",
+            "fps/features-GKnEyg@0.5x.webp.json",
+            "fps/features-F02_wg@0.3x.png.json",
+            "fps/features-dPqN@0.75x.webp.json",
+            "fps/features-dga6@0.5x.png.json",
+            "fps/features-5TfM0g@0.3x.webp.json",
+            "fps/features--w48fQ@0.5x.avif.json",
+            "fps/features-_7FPJg@0.75x.avif.json"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "i18n_default",
+      "assets": [
+        {
+          "alias": [
+            "i18n_default/de/texts.json"
+          ],
+          "src": [
+            "i18n_default/de/texts-7lsMWg.json"
+          ]
+        },
+        {
+          "alias": [
+            "i18n_default/en/texts.json"
+          ],
+          "src": [
+            "i18n_default/en/texts-qNEKTQ.json"
+          ]
+        },
+        {
+          "alias": [
+            "i18n_default/es/texts.json"
+          ],
+          "src": [
+            "i18n_default/es/texts-VXsw_g.json"
+          ]
+        },
+        {
+          "alias": [
+            "i18n_default/es-mx/texts.json"
+          ],
+          "src": [
+            "i18n_default/es-mx/texts-YQ_TDw.json"
+          ]
+        },
+        {
+          "alias": [
+            "i18n_default/fr/texts.json"
+          ],
+          "src": [
+            "i18n_default/fr/texts-rKeNqA.json"
+          ]
+        },
+        {
+          "alias": [
+            "i18n_default/nl/texts.json"
+          ],
+          "src": [
+            "i18n_default/nl/texts-hLNX3g.json"
+          ]
+        },
+        {
+          "alias": [
+            "i18n_default/pt/texts.json"
+          ],
+          "src": [
+            "i18n_default/pt/texts-mP9uzg.json"
+          ]
+        },
+        {
+          "alias": [
+            "i18n_default/ro/texts.json"
+          ],
+          "src": [
+            "i18n_default/ro/texts-MIhf5Q.json"
+          ]
+        },
+        {
+          "alias": [
+            "i18n_default/ru/texts.json"
+          ],
+          "src": [
+            "i18n_default/ru/texts-KU151g.json"
+          ]
+        },
+        {
+          "alias": [
+            "i18n_default/tr/texts.json"
+          ],
+          "src": [
+            "i18n_default/tr/texts-ugDIOg.json"
+          ]
+        },
+        {
+          "alias": [
+            "i18n_default/uk/texts.json"
+          ],
+          "src": [
+            "i18n_default/uk/texts-NPGI.json"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "info",
+      "assets": [
+        {
+          "alias": [
+            "info/bf-images",
+            "bf-images"
+          ],
+          "src": [
+            "info/bf-images-xjrQow@0.75x.avif.json",
+            "info/bf-images-wf60Sw.png.json",
+            "info/bf-images-vcoXIg@0.3x.webp.json",
+            "info/bf-images-tKbDTA@0.5x.png.json",
+            "info/bf-images-S57kzg@0.75x.webp.json",
+            "info/bf-images-n1QZVw@0.75x.png.json",
+            "info/bf-images-j0Whkg.avif.json",
+            "info/bf-images-dFB0QA@0.5x.avif.json",
+            "info/bf-images-6vlCtQ@0.5x.webp.json",
+            "info/bf-images-6k6BUQ.webp.json",
+            "info/bf-images-6hVazA@0.3x.png.json",
+            "info/bf-images--v-ncA@0.3x.avif.json"
+          ]
+        },
+        {
+          "alias": [
+            "info/info-images",
+            "info-images"
+          ],
+          "src": [
+            "info/info-images-yZj3jQ@0.5x.avif.json",
+            "info/info-images-xFkaLQ@0.5x.png.json",
+            "info/info-images-sDshaQ.avif.json",
+            "info/info-images-OwLVLg@0.5x.webp.json",
+            "info/info-images-oM3ntA@0.75x.avif.json",
+            "info/info-images-9x3BoQ@0.75x.png.json",
+            "info/info-images-84LJLw.png.json",
+            "info/info-images-7ODyFg@0.3x.webp.json",
+            "info/info-images-46yIeg@0.75x.webp.json",
+            "info/info-images-4-LwNw@0.3x.png.json",
+            "info/info-images-1JFmIw.webp.json",
+            "info/info-images-13Zkrw@0.3x.avif.json"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "main-sounds",
+      "assets": [
+        {
+          "alias": [
+            "main-sounds/ambience.wav",
+            "ambience.wav"
+          ],
+          "src": [
+            "main-sounds/ambience-sRXW2g.ogg",
+            "main-sounds/ambience--aJJtg.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/bt_buy.wav",
+            "bt_buy.wav"
+          ],
+          "src": [
+            "main-sounds/bt_buy-PiBYKQ.ogg",
+            "main-sounds/bt_buy-mrrS9g.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/bt_buy_confirm.wav",
+            "bt_buy_confirm.wav"
+          ],
+          "src": [
+            "main-sounds/bt_buy_confirm-tnRNog.ogg",
+            "main-sounds/bt_buy_confirm-lrfCuw.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/bt_exit.wav",
+            "bt_exit.wav"
+          ],
+          "src": [
+            "main-sounds/bt_exit-UFRGQw.ogg",
+            "main-sounds/bt_exit-KD8iPg.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/bt_start.wav",
+            "bt_start.wav"
+          ],
+          "src": [
+            "main-sounds/bt_start-zc1b5w.mp3",
+            "main-sounds/bt_start-k0xqsg.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/bt_stop.wav",
+            "bt_stop.wav"
+          ],
+          "src": [
+            "main-sounds/bt_stop-LTBYKA.mp3",
+            "main-sounds/bt_stop-LQGzvw.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/character/cat_VO_win_1.wav",
+            "cat_VO_win_1.wav"
+          ],
+          "src": [
+            "main-sounds/character/cat_VO_win_1-XwhDLA.ogg",
+            "main-sounds/character/cat_VO_win_1-biOjLA.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/character/cat_VO_win_2.wav",
+            "cat_VO_win_2.wav"
+          ],
+          "src": [
+            "main-sounds/character/cat_VO_win_2-Q74YKg.ogg",
+            "main-sounds/character/cat_VO_win_2---FNlA.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/character/cat_VO_win_3.wav",
+            "cat_VO_win_3.wav"
+          ],
+          "src": [
+            "main-sounds/character/cat_VO_win_3-TIC8Cg.ogg",
+            "main-sounds/character/cat_VO_win_3-lvK8ig.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/character/cat_VO_win_4.wav",
+            "cat_VO_win_4.wav"
+          ],
+          "src": [
+            "main-sounds/character/cat_VO_win_4-SMbzsg.mp3",
+            "main-sounds/character/cat_VO_win_4-8CTezQ.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/character/cat_dis.wav",
+            "cat_dis.wav"
+          ],
+          "src": [
+            "main-sounds/character/cat_dis-wBLzqQ.ogg",
+            "main-sounds/character/cat_dis-bVnJuA.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/character/cat_dis_bonus.wav",
+            "cat_dis_bonus.wav"
+          ],
+          "src": [
+            "main-sounds/character/cat_dis_bonus-pf3tYQ.ogg",
+            "main-sounds/character/cat_dis_bonus-eWKecg.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/character/cat_vo_antcp.wav",
+            "cat_vo_antcp.wav"
+          ],
+          "src": [
+            "main-sounds/character/cat_vo_antcp-KABI9A.ogg",
+            "main-sounds/character/cat_vo_antcp-et7s7w.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/character/cat_vo_antcp_2.wav",
+            "cat_vo_antcp_2.wav"
+          ],
+          "src": [
+            "main-sounds/character/cat_vo_antcp_2-4gSSbg.ogg",
+            "main-sounds/character/cat_vo_antcp_2-0eOd.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/effects/fs_intro.wav",
+            "fs_intro.wav"
+          ],
+          "src": [
+            "main-sounds/effects/fs_intro-xabLfw.ogg",
+            "main-sounds/effects/fs_intro-PL5t3A.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/effects/fs_outro.wav",
+            "fs_outro.wav"
+          ],
+          "src": [
+            "main-sounds/effects/fs_outro-yeEx1g.mp3",
+            "main-sounds/effects/fs_outro-EU2QhA.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/effects/fs_reveal.wav",
+            "fs_reveal.wav"
+          ],
+          "src": [
+            "main-sounds/effects/fs_reveal-g3NGyA.mp3",
+            "main-sounds/effects/fs_reveal-dYcA-w.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/effects/fs_rtrg.wav",
+            "fs_rtrg.wav"
+          ],
+          "src": [
+            "main-sounds/effects/fs_rtrg-5_pT_g.mp3",
+            "main-sounds/effects/fs_rtrg-2hgKHw.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/effects/fs_start.wav",
+            "fs_start.wav"
+          ],
+          "src": [
+            "main-sounds/effects/fs_start-YyR7OA.mp3",
+            "main-sounds/effects/fs_start-GqzP3Q.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/effects/fs_w_appear.wav",
+            "fs_w_appear.wav"
+          ],
+          "src": [
+            "main-sounds/effects/fs_w_appear-gOgWYQ.ogg",
+            "main-sounds/effects/fs_w_appear-EDccMA.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/effects/fs_w_number.wav",
+            "fs_w_number.wav"
+          ],
+          "src": [
+            "main-sounds/effects/fs_w_number-gt4Iog.ogg",
+            "main-sounds/effects/fs_w_number-0I1yxA.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/effects/fs_w_spin.wav",
+            "fs_w_spin.wav"
+          ],
+          "src": [
+            "main-sounds/effects/fs_w_spin-yA5MFA.ogg",
+            "main-sounds/effects/fs_w_spin-NTTTFg.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/effects/fs_w_start.wav",
+            "fs_w_start.wav"
+          ],
+          "src": [
+            "main-sounds/effects/fs_w_start-csd9TA.ogg",
+            "main-sounds/effects/fs_w_start-ccx_NA.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/effects/fs_w_stop.wav",
+            "fs_w_stop.wav"
+          ],
+          "src": [
+            "main-sounds/effects/fs_w_stop-wRZoAQ.mp3",
+            "main-sounds/effects/fs_w_stop-cTd3wQ.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/effects/fs_x3.wav",
+            "fs_x3.wav"
+          ],
+          "src": [
+            "main-sounds/effects/fs_x3-Jybz3w.ogg",
+            "main-sounds/effects/fs_x3-fr-Tjg.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/effects/fs_x5.wav",
+            "fs_x5.wav"
+          ],
+          "src": [
+            "main-sounds/effects/fs_x5-lbdX7Q.mp3",
+            "main-sounds/effects/fs_x5-boankw.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/effects/fs_x7.wav",
+            "fs_x7.wav"
+          ],
+          "src": [
+            "main-sounds/effects/fs_x7-ZwHU8g.mp3",
+            "main-sounds/effects/fs_x7-7zT6AQ.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/logo.wav",
+            "logo.wav"
+          ],
+          "src": [
+            "main-sounds/logo-qlqA.mp3",
+            "main-sounds/logo-hp6Nlw.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/music/m_fs.wav",
+            "m_fs.wav"
+          ],
+          "src": [
+            "main-sounds/music/m_fs-gK068g.ogg",
+            "main-sounds/music/m_fs-e8s6ng.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/music/m_fs_super.wav",
+            "m_fs_super.wav"
+          ],
+          "src": [
+            "main-sounds/music/m_fs_super-rw9Gig.mp3",
+            "main-sounds/music/m_fs_super-EVATCA.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/music/m_pending.wav",
+            "m_pending.wav"
+          ],
+          "src": [
+            "main-sounds/music/m_pending-FRyjqA.ogg",
+            "main-sounds/music/m_pending-83P9jg.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/reels/antcp.wav",
+            "antcp.wav"
+          ],
+          "src": [
+            "main-sounds/reels/antcp-xwJ1fw.ogg",
+            "main-sounds/reels/antcp-tVUBpQ.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/reels/antcp_end.wav",
+            "antcp_end.wav"
+          ],
+          "src": [
+            "main-sounds/reels/antcp_end-qD26sA.ogg",
+            "main-sounds/reels/antcp_end-m396kQ.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/reels/l_toggle.wav",
+            "l_toggle.wav"
+          ],
+          "src": [
+            "main-sounds/reels/l_toggle-SvsQew.ogg",
+            "main-sounds/reels/l_toggle-Pel7.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/reels/r_spin.wav",
+            "r_spin.wav"
+          ],
+          "src": [
+            "main-sounds/reels/r_spin-wQStPA.ogg",
+            "main-sounds/reels/r_spin-U9sjgQ.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/stop-reels/r_stop.wav",
+            "r_stop.wav"
+          ],
+          "src": [
+            "main-sounds/stop-reels/r_stop-IMoT0w.ogg",
+            "main-sounds/stop-reels/r_stop-cr7j6g.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/stop-reels/s_scatter.wav",
+            "s_scatter.wav"
+          ],
+          "src": [
+            "main-sounds/stop-reels/s_scatter-oCor2w.ogg",
+            "main-sounds/stop-reels/s_scatter-HRtZ6Q.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/stop-reels/s_scatter_wild.wav",
+            "s_scatter_wild.wav"
+          ],
+          "src": [
+            "main-sounds/stop-reels/s_scatter_wild-U9UIzQ.ogg",
+            "main-sounds/stop-reels/s_scatter_wild-qUyqnA.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/stop-reels/s_wild.wav",
+            "s_wild.wav"
+          ],
+          "src": [
+            "main-sounds/stop-reels/s_wild-wpaOQw.ogg",
+            "main-sounds/stop-reels/s_wild-5x_2kA.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/stop-reels/scatter_shine.wav",
+            "scatter_shine.wav"
+          ],
+          "src": [
+            "main-sounds/stop-reels/scatter_shine-lnGocQ.ogg",
+            "main-sounds/stop-reels/scatter_shine-aH_E6Q.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/ui_click.wav",
+            "ui_click.wav"
+          ],
+          "src": [
+            "main-sounds/ui_click-J5QJ.ogg",
+            "main-sounds/ui_click-I3vkZg.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/ui_m_click.wav",
+            "ui_m_click.wav"
+          ],
+          "src": [
+            "main-sounds/ui_m_click-I3vkZg.mp3",
+            "main-sounds/ui_m_click-ab1H.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/wins/5oak.wav",
+            "5oak.wav"
+          ],
+          "src": [
+            "main-sounds/wins/5oak-PIez3Q.ogg",
+            "main-sounds/wins/5oak-KYzgBQ.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/wins/big_win.wav",
+            "big_win.wav"
+          ],
+          "src": [
+            "main-sounds/wins/big_win-XQak-A.ogg",
+            "main-sounds/wins/big_win-MTujCA.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/wins/dwb_0.wav",
+            "dwb_0.wav"
+          ],
+          "src": [
+            "main-sounds/wins/dwb_0-95GBuw.mp3",
+            "main-sounds/wins/dwb_0-5am2MQ.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/wins/dwb_1.wav",
+            "dwb_1.wav"
+          ],
+          "src": [
+            "main-sounds/wins/dwb_1-My97lA.mp3",
+            "main-sounds/wins/dwb_1-3-VumQ.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/wins/dwb_end.wav",
+            "dwb_end.wav"
+          ],
+          "src": [
+            "main-sounds/wins/dwb_end-wgnNeQ.ogg",
+            "main-sounds/wins/dwb_end-JgtHUQ.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/wins/epic_win.wav",
+            "epic_win.wav"
+          ],
+          "src": [
+            "main-sounds/wins/epic_win-LkacEA.ogg",
+            "main-sounds/wins/epic_win-dATq.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/wins/huge_win.wav",
+            "huge_win.wav"
+          ],
+          "src": [
+            "main-sounds/wins/huge_win-oQaoqw.mp3",
+            "main-sounds/wins/huge_win-FMsTZg.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/wins/mega_win.wav",
+            "mega_win.wav"
+          ],
+          "src": [
+            "main-sounds/wins/mega_win-RbQH6A.mp3",
+            "main-sounds/wins/mega_win-8VzMyQ.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/wins/win_skip.wav",
+            "win_skip.wav"
+          ],
+          "src": [
+            "main-sounds/wins/win_skip-wvph9w.mp3",
+            "main-sounds/wins/win_skip-660Ljw.ogg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "assets": [
+        {
+          "alias": [
+            "main/Wheel_blue_arrow.skel",
+            "Wheel_blue_arrow.skel"
+          ],
+          "src": [
+            "main/Wheel_blue_arrow-2g8tWw.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/Wheel_blue_clouds_bottom.skel",
+            "Wheel_blue_clouds_bottom.skel"
+          ],
+          "src": [
+            "main/Wheel_blue_clouds_bottom-gNOdMA.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/Wheel_blue_clouds_upper.skel",
+            "Wheel_blue_clouds_upper.skel"
+          ],
+          "src": [
+            "main/Wheel_blue_clouds_upper-qv3IRA.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/Wheel_blue_wheel.skel",
+            "Wheel_blue_wheel.skel"
+          ],
+          "src": [
+            "main/Wheel_blue_wheel-87Dl2A.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/Wheel_blue_win_sector.skel",
+            "Wheel_blue_win_sector.skel"
+          ],
+          "src": [
+            "main/Wheel_blue_win_sector-4KgSrg.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/Wheel_gold_arrow.skel",
+            "Wheel_gold_arrow.skel"
+          ],
+          "src": [
+            "main/Wheel_gold_arrow-sNTZwA.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/Wheel_gold_clouds_bottom.skel",
+            "Wheel_gold_clouds_bottom.skel"
+          ],
+          "src": [
+            "main/Wheel_gold_clouds_bottom-dUgS.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/Wheel_gold_clouds_upper.skel",
+            "Wheel_gold_clouds_upper.skel"
+          ],
+          "src": [
+            "main/Wheel_gold_clouds_upper-EpzTew.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/Wheel_gold_wheel.skel",
+            "Wheel_gold_wheel.skel"
+          ],
+          "src": [
+            "main/Wheel_gold_wheel-6WxmZg.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/Wheel_gold_win_sector.skel",
+            "Wheel_gold_win_sector.skel"
+          ],
+          "src": [
+            "main/Wheel_gold_win_sector-yEWXdg.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/anticipation.atlas",
+            "anticipation.atlas"
+          ],
+          "src": [
+            "main/anticipation-mw1lCA.webp.atlas",
+            "main/anticipation-Moy03Q@0.3x.webp.atlas",
+            "main/anticipation-j4EgEg.png.atlas",
+            "main/anticipation-Hr-q@0.3x.avif.atlas",
+            "main/anticipation-Hjodsw@0.5x.avif.atlas",
+            "main/anticipation-glnalw@0.75x.avif.atlas",
+            "main/anticipation-EvRMnA.avif.atlas",
+            "main/anticipation-eOVGEA@0.5x.webp.atlas",
+            "main/anticipation-cbrstw@0.5x.png.atlas",
+            "main/anticipation-9hvxbA@0.3x.png.atlas",
+            "main/anticipation-558oxw@0.75x.webp.atlas",
+            "main/anticipation-_4wq_Q@0.75x.png.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/anticipation.skel",
+            "anticipation.skel"
+          ],
+          "src": [
+            "main/anticipation-_Mk8SQ.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/background.atlas",
+            "background.atlas"
+          ],
+          "src": [
+            "main/background-znRODQ.avif.atlas",
+            "main/background-u3PeFg@0.3x.webp.atlas",
+            "main/background-s8AIqw@0.5x.avif.atlas",
+            "main/background-QHoT6A@0.75x.avif.atlas",
+            "main/background-puHB2Q@0.75x.webp.atlas",
+            "main/background-LcBBbA@0.75x.png.atlas",
+            "main/background-J4BwZA@0.5x.webp.atlas",
+            "main/background-bDl_Yw@0.3x.avif.atlas",
+            "main/background-anTf3A.webp.atlas",
+            "main/background-5UBjvg@0.5x.png.atlas",
+            "main/background-5pwn5w@0.3x.png.atlas",
+            "main/background--AwjoA.png.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/background.skel",
+            "background.skel"
+          ],
+          "src": [
+            "main/background-aP__kg.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/cell_anticipation.atlas",
+            "cell_anticipation.atlas"
+          ],
+          "src": [
+            "main/cell_anticipation-ZXEH-A@0.5x.png.atlas",
+            "main/cell_anticipation-znB0Lg@0.3x.png.atlas",
+            "main/cell_anticipation-rrPl1g@0.75x.webp.atlas",
+            "main/cell_anticipation-mtqU@0.3x.webp.atlas",
+            "main/cell_anticipation-LOZSBA@0.5x.webp.atlas",
+            "main/cell_anticipation-hHRTJw@0.75x.png.atlas",
+            "main/cell_anticipation-FPtXPg@0.3x.avif.atlas",
+            "main/cell_anticipation-F2YZNw@0.5x.avif.atlas",
+            "main/cell_anticipation-EMa3@0.75x.avif.atlas",
+            "main/cell_anticipation-diolRg.webp.atlas",
+            "main/cell_anticipation-9UBoKg.avif.atlas",
+            "main/cell_anticipation-3FceEA.png.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/character.atlas",
+            "character.atlas"
+          ],
+          "src": [
+            "main/character-Yt8_Gg@0.3x.webp.atlas",
+            "main/character-xOV0rw.png.atlas",
+            "main/character-s4nW_Q@0.3x.png.atlas",
+            "main/character-oRVORg@0.75x.png.atlas",
+            "main/character-mthR1Q@0.5x.avif.atlas",
+            "main/character-KU3gKg@0.5x.png.atlas",
+            "main/character-KcmrHQ@0.75x.webp.atlas",
+            "main/character-IpM8yg@0.5x.webp.atlas",
+            "main/character-hqBtIg@0.75x.avif.atlas",
+            "main/character-5Aa0fA@0.3x.avif.atlas",
+            "main/character-3CE2dQ.avif.atlas",
+            "main/character--DNE.webp.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/character.skel",
+            "character.skel"
+          ],
+          "src": [
+            "main/character--De2Zg.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/coins",
+            "coins"
+          ],
+          "src": [
+            "main/coins-XOza1A.avif.json",
+            "main/coins-W5p5KQ@0.5x.avif.json",
+            "main/coins-UMPPHw@0.75x.webp.json",
+            "main/coins-RnnFEw@0.5x.png.json",
+            "main/coins-ovm2Rw.png.json",
+            "main/coins-n7usBg@0.3x.avif.json",
+            "main/coins-lvKoZQ.webp.json",
+            "main/coins-iLJxDQ@0.75x.avif.json",
+            "main/coins-Et53rw@0.3x.webp.json",
+            "main/coins-cqu5Tw@0.3x.png.json",
+            "main/coins-8ZTDNQ@0.75x.png.json",
+            "main/coins-1sRx0Q@0.5x.webp.json"
+          ]
+        },
+        {
+          "alias": [
+            "main/counter.atlas",
+            "counter.atlas"
+          ],
+          "src": [
+            "main/counter-Y5usIQ@0.75x.png.atlas",
+            "main/counter-werU2A.png.atlas",
+            "main/counter-QBRwQA@0.75x.webp.atlas",
+            "main/counter-pNod-w@0.5x.png.atlas",
+            "main/counter-o3aErw@0.5x.webp.atlas",
+            "main/counter-Kg5biQ.webp.atlas",
+            "main/counter-hgs-PA.avif.atlas",
+            "main/counter-dSXCrQ@0.75x.avif.atlas",
+            "main/counter-8Euh7g@0.5x.avif.atlas",
+            "main/counter-5zUvlA@0.3x.png.atlas",
+            "main/counter-34l9Yg@0.3x.webp.atlas",
+            "main/counter-14ETew@0.3x.avif.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/dialogues.atlas",
+            "dialogues.atlas"
+          ],
+          "src": [
+            "main/dialogues-XQdl-w@0.5x.png.atlas",
+            "main/dialogues-xHcVbQ@0.75x.png.atlas",
+            "main/dialogues-tAeonA@0.3x.avif.atlas",
+            "main/dialogues-sQ1IyQ@0.75x.webp.atlas",
+            "main/dialogues-SCDIjw.webp.atlas",
+            "main/dialogues-QtISgg@0.5x.webp.atlas",
+            "main/dialogues-Mue1lA.png.atlas",
+            "main/dialogues-KjR0wQ@0.75x.avif.atlas",
+            "main/dialogues-IDNhdQ@0.5x.avif.atlas",
+            "main/dialogues-aQmyxg@0.3x.png.atlas",
+            "main/dialogues-9TpInw.avif.atlas",
+            "main/dialogues-6cFhDg@0.3x.webp.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/dialogues.skel",
+            "dialogues.skel"
+          ],
+          "src": [
+            "main/dialogues-eUMavw.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/fonts/Dobidoo.woff2",
+            "Dobidoo.woff2"
+          ],
+          "src": [
+            "main/fonts/Dobidoo.woff2"
+          ]
+        },
+        {
+          "alias": [
+            "main/fonts/Nunito-Black.woff2",
+            "Nunito-Black.woff2"
+          ],
+          "src": [
+            "main/fonts/Nunito-Black.woff2"
+          ]
+        },
+        {
+          "alias": [
+            "main/fonts/WinFont.fnt",
+            "WinFont.fnt"
+          ],
+          "src": [
+            {
+              "src": "main/fonts/WinFont-ztSSyA.webp.fnt",
+              "resolution": 1,
+              "format": "webp"
+            },
+            {
+              "src": "main/fonts/WinFont-xxNUhg@0.3x.png.fnt",
+              "resolution": 0.3,
+              "format": "png"
+            },
+            {
+              "src": "main/fonts/WinFont-Rp4y0w@0.5x.webp.fnt",
+              "resolution": 0.5,
+              "format": "webp"
+            },
+            {
+              "src": "main/fonts/WinFont-PTD7MQ@0.3x.avif.fnt",
+              "resolution": 0.3,
+              "format": "avif"
+            },
+            {
+              "src": "main/fonts/WinFont-pMNhvA@0.5x.png.fnt",
+              "resolution": 0.5,
+              "format": "png"
+            },
+            {
+              "src": "main/fonts/WinFont-pe29GA@0.75x.png.fnt",
+              "resolution": 0.75,
+              "format": "png"
+            },
+            {
+              "src": "main/fonts/WinFont-lyR7_g@0.75x.webp.fnt",
+              "resolution": 0.75,
+              "format": "webp"
+            },
+            {
+              "src": "main/fonts/WinFont-KuW7mw@0.75x.avif.fnt",
+              "resolution": 0.75,
+              "format": "avif"
+            },
+            {
+              "src": "main/fonts/WinFont-gPE7VA@0.3x.webp.fnt",
+              "resolution": 0.3,
+              "format": "webp"
+            },
+            {
+              "src": "main/fonts/WinFont-cxVSrQ.avif.fnt",
+              "resolution": 1,
+              "format": "avif"
+            },
+            {
+              "src": "main/fonts/WinFont-5jmcZA.png.fnt",
+              "resolution": 1,
+              "format": "png"
+            },
+            {
+              "src": "main/fonts/WinFont--1_ytg@0.5x.avif.fnt",
+              "resolution": 0.5,
+              "format": "avif"
+            }
+          ]
+        },
+        {
+          "alias": [
+            "main/fonts/WinFont.png",
+            "WinFont.png"
+          ],
+          "src": [
+            "main/fonts/WinFont-ZB9ksA@0.3x.avif",
+            "main/fonts/WinFont-Uw2_aA@0.75x.png",
+            "main/fonts/WinFont-uKLy.webp",
+            "main/fonts/WinFont-TKsHPA@0.75x.avif",
+            "main/fonts/WinFont-SSTmZw.avif",
+            "main/fonts/WinFont-Je-Log@0.3x.webp",
+            "main/fonts/WinFont-I78mHA@0.3x.png",
+            "main/fonts/WinFont-eTuysw@0.5x.avif",
+            "main/fonts/WinFont-ej6Q7Q@0.5x.png",
+            "main/fonts/WinFont-czp0@0.75x.webp",
+            "main/fonts/WinFont-5rrE2Q.png",
+            "main/fonts/WinFont-17f_zw@0.5x.webp"
+          ]
+        },
+        {
+          "alias": [
+            "main/fonts/counterFont.fnt",
+            "counterFont.fnt"
+          ],
+          "src": [
+            {
+              "src": "main/fonts/counterFont-V0uIuA@0.5x.png.fnt",
+              "resolution": 0.5,
+              "format": "png"
+            },
+            {
+              "src": "main/fonts/counterFont-QQB-Iw@0.5x.webp.fnt",
+              "resolution": 0.5,
+              "format": "webp"
+            },
+            {
+              "src": "main/fonts/counterFont-Qo0evw.avif.fnt",
+              "resolution": 1,
+              "format": "avif"
+            },
+            {
+              "src": "main/fonts/counterFont-Oq63wQ@0.3x.avif.fnt",
+              "resolution": 0.3,
+              "format": "avif"
+            },
+            {
+              "src": "main/fonts/counterFont-onPx6A@0.75x.png.fnt",
+              "resolution": 0.75,
+              "format": "png"
+            },
+            {
+              "src": "main/fonts/counterFont-NJu9gg@0.3x.png.fnt",
+              "resolution": 0.3,
+              "format": "png"
+            },
+            {
+              "src": "main/fonts/counterFont-l1_Xyw@0.75x.avif.fnt",
+              "resolution": 0.75,
+              "format": "avif"
+            },
+            {
+              "src": "main/fonts/counterFont-Kp4Xrg@0.75x.webp.fnt",
+              "resolution": 0.75,
+              "format": "webp"
+            },
+            {
+              "src": "main/fonts/counterFont-h293pA@0.3x.webp.fnt",
+              "resolution": 0.3,
+              "format": "webp"
+            },
+            {
+              "src": "main/fonts/counterFont-EPthyg.png.fnt",
+              "resolution": 1,
+              "format": "png"
+            },
+            {
+              "src": "main/fonts/counterFont-_MG-Rg@0.5x.avif.fnt",
+              "resolution": 0.5,
+              "format": "avif"
+            },
+            {
+              "src": "main/fonts/counterFont-_0ze2g.webp.fnt",
+              "resolution": 1,
+              "format": "webp"
+            }
+          ]
+        },
+        {
+          "alias": [
+            "main/fonts/counterFont.png",
+            "counterFont.png"
+          ],
+          "src": [
+            "main/fonts/counterFont-w1n5SA@0.5x.png",
+            "main/fonts/counterFont-vrl0_Q@0.3x.png",
+            "main/fonts/counterFont-TKRHOA@0.5x.webp",
+            "main/fonts/counterFont-s2y31Q.avif",
+            "main/fonts/counterFont-nTztfQ@0.5x.avif",
+            "main/fonts/counterFont-Mah8cQ.webp",
+            "main/fonts/counterFont-KBvntA.png",
+            "main/fonts/counterFont-hSDtoA@0.3x.avif",
+            "main/fonts/counterFont-gFRz1g@0.75x.webp",
+            "main/fonts/counterFont-dX5FXQ@0.75x.png",
+            "main/fonts/counterFont-8jsomg@0.75x.avif",
+            "main/fonts/counterFont-7sPDAw@0.3x.webp"
+          ]
+        },
+        {
+          "alias": [
+            "main/fonts/introFont.fnt",
+            "introFont.fnt"
+          ],
+          "src": [
+            {
+              "src": "main/fonts/introFont-W9BAPw@0.5x.avif.fnt",
+              "resolution": 0.5,
+              "format": "avif"
+            },
+            {
+              "src": "main/fonts/introFont-viEPrQ@0.75x.avif.fnt",
+              "resolution": 0.75,
+              "format": "avif"
+            },
+            {
+              "src": "main/fonts/introFont-ViD5@0.75x.png.fnt",
+              "resolution": 0.75,
+              "format": "png"
+            },
+            {
+              "src": "main/fonts/introFont-RtRq_w.avif.fnt",
+              "resolution": 1,
+              "format": "avif"
+            },
+            {
+              "src": "main/fonts/introFont-QkOlZg@0.3x.png.fnt",
+              "resolution": 0.3,
+              "format": "png"
+            },
+            {
+              "src": "main/fonts/introFont-Pgz8@0.75x.webp.fnt",
+              "resolution": 0.75,
+              "format": "webp"
+            },
+            {
+              "src": "main/fonts/introFont-nb9JuA@0.3x.avif.fnt",
+              "resolution": 0.3,
+              "format": "avif"
+            },
+            {
+              "src": "main/fonts/introFont-kqk0TA.png.fnt",
+              "resolution": 1,
+              "format": "png"
+            },
+            {
+              "src": "main/fonts/introFont-IZOQXA@0.5x.png.fnt",
+              "resolution": 0.5,
+              "format": "png"
+            },
+            {
+              "src": "main/fonts/introFont-IH6J3Q@0.3x.webp.fnt",
+              "resolution": 0.3,
+              "format": "webp"
+            },
+            {
+              "src": "main/fonts/introFont-5hGAWg@0.5x.webp.fnt",
+              "resolution": 0.5,
+              "format": "webp"
+            },
+            {
+              "src": "main/fonts/introFont--xWqmg.webp.fnt",
+              "resolution": 1,
+              "format": "webp"
+            }
+          ]
+        },
+        {
+          "alias": [
+            "main/fonts/introFont.png",
+            "introFont.png"
+          ],
+          "src": [
+            "main/fonts/introFont-ZcUW0Q@0.3x.png",
+            "main/fonts/introFont-xlIalw@0.5x.avif",
+            "main/fonts/introFont-WiG0ZA@0.3x.avif",
+            "main/fonts/introFont-ts3qlg@0.3x.webp",
+            "main/fonts/introFont-TEH7Wg.png",
+            "main/fonts/introFont-QoJeIg@0.75x.webp",
+            "main/fonts/introFont-Mf5WkQ@0.75x.avif",
+            "main/fonts/introFont-K0StXw@0.5x.png",
+            "main/fonts/introFont-GBjdDw@0.75x.png",
+            "main/fonts/introFont-G8eWHQ@0.5x.webp",
+            "main/fonts/introFont-dKBOxQ.avif",
+            "main/fonts/introFont--AhNhA.webp"
+          ]
+        },
+        {
+          "alias": [
+            "main/fonts/superFont.fnt",
+            "superFont.fnt"
+          ],
+          "src": [
+            {
+              "src": "main/fonts/superFont-VKbwgQ.avif.fnt",
+              "resolution": 1,
+              "format": "avif"
+            },
+            {
+              "src": "main/fonts/superFont-V9oaFQ.png.fnt",
+              "resolution": 1,
+              "format": "png"
+            },
+            {
+              "src": "main/fonts/superFont-R3e8Cg@0.5x.webp.fnt",
+              "resolution": 0.5,
+              "format": "webp"
+            },
+            {
+              "src": "main/fonts/superFont-PNl16A@0.3x.avif.fnt",
+              "resolution": 0.3,
+              "format": "avif"
+            },
+            {
+              "src": "main/fonts/superFont-pAQzwQ@0.75x.png.fnt",
+              "resolution": 0.75,
+              "format": "png"
+            },
+            {
+              "src": "main/fonts/superFont-ljy-_Q@0.5x.png.fnt",
+              "resolution": 0.5,
+              "format": "png"
+            },
+            {
+              "src": "main/fonts/superFont-gRi1jQ@0.3x.webp.fnt",
+              "resolution": 0.3,
+              "format": "webp"
+            },
+            {
+              "src": "main/fonts/superFont-aCr4AA@0.75x.webp.fnt",
+              "resolution": 0.75,
+              "format": "webp"
+            },
+            {
+              "src": "main/fonts/superFont-9eyLxw@0.3x.png.fnt",
+              "resolution": 0.3,
+              "format": "png"
+            },
+            {
+              "src": "main/fonts/superFont-6Wcw5A.webp.fnt",
+              "resolution": 1,
+              "format": "webp"
+            },
+            {
+              "src": "main/fonts/superFont-1es4ZQ@0.75x.avif.fnt",
+              "resolution": 0.75,
+              "format": "avif"
+            },
+            {
+              "src": "main/fonts/superFont--rZ8bw@0.5x.avif.fnt",
+              "resolution": 0.5,
+              "format": "avif"
+            }
+          ]
+        },
+        {
+          "alias": [
+            "main/fonts/superFont.png",
+            "superFont.png"
+          ],
+          "src": [
+            "main/fonts/superFont-Yt2lkg@0.5x.avif",
+            "main/fonts/superFont-yhxwkg@0.75x.webp",
+            "main/fonts/superFont-TOdgHg@0.3x.webp",
+            "main/fonts/superFont-sGfRGA.png",
+            "main/fonts/superFont-OSQccw@0.3x.png",
+            "main/fonts/superFont-lep0eg.webp",
+            "main/fonts/superFont-iLJ87A@0.5x.webp",
+            "main/fonts/superFont-ieFvxQ@0.5x.png",
+            "main/fonts/superFont-g9SAEg@0.75x.png",
+            "main/fonts/superFont-dgQozQ.avif",
+            "main/fonts/superFont--fENjw@0.75x.avif",
+            "main/fonts/superFont--7SYTw@0.3x.avif"
+          ]
+        },
+        {
+          "alias": [
+            "main/game_logo.atlas",
+            "game_logo.atlas"
+          ],
+          "src": [
+            "main/game_logo-XBftHw.webp.atlas",
+            "main/game_logo-vhUbcg@0.75x.png.atlas",
+            "main/game_logo-t3iN6A@0.3x.png.atlas",
+            "main/game_logo-skKbnQ.png.atlas",
+            "main/game_logo-S1o0BQ@0.3x.webp.atlas",
+            "main/game_logo-OGrVoA@0.75x.webp.atlas",
+            "main/game_logo-H3lY8w@0.5x.avif.atlas",
+            "main/game_logo-h_D_Xw@0.5x.webp.atlas",
+            "main/game_logo-g1tx3g.avif.atlas",
+            "main/game_logo-frg6ZA@0.75x.avif.atlas",
+            "main/game_logo-0v4uIw@0.5x.png.atlas",
+            "main/game_logo--jaqYA@0.3x.avif.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/game_logo.skel",
+            "game_logo.skel"
+          ],
+          "src": [
+            "main/game_logo-ndA6aA.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/reels.atlas",
+            "reels.atlas"
+          ],
+          "src": [
+            "main/reels-yRSMFg.png.atlas",
+            "main/reels-SMAD6g@0.75x.avif.atlas",
+            "main/reels-Sdtcnw.avif.atlas",
+            "main/reels-QYS19A@0.5x.png.atlas",
+            "main/reels-qdnF-w@0.75x.webp.atlas",
+            "main/reels-ofnV1g@0.75x.png.atlas",
+            "main/reels-LI1gSQ@0.3x.avif.atlas",
+            "main/reels-h-Zd_g@0.3x.png.atlas",
+            "main/reels-GanvDQ@0.5x.avif.atlas",
+            "main/reels-E4me_Q@0.5x.webp.atlas",
+            "main/reels-E_9KHg.webp.atlas",
+            "main/reels-5mVgcg@0.3x.webp.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/reels.skel",
+            "reels.skel"
+          ],
+          "src": [
+            "main/reels-cryj.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_hp1.atlas",
+            "sym_hp1.atlas"
+          ],
+          "src": [
+            "main/sym_hp1-YlhNVw@0.3x.png.atlas",
+            "main/sym_hp1-Uk30UQ@0.3x.webp.atlas",
+            "main/sym_hp1-tB-iYQ.webp.atlas",
+            "main/sym_hp1-T11Fow.avif.atlas",
+            "main/sym_hp1-s4lY1g@0.75x.webp.atlas",
+            "main/sym_hp1-NWp4sA.png.atlas",
+            "main/sym_hp1-l4sngw@0.5x.avif.atlas",
+            "main/sym_hp1-brDwkg@0.5x.png.atlas",
+            "main/sym_hp1-bc1lvg@0.75x.png.atlas",
+            "main/sym_hp1-9TT_zw@0.3x.avif.atlas",
+            "main/sym_hp1-9eG3rg@0.5x.webp.atlas",
+            "main/sym_hp1-5y_siw@0.75x.avif.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_hp1.skel",
+            "sym_hp1.skel"
+          ],
+          "src": [
+            "main/sym_hp1-5H2ZCQ.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_hp2.atlas",
+            "sym_hp2.atlas"
+          ],
+          "src": [
+            "main/sym_hp2-Y4-cvA@0.3x.webp.atlas",
+            "main/sym_hp2-UgjULQ@0.75x.png.atlas",
+            "main/sym_hp2-rVo2KQ.png.atlas",
+            "main/sym_hp2-qxKnSg@0.75x.webp.atlas",
+            "main/sym_hp2-OgH_MQ@0.5x.webp.atlas",
+            "main/sym_hp2-M5FrCQ.avif.atlas",
+            "main/sym_hp2-fFHjVQ@0.5x.avif.atlas",
+            "main/sym_hp2-8kMGrQ@0.3x.png.atlas",
+            "main/sym_hp2-5DgaNw.webp.atlas",
+            "main/sym_hp2-4pBv0A@0.75x.avif.atlas",
+            "main/sym_hp2-42rIig@0.3x.avif.atlas",
+            "main/sym_hp2--dx2aQ@0.5x.png.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_hp2.skel",
+            "sym_hp2.skel"
+          ],
+          "src": [
+            "main/sym_hp2-Rtuvyw.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_hp3.atlas",
+            "sym_hp3.atlas"
+          ],
+          "src": [
+            "main/sym_hp3-zLQl7w@0.5x.png.atlas",
+            "main/sym_hp3-ygwzhQ@0.3x.png.atlas",
+            "main/sym_hp3-y45jlA@0.5x.avif.atlas",
+            "main/sym_hp3-w1Z64A@0.5x.webp.atlas",
+            "main/sym_hp3-sTtxVA@0.3x.webp.atlas",
+            "main/sym_hp3-slwo@0.75x.webp.atlas",
+            "main/sym_hp3-Q_-yrA@0.3x.avif.atlas",
+            "main/sym_hp3-o-2rAw@0.75x.avif.atlas",
+            "main/sym_hp3-LUNkcw.webp.atlas",
+            "main/sym_hp3-HaJs.png.atlas",
+            "main/sym_hp3-gKkZUA@0.75x.png.atlas",
+            "main/sym_hp3--36nwA.avif.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_hp3.skel",
+            "sym_hp3.skel"
+          ],
+          "src": [
+            "main/sym_hp3-i3Pgrw.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_hp4.atlas",
+            "sym_hp4.atlas"
+          ],
+          "src": [
+            "main/sym_hp4-zFce.webp.atlas",
+            "main/sym_hp4-ucRv5w@0.3x.webp.atlas",
+            "main/sym_hp4-RLONFw@0.5x.avif.atlas",
+            "main/sym_hp4-QGZ5@0.75x.webp.atlas",
+            "main/sym_hp4-QcWO1g.png.atlas",
+            "main/sym_hp4-ogiYqA@0.75x.avif.atlas",
+            "main/sym_hp4-nW7h8Q@0.5x.png.atlas",
+            "main/sym_hp4-KKmqXw@0.3x.png.atlas",
+            "main/sym_hp4-fODQ@0.5x.webp.atlas",
+            "main/sym_hp4-EHMh1Q@0.3x.avif.atlas",
+            "main/sym_hp4-70EEyg@0.75x.png.atlas",
+            "main/sym_hp4-3RWZOg.avif.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_hp4.skel",
+            "sym_hp4.skel"
+          ],
+          "src": [
+            "main/sym_hp4-_owM_g.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_hp5.atlas",
+            "sym_hp5.atlas"
+          ],
+          "src": [
+            "main/sym_hp5-YG7RAQ@0.5x.webp.atlas",
+            "main/sym_hp5-x70t.avif.atlas",
+            "main/sym_hp5-rSuNtQ@0.3x.png.atlas",
+            "main/sym_hp5-rj35Kw.png.atlas",
+            "main/sym_hp5-qlHmJw.webp.atlas",
+            "main/sym_hp5-MEc5CA@0.75x.webp.atlas",
+            "main/sym_hp5-KJ4wwQ@0.5x.avif.atlas",
+            "main/sym_hp5-iGXezg@0.75x.avif.atlas",
+            "main/sym_hp5-cDJNZw@0.5x.png.atlas",
+            "main/sym_hp5-4w69hA@0.75x.png.atlas",
+            "main/sym_hp5-4vnlrw@0.3x.webp.atlas",
+            "main/sym_hp5-2XL9Lw@0.3x.avif.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_hp5.skel",
+            "sym_hp5.skel"
+          ],
+          "src": [
+            "main/sym_hp5-FKzt7w.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_hp6.atlas",
+            "sym_hp6.atlas"
+          ],
+          "src": [
+            "main/sym_hp6-yIUs4A@0.3x.png.atlas",
+            "main/sym_hp6-spUa7g@0.3x.webp.atlas",
+            "main/sym_hp6-okHenA.webp.atlas",
+            "main/sym_hp6-N07iDQ@0.5x.png.atlas",
+            "main/sym_hp6-kk5kLQ@0.75x.webp.atlas",
+            "main/sym_hp6-h2O4Yw@0.5x.webp.atlas",
+            "main/sym_hp6-fLpN@0.3x.avif.atlas",
+            "main/sym_hp6-fj8dhg@0.75x.avif.atlas",
+            "main/sym_hp6-7RnQTQ.png.atlas",
+            "main/sym_hp6-3T8RyA.avif.atlas",
+            "main/sym_hp6--BsygA@0.75x.png.atlas",
+            "main/sym_hp6-_peocA@0.5x.avif.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_hp6.skel",
+            "sym_hp6.skel"
+          ],
+          "src": [
+            "main/sym_hp6-OaMzsA.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_lp.atlas",
+            "sym_lp.atlas"
+          ],
+          "src": [
+            "main/sym_lp-yA1tsQ.avif.atlas",
+            "main/sym_lp-Y1B8Ow@0.75x.png.atlas",
+            "main/sym_lp-xCNH@0.3x.avif.atlas",
+            "main/sym_lp-VIZtYw@0.5x.webp.atlas",
+            "main/sym_lp-uVmsyA@0.75x.avif.atlas",
+            "main/sym_lp-tujV@0.3x.png.atlas",
+            "main/sym_lp-kl3mSg.webp.atlas",
+            "main/sym_lp-I3eRzA@0.3x.webp.atlas",
+            "main/sym_lp-hhPP@0.5x.png.atlas",
+            "main/sym_lp-gyx9MA.png.atlas",
+            "main/sym_lp-GVLGRA@0.75x.webp.atlas",
+            "main/sym_lp-FE3oZw@0.5x.avif.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_lp.skel",
+            "sym_lp.skel"
+          ],
+          "src": [
+            "main/sym_lp-6kd_WQ.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_scat.atlas",
+            "sym_scat.atlas"
+          ],
+          "src": [
+            "main/sym_scat-zoL4@0.75x.avif.atlas",
+            "main/sym_scat-WtW63A@0.3x.webp.atlas",
+            "main/sym_scat-vbLwJg@0.5x.webp.atlas",
+            "main/sym_scat-tq9prA@0.3x.png.atlas",
+            "main/sym_scat-RTHRTA@0.5x.png.atlas",
+            "main/sym_scat-OVmx9Q.png.atlas",
+            "main/sym_scat-byIrxA.webp.atlas",
+            "main/sym_scat-9Z5-2A@0.5x.avif.atlas",
+            "main/sym_scat-8NMQIQ.avif.atlas",
+            "main/sym_scat-75eo8w@0.75x.webp.atlas",
+            "main/sym_scat-62rp-Q@0.3x.avif.atlas",
+            "main/sym_scat-2GmcJQ@0.75x.png.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_scat.skel",
+            "sym_scat.skel"
+          ],
+          "src": [
+            "main/sym_scat-wEtKhQ.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_wild.atlas",
+            "sym_wild.atlas"
+          ],
+          "src": [
+            "main/sym_wild-xREcCQ.avif.atlas",
+            "main/sym_wild-xP2-oA@0.75x.avif.atlas",
+            "main/sym_wild-UYs6sQ@0.3x.avif.atlas",
+            "main/sym_wild-PK7i7g@0.3x.png.atlas",
+            "main/sym_wild-P0W2xg@0.75x.webp.atlas",
+            "main/sym_wild-OpDngA@0.3x.webp.atlas",
+            "main/sym_wild-MUfLXw@0.5x.png.atlas",
+            "main/sym_wild-gWEWyA@0.5x.webp.atlas",
+            "main/sym_wild-dARZ7g.png.atlas",
+            "main/sym_wild-5EJC_g@0.5x.avif.atlas",
+            "main/sym_wild-2OQQ7w.webp.atlas",
+            "main/sym_wild-0vU-KA@0.75x.png.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_wild.skel",
+            "sym_wild.skel"
+          ],
+          "src": [
+            "main/sym_wild-fAT3yA.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/tiger's_prosperity_wheels_2208.atlas",
+            "tiger's_prosperity_wheels_2208.atlas"
+          ],
+          "src": [
+            "main/tiger's_prosperity_wheels_2208-wwYv1A@0.5x.webp.atlas",
+            "main/tiger's_prosperity_wheels_2208-UYkHnQ.png.atlas",
+            "main/tiger's_prosperity_wheels_2208-t2shmw@0.5x.avif.atlas",
+            "main/tiger's_prosperity_wheels_2208-sGSsvQ@0.3x.webp.atlas",
+            "main/tiger's_prosperity_wheels_2208-P0KtCQ@0.5x.png.atlas",
+            "main/tiger's_prosperity_wheels_2208-oCBtuQ@0.75x.avif.atlas",
+            "main/tiger's_prosperity_wheels_2208-LBpgcg@0.3x.avif.atlas",
+            "main/tiger's_prosperity_wheels_2208-Iiyrmw.avif.atlas",
+            "main/tiger's_prosperity_wheels_2208-fVQuNw@0.75x.png.atlas",
+            "main/tiger's_prosperity_wheels_2208-5msjew@0.3x.png.atlas",
+            "main/tiger's_prosperity_wheels_2208-2O_35A@0.75x.webp.atlas",
+            "main/tiger's_prosperity_wheels_2208--JWF-g.webp.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/transition.atlas",
+            "transition.atlas"
+          ],
+          "src": [
+            "main/transition-xSO2KA@0.75x.png.atlas",
+            "main/transition-wTRq@0.3x.avif.atlas",
+            "main/transition-wGPdyg@0.5x.avif.atlas",
+            "main/transition-WG2ihg@0.3x.png.atlas",
+            "main/transition-vZxm@0.75x.webp.atlas",
+            "main/transition-VTFp1g@0.5x.webp.atlas",
+            "main/transition-uAXhgA@0.5x.png.atlas",
+            "main/transition-ReoB9Q.webp.atlas",
+            "main/transition-JEyC7w@0.3x.webp.atlas",
+            "main/transition-gFl4_A@0.75x.avif.atlas",
+            "main/transition-GAiUZA.png.atlas",
+            "main/transition-adqsCA.avif.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/transition.skel",
+            "transition.skel"
+          ],
+          "src": [
+            "main/transition-uLuvzQ.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/wild_scatter_sym.atlas",
+            "wild_scatter_sym.atlas"
+          ],
+          "src": [
+            "main/wild_scatter_sym-ZWu9eg@0.75x.avif.atlas",
+            "main/wild_scatter_sym-xpOJjQ@0.3x.avif.atlas",
+            "main/wild_scatter_sym-wiZNAQ@0.75x.png.atlas",
+            "main/wild_scatter_sym-st5a6g.webp.atlas",
+            "main/wild_scatter_sym-rfvdUg@0.3x.webp.atlas",
+            "main/wild_scatter_sym-oRJ1Rw@0.5x.png.atlas",
+            "main/wild_scatter_sym-mRdLSA@0.3x.png.atlas",
+            "main/wild_scatter_sym-kZA1tQ.png.atlas",
+            "main/wild_scatter_sym-j0kvyg@0.5x.webp.atlas",
+            "main/wild_scatter_sym-anwq6Q@0.75x.webp.atlas",
+            "main/wild_scatter_sym-5vAlyw@0.5x.avif.atlas",
+            "main/wild_scatter_sym-2rNfFw.avif.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/wild_scatter_sym.skel",
+            "wild_scatter_sym.skel"
+          ],
+          "src": [
+            "main/wild_scatter_sym-o_qFQA.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/win_lines.atlas",
+            "win_lines.atlas"
+          ],
+          "src": [
+            "main/win_lines-yjqATA@0.75x.webp.atlas",
+            "main/win_lines-wzmfgA@0.75x.png.atlas",
+            "main/win_lines-u-vcdg@0.3x.avif.atlas",
+            "main/win_lines-OGOd7A@0.3x.webp.atlas",
+            "main/win_lines-M05XlA.avif.atlas",
+            "main/win_lines-lm74rg@0.75x.avif.atlas",
+            "main/win_lines-J0Fqkg.webp.atlas",
+            "main/win_lines-H0lHJQ.png.atlas",
+            "main/win_lines-7XH0-Q@0.5x.avif.atlas",
+            "main/win_lines-4wG5MQ@0.3x.png.atlas",
+            "main/win_lines-4rXNwg@0.5x.webp.atlas",
+            "main/win_lines-3DNndA@0.5x.png.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/win_lines.skel",
+            "win_lines.skel"
+          ],
+          "src": [
+            "main/win_lines-s2eH.skel"
+          ]
+        },
+        {
+          "alias": [
+            "main/wins_popup.atlas",
+            "wins_popup.atlas"
+          ],
+          "src": [
+            "main/wins_popup-x-SMXw@0.75x.avif.atlas",
+            "main/wins_popup-vQFiAg@0.3x.avif.atlas",
+            "main/wins_popup-TxIOHQ.webp.atlas",
+            "main/wins_popup-rvjxtg@0.5x.png.atlas",
+            "main/wins_popup-rOBXLg@0.5x.webp.atlas",
+            "main/wins_popup-otU4@0.75x.webp.atlas",
+            "main/wins_popup-M9vm@0.75x.png.atlas",
+            "main/wins_popup-KT0OJw@0.5x.avif.atlas",
+            "main/wins_popup-KJVajA@0.3x.png.atlas",
+            "main/wins_popup-ib9fLg.png.atlas",
+            "main/wins_popup-eqA02A@0.3x.webp.atlas",
+            "main/wins_popup-0qb_.avif.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/wins_popup.skel",
+            "wins_popup.skel"
+          ],
+          "src": [
+            "main/wins_popup-22dWww.skel"
+          ]
+        }
+      ]
+    }
+  ]
+}

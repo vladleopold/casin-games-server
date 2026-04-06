@@ -1,0 +1,22 @@
+{
+  "launchUrl": "http://127.0.0.1:8092/bgaming/launch/gates-of-power",
+  "playRequestCount": 3,
+  "playResponseCount": 3,
+  "pageErrorCount": 0,
+  "bodyText": "21:00\nGATES OF POWER\nBalance 1,001.40 FUN\nTotal bet\n2.00 FUN",
+  "balances": [
+    100440,
+    100340,
+    100140
+  ],
+  "wins": [
+    0,
+    100,
+    0
+  ],
+  "ids": [
+    "ecbd7a58-56c0-4c51-b710-47449482e187",
+    "86229326-eb12-4190-b0c6-4f710001e47f",
+    "8763c60d-d3af-44c3-829c-07303f8cf984"
+  ]
+}

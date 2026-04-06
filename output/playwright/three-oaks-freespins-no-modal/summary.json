@@ -1,0 +1,42 @@
+{
+  "eventCount": 5,
+  "pageErrorCount": 0,
+  "consoleErrorCount": 1,
+  "actions": [
+    {
+      "request": "login",
+      "responseAction": null,
+      "responseCurrent": null,
+      "left": null,
+      "status": "OK"
+    },
+    {
+      "request": "start",
+      "responseAction": "freespin",
+      "responseCurrent": "freespins",
+      "left": 1,
+      "status": "OK"
+    },
+    {
+      "request": "sync",
+      "responseAction": "freespin",
+      "responseCurrent": "freespins",
+      "left": 1,
+      "status": "OK"
+    },
+    {
+      "request": "freespin",
+      "responseAction": "freespin_stop",
+      "responseCurrent": "freespins",
+      "left": 0,
+      "status": "OK"
+    },
+    {
+      "request": "freespin_stop",
+      "responseAction": "spin",
+      "responseCurrent": "spins",
+      "left": 0,
+      "status": "OK"
+    }
+  ]
+}

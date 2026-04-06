@@ -1,0 +1,187 @@
+{
+  "bodyText": "11:00\nДЕМО\nБАЛАНС 995,00 USD\nВИГРАШ\nСТАВКА 1,00 USD\nTIGER'S PROSPERITY",
+  "canvasCount": 1,
+  "buttons": [
+    {
+      "selector": "button",
+      "text": "",
+      "className": "disabled",
+      "id": "sound",
+      "display": "block",
+      "visibility": "visible",
+      "opacity": "0.7",
+      "pointerEvents": "none",
+      "rect": {
+        "x": 1291.6875,
+        "y": 50.390625,
+        "width": 67.5,
+        "height": 67.5
+      }
+    },
+    {
+      "selector": "button",
+      "text": "",
+      "className": "disabled",
+      "id": "menu",
+      "display": "block",
+      "visibility": "visible",
+      "opacity": "0.7",
+      "pointerEvents": "none",
+      "rect": {
+        "x": 1291.6875,
+        "y": 183.828125,
+        "width": 67.5,
+        "height": 67.5
+      }
+    },
+    {
+      "selector": "button",
+      "text": "",
+      "className": "disabled",
+      "id": "turbo",
+      "display": "block",
+      "visibility": "visible",
+      "opacity": "0.7",
+      "pointerEvents": "none",
+      "rect": {
+        "x": 1259.171875,
+        "y": 259.296875,
+        "width": 81,
+        "height": 81
+      }
+    },
+    {
+      "selector": "button",
+      "text": "",
+      "className": "disabled",
+      "id": "spin",
+      "display": "block",
+      "visibility": "visible",
+      "opacity": "0.7",
+      "pointerEvents": "none",
+      "rect": {
+        "x": 1185.515625,
+        "y": 347.890625,
+        "width": 180,
+        "height": 180.75
+      }
+    },
+    {
+      "selector": "button",
+      "text": "",
+      "className": "disabled",
+      "id": "autoplay",
+      "display": "block",
+      "visibility": "visible",
+      "opacity": "0.7",
+      "pointerEvents": "none",
+      "rect": {
+        "x": 1259.171875,
+        "y": 536.65625,
+        "width": 81,
+        "height": 80.15625
+      }
+    },
+    {
+      "selector": "button",
+      "text": "",
+      "className": "disabled",
+      "id": "bet",
+      "display": "block",
+      "visibility": "visible",
+      "opacity": "0.7",
+      "pointerEvents": "none",
+      "rect": {
+        "x": 1291.6875,
+        "y": 625.203125,
+        "width": 67.5,
+        "height": 67.5
+      }
+    },
+    {
+      "selector": "button",
+      "text": "!function(t,e){\"object\"==typeof exports&&\"undefined\"!=typeof module?module.exports=e():\"function\"==typeof __SVGATOR_DEFINE__&&__SVGATOR_DEFINE__.amd?__SVGATOR_DEFINE__(e):((t=\"undefined\"!=typeof globa",
+      "className": "disabled",
+      "id": "buy",
+      "display": "block",
+      "visibility": "visible",
+      "opacity": "0.7",
+      "pointerEvents": "none",
+      "rect": {
+        "x": 28.796875,
+        "y": 740,
+        "width": 90,
+        "height": 90
+      }
+    }
+  ],
+  "startButtons": [],
+  "spinButtons": [
+    {
+      "selector": ".spin-button, .button-spin, .svg-button.spin, .boost-spin-button",
+      "text": "",
+      "className": "button-spin",
+      "id": null,
+      "display": "flex",
+      "visibility": "visible",
+      "opacity": "1",
+      "pointerEvents": "all",
+      "rect": {
+        "x": 1154.3125,
+        "y": 348.265625,
+        "width": 213.3125,
+        "height": 180
+      }
+    },
+    {
+      "selector": ".spin-button, .button-spin, .svg-button.spin, .boost-spin-button",
+      "text": "",
+      "className": {},
+      "id": "spin-button",
+      "display": "block",
+      "visibility": "visible",
+      "opacity": "1",
+      "pointerEvents": "none",
+      "rect": {
+        "x": 1185.515625,
+        "y": 347.890625,
+        "width": 180,
+        "height": 180.75
+      }
+    }
+  ],
+  "demoLabels": [
+    {
+      "selector": ".demo, #demo, .money, .main-container, .button-container",
+      "text": "ДЕМО",
+      "className": "demo",
+      "id": null,
+      "display": "flex",
+      "visibility": "visible",
+      "opacity": "1",
+      "pointerEvents": "none",
+      "rect": {
+        "x": 28.770610809326172,
+        "y": 35.92108154296875,
+        "width": 135.05252075195312,
+        "height": 45.1578369140625
+      }
+    },
+    {
+      "selector": ".demo, #demo, .money, .main-container, .button-container",
+      "text": "ДЕМО",
+      "className": null,
+      "id": "demo",
+      "display": "block",
+      "visibility": "visible",
+      "opacity": "1",
+      "pointerEvents": "none",
+      "rect": {
+        "x": 71.81527709960938,
+        "y": 47.47139358520508,
+        "width": 48.94757080078125,
+        "height": 22.057193756103516
+      }
+    }
+  ]
+}

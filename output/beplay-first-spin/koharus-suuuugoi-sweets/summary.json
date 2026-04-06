@@ -1,0 +1,38 @@
+{
+  "launchUrl": "http://127.0.0.1:8082/beplay/location?game=koharus-suuuugoi-sweets&key=&language=uk&operator=slotscity&lobbyUrl=https%3A%2F%2Fslotcity.ua%2F&currency=uah&depositUrl=https%3A%2F%2Fslotcity.ua%2Fcashbox%3Fbackgameurl%3Dbeplay-koharus-suuuugoi-sweets&exitTarget=self&channel=desktop&rgs=beplay&provider=beplay",
+  "game": "koharus-suuuugoi-sweets",
+  "playRequestCount": 2,
+  "playResponseCount": 2,
+  "completeRequestCount": 1,
+  "completeResponseCount": 1,
+  "pageErrors": 0,
+  "bodyText": "11:15\nДЕМО\nБАЛАНС 996,80 USD\nВИГРАШ\nСТАВКА 1,00 USD\nKOHARU’S SUUUUGOI SWEETS!",
+  "playRequest": {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/game/play",
+    "postData": "{\"game\":\"koharus-suuuugoi-sweets\",\"provider\":\"beplay\",\"action\":\"main\",\"complete\":false,\"asyncWin\":false,\"bet\":\"1.00\"}",
+    "at": 1775290458172
+  },
+  "playResponse": {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/game/play",
+    "body": "{\"roundId\":\"9889e5a1-735a-447a-9c05-59083ebcfc52\",\"wager\":{\"win\":3.8,\"state\":{\"bet\":1,\"display\":[[0,7,7],[5,0,6],[4,2,6],[0,5,5],[4,4,6]],\"scattersWin\":0,\"freeSpinsLeft\":0,\"freeSpinsTotalWin\":0,\"freeSpinsTriggerDisplay\":null,\"freeSpinsPlayed\":0,\"isBuyfeature\":false,\"boostAction\":null,\"action\":\"main\"},\"data\":{\"scatterCount\":0,\"winLines\":[{\"symbol\":\"LP3\",\"oakIndex\":3,\"paylineIndex\":3,\"win\":0.4,\"positions\":[{\"column\":0,\"row\":0},{\"column\":1,\"row\":1},{\"column\":2,\"row\":2}]},{\"symbol\":\"LP1\",\"oakIndex\":3,\"paylineIndex\":11,\"win\":1,\"positions\":[{\"column\":0,\"row\":0},{\"column\":1,\"row\":1},{\"column\":2,\"row\":0}]},{\"symbol\":\"HP2\",\"oakIndex\":3,\"paylineIndex\":15,\"win\":2,\"positions\":[{\"column\":0,\"row\":0},{\"column\":1,\"row\":1},{\"column\":2,\"row\":1}]},{\"symbol\":\"LP3\",\"oakIndex\":3,\"paylineIndex\":17,\"win\":0.4,\"positions\":[{\"column\":0,\"row\":0},{\"column\":1,\"row\":1},{\"column\":2,\"row\":2}]}],\"currentAction\":\"main\",\"screenWins\":[]}},\"balance\":994}",
+    "at": 1775290460954
+  },
+  "completeRequest": {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/game/complete",
+    "postData": "{\"game\":\"koharus-suuuugoi-sweets\",\"provider\":\"beplay\",\"roundId\":\"9889e5a1-735a-447a-9c05-59083ebcfc52\",\"asyncWin\":false}",
+    "at": 1775290497347
+  },
+  "completeResponse": {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/game/complete",
+    "body": "{\"finalWin\":3.8,\"balance\":997.8}",
+    "at": 1775290500032
+  }
+}

@@ -1,0 +1,111 @@
+
+mystery_animation.png
+size: 482,1489
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cental_line
+  rotate: false
+  xy: 445, 0
+  size: 30, 223
+  orig: 444, 444
+  offset: 194, 106
+  index: -1
+central_light
+  rotate: false
+  xy: 243, 826
+  size: 15, 255
+  orig: 24, 255
+  offset: 4, 0
+  index: -1
+fire
+  rotate: false
+  xy: 0, 578
+  size: 240, 238
+  orig: 250, 250
+  offset: 6, 4
+  index: -1
+fire_2
+  rotate: true
+  xy: 0, 1077
+  size: 246, 209
+  orig: 250, 250
+  offset: 0, 22
+  index: -1
+open_light
+  rotate: false
+  xy: 334, 0
+  size: 101, 221
+  orig: 444, 444
+  offset: 130, 111
+  index: -1
+particle
+  rotate: true
+  xy: 0, 826
+  size: 241, 233
+  orig: 444, 444
+  offset: 98, 108
+  index: -1
+sun
+  rotate: false
+  xy: 268, 1042
+  size: 204, 204
+  orig: 270, 270
+  offset: 34, 33
+  index: -1
+sun_back
+  rotate: false
+  xy: 0, 311
+  size: 257, 257
+  orig: 444, 444
+  offset: 94, 93
+  index: -1
+sun_left
+  rotate: false
+  xy: 380, 1256
+  size: 102, 204
+  orig: 270, 270
+  offset: 34, 33
+  index: -1
+sun_left_glow
+  rotate: true
+  xy: 0, 1333
+  size: 156, 256
+  orig: 444, 444
+  offset: 94, 94
+  index: -1
+sun_light
+  rotate: false
+  xy: 250, 578
+  size: 232, 232
+  orig: 270, 270
+  offset: 19, 19
+  index: -1
+sun_ray
+  rotate: false
+  xy: 0, 0
+  size: 324, 301
+  orig: 444, 444
+  offset: 60, 73
+  index: -1
+sun_right
+  rotate: false
+  xy: 266, 1256
+  size: 104, 204
+  orig: 270, 270
+  offset: 134, 33
+  index: -1
+sun_right_glow
+  rotate: false
+  xy: 267, 311
+  size: 157, 256
+  orig: 444, 444
+  offset: 194, 94
+  index: -1
+sun_win
+  rotate: false
+  xy: 268, 820
+  size: 212, 212
+  orig: 270, 270
+  offset: 29, 29
+  index: -1

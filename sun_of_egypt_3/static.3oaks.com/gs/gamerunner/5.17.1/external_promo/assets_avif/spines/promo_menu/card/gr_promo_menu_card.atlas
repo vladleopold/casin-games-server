@@ -1,0 +1,90 @@
+
+gr_promo_menu_card.avif
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back
+  rotate: false
+  xy: 188, 102
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1
+back_shadow
+  rotate: false
+  xy: 342, 102
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1
+dot
+  rotate: false
+  xy: 205, 41
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 496, 102
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1
+fase_shadow
+  rotate: false
+  xy: 650, 102
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1
+frame
+  rotate: true
+  xy: 2, 29
+  size: 23, 152
+  orig: 23, 152
+  offset: 0, 0
+  index: -1
+placeholder
+  rotate: false
+  xy: 2, 7
+  size: 112, 20
+  orig: 112, 20
+  offset: 0, 0
+  index: -1
+shine
+  rotate: true
+  xy: 2, 54
+  size: 200, 184
+  orig: 200, 184
+  offset: 0, 0
+  index: -1
+spark
+  rotate: false
+  xy: 156, 4
+  size: 47, 48
+  orig: 47, 48
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 116, 2
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+win
+  rotate: false
+  xy: 804, 102
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1
+win_shadow
+  rotate: false
+  xy: 958, 102
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1

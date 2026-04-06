@@ -1,0 +1,141 @@
+{
+  "seededSessionId": "64454235a2914396a8b885ea444bd63a",
+  "liveSessionId": "9572989ae5b84bf1bb6128323af49001",
+  "game": "wolf",
+  "feature": "bonus",
+  "expectedMode": "bonus",
+  "responseCount": 4,
+  "matchedExpectedMode": true,
+  "pageErrorCount": 0,
+  "consoleErrorCount": 1,
+  "snapshot": {
+    "requestId": "a345803316354584b82eb791d0001025",
+    "gameId": "wolf",
+    "sessionId": "9572989ae5b84bf1bb6128323af49001",
+    "snapshot": {
+      "id": "9572989ae5b84bf1bb6128323af49001",
+      "updatedAt": 1775288617315,
+      "mode": "bonus",
+      "balance": 48400,
+      "totalBet": 0,
+      "totalWin": 0,
+      "state": {
+        "schemaVersion": 6,
+        "balance": 48400,
+        "totalBet": 0,
+        "totalWin": 0,
+        "lineBet": 1,
+        "cashBet": 0,
+        "cashWin": 0,
+        "lastWindow": [
+          [
+            11,
+            4,
+            11
+          ],
+          [
+            2,
+            11,
+            7
+          ],
+          [
+            2,
+            8,
+            11
+          ],
+          [
+            12,
+            4,
+            11
+          ],
+          [
+            6,
+            11,
+            5
+          ]
+        ],
+        "lastWindowServer": null,
+        "lastWins": [],
+        "reelSet": 1,
+        "scatterCount": 0,
+        "freespinsActive": false,
+        "freespinsLeft": 0,
+        "freespinsTotal": 0,
+        "freeWin": 0,
+        "pendingFsTrigger": false,
+        "bonusActive": true,
+        "bonusRoundsLeft": 3,
+        "bonusTotalRounds": 3,
+        "bonusPositions": [
+          0,
+          10,
+          6,
+          12,
+          3,
+          13,
+          9
+        ],
+        "bonusTypes": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "bonusValuesTb": [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          3,
+          7,
+          0,
+          4,
+          9,
+          0
+        ],
+        "bonusMatrix": [
+          [
+            11,
+            4,
+            11
+          ],
+          [
+            2,
+            11,
+            7
+          ],
+          [
+            2,
+            8,
+            11
+          ],
+          [
+            11,
+            4,
+            11
+          ],
+          [
+            6,
+            11,
+            5
+          ]
+        ],
+        "bonusMatrixServer": null,
+        "bonusWin": 600,
+        "bonusWinApplied": false,
+        "bonusCollectResolved": false,
+        "pendingBonusTrigger": false,
+        "bonusRoundIndex": 0,
+        "energyMainSpinCount": 0
+      }
+    }
+  }
+}

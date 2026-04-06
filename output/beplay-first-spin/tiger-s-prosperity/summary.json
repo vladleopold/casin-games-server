@@ -1,0 +1,38 @@
+{
+  "launchUrl": "http://127.0.0.1:8082/beplay/location?game=tiger-s-prosperity&key=&language=uk&operator=slotscity&lobbyUrl=https%3A%2F%2Fslotcity.ua%2F&currency=uah&depositUrl=https%3A%2F%2Fslotcity.ua%2Fcashbox%3Fbackgameurl%3Dbeplay-tigers-prosperity&exitTarget=self&channel=desktop&rgs=beplay&provider=beplay",
+  "game": "tiger-s-prosperity",
+  "playRequestCount": 1,
+  "playResponseCount": 1,
+  "completeRequestCount": 1,
+  "completeResponseCount": 1,
+  "pageErrors": 0,
+  "bodyText": "11:16\nДЕМО\nБАЛАНС 994,00 USD\nВИГРАШ\nСТАВКА 1,00 USD\nTIGER'S PROSPERITY",
+  "playRequest": {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/game/play",
+    "postData": "{\"game\":\"tiger-s-prosperity\",\"provider\":\"beplay\",\"action\":\"main\",\"complete\":false,\"asyncWin\":false,\"bet\":\"1.00\"}",
+    "at": 1775290542651
+  },
+  "playResponse": {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/game/play",
+    "body": "{\"roundId\":\"273b865f-cf28-41d1-abba-c67bbd88fa3c\",\"wager\":{\"win\":0,\"state\":{\"display\":[[7,5,2],[10,3,9],[8,4,5],[8,7,4],[7,3,9]],\"bet\":1,\"roundWin\":0},\"data\":{\"winLines\":[],\"action\":\"main\"}},\"balance\":994}",
+    "at": 1775290545823
+  },
+  "completeRequest": {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/game/complete",
+    "postData": "{\"game\":\"tiger-s-prosperity\",\"provider\":\"beplay\",\"roundId\":\"273b865f-cf28-41d1-abba-c67bbd88fa3c\",\"asyncWin\":false}",
+    "at": 1775290562253
+  },
+  "completeResponse": {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/game/complete",
+    "body": "{\"finalWin\":0,\"balance\":994}",
+    "at": 1775290563703
+  }
+}

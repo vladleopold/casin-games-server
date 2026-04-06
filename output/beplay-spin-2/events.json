@@ -1,0 +1,44 @@
+[
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/authenticate",
+    "postData": "{\"wallet\":\"demo\",\"operator\":\"slotscity\",\"key\":\"random-user-2519188661:995:usd\",\"provider\":\"beplay\",\"game\":\"tiger-s-prosperity\"}",
+    "at": 1775289731396
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/authenticate",
+    "body": "{\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiTTJObVlqTTRORFppTm1RNU9ERmxaR1kyTldObE5EWTVOR0k1TWpsbVpXVTFabVF6Tm1NNE1HTTBaVFpsWlRkbVpUVmhOekl3TWprek9UbGhZbUZsTlRVMk1qUmxZalkyTkdOa1lqUTRPR1poWW1aa09ETmxOV1JqWWpNMk0yTmlabVUyTldabE5UQTROV0l4WWpkbVlqZGlPVGMyWXpneFl6a3pNR1V4T0dFMk16ZzBNVFZpTURVNVlUbGpaREV3TXpOaU9URXlOemRrTm1Ka01UUmhOMlkzTWpoaU5HVTVNV1ptWWpVMk5UWTRNV001TURnNE1HWTRNV1F6WkRKbE56ZGpaRE16TWpaa01EUXdaRFEwTTJJeFpUSmlaalEwTmpsa01tSXdNRE5rWmpjMVlqYzNZVFEzWlRnM05XRTBOekV6TjJGaFlqa3pPR1l5WTJNME5ERXdOalkwT1dJd016Rm1aREExWWpGak1ESXhNelJsWXpKaFpHWTVNMkl5TWpJeVltVmlObUk1WmpBNU9HWmxZbU01TVdRMk1qTTVaR05qWkdGaE5XTm1OR00xWm1Fd01UYzRNMlpsWlRKaE5qUTFZVFUyTkRZMk5tTmlORE0wT0dVd1pqVXhOemc1TVRVMVpEUTBPVE5tTURZME56VTJORGc0TmprMlpUa3lNalkxTXpCa01qTmhOR1l4TjJFMk5EbGhObVppTlRNMk16azVaVFpoWmpabU4yTmlOemszTm1Sall6RmhaakZoTXpRMlptUTBObVZqWmpWbE16RmhPV0ZsWkRCbFlqZ3dPR1UyWmpVeU1HRTROVFV4T1RBMk5EUm1Oekl6TkRKbU5qSTRZakkxTnpZNU5XTm1OV1F5TjJFMFl6RXlNelZrTnpVd01HVXlNelE9IiwiaWF0IjoxNzc1Mjg5NzM5LCJleHAiOjE3NzY0OTkzMzksImF1ZCI6InBsYXllciJ9.e4BuVCIsHTPnH-hSKg-BZmVj99Je65czOxx4ulhGClY\",\"balance\":995,\"currency\":\"USD\",\"currencyDecimals\":2,\"currencySymbol\":\"USD\",\"jurisdiction\":\"mt\",\"playerId\":\"32db2a44-9cc7-4fb5-9dfd-1464686ac223\",\"nickname\":null}",
+    "at": 1775289731537
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/game/info",
+    "postData": "{\"game\":\"tiger-s-prosperity\",\"provider\":\"beplay\"}",
+    "at": 1775289731580
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/game/recover",
+    "postData": "{\"game\":\"tiger-s-prosperity\",\"provider\":\"beplay\",\"complete\":false}",
+    "at": 1775289731637
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/game/info",
+    "body": "{\"state\":{},\"bets\":{\"main\":{\"available\":[0.1,0.2,0.3,0.4,0.5,0.6,0.8,1,1.5,2,2.5,3,4,5,7.5,10,15,20,25,50,100],\"default\":1,\"coin\":20},\"free_spins_buy\":{\"available\":[10,15,20,25,30,40,50,75,100,125,150,200,250,375,500,750,1000,1250,2500,5000],\"default\":50,\"coin\":1000}},\"config\":{\"paylines\":[[2,2,2,2,2],[1,1,1,1,1],[0,0,0,0,0],[0,1,2,1,0],[2,1,0,1,2],[0,0,1,0,0],[2,2,1,2,2],[1,0,0,0,1],[1,2,2,2,1],[1,0,1,0,1],[1,2,1,2,1],[0,1,0,1,0],[2,1,2,1,2],[1,1,0,1,1],[1,1,2,1,1],[0,1,1,1,0],[2,1,1,1,2],[0,1,2,2,2],[2,1,0,0,0],[0,2,0,2,0]],\"paytable\":{\"0\":[0,0,50,160,800],\"1\":[0,0,30,120,500],\"2\":[0,0,24,80,400],\"3\":[0,0,22,60,300],\"4\":[0,0,16,40,160],\"5\":[0,0,16,40,160],\"6\":[0,0,16,40,160],\"7\":[0,0,8,30,80],\"8\":[0,0,8,30,80],\"9\":[0,0,8,30,80],\"10\":[0,0,8,30,80],\"11\":[],\"12\":[0,0,50,160,800]},\"paytableCoins\":20,\"buyFeatureConfig\":[{\"action\":\"free_spins_buy\",\"featureMultiplier\":50,\"featureType\":0}],\"version\":\"1.2.0\"},\"settings\":{\"autoplayForbidden\":\"false\",\"defaultCampaignThemeName\":\"{\\\"freeBets\\\": \\\"default-free-bets\\\"}\"},\"betLimits\":{\"minBet\":0.01,\"maxBet\":10000,\"maxExposure\":10000000,\"currencyRate\":1,\"currencyDecimals\":2,\"currencyUnit\":0.01,\"exchangeRate\":1}}",
+    "at": 1775289731639
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/game/recover",
+    "body": "{\"rounds\":[]}",
+    "at": 1775289731694
+  }
+]

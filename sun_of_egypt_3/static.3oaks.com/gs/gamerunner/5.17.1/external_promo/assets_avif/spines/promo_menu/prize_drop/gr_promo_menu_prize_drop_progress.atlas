@@ -1,0 +1,55 @@
+
+gr_promo_menu_prize_drop_progress.avif
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: true
+  xy: 2, 46
+  size: 200, 42
+  orig: 200, 42
+  offset: 0, 0
+  index: -1
+dot
+  rotate: false
+  xy: 134, 57
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+dote
+  rotate: false
+  xy: 195, 78
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+fire
+  rotate: false
+  xy: 134, 118
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+frame
+  rotate: false
+  xy: 2, 2
+  size: 200, 42
+  orig: 200, 42
+  offset: 0, 0
+  index: -1
+progress_color_1
+  rotate: true
+  xy: 46, 46
+  size: 200, 42
+  orig: 200, 42
+  offset: 0, 0
+  index: -1
+progress_color_2
+  rotate: true
+  xy: 90, 46
+  size: 200, 42
+  orig: 200, 42
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <string id="EB_BALANCE" font="SFBold" color="#ffffff" size="20">Cash: ${cash}   Bonus: ${bonus}</string>
+    <string id="EB_RULE" font="SFBold" color="#ffffff" size="20">${text}</string>
+    <string id="EB_LINK" font="SFBold" color="#7babdd" size="20">Terms&amp;Conditions</string>
+</config>

@@ -1,0 +1,20 @@
+
+el_super_bonus_explosion.png
+size: 505,252
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ring
+  rotate: true
+  xy: 269, 0
+  size: 238, 236
+  orig: 238, 236
+  offset: 0, 0
+  index: -1
+shine2
+  rotate: false
+  xy: 0, 0
+  size: 259, 252
+  orig: 300, 300
+  offset: 23, 20
+  index: -1

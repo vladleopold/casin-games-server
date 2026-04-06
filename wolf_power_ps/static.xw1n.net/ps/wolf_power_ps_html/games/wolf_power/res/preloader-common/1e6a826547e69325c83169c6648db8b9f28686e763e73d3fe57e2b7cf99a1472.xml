@@ -1,0 +1,1022 @@
+<config>
+    <string id="RESERVED_SYMBOLS_CURRENCIES_1" font="SF">
+$
+€
+₽
+₴
+£
+₺
+₣
+C$
+$
+zł
+kr
+Kč
+kr
+₦
+ل.ل
+֏
+₼
+R$
+¥
+₾
+₵
+Rp
+﷼
+円
+Som
+원
+₸
+L
+RM
+din.
+S$
+S
+m
+USh
+Bs
+₫
+
+ƒ
+RD$
+lei
+$
+S/.
+$
+$
+KM
+лв
+$
+kn
+kr.
+HK$
+kr
+₹
+د.ع
+₨
+$
+R
+
+฿
+$b
+Gs
+د.إ
+₱
+﷼
+KSh
+£
+ك
+₨
+₪
+﷼
+
+﷼
+NT$
+
+
+BD
+
+₨
+
+Tk
+$
+лв
+
+
+₡
+£
+LD
+J$
+Kz
+$U
+؋
+
+TT$
+Lek
+$
+Q
+₨
+Z$
+$
+CUC$
+₭
+$
+P
+L
+Br
+$
+K
+
+MOP$
+C$
+$
+B/.
+$
+﷼
+Ar
+$
+MT
+₨
+$
+Le
+T$
+BZ$
+MK
+
+
+S
+G
+
+
+₮
+
+
+₩
+K
+
+$
+£
+
+₱
+៛
+ден
+VT
+
+ƒ
+
+$
+$
+
+$
+$
+
+
+ƒ
+
+
+
+$
+
+
+£
+£
+£
+$
+£
+£
+ZK
+Ƀ
+
+Br
+    </string>
+    <string id="RESERVED_SYMBOLS_CURRENCIES_2" font="SFBold">
+$
+€
+₽
+₴
+£
+₺
+₣
+C$
+$
+zł
+kr
+Kč
+kr
+₦
+ل.ل
+֏
+₼
+R$
+¥
+₾
+₵
+Rp
+﷼
+円
+Som
+원
+₸
+L
+RM
+din.
+S$
+S
+m
+USh
+Bs
+₫
+
+ƒ
+RD$
+lei
+$
+S/.
+$
+$
+KM
+лв
+$
+kn
+kr.
+HK$
+kr
+₹
+د.ع
+₨
+$
+R
+
+฿
+$b
+Gs
+د.إ
+₱
+﷼
+KSh
+£
+ك
+₨
+₪
+﷼
+
+﷼
+NT$
+
+
+BD
+
+₨
+
+Tk
+$
+лв
+
+
+₡
+£
+LD
+J$
+Kz
+$U
+؋
+
+TT$
+Lek
+$
+Q
+₨
+Z$
+$
+CUC$
+₭
+$
+P
+L
+Br
+$
+K
+
+MOP$
+C$
+$
+B/.
+$
+﷼
+Ar
+$
+MT
+₨
+$
+Le
+T$
+BZ$
+MK
+
+
+S
+G
+
+
+₮
+
+
+₩
+K
+
+$
+£
+
+₱
+៛
+ден
+VT
+
+ƒ
+
+$
+$
+
+$
+$
+
+
+ƒ
+
+
+
+$
+
+
+£
+£
+£
+$
+£
+£
+ZK
+Ƀ
+
+Br
+    </string>
+    <string id="RESERVED_SYMBOLS_OTHERS_1" font="SF">
+.	A	a	А	а
+,	B	b	Б	б
+!	C	c	В	в
+?	D	d	Г	г
+:	E	e	Д	д
+¿	F	f	Е	е
+¡	G	g	Ё	ё
+ˋ	H	h	Ж	ж
+ˊ	I	i	З	з
+-	J	j	И	и
+—	K	k	Й	й
+"	L	l	К	к
+"	M	m	Л	л
+(	N	n	М	м
+)	O	o	Н	н
+`	P	p	О	о
+"="	Q	q	П	п
+¨	R	r	Р	р
+¸	S	s	С	с
+^	T	t	Т	т
+;	U	u	У	у
+    V	v	Ф	ф
+@	W	w	Х	х
+#	X	x	Ц	ц
+№	Y	y	Ч	ч
+*	Z	z	Ш	ш
+Щ	щ	_
+Ь	ь
+Ъ	ъ
+Э	э
+Ю	ю
+Я	я
+    </string>
+    <string id="RESERVED_SYMBOLS_OTHERS_2" font="SFBold">
+.	A	a	А	а
+,	B	b	Б	б
+!	C	c	В	в
+?	D	d	Г	г
+:	E	e	Д	д
+¿	F	f	Е	е
+¡	G	g	Ё	ё
+ˋ	H	h	Ж	ж
+ˊ	I	i	З	з
+-	J	j	И	и
+—	K	k	Й	й
+"	L	l	К	к
+"	M	m	Л	л
+(	N	n	М	м
+)	O	o	Н	н
+`	P	p	О	о
+"="	Q	q	П	п
+¨	R	r	Р	р
+¸	S	s	С	с
+^	T	t	Т	т
+;	U	u	У	у
+	V	v	Ф	ф
+@	W	w	Х	х
+#	X	x	Ц	ц
+№	Y	y	Ч	ч
+*	Z	z	Ш	ш
+Щ	щ	_
+Ь	ь
+Ъ	ъ
+Э	э
+Ю	ю
+Я	я
+    </string>
+<string id="RESERVED_SYMBOLS_CURRENCIES_3" font="SFBlack">
+$
+€
+₽
+₴
+£
+₺
+₣
+C$
+$
+zł
+kr
+Kč
+kr
+₦
+ل.ل
+֏
+₼
+R$
+¥
+₾
+₵
+Rp
+﷼
+円
+Som
+원
+₸
+L
+RM
+din.
+S$
+S
+m
+USh
+Bs
+₫
+
+ƒ
+RD$
+lei
+$
+S/.
+$
+$
+KM
+лв
+$
+kn
+kr.
+HK$
+kr
+₹
+د.ع
+₨
+$
+R
+
+฿
+$b
+Gs
+د.إ
+₱
+﷼
+KSh
+£
+ك
+₨
+₪
+﷼
+
+﷼
+NT$
+
+
+BD
+
+₨
+
+Tk
+$
+лв
+
+
+₡
+£
+LD
+J$
+Kz
+$U
+؋
+
+TT$
+Lek
+$
+Q
+₨
+Z$
+$
+CUC$
+₭
+$
+P
+L
+Br
+$
+K
+
+MOP$
+C$
+$
+B/.
+$
+﷼
+Ar
+$
+MT
+₨
+$
+Le
+T$
+BZ$
+MK
+
+
+S
+G
+
+
+₮
+
+
+₩
+K
+
+$
+£
+
+₱
+៛
+ден
+VT
+
+ƒ
+
+$
+$
+
+$
+$
+
+
+ƒ
+
+
+
+$
+
+
+£
+£
+£
+$
+£
+£
+ZK
+Ƀ
+
+Br
+</string>
+<string id="RESERVED_SYMBOLS_OTHERS_3" font="SFBlack">
+    .	A	a	А	а
+    ,	B	b	Б	б
+    !	C	c	В	в
+    ?	D	d	Г	г
+    :	E	e	Д	д
+    ¿	F	f	Е	е
+    ¡	G	g	Ё	ё
+    ˋ	H	h	Ж	ж
+    ˊ	I	i	З	з
+    -	J	j	И	и
+    —	K	k	Й	й
+    "	L	l	К	к
+    "	M	m	Л	л
+    (	N	n	М	м
+    )	O	o	Н	н
+    `	P	p	О	о
+    "="	Q	q	П	п
+    ¨	R	r	Р	р
+    ¸	S	s	С	с
+    ^	T	t	Т	т
+    ;	U	u	У	у
+    V	v	Ф	ф
+    @	W	w	Х	х
+    #	X	x	Ц	ц
+    №	Y	y	Ч	ч
+    *	Z	z	Ш	ш
+    Щ	щ	_
+    Ь	ь
+    Ъ	ъ
+    Э	э
+    Ю	ю
+    Я	я
+</string>
+<string id="RESERVED_SYMBOLS_CURRENCIES_4" font="Rubik-Bold">
+    $
+    €
+    ₽
+    ₴
+    £
+    ₺
+    ₣
+    C$
+    $
+    zł
+    kr
+    Kč
+    kr
+    ₦
+    ل.ل
+    ֏
+    ₼
+    R$
+    ¥
+    ₾
+    ₵
+    Rp
+    ﷼
+    円
+    Som
+    원
+    ₸
+    L
+    RM
+    din.
+    S$
+    S
+    m
+    USh
+    Bs
+    ₫
+
+    ƒ
+    RD$
+    lei
+    $
+    S/.
+    $
+    $
+    KM
+    лв
+    $
+    kn
+    kr.
+    HK$
+    kr
+    ₹
+    د.ع
+    ₨
+    $
+    R
+
+    ฿
+    $b
+    Gs
+    د.إ
+    ₱
+    ﷼
+    KSh
+    £
+    ك
+    ₨
+    ₪
+    ﷼
+
+    ﷼
+    NT$
+
+
+    BD
+
+    ₨
+
+    Tk
+    $
+    лв
+
+
+    ₡
+    £
+    LD
+    J$
+    Kz
+    $U
+    ؋
+
+    TT$
+    Lek
+    $
+    Q
+    ₨
+    Z$
+    $
+    CUC$
+    ₭
+    $
+    P
+    L
+    Br
+    $
+    K
+
+    MOP$
+    C$
+    $
+    B/.
+    $
+    ﷼
+    Ar
+    $
+    MT
+    ₨
+    $
+    Le
+    T$
+    BZ$
+    MK
+
+
+    S
+    G
+
+
+    ₮
+
+
+    ₩
+    K
+
+    $
+    £
+
+    ₱
+    ៛
+    ден
+    VT
+
+    ƒ
+
+    $
+    $
+
+    $
+    $
+
+
+    ƒ
+
+
+
+    $
+
+
+    £
+    £
+    £
+    $
+    £
+    £
+    ZK
+    Ƀ
+
+    Br
+</string>
+<string id="RESERVED_SYMBOLS_OTHERS_4" font="Rubik-Bold">
+    .	A	a	А	а
+    ,	B	b	Б	б
+    !	C	c	В	в
+    ?	D	d	Г	г
+    :	E	e	Д	д
+    ¿	F	f	Е	е
+    ¡	G	g	Ё	ё
+    ˋ	H	h	Ж	ж
+    ˊ	I	i	З	з
+    -	J	j	И	и
+    —	K	k	Й	й
+    "	L	l	К	к
+    "	M	m	Л	л
+    (	N	n	М	м
+    )	O	o	Н	н
+    `	P	p	О	о
+    "="	Q	q	П	п
+    ¨	R	r	Р	р
+    ¸	S	s	С	с
+    ^	T	t	Т	т
+    ;	U	u	У	у
+    V	v	Ф	ф
+    @	W	w	Х	х
+    #	X	x	Ц	ц
+    №	Y	y	Ч	ч
+    *	Z	z	Ш	ш
+    Щ	щ	_
+    Ь	ь
+    Ъ	ъ
+    Э	э
+    Ю	ю
+    Я	я
+</string>
+<string id="RESERVED_SYMBOLS_CURRENCIES_4" font="BarlowCondensed-Bold">
+    $
+    €
+    ₽
+    ₴
+    £
+    ₺
+    ₣
+    C$
+    $
+    zł
+    kr
+    Kč
+    kr
+    ₦
+    ل.ل
+    ֏
+    ₼
+    R$
+    ¥
+    ₾
+    ₵
+    Rp
+    ﷼
+    円
+    Som
+    원
+    ₸
+    L
+    RM
+    din.
+    S$
+    S
+    m
+    USh
+    Bs
+    ₫
+
+    ƒ
+    RD$
+    lei
+    $
+    S/.
+    $
+    $
+    KM
+    лв
+    $
+    kn
+    kr.
+    HK$
+    kr
+    ₹
+    د.ع
+    ₨
+    $
+    R
+
+    ฿
+    $b
+    Gs
+    د.إ
+    ₱
+    ﷼
+    KSh
+    £
+    ك
+    ₨
+    ₪
+    ﷼
+
+    ﷼
+    NT$
+
+
+    BD
+
+    ₨
+
+    Tk
+    $
+    лв
+
+
+    ₡
+    £
+    LD
+    J$
+    Kz
+    $U
+    ؋
+
+    TT$
+    Lek
+    $
+    Q
+    ₨
+    Z$
+    $
+    CUC$
+    ₭
+    $
+    P
+    L
+    Br
+    $
+    K
+
+    MOP$
+    C$
+    $
+    B/.
+    $
+    ﷼
+    Ar
+    $
+    MT
+    ₨
+    $
+    Le
+    T$
+    BZ$
+    MK
+
+
+    S
+    G
+
+
+    ₮
+
+
+    ₩
+    K
+
+    $
+    £
+
+    ₱
+    ៛
+    ден
+    VT
+
+    ƒ
+
+    $
+    $
+
+    $
+    $
+
+
+    ƒ
+
+
+
+    $
+
+
+    £
+    £
+    £
+    $
+    £
+    £
+    ZK
+    Ƀ
+
+    Br
+</string>
+<string id="RESERVED_SYMBOLS_OTHERS_4" font="BarlowCondensed-Bold">
+    .	A	a	А	а
+    ,	B	b	Б	б
+    !	C	c	В	в
+    ?	D	d	Г	г
+    :	E	e	Д	д
+    ¿	F	f	Е	е
+    ¡	G	g	Ё	ё
+    ˋ	H	h	Ж	ж
+    ˊ	I	i	З	з
+    -	J	j	И	и
+    —	K	k	Й	й
+    "	L	l	К	к
+    "	M	m	Л	л
+    (	N	n	М	м
+    )	O	o	Н	н
+    `	P	p	О	о
+    "="	Q	q	П	п
+    ¨	R	r	Р	р
+    ¸	S	s	С	с
+    ^	T	t	Т	т
+    ;	U	u	У	у
+    V	v	Ф	ф
+    @	W	w	Х	х
+    #	X	x	Ц	ц
+    №	Y	y	Ч	ч
+    *	Z	z	Ш	ш
+    Щ	щ	_
+    Ь	ь
+    Ъ	ъ
+    Э	э
+    Ю	ю
+    Я	я
+</string>
+</config>

@@ -1,0 +1,28 @@
+info face="counterFont" size=72 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=1 padding=1,1,1,1 spacing=1,1
+common lineHeight=76 base=59 scaleW=135 scaleH=133 pages=1 packed=0
+page id=0 file="counterFont-nTztfQ@0.5x.avif"
+chars count=13
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=17 page=0 chnl=15
+char id=47 x=0 y=0 width=25 height=47 xoffset=1 yoffset=-1 xadvance=24 page=0 chnl=15
+char id=48 x=26 y=0 width=33 height=42 xoffset=0 yoffset=1 xadvance=29 page=0 chnl=15
+char id=49 x=60 y=0 width=32 height=42 xoffset=1 yoffset=1 xadvance=29 page=0 chnl=15
+char id=50 x=93 y=0 width=33 height=42 xoffset=0 yoffset=1 xadvance=29 page=0 chnl=15
+char id=51 x=0 y=48 width=32 height=42 xoffset=1 yoffset=1 xadvance=29 page=0 chnl=15
+char id=52 x=33 y=48 width=35 height=42 xoffset=-1 yoffset=1 xadvance=29 page=0 chnl=15
+char id=53 x=103 y=48 width=32 height=41 xoffset=1 yoffset=2 xadvance=29 page=0 chnl=15
+char id=54 x=69 y=48 width=33 height=42 xoffset=0 yoffset=1 xadvance=29 page=0 chnl=15
+char id=55 x=70 y=91 width=34 height=41 xoffset=-1 yoffset=2 xadvance=29 page=0 chnl=15
+char id=56 x=0 y=91 width=34 height=42 xoffset=-1 yoffset=1 xadvance=29 page=0 chnl=15
+char id=57 x=35 y=91 width=34 height=42 xoffset=0 yoffset=1 xadvance=29 page=0 chnl=15
+char id=120 x=105 y=91 width=30 height=35 xoffset=1 yoffset=8 xadvance=29 page=0 chnl=15
+kernings count=10
+kerning first=120 second=48 amount=-3
+kerning first=120 second=49 amount=-3
+kerning first=120 second=50 amount=-3
+kerning first=120 second=51 amount=-5
+kerning first=120 second=52 amount=-5
+kerning first=120 second=53 amount=-5
+kerning first=120 second=54 amount=-3
+kerning first=120 second=55 amount=-5
+kerning first=120 second=56 amount=-3
+kerning first=120 second=57 amount=-4

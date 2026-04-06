@@ -1,0 +1,373 @@
+{"frames": {
+"res/img/coin/11.png":
+{
+	"frame":{"x":1,"y":1,"w":143,"h":150},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":6,"y":0,"w":143,"h":150},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/34.png":
+{
+	"frame":{"x":1,"y":153,"w":143,"h":150},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":6,"y":0,"w":143,"h":150},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/19.png":
+{
+	"frame":{"x":1,"y":305,"w":150,"h":84},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":0,"y":29,"w":150,"h":84},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/20.png":
+{
+	"frame":{"x":1,"y":457,"w":150,"h":67},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":0,"y":38,"w":150,"h":67},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/25.png":
+{
+	"frame":{"x":1,"y":609,"w":150,"h":66},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":0,"y":45,"w":150,"h":66},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/21.png":
+{
+	"frame":{"x":1,"y":761,"w":150,"h":47},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":0,"y":49,"w":150,"h":47},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/05.png":
+{
+	"frame":{"x":1,"y":913,"w":147,"h":107},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":2,"y":26,"w":147,"h":107},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/24.png":
+{
+	"frame":{"x":50,"y":761,"w":150,"h":47},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":0,"y":54,"w":150,"h":47},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/22.png":
+{
+	"frame":{"x":69,"y":609,"w":150,"h":29},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":0,"y":59,"w":150,"h":29},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/23.png":
+{
+	"frame":{"x":99,"y":761,"w":150,"h":29},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":0,"y":62,"w":150,"h":29},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/12.png":
+{
+	"frame":{"x":70,"y":457,"w":143,"h":149},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":6,"y":0,"w":143,"h":149},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/33.png":
+{
+	"frame":{"x":87,"y":305,"w":143,"h":149},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":6,"y":1,"w":143,"h":149},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/18.png":
+{
+	"frame":{"x":100,"y":608,"w":149,"h":99},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":1,"y":21,"w":149,"h":99},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/26.png":
+{
+	"frame":{"x":130,"y":759,"w":149,"h":84},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":1,"y":37,"w":149,"h":84},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/10.png":
+{
+	"frame":{"x":201,"y":608,"w":143,"h":148},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":6,"y":2,"w":143,"h":148},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/35.png":
+{
+	"frame":{"x":215,"y":456,"w":143,"h":148},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":6,"y":0,"w":143,"h":148},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/40.png":
+{
+	"frame":{"x":150,"y":910,"w":147,"h":107},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":2,"y":17,"w":147,"h":107},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/17.png":
+{
+	"frame":{"x":216,"y":758,"w":148,"h":114},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":2,"y":13,"w":148,"h":114},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/28.png":
+{
+	"frame":{"x":299,"y":908,"w":147,"h":114},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":3,"y":23,"w":147,"h":114},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/27.png":
+{
+	"frame":{"x":332,"y":758,"w":148,"h":99},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":2,"y":30,"w":148,"h":99},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/41.png":
+{
+	"frame":{"x":346,"y":606,"w":148,"h":91},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":1,"y":25,"w":148,"h":91},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/42.png":
+{
+	"frame":{"x":433,"y":756,"w":148,"h":75},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":1,"y":34,"w":148,"h":75},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/04.png":
+{
+	"frame":{"x":448,"y":906,"w":147,"h":91},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":2,"y":34,"w":147,"h":91},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/00.png":
+{
+	"frame":{"x":448,"y":999,"w":147,"h":22},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":2,"y":64,"w":147,"h":22},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/44.png":
+{
+	"frame":{"x":146,"y":1,"w":148,"h":38},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":1,"y":54,"w":148,"h":38},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/16.png":
+{
+	"frame":{"x":146,"y":151,"w":147,"h":126},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":3,"y":8,"w":147,"h":126},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/03.png":
+{
+	"frame":{"x":186,"y":1,"w":147,"h":75},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":2,"y":41,"w":147,"h":75},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/02.png":
+{
+	"frame":{"x":263,"y":1,"w":147,"h":57},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":2,"y":49,"w":147,"h":57},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/43.png":
+{
+	"frame":{"x":232,"y":300,"w":147,"h":57},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":2,"y":44,"w":147,"h":57},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/01.png":
+{
+	"frame":{"x":274,"y":150,"w":147,"h":39},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":2,"y":57,"w":147,"h":39},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/13.png":
+{
+	"frame":{"x":291,"y":299,"w":143,"h":146},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":6,"y":1,"w":143,"h":146},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/32.png":
+{
+	"frame":{"x":315,"y":150,"w":143,"h":146},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":6,"y":3,"w":143,"h":146},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/15.png":
+{
+	"frame":{"x":322,"y":1,"w":146,"h":137},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":4,"y":3,"w":146,"h":137},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/30.png":
+{
+	"frame":{"x":360,"y":447,"w":146,"h":137},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":4,"y":10,"w":146,"h":137},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/29.png":
+{
+	"frame":{"x":436,"y":298,"w":146,"h":126},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":4,"y":16,"w":146,"h":126},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/06.png":
+{
+	"frame":{"x":460,"y":149,"w":146,"h":121},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":3,"y":19,"w":146,"h":121},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/39.png":
+{
+	"frame":{"x":461,"y":1,"w":146,"h":121},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":3,"y":10,"w":146,"h":121},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/09.png":
+{
+	"frame":{"x":439,"y":595,"w":143,"h":145},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":6,"y":4,"w":143,"h":145},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/36.png":
+{
+	"frame":{"x":499,"y":446,"w":143,"h":145},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":5,"y":1,"w":143,"h":145},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/14.png":
+{
+	"frame":{"x":564,"y":297,"w":145,"h":143},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":5,"y":1,"w":145,"h":143},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/31.png":
+{
+	"frame":{"x":583,"y":149,"w":145,"h":143},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":5,"y":6,"w":145,"h":143},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/07.png":
+{
+	"frame":{"x":584,"y":1,"w":145,"h":132},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":4,"y":13,"w":145,"h":132},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/38.png":
+{
+	"frame":{"x":718,"y":1,"w":145,"h":132},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":4,"y":5,"w":145,"h":132},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/08.png":
+{
+	"frame":{"x":510,"y":742,"w":144,"h":140},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":5,"y":8,"w":144,"h":140},
+	"sourceSize":{"w":150,"h":150}
+},
+"res/img/coin/37.png":
+{
+	"frame":{"x":584,"y":593,"w":143,"h":140},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":5,"y":2,"w":143,"h":140},
+	"sourceSize":{"w":150,"h":150}
+}
+},
+"meta":
+{
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"format": "RGBA8888",
+	"image": "other-0.png",
+	"size": {"w":1024,"h":1024},
+	"scale": 1,
+	"smartupdate":"$TexturePacker:SmartUpdate:b66440d52028e9ed594737bdd9d4579b:1afa2781136646a0a2401e68ef539201:a5fe61b31e5869b163f37ffdb236ddbb$"
+}
+}

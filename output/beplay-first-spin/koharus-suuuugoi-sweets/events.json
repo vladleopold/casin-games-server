@@ -1,0 +1,128 @@
+[
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/authenticate",
+    "postData": "{\"wallet\":\"demo\",\"operator\":\"slotscity\",\"key\":\"random-user-2828806150:995:usd\",\"provider\":\"beplay\",\"game\":\"koharus-suuuugoi-sweets\"}",
+    "at": 1775290420186
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/authenticate",
+    "body": "{\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiWkdObE1HUmxabU5sTkRWaU0yVTBZamhqWmpnell6TTFNek5oTXpjd056Rmhaamd3TlROaVl6TTFPV1l5T1dOalptUXdOV1U0WWpZNE16RmxZV1V3WWpKaE9EWXpOemxqT1RJM09EY3pPVEJqTnpFeVl6WmlZV1JrTldFNVlXWTRaRFF6TkRRNVpUUmpOR0k0WXpWaU1XSXpZVFptWm1NM1pqYzJaRGRtTWpnMU5XWTFaRFpqTnpZMFpHVXpNVFF4TjJNM1pHRmhaR1ZsTjJRMll6aG1aREpqTnpsbU0yWmtNMlZpWldObU56QTFOREU0WlRWaVpEUmhZekJtTkRBM01ERTVaR05pTldFM1pEZzNaVGRqWW1OaVlXVXdPR0k0WXprd1lqQTFOREUyWkdGbU9ESXlNalE0WXpCaU5EaGhNV0l3Wm1RMFpUTmhObUptTWpjME5EWmpPR0V5T1RJek9UWXlZbVExTURWak9UWTJPVGhrWVRobE1EVmlZMkl4T0RVMVl6bGhNMkUyTkRRM1l6TXdNVGRqTmpsak5qRTJObVk1T0Roa05XUTJPVFEzT0dJeU5tVTJZems1WTJKaU9HSmtNVFkzWlRnNU1qRTVNbUUxT1RCaU5URmhNRFZqTnpBMU5UTTFNelExTXpZM05HWmxPV0kzWW1ObE56ZGpNekkxTnpZek9HVmlOVEJpTldZeE9HTTNZVEZpTTJNNU9HRmlOV001WW1abFlqbG1OREE1TURBMFltSTFPVFkzTjJReU9XUm1PVGhoWWpVeE16VmtZVGc0TURneE1qaGhNRFpoT0RKa09HWTNNbVl3TlRRek9EUXdaalF4TURnM056QXhZbVZsWXpNek4yWTBPR0ZoT0RZNVlqazJaVFkyTkRJeFltRmtNelk9IiwiaWF0IjoxNzc1MjkwNDI4LCJleHAiOjE3NzY1MDAwMjgsImF1ZCI6InBsYXllciJ9.Qt3r8R-CsUI26Am2yCoG9fnjLSxNSwZpeyyTmDnilQ4\",\"balance\":995,\"currency\":\"USD\",\"currencyDecimals\":2,\"currencySymbol\":\"USD\",\"jurisdiction\":\"mt\",\"playerId\":\"2c07a50d-1d22-4d4c-b9ea-c69fbee444b5\",\"nickname\":null}",
+    "at": 1775290420274
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/game/info",
+    "postData": "{\"game\":\"koharus-suuuugoi-sweets\",\"provider\":\"beplay\"}",
+    "at": 1775290420666
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/game/recover",
+    "postData": "{\"game\":\"koharus-suuuugoi-sweets\",\"provider\":\"beplay\",\"complete\":false}",
+    "at": 1775290420721
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/game/info",
+    "body": "{\"state\":{},\"bets\":{\"main\":{\"available\":[1,2,3,4,5,6,8,10,15,20,25,30,40,50,75,100,150,200,250,500,1000,2000],\"default\":1,\"coin\":100},\"boost-main\":{\"available\":[0.14,0.28,0.56,0.84,1.12,1.4,2.8,4.2,5.6,7,8.4,11.2,14,21,28,35,42,56,70,105,140,210,280,350,700,1400,2800],\"default\":1.4,\"coin\":140},\"free-spins-buy\":{\"available\":[6,12,24,36,48,60,120,180,240,300,360,480,600,900,1200,1500,1800,2400,3000,4500,6000,9000],\"default\":60,\"coin\":6000}},\"config\":{\"paylines\":[[1,1,1,1,1],[0,0,0,0,0],[2,2,2,2,2],[0,1,2,1,0],[2,1,0,1,2],[0,0,1,0,0],[2,2,1,2,2],[1,0,0,0,1],[1,2,2,2,1],[1,0,1,0,1],[1,2,1,2,1],[0,1,0,1,0],[2,1,2,1,2],[1,1,0,1,1],[1,1,2,1,1],[0,1,1,1,0],[2,1,1,1,2],[0,1,2,2,2],[2,1,0,0,0],[0,2,0,2,0],[2,0,2,0,2],[1,0,2,0,1],[1,2,0,2,1],[0,0,1,2,2],[2,2,1,0,0]],\"buyFeatureConfig\":[{\"action\":\"free-spins-buy\",\"featureMultiplier\":60,\"featureType\":0},{\"action\":\"boost-main\",\"featureMultiplier\":1.4,\"featureType\":1}],\"paytable\":{\"WILD\":[0,40,400,4000,12000],\"SCATTER\":[0,0,100,300,1000],\"HP1\":[0,0,300,2000,4000],\"HP2\":[0,0,200,1200,2400],\"HP3\":[0,0,200,800,1600],\"LP1\":[0,0,100,400,800],\"LP2\":[0,0,60,300,600],\"LP3\":[0,0,40,200,400],\"LP4\":[0,0,40,120,300],\"LP5\":[0,0,28,100,200],\"LP6\":[0,0,20,60,120]},\"paytableCoins\":100,\"version\":\"1.0.2\"},\"settings\":{\"autoplayForbidden\":\"false\",\"defaultCampaignThemeName\":\"{\\\"freeBets\\\": \\\"default-free-bets\\\"}\"},\"betLimits\":{\"minBet\":0.01,\"maxBet\":10000,\"maxExposure\":10000000,\"currencyRate\":1,\"currencyDecimals\":2,\"currencyUnit\":0.01,\"exchangeRate\":1}}",
+    "at": 1775290420721
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/game/recover",
+    "body": "{\"rounds\":[]}",
+    "at": 1775290420780
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/game/recover",
+    "postData": "{\"game\":\"koharus-suuuugoi-sweets\",\"provider\":\"beplay\",\"complete\":false}",
+    "at": 1775290425316
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/game/recover",
+    "body": "{\"rounds\":[]}",
+    "at": 1775290428882
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/campaigns",
+    "postData": "{\"game\":\"koharus-suuuugoi-sweets\",\"provider\":\"beplay\"}",
+    "at": 1775290429973
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/campaigns",
+    "postData": "{\"game\":\"koharus-suuuugoi-sweets\",\"provider\":\"beplay\"}",
+    "at": 1775290431954
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/campaigns",
+    "body": "{\"campaigns\":[]}",
+    "at": 1775290431954
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/campaigns",
+    "body": "{\"campaigns\":[]}",
+    "at": 1775290435070
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/game/play",
+    "postData": "{\"game\":\"koharus-suuuugoi-sweets\",\"provider\":\"beplay\",\"action\":\"main\",\"complete\":false,\"asyncWin\":false,\"bet\":\"1.00\"}",
+    "at": 1775290458172
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/game/play",
+    "body": "{\"roundId\":\"9889e5a1-735a-447a-9c05-59083ebcfc52\",\"wager\":{\"win\":3.8,\"state\":{\"bet\":1,\"display\":[[0,7,7],[5,0,6],[4,2,6],[0,5,5],[4,4,6]],\"scattersWin\":0,\"freeSpinsLeft\":0,\"freeSpinsTotalWin\":0,\"freeSpinsTriggerDisplay\":null,\"freeSpinsPlayed\":0,\"isBuyfeature\":false,\"boostAction\":null,\"action\":\"main\"},\"data\":{\"scatterCount\":0,\"winLines\":[{\"symbol\":\"LP3\",\"oakIndex\":3,\"paylineIndex\":3,\"win\":0.4,\"positions\":[{\"column\":0,\"row\":0},{\"column\":1,\"row\":1},{\"column\":2,\"row\":2}]},{\"symbol\":\"LP1\",\"oakIndex\":3,\"paylineIndex\":11,\"win\":1,\"positions\":[{\"column\":0,\"row\":0},{\"column\":1,\"row\":1},{\"column\":2,\"row\":0}]},{\"symbol\":\"HP2\",\"oakIndex\":3,\"paylineIndex\":15,\"win\":2,\"positions\":[{\"column\":0,\"row\":0},{\"column\":1,\"row\":1},{\"column\":2,\"row\":1}]},{\"symbol\":\"LP3\",\"oakIndex\":3,\"paylineIndex\":17,\"win\":0.4,\"positions\":[{\"column\":0,\"row\":0},{\"column\":1,\"row\":1},{\"column\":2,\"row\":2}]}],\"currentAction\":\"main\",\"screenWins\":[]}},\"balance\":994}",
+    "at": 1775290460954
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/game/complete",
+    "postData": "{\"game\":\"koharus-suuuugoi-sweets\",\"provider\":\"beplay\",\"roundId\":\"9889e5a1-735a-447a-9c05-59083ebcfc52\",\"asyncWin\":false}",
+    "at": 1775290497347
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/game/complete",
+    "body": "{\"finalWin\":3.8,\"balance\":997.8}",
+    "at": 1775290500032
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/game/play",
+    "postData": "{\"game\":\"koharus-suuuugoi-sweets\",\"provider\":\"beplay\",\"action\":\"main\",\"complete\":false,\"asyncWin\":false,\"bet\":\"1.00\"}",
+    "at": 1775290509220
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/game/play",
+    "body": "{\"roundId\":\"f313b58f-0d67-4e11-8976-9642fa1ca329\",\"wager\":{\"win\":0.28,\"state\":{\"bet\":1,\"action\":\"main\",\"display\":[[8,0,9],[9,1,8],[7,12,8],[6,6,1],[3,5,5]],\"boostAction\":null,\"scattersWin\":0,\"isBuyfeature\":false,\"freeSpinsLeft\":0,\"freeSpinsPlayed\":0,\"freeSpinsTotalWin\":0,\"freeSpinsTriggerDisplay\":null},\"data\":{\"scatterCount\":1,\"winLines\":[{\"symbol\":\"LP5\",\"oakIndex\":3,\"paylineIndex\":8,\"win\":0.28,\"positions\":[{\"column\":0,\"row\":1},{\"column\":1,\"row\":2},{\"column\":2,\"row\":2}]}],\"currentAction\":\"main\",\"screenWins\":[]}},\"balance\":996.8}",
+    "at": 1775290512662
+  }
+]

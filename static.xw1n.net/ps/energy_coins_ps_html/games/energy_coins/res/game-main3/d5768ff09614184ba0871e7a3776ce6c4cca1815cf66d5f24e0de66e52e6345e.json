@@ -1,0 +1,56 @@
+{"frames": {
+
+"res/img/paylines/line_all.png":
+{
+	"frame": {"x":0,"y":0,"w":924,"h":432},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":924,"h":432},
+	"sourceSize": {"w":924,"h":432}
+},
+"res/img/paylines/line_normal_1.png":
+{
+	"frame": {"x":0,"y":432,"w":924,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":924,"h":30},
+	"sourceSize": {"w":924,"h":30}
+},
+"res/img/paylines/line_normal_2.png":
+{
+	"frame": {"x":0,"y":462,"w":924,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":924,"h":30},
+	"sourceSize": {"w":924,"h":30}
+},
+"res/img/paylines/line_normal_3.png":
+{
+	"frame": {"x":0,"y":492,"w":924,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":924,"h":30},
+	"sourceSize": {"w":924,"h":30}
+},
+"res/img/paylines/line_normal_4.png":
+{
+	"frame": {"x":0,"y":522,"w":924,"h":432},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":924,"h":432},
+	"sourceSize": {"w":924,"h":432}
+}},
+"animations": {
+	"line_normal": ["line_normal_1.png","line_normal_2.png","line_normal_3.png","line_normal_4.png","line_normal_5.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "paylines-0.png",
+	"format": "RGBA8888",
+	"size": {"w":954,"h":954},
+	"scale": "1",
+	"related_multi_packs": [ "paylines-1.json" ],
+	"smartupdate": "$TexturePacker:SmartUpdate:c2baa3ef0cbe521815dda223cdf2d8ea:14b6cd1e2af7b8f59ad379a9c3ab69bd:d53d46d77c3dd214ccd19132ba9c5e73$"
+}
+}

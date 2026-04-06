@@ -1,0 +1,62 @@
+
+gr_widget_card_icon.avif
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card
+  rotate: false
+  xy: 2, 20
+  size: 90, 95
+  orig: 90, 95
+  offset: 0, 0
+  index: -1
+dot
+  rotate: false
+  xy: 403, 56
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+light_1
+  rotate: false
+  xy: 302, 26
+  size: 55, 89
+  orig: 55, 89
+  offset: 0, 0
+  index: -1
+light_2
+  rotate: false
+  xy: 170, 8
+  size: 69, 107
+  orig: 69, 107
+  offset: 0, 0
+  index: -1
+light_3
+  rotate: false
+  xy: 94, 2
+  size: 74, 113
+  orig: 74, 113
+  offset: 0, 0
+  index: -1
+light_4
+  rotate: false
+  xy: 241, 6
+  size: 59, 109
+  orig: 59, 109
+  offset: 0, 0
+  index: -1
+light_5
+  rotate: false
+  xy: 359, 19
+  size: 42, 96
+  orig: 42, 96
+  offset: 0, 0
+  index: -1
+star_5
+  rotate: false
+  xy: 403, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1

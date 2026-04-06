@@ -1,0 +1,6 @@
+[
+  "[warning] [.WebGL-0x10c0019da00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+  "[error] Failed to load resource: the server responded with a status of 404 (Not Found)",
+  "[error] Failed to load resource: the server responded with a status of 404 (Not Found)",
+  "[log] \n %c %c %c PixiJS 4.8.9 - ✰ WebGL ✰  %c  %c  http://www.pixijs.com/  %c %c ♥%c♥%c♥ \n\n background: #ff66a5; padding:5px 0; background: #ff66a5; padding:5px 0; color: #ff66a5; background: #030307; padding:5px 0; background: #ff66a5; padding:5px 0; background: #ffc3dc; padding:5px 0; background: #ff66a5; padding:5px 0; color: #ff2424; background: #fff; padding:5px 0; color: #ff2424; background: #fff; padding:5px 0; color: #ff2424; background: #fff; padding:5px 0;"
+]

@@ -1,0 +1,250 @@
+sym_wild-xZybxQ@0.5x.avif
+	size: 724, 135
+	format: RGBA4444
+	filter: Linear, Linear
+	scale: 0.2
+.misc/flare_fx
+	bounds: 643, 32, 50, 50
+.misc/sec/particles_00000
+	bounds: 611, 79, 27, 54
+	offsets: 6, 20, 40, 100
+.misc/sec/particles_00001
+	bounds: 407, 78, 27, 55
+	offsets: 6, 20, 40, 100
+.misc/sec/particles_00002
+	bounds: 526, 23, 27, 55
+	offsets: 6, 20, 40, 100
+.misc/sec/particles_00003
+	bounds: 410, 22, 27, 55
+	offsets: 6, 19, 40, 100
+.misc/sec/particles_00004
+	bounds: 266, 1, 27, 56
+	offsets: 6, 19, 40, 100
+.misc/sec/particles_00005
+	bounds: 379, 77, 27, 57
+	offsets: 6, 19, 40, 100
+.misc/sec/particles_00006
+	bounds: 294, 1, 27, 57
+	offsets: 6, 19, 40, 100
+.misc/sec/particles_00007
+	bounds: 323, 1, 27, 57
+	offsets: 6, 19, 40, 100
+.misc/sec/particles_00008
+	bounds: 351, 3, 28, 58
+	offsets: 5, 18, 40, 100
+.misc/sec/particles_00009
+	bounds: 350, 75, 27, 59
+	offsets: 5, 18, 40, 100
+.misc/sec/particles_00010
+	bounds: 321, 74, 28, 59
+	offsets: 5, 18, 40, 100
+.misc/sec/particles_00011
+	bounds: 292, 74, 28, 60
+	offsets: 5, 18, 40, 100
+.misc/sec/particles_00012
+	bounds: 552, 79, 28, 54
+	offsets: 5, 23, 40, 100
+.misc/sec/particles_00013
+	bounds: 494, 79, 28, 55
+	offsets: 5, 23, 40, 100
+.misc/sec/particles_00014
+	bounds: 435, 79, 28, 55
+	offsets: 5, 23, 40, 100
+.misc/sec/particles_00015
+	bounds: 438, 23, 28, 55
+	offsets: 5, 23, 40, 100
+.misc/sec/particles_00016
+	bounds: 497, 23, 28, 55
+	offsets: 5, 23, 40, 100
+.misc/sec/particles_00017
+	bounds: 555, 24, 28, 54
+	offsets: 5, 23, 40, 100
+.misc/sec/particles_00018
+	bounds: 465, 79, 28, 55
+	offsets: 5, 22, 40, 100
+.misc/sec/particles_00019
+	bounds: 582, 79, 28, 54
+	offsets: 5, 22, 40, 100
+.misc/sec/particles_00020
+	bounds: 613, 24, 28, 54
+	offsets: 5, 23, 40, 100
+.misc/sec/particles_00021
+	bounds: 584, 24, 28, 54
+	offsets: 5, 22, 40, 100
+.misc/sec/particles_00022
+	bounds: 523, 79, 28, 55
+	offsets: 5, 22, 40, 100
+.misc/sec/particles_00023
+	bounds: 468, 23, 28, 55
+	offsets: 5, 22, 40, 100
+.misc/sec/particles_00024
+	bounds: 380, 7, 28, 55
+	offsets: 5, 21, 40, 100
+.misc/sec/particles_00025
+	bounds: 139, 3, 29, 56
+	offsets: 5, 21, 40, 100
+	rotate: 90
+.misc/sec/particles_00026
+	bounds: 28, 2, 29, 56
+	offsets: 5, 21, 40, 100
+	rotate: 90
+.misc/sec/particles_00027
+	bounds: 85, 2, 29, 53
+	offsets: 5, 24, 40, 100
+	rotate: 90
+.misc/sec/particles_00028
+	bounds: 674, 109, 25, 48
+	offsets: 9, 30, 40, 100
+	rotate: 90
+wild/wild_back
+	bounds: 1, 32, 101, 96
+	rotate: 90
+wild/wild_belly
+	bounds: 135, 49, 84, 65
+	rotate: 90
+wild/wild_cat_head_stage_1
+	bounds: 201, 58, 75, 44
+	rotate: 90
+wild/wild_cat_head_stage_2
+	bounds: 247, 58, 75, 44
+	rotate: 90
+wild/wild_ear_l
+	bounds: 434, 1, 20, 16
+	rotate: 90
+wild/wild_ear_r
+	bounds: 565, 4, 19, 23
+	rotate: 90
+wild/wild_eye_l_open_blik_stage_2
+	bounds: 260, 4, 4, 4
+wild/wild_eye_l_open_eyelid_stage_2
+	bounds: 331, 61, 12, 9
+	rotate: 90
+wild/wild_eye_l_open_pupil_stage_2
+	bounds: 683, 98, 10, 8
+	rotate: 90
+wild/wild_eye_l_open_shadow_stage_2
+	bounds: 309, 59, 14, 12
+	rotate: 90
+wild/wild_eye_l_open_small_stage_1
+	bounds: 260, 16, 10, 4
+	rotate: 90
+wild/wild_eye_r_close_small_stage_1
+	bounds: 181, 33, 13, 4
+wild/wild_frame_1
+	bounds: 106, 38, 96, 18
+	offsets: 1, 0, 98, 18
+	rotate: 90
+wild/wild_frame_2
+	bounds: 125, 38, 9, 83
+	offsets: 0, 2, 10, 87
+	rotate: 90
+wild/wild_frame_2_vfx_blik_4
+	bounds: 385, 2, 4, 3
+	offsets: 0, 0, 5, 4
+	rotate: 90
+wild/wild_frame_2_vfx_light
+	bounds: 112, 33, 4, 68
+	offsets: 3, 5, 7, 75
+	rotate: 90
+wild/wild_frame_2_vfx_light_dot
+	bounds: 106, 32, 4, 4
+wild/wild_frame_2_vfx_moon
+	bounds: 201, 49, 7, 8
+wild/wild_frame_3
+	bounds: 125, 48, 9, 86
+	offsets: 1, 1, 11, 89
+wild/wild_frame_4
+	bounds: 98, 34, 100, 7
+	offsets: 4, 0, 107, 7
+	rotate: 90
+wild/wild_ice_cream_big
+	bounds: 241, 38, 24, 19
+wild/wild_ice_cream_horn
+	bounds: 210, 38, 19, 23
+	rotate: 90
+wild/wild_ice_cream_horn_back
+	bounds: 234, 38, 19, 6
+	rotate: 90
+wild/wild_ice_cream_horn_shadow
+	bounds: 410, 1, 20, 23
+	rotate: 90
+wild/wild_ice_cream_stage_1
+	bounds: 247, 1, 25, 12
+	rotate: 90
+wild/wild_ice_cream_stage_2
+	bounds: 501, 1, 21, 8
+	rotate: 90
+wild/wild_left_eye_open_blik_stage_2
+	bounds: 380, 2, 4, 4
+wild/wild_left_eye_open_eyelid_stage_2
+	bounds: 394, 66, 15, 10
+wild/wild_left_eye_open_pupil_stage_2
+	bounds: 357, 63, 10, 9
+	rotate: 90
+wild/wild_left_eye_open_shadow_stage_2
+	bounds: 292, 59, 16, 14
+wild/wild_mouth_closed_lower_lips_stage_1
+	bounds: 322, 60, 13, 8
+	rotate: 90
+wild/wild_mouth_closed_mouth_stage_1
+	bounds: 350, 62, 11, 6
+	rotate: 90
+wild/wild_mouth_closed_nose_stage_1
+	bounds: 247, 27, 18, 10
+wild/wild_mouth_closed_tounge_shadow_stage_1
+	bounds: 683, 91, 7, 6
+wild/wild_mouth_closed_tounge_stage_1
+	bounds: 341, 62, 11, 7
+	rotate: 90
+wild/wild_mouth_mouth_stage_2
+	bounds: 643, 24, 7, 6
+wild/wild_mouth_nose_stage_2
+	bounds: 651, 5, 25, 15
+	rotate: 90
+wild/wild_mouth_tounge_stage_2
+	bounds: 260, 9, 6, 4
+	rotate: 90
+wild/wild_mustage_l
+	bounds: 367, 64, 26, 10
+wild/wild_mustage_r
+	bounds: 674, 83, 24, 8
+	rotate: 90
+wild/wild_paw_l
+	bounds: 667, 8, 23, 24
+	rotate: 90
+wild/wild_paw_l1
+	bounds: 631, 1, 22, 16
+	offsets: 0, 0, 22, 19
+	rotate: 90
+wild/wild_paw_r
+	bounds: 451, 1, 21, 27
+	rotate: 90
+wild/wild_paw_r1
+	bounds: 510, 1, 37, 20
+wild/wild_sleeve_l_big_shadow
+	bounds: 1, 1, 26, 30
+wild/wild_sleeve_l_main
+	bounds: 479, 1, 21, 21
+	rotate: 90
+wild/wild_sleeve_l_small
+	bounds: 548, 2, 20, 16
+	rotate: 90
+wild/wild_sleeve_l_small_under
+	bounds: 590, 4, 16, 19
+wild/wild_sleeve_r_big
+	bounds: 197, 1, 49, 36
+wild/wild_sleeve_r_big_shadow
+	bounds: 639, 83, 51, 33
+	rotate: 90
+wild/wild_sleeve_r_under_small
+	bounds: 607, 7, 16, 23
+	rotate: 90
+wild/wild_tail
+	bounds: 694, 70, 37, 29
+	rotate: 90
+wild/wild_w_back
+	bounds: 694, 12, 32, 27
+	offsets: 0, 0, 33, 28
+	rotate: 90
+wild/wild_w_front
+	bounds: 694, 46, 29, 23

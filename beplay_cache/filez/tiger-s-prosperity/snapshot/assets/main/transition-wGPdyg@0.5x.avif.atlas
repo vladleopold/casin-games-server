@@ -1,0 +1,9 @@
+transition-SAoB@0.5x.avif
+size:256,128
+filter:Linear,Linear
+background/.misc/solid
+bounds:79,66,50,50
+background/l_flower_19
+bounds:2,32,75,84
+background/petal
+bounds:2,2,29,28

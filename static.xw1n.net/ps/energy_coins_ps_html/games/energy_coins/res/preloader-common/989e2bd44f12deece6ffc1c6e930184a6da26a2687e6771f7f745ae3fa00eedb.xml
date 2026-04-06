@@ -1,0 +1,50 @@
+<config>
+	<string id="GUI_MENU_UI_DESCRIPTION_BUTTON" x="100" y="25" font="SFBold" size="34" color="#ffffff">Game Controls</string>
+	<string id="GUI_MENU_UI_DESCRIPTION_BUTTON_DISABLED" x="100" y="25" font="SFBold" size="34" color="#ff9100">Game Controls</string>
+
+	<string id="UI_DESCRIPTION_TITLE" font="SFBold" align="center" size="46" color="#ffffff">GAME CONTROLS</string>
+	<string id="UI_DESCRIPTION_BET_FIELD" font="SF" size="34" linespacing="10" color="#ffffff"><string color="#EEC95A">Change the Bet</string>
+by clicking/tapping “Bet Menu” button to open the bet menu and choose preferred bet.</string>
+	<string id="UI_DESCRIPTION_BET_INCREASE" font="SF" size="34" linespacing="10" color="#ffffff"><string color="#EEC95A">Increase the bet</string>
+by 1 step by tapping/clicking the “Plus” button.</string>
+	<string id="UI_DESCRIPTION_BET_DECREASE" font="SF" size="34" linespacing="10" color="#ffffff"><string color="#EEC95A">Decrease the bet</string>
+by 1 step by tapping/clicking the “Minus” button.</string>
+	<string id="UI_DESCRIPTION_SPIN_BUTTON_1" font="SF" size="34" linespacing="10" color="#ffffff"><string color="#EEC95A">Spin the reels</string>
+by clicking/tapping “Spin” button.</string>
+	<string id="UI_DESCRIPTION_SPIN_BUTTON_2" font="SF" size="34" linespacing="10" color="#ffffff">Start a series of spins at a fastest speed mode available by holding the “Spin” button.</string>
+	<string id="UI_DESCRIPTION_SPIN_BUTTON_3" font="SF" size="26" linespacing="10" color="rgba(255,255,255,0.6)">Series of spins stops immediately, when player releases the “Spin” button.</string>
+	<string id="UI_DESCRIPTION_QUICKSPIN_ON_OFF" font="SF" size="34" linespacing="10" color="#ffffff"><string color="#EEC95A">Turn on and off Quickspin mode</string>
+by tapping/clicking “Quickspin” button.</string>
+	<string id="UI_DESCRIPTION_SPIN_SPEEDS" font="SF" size="34" linespacing="10" color="#ffffff"><string color="#EEC95A">Adjust the speed of the game</string>
+by tapping/clicking the “Speed mode” button.</string>
+	<string id="UI_DESCRIPTION_SPEED_NORMAL" font="SF" size="34" linespacing="10" color="#ffffff"><string color="#EEC95A">Normal speed mode.</string>
+Tapping/clicking the button once while in Normal mode changes the speed mode to Quick.</string>
+	<string id="UI_DESCRIPTION_SPEED_QUICK" font="SF" size="34" linespacing="10" color="#ffffff"><string color="#EEC95A">Quick speed mode is faster than Normal.</string>
+Tapping/clicking the button once while in Quick mode switches the game speed to Turbo mode.</string>
+	<string id="UI_DESCRIPTION_SPEED_TURBO" font="SF" size="34" linespacing="10" color="#ffffff"><string color="#EEC95A">Turbo mode is the fastest speed setting.</string>
+Tapping/clicking the button once while in Turbo mode switches the game speed mode to Normal.</string>
+	<string id="UI_DESCRIPTION_AUTOPLAY" font="SF" size="34" linespacing="10" color="#ffffff"><string color="#EEC95A">Set Autoplay advanced settings</string>
+by clicking/tapping “Autoplay” button.</string>
+	<string id="UI_DESCRIPTION_INFO" font="SF" size="34" linespacing="10" color="#ffffff"><string color="#EEC95A">See the Game info and Paytable</string>
+by clicking/tapping then “Information” button.</string>
+	<string id="UI_DESCRIPTION_MENU" font="SF" size="34" linespacing="10" color="#ffffff"><string color="#EEC95A">Change the game settings</string>
+by clicking/tapping “Game Menu” button.</string>
+	<string id="UI_DESCRIPTION_SOUND_ON_OFF" font="SF" size="34" linespacing="10" color="#ffffff"><string color="#EEC95A">Turn on and off the sound</string>
+by tapping/clicking “Sound” button.</string>
+	<string id="UI_DESCRIPTION_HISTORY" font="SF" size="34" linespacing="10" color="#ffffff"><string color="#EEC95A">View Round History</string>
+by tapping/clicking the "Round History" button to view the previously played rounds with the detailed information about time, bets and outcomes of each round.</string>
+	<string id="UI_DESCRIPTION_LOBBY" font="SF" size="34" linespacing="10" color="#ffffff"><string color="#EEC95A">Exit the Game</string>
+by tapping/clicking “Go to Lobby” button.</string>
+	<string id="UI_DESCRIPTION_BET_BUTTON" font="SF" size="34" linespacing="10" color="#ffffff"><string color="#EEC95A">Change the Bet</string>
+by clicking/tapping “Bet” button to open the bet menu and choose preferred bet.</string>
+	<string id="UI_DESCRIPTION_SOUND_SETTINGS_BUTTON" font="SF" size="34" linespacing="10" color="#ffffff"><string color="#EEC95A">Open sound settings</string>
+by clicking/tapping “Sound settings” button.</string>
+	<string id="UI_DESCRIPTION_SLIDER_MUSIC" font="SF" size="34" linespacing="10" color="#ffffff"><string color="#EEC95A">Adjust background music volume</string>
+by moving slider from 0% to 100%.
+0% means that music is turned off.</string>
+	<string id="UI_DESCRIPTION_SLIDER_SOUNDS" font="SF" size="34" linespacing="10" color="#ffffff"><string color="#EEC95A">Adjust the sound effects volume</string>
+by moving slider from 0% to 100%.
+0% means that sound effects are turned off.</string>
+	<string id="UI_DESCRIPTION_CONTINUE" font="SF" size="34" linespacing="10" color="#ffffff"><string color="#EEC95A">Proceed to the game</string>
+by clicking/tapping the "Continue" button.</string>
+</config>

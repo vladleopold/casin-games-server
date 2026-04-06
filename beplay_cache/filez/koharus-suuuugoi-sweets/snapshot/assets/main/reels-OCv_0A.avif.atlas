@@ -1,0 +1,127 @@
+reels-pUmocw.avif
+	size: 4096, 512
+	format: RGBA4444
+	filter: Linear, Linear
+counter/candle_lght
+	bounds: 3681, 395, 116, 111
+	offsets: 5, 1, 122, 118
+reels/flowers_left_1
+	bounds: 3972, 386, 64, 55
+	offsets: 1, 1, 66, 57
+reels/flowers_left_2
+	bounds: 2930, 152, 43, 38
+	offsets: 1, 1, 45, 40
+reels/frame_1
+	bounds: 6, 16, 24, 547
+	offsets: 1, 1, 26, 549
+	rotate: 90
+reels/frame_1_1
+	bounds: 2884, 24, 166, 40
+	offsets: 1, 1, 168, 42
+	rotate: 90
+reels/frame_1_2
+	bounds: 3245, 408, 98, 155
+	offsets: 1, 1, 100, 157
+	rotate: 90
+reels/frame_1_glow
+	bounds: 6, 46, 97, 593
+	rotate: 90
+reels/frame_3
+	bounds: 927, 449, 859, 27
+	offsets: 3, 1, 863, 29
+reels/frame_3_glow
+	bounds: 6, 345, 895, 70
+	offsets: 2, 1, 900, 73
+reels/frame_4
+	bounds: 927, 482, 888, 24
+	offsets: 6, 1, 896, 26
+reels/frame_4_glow
+	bounds: 6, 421, 915, 85
+reels/free_spin_frame_1_5
+	bounds: 3074, 408, 98, 165
+	offsets: 1, 1, 100, 167
+	rotate: 90
+reels/left_leaves_1
+	bounds: 2980, 204, 44, 36
+	offsets: 1, 1, 46, 38
+reels/left_leaves_2
+	bounds: 4058, 469, 29, 37
+	offsets: 1, 1, 31, 41
+reels/multiplayer_frame1
+	bounds: 2884, 376, 184, 130
+	offsets: 1, 3, 187, 135
+reels/multiplayer_main__vfx_back
+	bounds: 3545, 405, 130, 101
+	offsets: 1, 1, 132, 103
+reels/multiplayer_main__vfx_light_1
+	bounds: 3406, 402, 104, 133
+	offsets: 3, 1, 108, 137
+	rotate: 90
+reels/multiplayer_main__vfx_light_2_copy
+	bounds: 927, 423, 20, 151
+	offsets: 1, 1, 22, 153
+	rotate: 90
+reels/multiplayer_main__vfx_star_1
+	bounds: 1792, 468, 6, 8
+	offsets: 1, 1, 8, 10
+reels/multiplayer_main__vfx_star_2
+	bounds: 907, 402, 9, 13
+	offsets: 1, 1, 11, 15
+reels/multiplayer_main__vfx_star_3
+	bounds: 559, 32, 6, 8
+	offsets: 1, 1, 8, 10
+reels/multiplayer_main__vfx_star_4
+	bounds: 769, 151, 8, 8
+	offsets: 1, 1, 10, 10
+reels/particles_C
+	bounds: 2378, 6, 500, 500
+reels/reel_base_game
+	bounds: 1821, 334, 172, 551
+	offsets: 1, 1, 174, 553
+	rotate: 90
+reels/reel_freespin_game
+	bounds: 6, 149, 174, 551
+	offsets: 1, 1, 176, 553
+	rotate: 90
+reels/saber_rainbow_00
+	bounds: 2884, 196, 90, 174
+reels/separator_base_game
+	bounds: 6, 329, 10, 885
+	rotate: 90
+reels/separator_freespin_game
+	bounds: 6, 6, 4, 550
+	offsets: 1, 1, 6, 552
+	rotate: 90
+reels/solid_blur
+	bounds: 563, 151, 200, 172
+	offsets: 0, 0, 200, 200
+reels/x2
+	bounds: 690, 87, 77, 58
+	offsets: 1, 1, 79, 60
+reels/x2_active
+	bounds: 769, 165, 158, 118
+	rotate: 90
+reels/x3_
+	bounds: 2980, 246, 79, 58
+	offsets: 1, 1, 81, 60
+reels/x3_active
+	bounds: 3803, 386, 79, 56
+	offsets: 1, 1, 81, 58
+reels/x4_
+	bounds: 3974, 447, 78, 59
+	offsets: 2, 1, 81, 61
+reels/x4_active
+	bounds: 3888, 386, 78, 56
+	offsets: 1, 2, 80, 59
+reels/x5_
+	bounds: 3803, 448, 80, 58
+	offsets: 1, 1, 82, 60
+reels/x5_active
+	bounds: 605, 88, 79, 57
+	offsets: 1, 1, 82, 59
+reels/x6
+	bounds: 2980, 310, 80, 60
+	offsets: 1, 1, 83, 62
+reels/x6_active
+	bounds: 3889, 448, 79, 58
+	offsets: 1, 2, 82, 61

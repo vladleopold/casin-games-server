@@ -1,0 +1,174 @@
+
+gr_popup_icon_prize_drop.avif
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glare_1
+  rotate: false
+  xy: 97, 39
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+shine_main
+  rotate: false
+  xy: 97, 2
+  size: 38, 35
+  orig: 38, 35
+  offset: 0, 0
+  index: -1
+stars
+  rotate: true
+  xy: 2, 8
+  size: 95, 93
+  orig: 95, 93
+  offset: 0, 0
+  index: -1
+sweep_00
+  rotate: false
+  xy: 152, 193
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+sweep_01
+  rotate: false
+  xy: 152, 131
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+sweep_02
+  rotate: false
+  xy: 163, 69
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+sweep_03
+  rotate: false
+  xy: 163, 7
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+sweep_04
+  rotate: false
+  xy: 211, 193
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+sweep_05
+  rotate: false
+  xy: 211, 131
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+sweep_06
+  rotate: false
+  xy: 222, 69
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+sweep_07
+  rotate: false
+  xy: 222, 7
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+sweep_08
+  rotate: false
+  xy: 270, 193
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+sweep_09
+  rotate: false
+  xy: 270, 131
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+sweep_10
+  rotate: false
+  xy: 281, 69
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+sweep_11
+  rotate: false
+  xy: 281, 7
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+sweep_12
+  rotate: false
+  xy: 329, 193
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+sweep_13
+  rotate: false
+  xy: 329, 131
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+sweep_14
+  rotate: false
+  xy: 340, 69
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+sweep_15
+  rotate: false
+  xy: 340, 7
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+sweep_16
+  rotate: false
+  xy: 388, 193
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+sweep_17
+  rotate: false
+  xy: 388, 131
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+sweep_18
+  rotate: false
+  xy: 399, 69
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+sweep_19
+  rotate: false
+  xy: 399, 7
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+trophy
+  rotate: false
+  xy: 2, 105
+  size: 148, 148
+  orig: 148, 148
+  offset: 0, 0
+  index: -1

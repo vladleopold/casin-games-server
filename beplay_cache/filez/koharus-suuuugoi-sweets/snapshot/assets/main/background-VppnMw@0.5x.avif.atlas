@@ -1,0 +1,205 @@
+background-3RK5hQ@0.5x.avif
+	size: 1275, 232
+	format: RGBA4444
+	filter: Linear, Linear
+	scale: 0.2
+.misc/gradient_edge
+	bounds: 87, 5, 20, 72
+	offsets: 0, 0, 20, 73
+	rotate: 90
+.misc/solid
+	bounds: 161, 5, 20, 20
+background/Firefly
+	bounds: 1229, 37, 45, 43
+	offsets: 5, 7, 56, 56
+background/bg_base copy
+	bounds: 397, 77, 154, 154
+background/bg_freespin
+	bounds: 552, 77, 154, 154
+background/brn_beam_2
+	bounds: 1, 5, 20, 85
+	rotate: 90
+background/dust
+	bounds: 1, 26, 205, 205
+background/dust_2
+	bounds: 207, 37, 193, 189
+	offsets: 9, 8, 205, 205
+	rotate: 90
+background/romb
+	bounds: 182, 15, 10, 10
+	offsets: 1, 1, 12, 12
+background/vfx/vfx_00
+	bounds: 616, 4, 72, 40
+	rotate: 90
+background/vfx/vfx_01
+	bounds: 657, 4, 72, 40
+	rotate: 90
+background/vfx/vfx_02
+	bounds: 699, 4, 72, 40
+	rotate: 90
+background/vfx/vfx_03
+	bounds: 996, 86, 72, 39
+	offsets: 0, 0, 72, 40
+	rotate: 90
+background/vfx/vfx_04
+	bounds: 1029, 13, 72, 39
+	offsets: 0, 0, 72, 40
+	rotate: 90
+background/vfx/vfx_05
+	bounds: 1036, 86, 72, 39
+	offsets: 0, 0, 72, 40
+	rotate: 90
+background/vfx/vfx_06
+	bounds: 1037, 159, 72, 39
+	offsets: 0, 0, 72, 40
+	rotate: 90
+background/vfx/vfx_07
+	bounds: 1110, 13, 72, 39
+	offsets: 0, 0, 72, 40
+	rotate: 90
+background/vfx/vfx_08
+	bounds: 1077, 159, 72, 39
+	offsets: 0, 0, 72, 40
+	rotate: 90
+background/vfx/vfx_09
+	bounds: 1117, 159, 72, 39
+	offsets: 0, 0, 72, 40
+	rotate: 90
+background/vfx/vfx_10
+	bounds: 397, 37, 72, 38
+	offsets: 0, 0, 72, 40
+background/vfx/vfx_11
+	bounds: 873, 159, 72, 40
+	offsets: 0, 0, 72, 40
+	rotate: 90
+background/vfx/vfx_12
+	bounds: 873, 86, 72, 40
+	offsets: 0, 0, 72, 40
+	rotate: 90
+background/vfx/vfx_13
+	bounds: 906, 13, 72, 40
+	offsets: 0, 0, 72, 40
+	rotate: 90
+background/vfx/vfx_14
+	bounds: 914, 159, 72, 40
+	offsets: 0, 0, 72, 40
+	rotate: 90
+background/vfx/vfx_15
+	bounds: 914, 86, 72, 40
+	offsets: 0, 0, 72, 40
+	rotate: 90
+background/vfx/vfx_16
+	bounds: 947, 13, 72, 40
+	offsets: 0, 0, 72, 40
+	rotate: 90
+background/vfx/vfx_17
+	bounds: 955, 159, 72, 40
+	offsets: 0, 0, 72, 40
+	rotate: 90
+background/vfx/vfx_18
+	bounds: 470, 38, 72, 38
+	offsets: 0, 0, 72, 40
+background/vfx/vfx_19
+	bounds: 543, 38, 72, 38
+	offsets: 0, 0, 72, 40
+background/vfx/vfx_20
+	bounds: 1117, 86, 72, 39
+	offsets: 0, 0, 72, 40
+	rotate: 90
+background/vfx/vfx_21
+	bounds: 1150, 13, 72, 39
+	offsets: 0, 0, 72, 40
+	rotate: 90
+background/vfx/vfx_22
+	bounds: 1157, 193, 72, 38
+	offsets: 0, 0, 72, 40
+background/vfx/vfx_23
+	bounds: 499, 1, 72, 36
+	offsets: 0, 0, 72, 40
+background/vfx/vfx_24
+	bounds: 1157, 120, 72, 38
+	offsets: 0, 0, 72, 40
+	rotate: 90
+background/vfx/vfx_25
+	bounds: 1190, 81, 72, 37
+	offsets: 0, 0, 72, 40
+background/vfx/vfx_26
+	bounds: 1196, 120, 72, 37
+	offsets: 0, 0, 72, 40
+	rotate: 90
+background/vfx/vfx_27
+	bounds: 1235, 159, 72, 37
+	offsets: 0, 0, 72, 40
+	rotate: 90
+background/vfx/vfx_28
+	bounds: 1190, 8, 72, 37
+	offsets: 0, 0, 72, 40
+	rotate: 90
+background/vfx/vfx_29
+	bounds: 426, 1, 72, 35
+	offsets: 0, 0, 72, 40
+background/vfx/vfx_30
+	bounds: 207, 1, 72, 35
+	offsets: 0, 0, 72, 40
+background/vfx/vfx_31
+	bounds: 280, 1, 72, 35
+	offsets: 0, 0, 72, 40
+background/vfx/vfx_32
+	bounds: 353, 1, 72, 35
+	offsets: 0, 0, 72, 40
+background/vfx/vfx_33
+	bounds: 707, 159, 72, 40
+	rotate: 90
+background/vfx/vfx_34
+	bounds: 955, 86, 72, 40
+	offsets: 0, 0, 72, 40
+	rotate: 90
+background/vfx/vfx_35
+	bounds: 707, 86, 72, 40
+	rotate: 90
+background/vfx/vfx_36
+	bounds: 740, 13, 72, 40
+	rotate: 90
+background/vfx/vfx_37
+	bounds: 748, 159, 72, 40
+	rotate: 90
+background/vfx/vfx_38
+	bounds: 1070, 13, 72, 39
+	offsets: 0, 0, 72, 40
+	rotate: 90
+background/vfx/vfx_39
+	bounds: 1077, 86, 72, 39
+	offsets: 0, 0, 72, 40
+	rotate: 90
+background/vfx/vfx_40
+	bounds: 988, 13, 72, 40
+	offsets: 0, 0, 72, 40
+	rotate: 90
+background/vfx/vfx_41
+	bounds: 996, 159, 72, 40
+	offsets: 0, 0, 72, 40
+	rotate: 90
+background/vfx/vfx_42
+	bounds: 748, 86, 72, 40
+	rotate: 90
+background/vfx/vfx_43
+	bounds: 782, 13, 72, 40
+	rotate: 90
+background/vfx/vfx_44
+	bounds: 790, 159, 72, 40
+	rotate: 90
+background/vfx/vfx_45
+	bounds: 790, 86, 72, 40
+	rotate: 90
+background/vfx/vfx_46
+	bounds: 823, 13, 72, 40
+	rotate: 90
+background/vfx/vfx_47
+	bounds: 831, 159, 72, 40
+	rotate: 90
+background/vfx/vfx_48
+	bounds: 831, 86, 72, 40
+	rotate: 90
+background/vfx/vfx_49
+	bounds: 865, 13, 72, 40
+	rotate: 90

@@ -1,0 +1,30 @@
+{
+  "launchUrl": "http://127.0.0.1:8083/three-oaks/live/3oaksgaming-aztec-sun",
+  "slug": "3oaksgaming-aztec-sun",
+  "spinTap": {
+    "x": 1305,
+    "y": 455
+  },
+  "splashTap": {
+    "x": 720,
+    "y": 785
+  },
+  "spinRequestCount": 1,
+  "spinResponseCount": 1,
+  "firstSpinRequest": {
+    "type": "request",
+    "method": "POST",
+    "url": "https://betman.c1.3oaks.com/slotscity-prod-axis/gs/aztec_sun/desktop/d5eb4038adb14146ac7edc3606223c61/demo/?gsc=play",
+    "postData": "{\"command\":\"play\",\"request_id\":\"6815a320252a47f5af198f2acbabac6a\",\"session_id\":\"297b6bcf9f18462ab6f8fab16c9c8afa\",\"action\":{\"name\":\"spin\",\"params\":{\"bet_per_line\":10,\"lines\":25}},\"set_denominator\":1,\"quick_spin\":1,\"sound\":true,\"autogame\":false,\"mobile\":\"0\",\"portrait\":false,\"fullscreen\":true,\"viewportSize\":\"1440x900\",\"client_command_timestamp\":1775302683395}",
+    "at": 1775302683401
+  },
+  "firstSpinResponse": {
+    "type": "response",
+    "status": 200,
+    "url": "https://betman.c1.3oaks.com/slotscity-prod-axis/gs/aztec_sun/desktop/d5eb4038adb14146ac7edc3606223c61/demo/?gsc=play",
+    "body": "{\"command\":\"play\",\"context\":{\"actions\":[\"spin\"],\"current\":\"spins\",\"last_action\":\"spin\",\"last_args\":{\"bet_per_line\":10,\"lines\":25},\"last_win\":0,\"round_finished\":true,\"spins\":{\"bet_per_line\":10,\"board\":[[3,6,2],[1,1,8],[11,11,8],[6,3,3],[5,8,3]],\"bs_v\":[[0,0,0],[0,0,0],[500,750,0],[0,0,0],[0,0,0]],\"bs_values\":[[0,0,0],[0,0,0],[2,3,0],[0,0,0],[0,0,0]],\"lines\":25,\"round_bet\":250,\"round_win\":0,\"sr\":true,\"sr_rounds\":0,\"total_win\":0},\"version\":3},\"modes\":[\"auto\",\"play\"],\"origin_data\":{\"autogame\":false,\"client_command_timestamp\":1775302683395,\"feature\":false,\"fullscreen\":true,\"mobile\":\"0\",\"portrait\":false,\"quickspin\":1,\"set_denominator\":1,\"sound\":true,\"viewportSize\":\"1440x900\"},\"request_id\":\"6815a320252a47f5af198f2acbabac6a\",\"session_id\":\"297b6bcf9f18462ab6f8fab16c9c8afa\",\"status\":{\"code\":\"OK\"},\"user\":{\"balance\":99750,\"balance_version\":3,\"currency\":\"FUN\",\"huid\":\"demo-7f91c8e9415f40898730092fc6e0da2b\",\"is_test\":false,\"show_balance\":true}}",
+    "at": 1775302683935
+  },
+  "pageErrors": 0,
+  "finalFrameUrl": "https://betman.c1.3oaks.com/slotscity-prod-axis/game/?wl=demo&token=testtoken&game=aztec_sun&ts=1775302657&lang=uk&history_url=&exit_url=https://slotcity.ua/&cashier_url=https://slotcity.ua/cashbox?backgameurl%3D3oaksgaming-aztec-sun"
+}

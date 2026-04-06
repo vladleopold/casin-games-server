@@ -1,0 +1,209 @@
+
+jp_coins_collection_particle.png
+size: 776,776
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3d_coin_glow_fx/3d_coin_glow_fx_001
+  rotate: false
+  xy: 586, 47
+  size: 124, 124
+  orig: 130, 130
+  offset: 3, 3
+  index: -1
+3d_coin_glow_fx/3d_coin_glow_fx_002
+  rotate: false
+  xy: 107, 199
+  size: 122, 125
+  orig: 130, 130
+  offset: 5, 2
+  index: -1
+3d_coin_glow_fx/3d_coin_glow_fx_003
+  rotate: false
+  xy: 394, 226
+  size: 104, 126
+  orig: 130, 130
+  offset: 20, 2
+  index: -1
+3d_coin_glow_fx/3d_coin_glow_fx_004
+  rotate: false
+  xy: 508, 192
+  size: 77, 125
+  orig: 130, 130
+  offset: 33, 3
+  index: -1
+3d_coin_glow_fx/3d_coin_glow_fx_005
+  rotate: false
+  xy: 350, 328
+  size: 42, 124
+  orig: 130, 130
+  offset: 46, 3
+  index: -1
+3d_coin_glow_fx/3d_coin_glow_fx_006
+  rotate: false
+  xy: 508, 68
+  size: 76, 122
+  orig: 130, 130
+  offset: 20, 5
+  index: -1
+3d_coin_glow_fx/3d_coin_glow_fx_007
+  rotate: false
+  xy: 2, 197
+  size: 103, 127
+  orig: 130, 130
+  offset: 5, 3
+  index: -1
+3d_coin_glow_fx/3d_coin_glow_fx_008
+  rotate: false
+  xy: 231, 199
+  size: 122, 125
+  orig: 130, 130
+  offset: 2, 2
+  index: -1
+coin_glow_fx
+  rotate: false
+  xy: 588, 173
+  size: 173, 173
+  orig: 260, 260
+  offset: 44, 43
+  index: -1
+glow1
+  rotate: true
+  xy: 197, 326
+  size: 126, 128
+  orig: 129, 132
+  offset: 2, 2
+  index: -1
+light_back_blue
+  rotate: true
+  xy: 350, 11
+  size: 160, 156
+  orig: 164, 164
+  offset: 2, 4
+  index: -1
+logo_coin_spin/logo_coin_spin_01
+  rotate: false
+  xy: 2, 375
+  size: 172, 172
+  orig: 260, 260
+  offset: 45, 44
+  index: -1
+logo_coin_spin/logo_coin_spin_02
+  rotate: true
+  xy: 2, 2
+  size: 169, 172
+  orig: 260, 260
+  offset: 48, 44
+  index: -1
+logo_coin_spin/logo_coin_spin_03
+  rotate: true
+  xy: 590, 631
+  size: 141, 174
+  orig: 260, 260
+  offset: 70, 43
+  index: -1
+logo_coin_spin/logo_coin_spin_04
+  rotate: true
+  xy: 394, 354
+  size: 99, 174
+  orig: 260, 260
+  offset: 91, 43
+  index: -1
+logo_coin_spin/logo_coin_spin_05
+  rotate: true
+  xy: 588, 348
+  size: 37, 174
+  orig: 260, 260
+  offset: 115, 43
+  index: -1
+logo_coin_spin/logo_coin_spin_06
+  rotate: true
+  xy: 590, 387
+  size: 100, 174
+  orig: 260, 260
+  offset: 70, 43
+  index: -1
+logo_coin_spin/logo_coin_spin_07
+  rotate: true
+  xy: 590, 489
+  size: 140, 174
+  orig: 260, 260
+  offset: 50, 43
+  index: -1
+logo_coin_spin/logo_coin_spin_08
+  rotate: true
+  xy: 176, 2
+  size: 169, 172
+  orig: 260, 260
+  offset: 43, 44
+  index: -1
+vortex_lt_fx/vortex_lt_fx_00
+  rotate: true
+  xy: 570, 319
+  size: 134, 16
+  orig: 196, 172
+  offset: 27, 48
+  index: -1
+vortex_lt_fx/vortex_lt_fx_01
+  rotate: true
+  xy: 176, 408
+  size: 139, 19
+  orig: 196, 172
+  offset: 26, 48
+  index: -1
+vortex_lt_fx/vortex_lt_fx_04
+  rotate: false
+  xy: 2, 549
+  size: 194, 104
+  orig: 196, 172
+  offset: 1, 41
+  index: -1
+vortex_lt_fx/vortex_lt_fx_05
+  rotate: false
+  xy: 2, 655
+  size: 194, 117
+  orig: 196, 172
+  offset: 1, 28
+  index: -1
+vortex_lt_fx/vortex_lt_fx_06
+  rotate: false
+  xy: 198, 667
+  size: 194, 105
+  orig: 196, 172
+  offset: 1, 40
+  index: -1
+vortex_lt_fx/vortex_lt_fx_07
+  rotate: false
+  xy: 394, 667
+  size: 194, 105
+  orig: 196, 172
+  offset: 1, 40
+  index: -1
+vortex_lt_fx/vortex_lt_fx_08
+  rotate: false
+  xy: 198, 560
+  size: 194, 105
+  orig: 196, 172
+  offset: 1, 40
+  index: -1
+vortex_lt_fx/vortex_lt_fx_10
+  rotate: false
+  xy: 394, 561
+  size: 194, 104
+  orig: 196, 172
+  offset: 1, 41
+  index: -1
+vortex_lt_fx/vortex_lt_fx_11
+  rotate: false
+  xy: 394, 455
+  size: 194, 104
+  orig: 196, 172
+  offset: 1, 41
+  index: -1
+vortex_lt_fx/vortex_lt_fx_13
+  rotate: false
+  xy: 198, 454
+  size: 194, 104
+  orig: 196, 172
+  offset: 1, 41
+  index: -1

@@ -1,0 +1,1060 @@
+[
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8091/bgaming/api/gates-of-power",
+    "command": null,
+    "payload": {
+      "id": "9dbbc51f-20b5-4208-bb7c-1e30cac6dcbe",
+      "jsonrpc": "2.0",
+      "method": "init",
+      "params": {
+        "token": "d3125fcad73e59736d3ef84118792e6d"
+      }
+    },
+    "postData": "{\"id\":\"9dbbc51f-20b5-4208-bb7c-1e30cac6dcbe\",\"jsonrpc\":\"2.0\",\"method\":\"init\",\"params\":{\"token\":\"d3125fcad73e59736d3ef84118792e6d\"}}",
+    "at": 1775410773025
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8091/bgaming/api/gates-of-power",
+    "command": null,
+    "payload": {
+      "id": "9dbbc51f-20b5-4208-bb7c-1e30cac6dcbe",
+      "result": {
+        "state": null,
+        "config": {
+          "bet_limits": [
+            10,
+            20,
+            30,
+            50,
+            70,
+            100,
+            150,
+            200,
+            250,
+            300,
+            400,
+            500,
+            600,
+            800,
+            1000,
+            1200,
+            1400,
+            1700
+          ],
+          "minimal_spin_time": null,
+          "autospin_variant": "standard",
+          "autospin_values": [
+            "10",
+            "25",
+            "50",
+            "100",
+            "250",
+            "500",
+            "750",
+            "1000",
+            "∞"
+          ],
+          "quick_spins_enabled": true,
+          "reality_check_time": null,
+          "purchased_features": [
+            "buy_bonus",
+            "buy_chance",
+            "buy_bonus_and_chance"
+          ],
+          "rtp": "96",
+          "default_bet": 200,
+          "freebets_limits": [
+            10,
+            20,
+            30,
+            50,
+            70,
+            100,
+            150,
+            200,
+            250,
+            300,
+            400,
+            500,
+            600,
+            800,
+            1000,
+            1200,
+            1400,
+            1700
+          ],
+          "displayed_rtp": "96.03"
+        },
+        "balance": 100000,
+        "currency": "fun",
+        "locale": "en",
+        "urls": {
+          "deposit_url": null,
+          "return_url": "https://slotcity.ua/",
+          "history_url": "https://gates-of-power.pubinterlayer.online/api/session-history?token=d3125fcad73e59736d3ef84118792e6d"
+        },
+        "freebets": null,
+        "state_lock": "SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAZp-6Xp0BYgABUYA.vxYEmG9UlkfBS7ZLid7x7xTFXK4yaJOB6zUai2L1M88",
+        "currency_attributes": {
+          "code": "FUN",
+          "exponent": 2,
+          "subunits": 100,
+          "symbol": null
+        }
+      },
+      "jsonrpc": "2.0"
+    },
+    "headers": {
+      "access-control-allow-headers": "Content-Type, X-Request-Id",
+      "access-control-allow-methods": "GET, POST, OPTIONS",
+      "access-control-allow-origin": "*",
+      "cache-control": "no-store",
+      "connection": "keep-alive",
+      "content-length": "1070",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Sun, 05 Apr 2026 17:39:33 GMT",
+      "keep-alive": "timeout=15",
+      "x-request-id": "e005a9a0b2744e0b93e92b59568d694c"
+    },
+    "body": "{\"id\":\"9dbbc51f-20b5-4208-bb7c-1e30cac6dcbe\",\"result\":{\"state\":null,\"config\":{\"bet_limits\":[10,20,30,50,70,100,150,200,250,300,400,500,600,800,1000,1200,1400,1700],\"minimal_spin_time\":null,\"autospin_variant\":\"standard\",\"autospin_values\":[\"10\",\"25\",\"50\",\"100\",\"250\",\"500\",\"750\",\"1000\",\"∞\"],\"quick_spins_enabled\":true,\"reality_check_time\":null,\"purchased_features\":[\"buy_bonus\",\"buy_chance\",\"buy_bonus_and_chance\"],\"rtp\":\"96\",\"default_bet\":200,\"freebets_limits\":[10,20,30,50,70,100,150,200,250,300,400,500,600,800,1000,1200,1400,1700],\"displayed_rtp\":\"96.03\"},\"balance\":100000,\"currency\":\"fun\",\"locale\":\"en\",\"urls\":{\"deposit_url\":null,\"return_url\":\"https://slotcity.ua/\",\"history_url\":\"https://gates-of-power.pubinterlayer.online/api/session-history?token=d3125fcad73e59736d3ef84118792e6d\"},\"freebets\":null,\"state_lock\":\"SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAZp-6Xp0BYgABUYA.vxYEmG9UlkfBS7ZLid7x7xTFXK4yaJOB6zUai2L1M88\",\"currency_attributes\":{\"code\":\"FUN\",\"exponent\":2,\"subunits\":100,\"symbol\":null}},\"jsonrpc\":\"2.0\"}",
+    "at": 1775410773078
+  },
+  {
+    "type": "console",
+    "level": "warning",
+    "text": "[.WebGL-0x13c00feaa00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "at": 1775410773268
+  },
+  {
+    "type": "console",
+    "level": "warning",
+    "text": "[.WebGL-0x13c028a1400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)",
+    "at": 1775410777943
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8091/bgaming/api/gates-of-power",
+    "command": null,
+    "payload": {
+      "id": "5d226b1d-0224-48ec-a70f-8ecc0f394efc",
+      "jsonrpc": "2.0",
+      "method": "info",
+      "params": {
+        "token": "d3125fcad73e59736d3ef84118792e6d"
+      }
+    },
+    "postData": "{\"id\":\"5d226b1d-0224-48ec-a70f-8ecc0f394efc\",\"jsonrpc\":\"2.0\",\"method\":\"info\",\"params\":{\"token\":\"d3125fcad73e59736d3ef84118792e6d\"}}",
+    "at": 1775410786455
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8091/bgaming/api/gates-of-power",
+    "command": null,
+    "payload": {
+      "id": "5d226b1d-0224-48ec-a70f-8ecc0f394efc",
+      "result": {
+        "balance": 100000,
+        "freebets": null
+      },
+      "jsonrpc": "2.0"
+    },
+    "headers": {
+      "access-control-allow-headers": "Content-Type, X-Request-Id",
+      "access-control-allow-methods": "GET, POST, OPTIONS",
+      "access-control-allow-origin": "*",
+      "cache-control": "no-store",
+      "connection": "keep-alive",
+      "content-length": "105",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Sun, 05 Apr 2026 17:39:46 GMT",
+      "keep-alive": "timeout=15",
+      "x-request-id": "47c448b297314709aeccf291edd159bd"
+    },
+    "body": "{\"id\":\"5d226b1d-0224-48ec-a70f-8ecc0f394efc\",\"result\":{\"balance\":100000,\"freebets\":null},\"jsonrpc\":\"2.0\"}",
+    "at": 1775410787140
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8091/bgaming/api/gates-of-power",
+    "command": null,
+    "payload": {
+      "id": "3f109d1c-4bfa-4f65-a421-c608a0b0beee",
+      "jsonrpc": "2.0",
+      "method": "play",
+      "params": {
+        "token": "d3125fcad73e59736d3ef84118792e6d",
+        "req": {
+          "bet": 200
+        },
+        "state_lock": "SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAZp-6Xp0BYgABUYA.vxYEmG9UlkfBS7ZLid7x7xTFXK4yaJOB6zUai2L1M88"
+      }
+    },
+    "postData": "{\"id\":\"3f109d1c-4bfa-4f65-a421-c608a0b0beee\",\"jsonrpc\":\"2.0\",\"method\":\"play\",\"params\":{\"token\":\"d3125fcad73e59736d3ef84118792e6d\",\"req\":{\"bet\":200},\"state_lock\":\"SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAZp-6Xp0BYgABUYA.vxYEmG9UlkfBS7ZLid7x7xTFXK4yaJOB6zUai2L1M88\"}}",
+    "at": 1775410810583
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8091/bgaming/api/gates-of-power",
+    "command": null,
+    "payload": {
+      "id": "3f109d1c-4bfa-4f65-a421-c608a0b0beee",
+      "result": {
+        "round": "adb1ed56-ff3d-4fd9-b031-cce5429efac5",
+        "final": true,
+        "step": "76a57ea8-d20b-48ea-be4d-b49477bf4a1f",
+        "balance": 99840,
+        "resp": {
+          "round": {
+            "bet": 200,
+            "buy_id": "none",
+            "freespins": [],
+            "generations": [
+              {
+                "clusters": [
+                  {
+                    "base_payout": 40,
+                    "cells": [
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 4,
+                        "y": 0
+                      },
+                      {
+                        "x": 5,
+                        "y": 0
+                      },
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 4,
+                        "y": 1
+                      },
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 3,
+                        "y": 2
+                      },
+                      {
+                        "x": 3,
+                        "y": 3
+                      }
+                    ],
+                    "payout": 40,
+                    "symbol": "l3",
+                    "symbol_count": 8
+                  }
+                ],
+                "event": {
+                  "name": "Spin"
+                },
+                "grid_final": [
+                  [
+                    "l5",
+                    "l4",
+                    "h1",
+                    "h1",
+                    "l1",
+                    "l3"
+                  ],
+                  [
+                    "l5",
+                    "l4",
+                    "l2",
+                    "l5",
+                    "h4",
+                    "l5"
+                  ],
+                  [
+                    "l4",
+                    "l1",
+                    "l2",
+                    "l5",
+                    "l4",
+                    "l1"
+                  ],
+                  [
+                    "l4",
+                    "l1",
+                    "l2",
+                    "l5",
+                    "l4",
+                    "h2"
+                  ],
+                  [
+                    "h4",
+                    "h3",
+                    "h1",
+                    "l5",
+                    "sc",
+                    "l2"
+                  ]
+                ],
+                "grid_start": [
+                  [
+                    "l5",
+                    "l4",
+                    "l3",
+                    "l5",
+                    "l3",
+                    "l3"
+                  ],
+                  [
+                    "l5",
+                    "l4",
+                    "l3",
+                    "l5",
+                    "l3",
+                    "l3"
+                  ],
+                  [
+                    "l4",
+                    "l1",
+                    "l2",
+                    "l3",
+                    "l4",
+                    "l1"
+                  ],
+                  [
+                    "l4",
+                    "l1",
+                    "l2",
+                    "l3",
+                    "l4",
+                    "h2"
+                  ],
+                  [
+                    "h4",
+                    "h3",
+                    "h1",
+                    "l5",
+                    "sc",
+                    "l2"
+                  ]
+                ],
+                "running_total": 40,
+                "running_total_multiplier": 0,
+                "win_total": 40
+              },
+              {
+                "event": {
+                  "name": "Cascade"
+                },
+                "grid_final": [
+                  [
+                    "l5",
+                    "l4",
+                    "h1",
+                    "h1",
+                    "l1",
+                    "l3"
+                  ],
+                  [
+                    "l5",
+                    "l4",
+                    "l2",
+                    "l5",
+                    "h4",
+                    "l5"
+                  ],
+                  [
+                    "l4",
+                    "l1",
+                    "l2",
+                    "l5",
+                    "l4",
+                    "l1"
+                  ],
+                  [
+                    "l4",
+                    "l1",
+                    "l2",
+                    "l5",
+                    "l4",
+                    "h2"
+                  ],
+                  [
+                    "h4",
+                    "h3",
+                    "h1",
+                    "l5",
+                    "sc",
+                    "l2"
+                  ]
+                ],
+                "running_total": 40,
+                "running_total_multiplier": 0,
+                "win_total": 0
+              }
+            ],
+            "high_grid": false,
+            "top_list": {
+              "multipliers": [
+                "rm6",
+                "rm4",
+                "rm4",
+                "rm2",
+                "rm2"
+              ]
+            },
+            "win": 40
+          }
+        },
+        "freebets": null,
+        "state_lock": "SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAXjK7Xp0BYgABUYA.NJHJWClRJijL1dKjdgAZ1auCaMXlxT8p8NCbFvCK3Hs"
+      },
+      "jsonrpc": "2.0"
+    },
+    "headers": {
+      "access-control-allow-headers": "Content-Type, X-Request-Id",
+      "access-control-allow-methods": "GET, POST, OPTIONS",
+      "access-control-allow-origin": "*",
+      "cache-control": "no-store",
+      "connection": "keep-alive",
+      "content-length": "1441",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Sun, 05 Apr 2026 17:40:10 GMT",
+      "keep-alive": "timeout=15",
+      "x-request-id": "e83ad629793441f6b5c7cd6bb44c4ec2"
+    },
+    "body": "{\"id\":\"3f109d1c-4bfa-4f65-a421-c608a0b0beee\",\"result\":{\"round\":\"adb1ed56-ff3d-4fd9-b031-cce5429efac5\",\"final\":true,\"step\":\"76a57ea8-d20b-48ea-be4d-b49477bf4a1f\",\"balance\":99840,\"resp\":{\"round\":{\"bet\":200,\"buy_id\":\"none\",\"freespins\":[],\"generations\":[{\"clusters\":[{\"base_payout\":40,\"cells\":[{\"x\":2,\"y\":0},{\"x\":4,\"y\":0},{\"x\":5,\"y\":0},{\"x\":2,\"y\":1},{\"x\":4,\"y\":1},{\"x\":5,\"y\":1},{\"x\":3,\"y\":2},{\"x\":3,\"y\":3}],\"payout\":40,\"symbol\":\"l3\",\"symbol_count\":8}],\"event\":{\"name\":\"Spin\"},\"grid_final\":[[\"l5\",\"l4\",\"h1\",\"h1\",\"l1\",\"l3\"],[\"l5\",\"l4\",\"l2\",\"l5\",\"h4\",\"l5\"],[\"l4\",\"l1\",\"l2\",\"l5\",\"l4\",\"l1\"],[\"l4\",\"l1\",\"l2\",\"l5\",\"l4\",\"h2\"],[\"h4\",\"h3\",\"h1\",\"l5\",\"sc\",\"l2\"]],\"grid_start\":[[\"l5\",\"l4\",\"l3\",\"l5\",\"l3\",\"l3\"],[\"l5\",\"l4\",\"l3\",\"l5\",\"l3\",\"l3\"],[\"l4\",\"l1\",\"l2\",\"l3\",\"l4\",\"l1\"],[\"l4\",\"l1\",\"l2\",\"l3\",\"l4\",\"h2\"],[\"h4\",\"h3\",\"h1\",\"l5\",\"sc\",\"l2\"]],\"running_total\":40,\"running_total_multiplier\":0,\"win_total\":40},{\"event\":{\"name\":\"Cascade\"},\"grid_final\":[[\"l5\",\"l4\",\"h1\",\"h1\",\"l1\",\"l3\"],[\"l5\",\"l4\",\"l2\",\"l5\",\"h4\",\"l5\"],[\"l4\",\"l1\",\"l2\",\"l5\",\"l4\",\"l1\"],[\"l4\",\"l1\",\"l2\",\"l5\",\"l4\",\"h2\"],[\"h4\",\"h3\",\"h1\",\"l5\",\"sc\",\"l2\"]],\"running_total\":40,\"running_total_multiplier\":0,\"win_total\":0}],\"high_grid\":false,\"top_list\":{\"multipliers\":[\"rm6\",\"rm4\",\"rm4\",\"rm2\",\"rm2\"]},\"win\":40}},\"freebets\":null,\"state_lock\":\"SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAXjK7Xp0BYgABUYA.NJHJWClRJijL1dKjdgAZ1auCaMXlxT8p8NCbFvCK3Hs\"},\"jsonrpc\":\"2.0\"}",
+    "at": 1775410811929
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8091/bgaming/api/gates-of-power",
+    "command": null,
+    "payload": {
+      "id": "1c5d1527-e934-4045-af6e-a9092125762f",
+      "jsonrpc": "2.0",
+      "method": "play",
+      "params": {
+        "token": "d3125fcad73e59736d3ef84118792e6d",
+        "req": {
+          "bet": 200
+        },
+        "state_lock": "SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAXjK7Xp0BYgABUYA.NJHJWClRJijL1dKjdgAZ1auCaMXlxT8p8NCbFvCK3Hs"
+      }
+    },
+    "postData": "{\"id\":\"1c5d1527-e934-4045-af6e-a9092125762f\",\"jsonrpc\":\"2.0\",\"method\":\"play\",\"params\":{\"token\":\"d3125fcad73e59736d3ef84118792e6d\",\"req\":{\"bet\":200},\"state_lock\":\"SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAXjK7Xp0BYgABUYA.NJHJWClRJijL1dKjdgAZ1auCaMXlxT8p8NCbFvCK3Hs\"}}",
+    "at": 1775410877300
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8091/bgaming/api/gates-of-power",
+    "command": null,
+    "payload": {
+      "id": "1c5d1527-e934-4045-af6e-a9092125762f",
+      "result": {
+        "round": "000734db-224a-4b37-9c41-38cd0288bd64",
+        "step": "5fc1f2c7-b0f5-484a-8933-d43c8c6a278f",
+        "final": true,
+        "balance": 99640,
+        "resp": {
+          "round": {
+            "bet": 200,
+            "buy_id": "none",
+            "freespins": [],
+            "generations": [
+              {
+                "event": {
+                  "name": "Spin"
+                },
+                "grid_final": [
+                  [
+                    "l2",
+                    "h1",
+                    "l3",
+                    "l5",
+                    "l3",
+                    "l4"
+                  ],
+                  [
+                    "l2",
+                    "h1",
+                    "l3",
+                    "l5",
+                    "l3",
+                    "l4"
+                  ],
+                  [
+                    "h1",
+                    "l4",
+                    "h4",
+                    "h1",
+                    "l2",
+                    "l5"
+                  ],
+                  [
+                    "h1",
+                    "l4",
+                    "h4",
+                    "h1",
+                    "l2",
+                    "l5"
+                  ],
+                  [
+                    "l4",
+                    "h4",
+                    "h2",
+                    "l1",
+                    "l5",
+                    "h3"
+                  ]
+                ],
+                "running_total": 0,
+                "running_total_multiplier": 0,
+                "win_total": 0
+              }
+            ],
+            "high_grid": false,
+            "top_list": {
+              "multipliers": [
+                "rm8",
+                "rm6",
+                "rm5",
+                "rm5",
+                "rm2"
+              ]
+            },
+            "win": 0
+          }
+        },
+        "freebets": null,
+        "state_lock": "SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAATe8Xp0BYgABUYA.sTvfue5oNxpLrz1Vst9xt4Ep92JS8XO9vhK5D6qH07A"
+      },
+      "jsonrpc": "2.0"
+    },
+    "headers": {
+      "access-control-allow-headers": "Content-Type, X-Request-Id",
+      "access-control-allow-methods": "GET, POST, OPTIONS",
+      "access-control-allow-origin": "*",
+      "cache-control": "no-store",
+      "connection": "keep-alive",
+      "content-length": "800",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Sun, 05 Apr 2026 17:41:17 GMT",
+      "keep-alive": "timeout=15",
+      "x-request-id": "30fc1c1a9f8b4b9d8c06b56c73c97496"
+    },
+    "body": "{\"id\":\"1c5d1527-e934-4045-af6e-a9092125762f\",\"result\":{\"round\":\"000734db-224a-4b37-9c41-38cd0288bd64\",\"step\":\"5fc1f2c7-b0f5-484a-8933-d43c8c6a278f\",\"final\":true,\"balance\":99640,\"resp\":{\"round\":{\"bet\":200,\"buy_id\":\"none\",\"freespins\":[],\"generations\":[{\"event\":{\"name\":\"Spin\"},\"grid_final\":[[\"l2\",\"h1\",\"l3\",\"l5\",\"l3\",\"l4\"],[\"l2\",\"h1\",\"l3\",\"l5\",\"l3\",\"l4\"],[\"h1\",\"l4\",\"h4\",\"h1\",\"l2\",\"l5\"],[\"h1\",\"l4\",\"h4\",\"h1\",\"l2\",\"l5\"],[\"l4\",\"h4\",\"h2\",\"l1\",\"l5\",\"h3\"]],\"running_total\":0,\"running_total_multiplier\":0,\"win_total\":0}],\"high_grid\":false,\"top_list\":{\"multipliers\":[\"rm8\",\"rm6\",\"rm5\",\"rm5\",\"rm2\"]},\"win\":0}},\"freebets\":null,\"state_lock\":\"SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAATe8Xp0BYgABUYA.sTvfue5oNxpLrz1Vst9xt4Ep92JS8XO9vhK5D6qH07A\"},\"jsonrpc\":\"2.0\"}",
+    "at": 1775410879374
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8091/bgaming/api/gates-of-power",
+    "command": null,
+    "payload": {
+      "id": "5608a227-e5d2-4ee7-9500-63611a3c3547",
+      "jsonrpc": "2.0",
+      "method": "play",
+      "params": {
+        "token": "d3125fcad73e59736d3ef84118792e6d",
+        "req": {
+          "bet": 200
+        },
+        "state_lock": "SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAATe8Xp0BYgABUYA.sTvfue5oNxpLrz1Vst9xt4Ep92JS8XO9vhK5D6qH07A"
+      }
+    },
+    "postData": "{\"id\":\"5608a227-e5d2-4ee7-9500-63611a3c3547\",\"jsonrpc\":\"2.0\",\"method\":\"play\",\"params\":{\"token\":\"d3125fcad73e59736d3ef84118792e6d\",\"req\":{\"bet\":200},\"state_lock\":\"SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAATe8Xp0BYgABUYA.sTvfue5oNxpLrz1Vst9xt4Ep92JS8XO9vhK5D6qH07A\"}}",
+    "at": 1775410979103
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8091/bgaming/api/gates-of-power",
+    "command": null,
+    "payload": {
+      "id": "5608a227-e5d2-4ee7-9500-63611a3c3547",
+      "result": {
+        "round": "b4aff371-a4f8-406f-9fe9-07cf8866e66d",
+        "step": "11c67534-ca50-4702-93d7-27ff7f80b194",
+        "final": true,
+        "balance": 99240,
+        "resp": {
+          "round": {
+            "bet": 200,
+            "buy_id": "none",
+            "freespins": [],
+            "generations": [
+              {
+                "clusters": [
+                  {
+                    "base_payout": 40,
+                    "cells": [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 5,
+                        "y": 0
+                      },
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 1,
+                        "y": 2
+                      },
+                      {
+                        "x": 4,
+                        "y": 2
+                      },
+                      {
+                        "x": 1,
+                        "y": 3
+                      },
+                      {
+                        "x": 4,
+                        "y": 3
+                      }
+                    ],
+                    "payout": 40,
+                    "symbol": "l4",
+                    "symbol_count": 8
+                  }
+                ],
+                "event": {
+                  "name": "Spin"
+                },
+                "grid_final": [
+                  [
+                    "l2",
+                    "h4",
+                    "l2",
+                    "l4",
+                    "l3",
+                    "l5"
+                  ],
+                  [
+                    "sc",
+                    "l4",
+                    "l2",
+                    "l4",
+                    "l1",
+                    "l3"
+                  ],
+                  [
+                    "l3",
+                    "l1",
+                    "h4",
+                    "l3",
+                    "l1",
+                    "l2"
+                  ],
+                  [
+                    "l3",
+                    "l1",
+                    "h4",
+                    "l3",
+                    "l1",
+                    "l2"
+                  ],
+                  [
+                    "l5",
+                    "l5",
+                    "l2",
+                    "l5",
+                    "l1",
+                    "l5"
+                  ]
+                ],
+                "grid_start": [
+                  [
+                    "l2",
+                    "l1",
+                    "l2",
+                    "l4",
+                    "l1",
+                    "l4"
+                  ],
+                  [
+                    "sc",
+                    "l1",
+                    "l2",
+                    "l4",
+                    "l1",
+                    "l4"
+                  ],
+                  [
+                    "l3",
+                    "l4",
+                    "h4",
+                    "l3",
+                    "l4",
+                    "l2"
+                  ],
+                  [
+                    "l3",
+                    "l4",
+                    "h4",
+                    "l3",
+                    "l4",
+                    "l2"
+                  ],
+                  [
+                    "l5",
+                    "l5",
+                    "l2",
+                    "l5",
+                    "l1",
+                    "l5"
+                  ]
+                ],
+                "running_total": 40,
+                "running_total_multiplier": 0,
+                "win_total": 40
+              },
+              {
+                "event": {
+                  "name": "Cascade"
+                },
+                "grid_final": [
+                  [
+                    "l2",
+                    "h4",
+                    "l2",
+                    "l4",
+                    "l3",
+                    "l5"
+                  ],
+                  [
+                    "sc",
+                    "l4",
+                    "l2",
+                    "l4",
+                    "l1",
+                    "l3"
+                  ],
+                  [
+                    "l3",
+                    "l1",
+                    "h4",
+                    "l3",
+                    "l1",
+                    "l2"
+                  ],
+                  [
+                    "l3",
+                    "l1",
+                    "h4",
+                    "l3",
+                    "l1",
+                    "l2"
+                  ],
+                  [
+                    "l5",
+                    "l5",
+                    "l2",
+                    "l5",
+                    "l1",
+                    "l5"
+                  ]
+                ],
+                "running_total": 40,
+                "running_total_multiplier": 0,
+                "win_total": 0
+              }
+            ],
+            "high_grid": false,
+            "top_list": {
+              "multipliers": [
+                "rm12",
+                "rm5",
+                "rm4",
+                "rm3",
+                "rm2"
+              ]
+            },
+            "win": 40
+          }
+        },
+        "freebets": null,
+        "state_lock": "SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAmsS9Xp0BYgABUYA.-NlM2mpdsisN5dfsfqHDMlBDxBhgbr_FirRVrzrVar0"
+      },
+      "jsonrpc": "2.0"
+    },
+    "headers": {
+      "access-control-allow-headers": "Content-Type, X-Request-Id",
+      "access-control-allow-methods": "GET, POST, OPTIONS",
+      "access-control-allow-origin": "*",
+      "cache-control": "no-store",
+      "connection": "keep-alive",
+      "content-length": "1442",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Sun, 05 Apr 2026 17:42:59 GMT",
+      "keep-alive": "timeout=15",
+      "x-request-id": "4697606deace45ecb90e21a5fbdf95c8"
+    },
+    "body": "{\"id\":\"5608a227-e5d2-4ee7-9500-63611a3c3547\",\"result\":{\"round\":\"b4aff371-a4f8-406f-9fe9-07cf8866e66d\",\"step\":\"11c67534-ca50-4702-93d7-27ff7f80b194\",\"final\":true,\"balance\":99240,\"resp\":{\"round\":{\"bet\":200,\"buy_id\":\"none\",\"freespins\":[],\"generations\":[{\"clusters\":[{\"base_payout\":40,\"cells\":[{\"x\":3,\"y\":0},{\"x\":5,\"y\":0},{\"x\":3,\"y\":1},{\"x\":5,\"y\":1},{\"x\":1,\"y\":2},{\"x\":4,\"y\":2},{\"x\":1,\"y\":3},{\"x\":4,\"y\":3}],\"payout\":40,\"symbol\":\"l4\",\"symbol_count\":8}],\"event\":{\"name\":\"Spin\"},\"grid_final\":[[\"l2\",\"h4\",\"l2\",\"l4\",\"l3\",\"l5\"],[\"sc\",\"l4\",\"l2\",\"l4\",\"l1\",\"l3\"],[\"l3\",\"l1\",\"h4\",\"l3\",\"l1\",\"l2\"],[\"l3\",\"l1\",\"h4\",\"l3\",\"l1\",\"l2\"],[\"l5\",\"l5\",\"l2\",\"l5\",\"l1\",\"l5\"]],\"grid_start\":[[\"l2\",\"l1\",\"l2\",\"l4\",\"l1\",\"l4\"],[\"sc\",\"l1\",\"l2\",\"l4\",\"l1\",\"l4\"],[\"l3\",\"l4\",\"h4\",\"l3\",\"l4\",\"l2\"],[\"l3\",\"l4\",\"h4\",\"l3\",\"l4\",\"l2\"],[\"l5\",\"l5\",\"l2\",\"l5\",\"l1\",\"l5\"]],\"running_total\":40,\"running_total_multiplier\":0,\"win_total\":40},{\"event\":{\"name\":\"Cascade\"},\"grid_final\":[[\"l2\",\"h4\",\"l2\",\"l4\",\"l3\",\"l5\"],[\"sc\",\"l4\",\"l2\",\"l4\",\"l1\",\"l3\"],[\"l3\",\"l1\",\"h4\",\"l3\",\"l1\",\"l2\"],[\"l3\",\"l1\",\"h4\",\"l3\",\"l1\",\"l2\"],[\"l5\",\"l5\",\"l2\",\"l5\",\"l1\",\"l5\"]],\"running_total\":40,\"running_total_multiplier\":0,\"win_total\":0}],\"high_grid\":false,\"top_list\":{\"multipliers\":[\"rm12\",\"rm5\",\"rm4\",\"rm3\",\"rm2\"]},\"win\":40}},\"freebets\":null,\"state_lock\":\"SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAmsS9Xp0BYgABUYA.-NlM2mpdsisN5dfsfqHDMlBDxBhgbr_FirRVrzrVar0\"},\"jsonrpc\":\"2.0\"}",
+    "at": 1775410980947
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8091/bgaming/api/gates-of-power",
+    "command": null,
+    "payload": {
+      "id": "03761196-62a7-477a-8514-e4a1c35c8de4",
+      "jsonrpc": "2.0",
+      "method": "play",
+      "params": {
+        "token": "d3125fcad73e59736d3ef84118792e6d",
+        "req": {
+          "bet": 200
+        },
+        "state_lock": "SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAmsS9Xp0BYgABUYA.-NlM2mpdsisN5dfsfqHDMlBDxBhgbr_FirRVrzrVar0"
+      }
+    },
+    "postData": "{\"id\":\"03761196-62a7-477a-8514-e4a1c35c8de4\",\"jsonrpc\":\"2.0\",\"method\":\"play\",\"params\":{\"token\":\"d3125fcad73e59736d3ef84118792e6d\",\"req\":{\"bet\":200},\"state_lock\":\"SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAmsS9Xp0BYgABUYA.-NlM2mpdsisN5dfsfqHDMlBDxBhgbr_FirRVrzrVar0\"}}",
+    "at": 1775411084072
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8091/bgaming/api/gates-of-power",
+    "command": null,
+    "payload": {
+      "id": "03761196-62a7-477a-8514-e4a1c35c8de4",
+      "result": {
+        "round": "a0277adb-1283-4b0b-96e6-a6653a420ed3",
+        "final": true,
+        "step": "e4ce4b2b-5d88-4075-8fce-efe368926a96",
+        "balance": 98300,
+        "resp": {
+          "round": {
+            "bet": 200,
+            "buy_id": "none",
+            "freespins": [],
+            "generations": [
+              {
+                "event": {
+                  "name": "Spin"
+                },
+                "grid_final": [
+                  [
+                    "l4",
+                    "l5",
+                    "l4",
+                    "h1",
+                    "l2",
+                    "l5"
+                  ],
+                  [
+                    "l4",
+                    "l5",
+                    "l4",
+                    "h1",
+                    "l2",
+                    "l5"
+                  ],
+                  [
+                    "l3",
+                    "l1",
+                    "l5",
+                    "l4",
+                    "h3",
+                    "h4"
+                  ],
+                  [
+                    "l3",
+                    "l1",
+                    "l5",
+                    "l4",
+                    "h3",
+                    "h4"
+                  ],
+                  [
+                    "l2",
+                    "h2",
+                    "l1",
+                    "h4",
+                    "l3",
+                    "l5"
+                  ]
+                ],
+                "running_total": 0,
+                "running_total_multiplier": 0,
+                "win_total": 0
+              }
+            ],
+            "high_grid": false,
+            "top_list": {
+              "multipliers": [
+                "rm15",
+                "rm6",
+                "rm5",
+                "rm3",
+                "rm2"
+              ]
+            },
+            "win": 0
+          }
+        },
+        "freebets": null,
+        "state_lock": "SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAo16_Xp0BYgABUYA._J2ZotpKb4Onxzb6kvOsARDLVtuIMsr3QiY-_L1qf7M"
+      },
+      "jsonrpc": "2.0"
+    },
+    "headers": {
+      "access-control-allow-headers": "Content-Type, X-Request-Id",
+      "access-control-allow-methods": "GET, POST, OPTIONS",
+      "access-control-allow-origin": "*",
+      "cache-control": "no-store",
+      "connection": "keep-alive",
+      "content-length": "801",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Sun, 05 Apr 2026 17:44:44 GMT",
+      "keep-alive": "timeout=15",
+      "x-request-id": "6845c39f9e4a4faf840752be6eb40613"
+    },
+    "body": "{\"id\":\"03761196-62a7-477a-8514-e4a1c35c8de4\",\"result\":{\"round\":\"a0277adb-1283-4b0b-96e6-a6653a420ed3\",\"final\":true,\"step\":\"e4ce4b2b-5d88-4075-8fce-efe368926a96\",\"balance\":98300,\"resp\":{\"round\":{\"bet\":200,\"buy_id\":\"none\",\"freespins\":[],\"generations\":[{\"event\":{\"name\":\"Spin\"},\"grid_final\":[[\"l4\",\"l5\",\"l4\",\"h1\",\"l2\",\"l5\"],[\"l4\",\"l5\",\"l4\",\"h1\",\"l2\",\"l5\"],[\"l3\",\"l1\",\"l5\",\"l4\",\"h3\",\"h4\"],[\"l3\",\"l1\",\"l5\",\"l4\",\"h3\",\"h4\"],[\"l2\",\"h2\",\"l1\",\"h4\",\"l3\",\"l5\"]],\"running_total\":0,\"running_total_multiplier\":0,\"win_total\":0}],\"high_grid\":false,\"top_list\":{\"multipliers\":[\"rm15\",\"rm6\",\"rm5\",\"rm3\",\"rm2\"]},\"win\":0}},\"freebets\":null,\"state_lock\":\"SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAo16_Xp0BYgABUYA._J2ZotpKb4Onxzb6kvOsARDLVtuIMsr3QiY-_L1qf7M\"},\"jsonrpc\":\"2.0\"}",
+    "at": 1775411085417
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8091/bgaming/api/gates-of-power",
+    "command": null,
+    "payload": {
+      "id": "7e41e06f-f635-4af0-8a71-00c2ee34707c",
+      "jsonrpc": "2.0",
+      "method": "play",
+      "params": {
+        "token": "d3125fcad73e59736d3ef84118792e6d",
+        "req": {
+          "bet": 200
+        },
+        "state_lock": "SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAo16_Xp0BYgABUYA._J2ZotpKb4Onxzb6kvOsARDLVtuIMsr3QiY-_L1qf7M"
+      }
+    },
+    "postData": "{\"id\":\"7e41e06f-f635-4af0-8a71-00c2ee34707c\",\"jsonrpc\":\"2.0\",\"method\":\"play\",\"params\":{\"token\":\"d3125fcad73e59736d3ef84118792e6d\",\"req\":{\"bet\":200},\"state_lock\":\"SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAo16_Xp0BYgABUYA._J2ZotpKb4Onxzb6kvOsARDLVtuIMsr3QiY-_L1qf7M\"}}",
+    "at": 1775411178710
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8091/bgaming/api/gates-of-power",
+    "command": null,
+    "payload": {
+      "id": "7e41e06f-f635-4af0-8a71-00c2ee34707c",
+      "result": {
+        "round": "cf4c9890-1929-4e8a-ae34-91f225f20c29",
+        "final": true,
+        "step": "6592fbab-30ad-44a0-884d-726ee70e4da8",
+        "balance": 97900,
+        "resp": {
+          "round": {
+            "bet": 200,
+            "buy_id": "none",
+            "freespins": [],
+            "generations": [
+              {
+                "event": {
+                  "name": "Spin"
+                },
+                "grid_final": [
+                  [
+                    "l2",
+                    "l1",
+                    "l2",
+                    "l1",
+                    "l4",
+                    "l4"
+                  ],
+                  [
+                    "l2",
+                    "l1",
+                    "l2",
+                    "l1",
+                    "l4",
+                    "l4"
+                  ],
+                  [
+                    "l5",
+                    "h1",
+                    "l1",
+                    "l2",
+                    "h4",
+                    "l5"
+                  ],
+                  [
+                    "l5",
+                    "h1",
+                    "sc",
+                    "l2",
+                    "h4",
+                    "l5"
+                  ],
+                  [
+                    "l5",
+                    "l5",
+                    "l3",
+                    "l1",
+                    "l4",
+                    "l5"
+                  ]
+                ],
+                "running_total": 0,
+                "running_total_multiplier": 0,
+                "win_total": 0
+              }
+            ],
+            "high_grid": false,
+            "top_list": {
+              "multipliers": [
+                "rm5",
+                "rm5",
+                "rm4",
+                "rm4",
+                "rm2"
+              ]
+            },
+            "win": 0
+          }
+        },
+        "freebets": null,
+        "state_lock": "SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAXdDAXp0BYgABUYA.92G6KP4W5lrU3-PkvTopIfHm78P_Jgh1XK9o73GdfyU"
+      },
+      "jsonrpc": "2.0"
+    },
+    "headers": {
+      "access-control-allow-headers": "Content-Type, X-Request-Id",
+      "access-control-allow-methods": "GET, POST, OPTIONS",
+      "access-control-allow-origin": "*",
+      "cache-control": "no-store",
+      "connection": "keep-alive",
+      "content-length": "800",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Sun, 05 Apr 2026 17:46:18 GMT",
+      "keep-alive": "timeout=15",
+      "x-request-id": "361842c3c41e4d45a983ff6b58301b32"
+    },
+    "body": "{\"id\":\"7e41e06f-f635-4af0-8a71-00c2ee34707c\",\"result\":{\"round\":\"cf4c9890-1929-4e8a-ae34-91f225f20c29\",\"final\":true,\"step\":\"6592fbab-30ad-44a0-884d-726ee70e4da8\",\"balance\":97900,\"resp\":{\"round\":{\"bet\":200,\"buy_id\":\"none\",\"freespins\":[],\"generations\":[{\"event\":{\"name\":\"Spin\"},\"grid_final\":[[\"l2\",\"l1\",\"l2\",\"l1\",\"l4\",\"l4\"],[\"l2\",\"l1\",\"l2\",\"l1\",\"l4\",\"l4\"],[\"l5\",\"h1\",\"l1\",\"l2\",\"h4\",\"l5\"],[\"l5\",\"h1\",\"sc\",\"l2\",\"h4\",\"l5\"],[\"l5\",\"l5\",\"l3\",\"l1\",\"l4\",\"l5\"]],\"running_total\":0,\"running_total_multiplier\":0,\"win_total\":0}],\"high_grid\":false,\"top_list\":{\"multipliers\":[\"rm5\",\"rm5\",\"rm4\",\"rm4\",\"rm2\"]},\"win\":0}},\"freebets\":null,\"state_lock\":\"SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAXdDAXp0BYgABUYA.92G6KP4W5lrU3-PkvTopIfHm78P_Jgh1XK9o73GdfyU\"},\"jsonrpc\":\"2.0\"}",
+    "at": 1775411180591
+  }
+]

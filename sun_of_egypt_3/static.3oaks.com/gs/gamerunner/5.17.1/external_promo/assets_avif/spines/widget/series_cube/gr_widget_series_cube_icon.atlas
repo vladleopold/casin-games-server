@@ -1,0 +1,62 @@
+
+gr_widget_series_cube_icon.avif
+size: 128,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cube
+  rotate: true
+  xy: 2, 2
+  size: 100, 92
+  orig: 100, 92
+  offset: 0, 0
+  index: -1
+dot
+  rotate: false
+  xy: 62, 184
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+light_1
+  rotate: false
+  xy: 2, 104
+  size: 58, 124
+  orig: 58, 124
+  offset: 0, 0
+  index: -1
+light_2
+  rotate: false
+  xy: 2, 369
+  size: 68, 138
+  orig: 68, 138
+  offset: 0, 0
+  index: -1
+light_3
+  rotate: false
+  xy: 2, 230
+  size: 58, 137
+  orig: 58, 137
+  offset: 0, 0
+  index: -1
+light_4
+  rotate: false
+  xy: 62, 245
+  size: 53, 122
+  orig: 53, 122
+  offset: 0, 0
+  index: -1
+light_5
+  rotate: false
+  xy: 72, 403
+  size: 49, 104
+  orig: 49, 104
+  offset: 0, 0
+  index: -1
+star_5
+  rotate: false
+  xy: 62, 132
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1

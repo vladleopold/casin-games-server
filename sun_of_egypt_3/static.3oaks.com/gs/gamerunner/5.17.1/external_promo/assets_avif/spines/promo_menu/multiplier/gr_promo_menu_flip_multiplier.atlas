@@ -1,0 +1,41 @@
+
+gr_promo_menu_flip_multiplier.avif
+size: 215,138
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+counter_placeholder
+  rotate: false
+  xy: 2, 2
+  size: 112, 20
+  orig: 112, 20
+  offset: 0, 0
+  index: -1
+frame
+  rotate: true
+  xy: 75, 30
+  size: 106, 68
+  orig: 112, 72
+  offset: 3, 2
+  index: -1
+light
+  rotate: true
+  xy: 2, 24
+  size: 112, 71
+  orig: 112, 71
+  offset: 0, 0
+  index: -1
+multiplier
+  rotate: true
+  xy: 145, 30
+  size: 106, 68
+  orig: 112, 72
+  offset: 3, 2
+  index: -1
+particle
+  rotate: false
+  xy: 116, 5
+  size: 23, 23
+  orig: 25, 25
+  offset: 1, 1
+  index: -1

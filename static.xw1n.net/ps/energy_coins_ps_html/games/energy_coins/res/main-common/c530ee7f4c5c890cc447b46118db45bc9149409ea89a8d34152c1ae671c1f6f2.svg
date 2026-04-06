@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="392" height="63" viewBox="0 0 392 63">
+  <defs>
+    <filter id="Rectangle_93" x="0" y="0" width="392" height="63" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="confirm_button" transform="translate(0 0)">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_93)">
+      <rect id="Rectangle_93-2" data-name="Rectangle 93" width="392" height="63" rx="8" transform="translate(392 63) rotate(180)" fill="#4dc100"/>
+    </g>
+    <path id="Path_94" data-name="Path 94" d="M191.508 37.775L207.046 22.2375C207.412 21.8708 207.84 21.6875 208.329 21.6875C208.818 21.6875 209.246 21.8708 209.612 22.2375C209.979 22.6042 210.162 23.0396 210.162 23.5438C210.162 24.0479 209.979 24.4833 209.612 24.85L192.792 41.7167C192.425 42.0833 191.997 42.2667 191.508 42.2667C191.019 42.2667 190.592 42.0833 190.225 41.7167L182.342 33.8333C181.975 33.4667 181.799 33.0313 181.815 32.5271C181.83 32.0229 182.021 31.5875 182.387 31.2208C182.754 30.8542 183.19 30.6708 183.694 30.6708C184.198 30.6708 184.633 30.8542 185 31.2208L191.508 37.775Z" fill="white"/>
+  </g>
+</svg>

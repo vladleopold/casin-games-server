@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+
+<defs>
+<style>.white_90{fill:#fff;opacity:0.9;}.white_42{fill:#fff;opacity:0.42;}</style>
+
+<filter id="dropshadow" x="-10" y="-10" width="90" height="90" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+</filter>
+    
+</defs>
+
+<path class="white_90" filter="url(#dropshadow)" d="M29.35,25.82V12a2.5,2.5,0,1,0-5,0V26.85a2.49,2.49,0,0,0,.73,1.77l6.72,6.72a2.51,2.51,0,0,0,3.54,0,2.52,2.52,0,0,0,0-3.54ZM26.85,0A26.85,26.85,0,1,0,53.7,26.85,26.87,26.87,0,0,0,26.85,0Zm0,48.7A21.85,21.85,0,1,1,48.7,26.85,21.87,21.87,0,0,1,26.85,48.7Z" transform="translate(13 13)" />
+
+</svg>

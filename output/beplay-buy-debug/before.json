@@ -1,0 +1,93 @@
+{
+  "buy": {
+    "className": "disabled",
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "0.7",
+    "pointerEvents": "none",
+    "rect": {
+      "x": 28.796875,
+      "y": 740,
+      "width": 90,
+      "height": 90
+    }
+  },
+  "spin": {
+    "className": "disabled",
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "0.7",
+    "pointerEvents": "none",
+    "rect": {
+      "x": 1185.515625,
+      "y": 347.890625,
+      "width": 180,
+      "height": 180.75
+    }
+  },
+  "bet": {
+    "className": "disabled",
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "0.7",
+    "pointerEvents": "none",
+    "rect": {
+      "x": 1291.6875,
+      "y": 625.203125,
+      "width": 67.5,
+      "height": 67.5
+    }
+  },
+  "menu": {
+    "className": "disabled",
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "0.7",
+    "pointerEvents": "none",
+    "rect": {
+      "x": 1291.6875,
+      "y": 183.828125,
+      "width": 67.5,
+      "height": 67.5
+    }
+  },
+  "autoplay": {
+    "className": "disabled",
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "0.7",
+    "pointerEvents": "none",
+    "rect": {
+      "x": 1259.171875,
+      "y": 536.65625,
+      "width": 81,
+      "height": 80.15625
+    }
+  },
+  "turbo": {
+    "className": "disabled",
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "0.7",
+    "pointerEvents": "none",
+    "rect": {
+      "x": 1259.171875,
+      "y": 259.296875,
+      "width": 81,
+      "height": 81
+    }
+  },
+  "sound": {
+    "className": "disabled",
+    "display": "block",
+    "visibility": "visible",
+    "opacity": "0.7",
+    "pointerEvents": "none",
+    "rect": {
+      "x": 1291.6875,
+      "y": 50.390625,
+      "width": 67.5,
+      "height": 67.5
+    }
+  }
+}

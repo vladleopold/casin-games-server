@@ -1,0 +1,71 @@
+sym_hp1-H9zTng.avif
+	size: 877, 206
+	format: RGBA4444
+	filter: Linear, Linear
+	scale: 0.4
+.misc/romb
+	bounds: 848, 184, 20, 20
+	offsets: 2, 2, 24, 24
+hp1/hp1_blueberry_1
+	bounds: 655, 48, 21, 20
+	rotate: 90
+hp1/hp1_blueberry_1_shadow
+	bounds: 305, 10, 19, 10
+	offsets: 0, 0, 19, 13
+hp1/hp1_blueberry_2
+	bounds: 579, 10, 35, 34
+	rotate: 90
+hp1/hp1_blueberry_2_shadow
+	bounds: 218, 4, 31, 16
+	offsets: 0, 0, 31, 18
+hp1/hp1_blueberry_3
+	bounds: 650, 11, 34, 29
+	rotate: 90
+hp1/hp1_flower
+	bounds: 533, 10, 44, 35
+hp1/hp1_flower_shadow
+	bounds: 172, 3, 44, 17
+hp1/hp1_frame
+	bounds: 2, 10, 168, 194
+hp1/hp1_fx_dot
+	bounds: 251, 6, 14, 13
+	offsets: 1, 2, 16, 16
+	rotate: 90
+hp1/hp1_honey_1
+	bounds: 615, 10, 33, 35
+	offsets: 1, 0, 34, 35
+hp1/hp1_honey_3
+	bounds: 444, 5, 59, 39
+hp1/hp1_honey_4
+	bounds: 402, 2, 40, 42
+	offsets: 0, 0, 42, 42
+hp1/hp1_honey_5
+	bounds: 505, 6, 26, 38
+hp1/hp1_honey_main_part
+	bounds: 800, 74, 130, 46
+	rotate: 90
+hp1/hp1_ice_cream_cat
+	bounds: 681, 2, 67, 62
+	rotate: 90
+hp1/hp1_ice_creame_ball
+	bounds: 355, 2, 45, 42
+hp1/hp1_ice_creame_ball_shadow
+	bounds: 266, 8, 37, 12
+	offsets: 0, 1, 38, 14
+hp1/hp1_object_shadow
+	bounds: 514, 47, 139, 157
+	offsets: 4, 0, 144, 157
+hp1/hp1_pancakes_1
+	bounds: 745, 6, 130, 64
+hp1/hp1_pancakes_2
+	bounds: 728, 72, 132, 70
+	rotate: 90
+hp1/hp1_pancakes_3
+	bounds: 655, 71, 133, 71
+	rotate: 90
+hp1/hp1_red_back
+	bounds: 355, 46, 158, 157
+	rotate: 90
+hp1/hp1_vfx_Ellipse
+	bounds: 172, 22, 182, 181
+	rotate: 90

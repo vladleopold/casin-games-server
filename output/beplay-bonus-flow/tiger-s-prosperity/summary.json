@@ -1,0 +1,24 @@
+{
+  "launchUrl": "http://127.0.0.1:8083/beplay/location?game=tiger-s-prosperity&key=&language=uk&operator=slotscity&lobbyUrl=https%3A%2F%2Fslotcity.ua%2F&currency=uah&depositUrl=https%3A%2F%2Fslotcity.ua%2Fcashbox%3Fbackgameurl%3Dbeplay-tigers-prosperity&exitTarget=self&channel=desktop&rgs=beplay&provider=beplay&forceAction=free_spins_buy&forceBet=50.00",
+  "game": "tiger-s-prosperity",
+  "forcedAction": "free_spins_buy",
+  "forcedBet": "50.00",
+  "pageErrors": 0,
+  "bodyText": "Грати зі звуком?\nТАК\nНІ\nFREE SPINS ІЗ WILD SCATTER ТА MULTIPLIERS.\n0%\nНАТИСНІТЬ, ЩОБ ПОЧАТИ",
+  "play": {
+    "requestCount": 0,
+    "responseCount": 0,
+    "firstRequest": null,
+    "firstResponse": null
+  },
+  "complete": {
+    "requestCount": 0,
+    "responseCount": 0,
+    "firstRequest": null,
+    "firstResponse": null
+  },
+  "freeSpinsTriggered": false,
+  "freeSpinsRequest": null,
+  "freeSpinsResponse": null,
+  "firstPlayResponse": null
+}

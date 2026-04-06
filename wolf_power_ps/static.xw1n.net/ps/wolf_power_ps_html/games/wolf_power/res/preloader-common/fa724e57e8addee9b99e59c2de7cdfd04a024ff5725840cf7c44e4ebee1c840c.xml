@@ -1,0 +1,107 @@
+<config>
+	<string id="PRELOADER_PLAY_BUTTON" x="293" y="80" size="68" font="SFBold" align="center" color="#ffffff">PLAY</string>
+	<string id="PRELOADER_CONTINUE_BUTTON" x="293" y="80" size="68" font="SFBold" align="center" color="#ffffff">CONTINUE</string>
+	<string id="PRELOADER_PROGRESS" x="300" y="90" size="50" font="SF" color="#ffffff" align="center">${value}%</string>
+	<string id="POSTLOADER_REGULAR" x="180" y="-30" size="20" font="SF" align="center" color="#ffffff">Loading. Please wait...<n y="30"/>${value}%</string>
+	<string id="POSTLOADER_RECONNECT" x="180" y="-30" size="20" font="SF" align="center" color="#ffffff">You have an unfinished game session. Please wait...<n y="30"/>${value}%</string>
+
+	<string id="GUI_PORTRAIT_PARTNER_INFO" font="SF" x="460" y="5" size="40" color="#ffffff" align="center">${text}</string>
+
+	<string id="GUI_AUTOPLAY_TITLE" font="SFBold" color="#FFFFFF" size="34" align="center">AUTOPLAY</string>
+	
+	<string id="GUI_AUTOPLAY_NUMBER" x="0" y="-70" font="SFBold" color="#FFFFFF" size="40" align="left">Number of Spins</string>
+	<string id="GUI_AUTOPLAY_NUMBER_SIMPLE" x="0" y="-70" font="SFBold" color="#FFFFFF" size="40" align="center">Number of Spins</string>
+	
+	<string id="GUI_AUTOPLAY_CHOOSE" x="80" y="35"  font="SFBold" color="#FFFFFF" size="60" align="center">${value}</string>
+	<string id="GUI_AUTOPLAY_FAKE_START_BUTTON" x="260" y="50"  font="SFBold" color="#FFFFFF" size="30" align="center">Set the
+Loss Limit!</string>
+	
+	<string id="GUI_AUTOPLAY_SAVE" x="78" y="90" font="SFBold" size="30" align="center" color="#ffffff">SAVE</string>
+	<string id="GUI_AUTOPLAY_SAVE_SIMPLE" x="-20" y="23" font="SFBold" size="30" align="right" color="#ffffff">SAVE</string>
+	
+	<string id="GUI_AUTOPLAY_LOSS_LIMIT_TEXT"  x="0" y="-80" font="SFBold" color="#ffffff" size="40">Loss Limit</string>
+	<string id="GUI_AUTOPLAY_LOSS_LIMIT_VALUE_ON"  x="700" y="-80" font="SFBold" color="#ffffff" size="40" align="right">${value}</string>
+	<string id="GUI_AUTOPLAY_LOSS_LIMIT_VALUE_OFF" x="700" y="-80" font="SFBold" size="40" align="right" color="rgba(255,255,255,0.42)">off</string>
+	<string id="GUI_AUTOPLAY_SINGLE_WIN_LIMIT_TEXT"  x="0" y="-80" font="SFBold" color="#ffffff" size="40">Single Win Limit</string>
+	<string id="GUI_AUTOPLAY_SINGLE_WIN_LIMIT_VALUE_ON"  x="700" y="-80" font="SFBold" color="#ffffff" size="40" align="right">${value}</string>
+	<string id="GUI_AUTOPLAY_SINGLE_WIN_LIMIT_VALUE_OFF" x="700" y="-80" font="SFBold" size="40" align="right" color="rgba(255,255,255,0.42)">off</string>
+	<string id="GUI_AUTOPLAY_COUNTER" size="36" font="SFBold" color="#ffffff" align="center">${value}</string>
+
+	<string id="GUI_BALANCE"	font="SFBold" align="left" color="rgba(255,255,255,0.6)" size="28">CREDIT</string>
+	<string id="GUI_NET_POSITION" font="SFBold" align="left" color="rgba(255,255,255,0.6)" size="22">NET POSITION:</string>
+	<string id="GUI_TOTAL_BET"	font="SFBold" align="left" color="rgba(255,255,255,0.6)" size="28">BET</string>
+	<string id="GUI_TOTAL_WIN"	font="SFBold" align="left" color="rgba(255,255,255,0.6)" size="28">TOTAL WIN</string>
+	<string id="GUI_LAST_WIN"	font="SFBold" align="left" color="rgba(255,255,255,0.6)" size="28">LAST WIN</string>
+	<string id="GUI_WIN"		font="SFBold" align="left" color="rgba(255,255,255,0.6)" size="28">WIN</string>
+	<string id="GUI_BET_LABEL" x="0" y="35" font="SFBold" align="center" size="60" color="#ffffff">${value}</string>
+	<string id="GUI_BET_MENU"	font="SFBold" align="center" size="34" color="#ffffff">CHOOSE YOUR BET</string>
+	<string id="GUI_SETTINGS_TITLE" font="SFBold" align="center" size="34" color="#ffffff">SOUND SETTINGS</string>
+	<string id="GUI_PAYTABLE_TITLE" font="SFBold" align="center" size="34" color="#ffffff">GAME INFO</string>
+	<string id="GUI_PAYTABLE_LINK" font="SFBold" align="left" size="26" color="#ffffff">Hulp tekst</string>
+	<string id="GUI_MENU_LOBBY_BUTTON" x="100" y="12" font="SFBold" size="30" linespacing="3" color="#999999">Go to Lobby
+<string size="25">Exit game</string></string>
+	<string id="GUI_MENU_HISTORY_BUTTON" x="100" y="10" font="SFBold" size="30" linespacing="3" color="#999999">Round History
+<string size="25">Open in new window</string></string>
+
+	<string id="GUI_SETTINGS_MUSIC_LABEL" y="-30" font="SFBold" align="left" size="34" color="#ffffff">Music</string>
+	<string id="GUI_SETTINGS_MUSIC_VALUE" y="-30" font="SFBold" align="right" size="34"><string color="#ffffff" if="enabled">${value}%</string><string color="#999999" ifnot="enabled">off</string></string>
+	<string id="GUI_SETTINGS_SFX_LABEL" y="-30" font="SFBold" align="left" size="34" color="#ffffff">Sounds</string>
+
+	<string id="GUI_GIFTSPINS" font="SFBold" align="center" color="rgba(255,255,255,0.9)" size="30">${left}</string>
+
+	<string id="GUI_GAME_NAME" y="4" font="SFBold" size="30" color="rgba(255,255,255,0.42)">GAME NAME</string>
+	<string id="GUI_CLOCK" font="SFBold" size="30" color="rgba(255,255,255,0.42)"></string>
+	<string id="GUI_TIME_SPENT" font="SFBold" size="30" color="rgba(255,255,255,0.9)"></string>
+
+
+	<string id="GUI_CLOSE_TITLE" font="SFBold" size="60" align="center" color="#EEEEEE">EXIT GAME</string>
+	<string id="GUI_CLOSE_TEXT" font="SFBold" size="50" align="center" color="#EEEEEE">Are you sure you want
+to exit the game?</string>
+	<string id="GUI_CLOSE_QUIT_BUTTON" x="202" y="60" font="SFBold" size="60" align="center" color="#ffffff">YES</string>
+	<string id="GUI_CLOSE_PLAY_BUTTON" x="202" y="60" font="SFBold" size="60" align="center" color="#ffffff">NO</string>
+
+
+	<string id="TOOLTIP_START_STOP" color="rgba(255,255,255,0.9)" font="SFBold" size="20" align="center">Spin/Skip</string>
+	<string id="TOOLTIP_START_ONLY" color="rgba(255,255,255,0.9)" font="SFBold" size="20" align="center">Spin</string>
+	<string id="TOOLTIP_QUICK_SPIN" color="rgba(255,255,255,0.9)" font="SFBold" size="20">Quick Spin</string>
+	<string id="TOOLTIP_SOUND" color="rgba(255,255,255,0.9)" font="SFBold" size="20">Sound</string>
+	<string id="TOOLTIP_AUTOPLAY" color="rgba(255,255,255,0.9)" font="SFBold" size="20">Autoplay</string>
+	<string id="TOOLTIP_AUTOPLAY_STOP" color="rgba(255,255,255,0.9)" font="SFBold" size="20" align="center">Stop Autoplay</string>
+	<string id="TOOLTIP_BET_MENU" color="rgba(255,255,255,0.9)" font="SFBold" size="20">Bet Menu</string>
+	<string id="TOOLTIP_MENU" color="rgba(255,255,255,0.9)" font="SFBold" size="20">Game Menu</string>
+	<string id="TOOLTIP_SETTINGS" color="rgba(255,255,255,0.9)" font="SFBold" size="20">Settings</string>
+	<string id="TOOLTIP_INFO" color="rgba(255,255,255,0.9)" font="SFBold" size="20">Information</string>
+
+	<string id="KEY_ENTER" color="rgba(255,255,255,0.9)" font="SFBold" size="15" align="center">ENTER</string>
+	<string id="KEY_SPACE" color="rgba(255,255,255,0.9)" font="SFBold" size="15" align="center">SPACE</string>
+	<string id="KEY_I" color="rgba(255,255,255,0.9)" font="SFBold" size="15">I</string>
+	<string id="GUI_MAX_WIN_PROBABILITY_RTP" font="SFBold" size="18" align="center" color="#ffffff">MAX WIN ${max_win} (1:${max_win_chance})<string ifnot="isPortrait"><n y="2"/>RTP ${rtp}%</string><string if="isPortrait"> RTP ${rtp}%</string></string>
+
+	<string id="GUI_MENU_TITLE" font="SFBold" align="center" size="34" color="#ffffff">MENU</string>
+	<string id="GUI_MENU_SETTINGS_BUTTON" x="100" y="25" font="SFBold" size="34" color="#ffffff">Sound Settings</string>
+	<string id="GUI_MENU_PAYTABLE_BUTTON" x="100" y="25" font="SFBold" size="34" color="#ffffff">Game Info</string>
+	<string id="GUI_MENU_SETTINGS_BUTTON_DISABLED" x="100" y="25" font="SFBold" size="34" color="#ff9100">Sound Settings</string>
+	<string id="GUI_MENU_PAYTABLE_BUTTON_DISABLED" x="100" y="25" font="SFBold" size="34" color="#ff9100">Game Info</string>
+	<string id="GUI_MENU_CLOSE_BUTTON" x="0" y="25" font="SFBold" align="right" size="34" color="#999999">Close</string>
+	<string id="GUI_MENU_BACK_BUTTON" x="80" y="25" font="SFBold" size="34" color="#999999">Back to Menu</string>
+
+
+	<string id="GUI_AUTOPLAY_BUTTON_TEXT" size="36" font="SFBold" color="#ffffff" align="center">AUTO</string>
+	<string id="GUI_QUICKSPIN_ON" size="36" font="SFBold" color="#ffffff" align="center">ON</string>
+	<string id="GUI_QUICKSPIN_OFF" size="36" font="SFBold" color="#ffffff" align="center">OFF</string>
+<string id="GUI_MENU_MAX_WIN_PROBABILITY_RTP" font="SFBold" align="left" size="26" color="#ffffff">MAX WIN ${max_win} (1:${max_win_chance}) RTP ${rtp}%</string>
+
+	<string id="HOLD_FOR_TURBO_UP" x="142" y="115" size="28" font="SFBold" color="#ffffff" align="center">HOLD FOR<n y="2"></n>TURBO</string>
+	<string id="HOLD_FOR_TURBO_OVER" x="142" y="115" size="30" font="SFBold" color="#ffffff" align="center">HOLD FOR<n y="2"></n>TURBO</string>
+	<string id="HOLD_FOR_TURBO_DISABLED" x="142" y="115" size="28" font="SFBold" color="#ffffff" align="center">HOLD FOR<n y="2"></n>TURBO</string>
+	<string id="HOLD_FOR_TURBO_DOWN" x="142" y="117" size="26" font="SFBold" color="#ffffff" align="center">HOLD FOR<n y="2"></n>TURBO</string>
+
+	<string id="HOLD_FOR_QUICK_UP" x="142" y="115" size="28" font="SFBold" color="#ffffff" align="center">HOLD FOR<n y="2"></n>QUICK SPIN</string>
+	<string id="HOLD_FOR_QUICK_OVER" x="142" y="115" size="30" font="SFBold" color="#ffffff" align="center">HOLD FOR<n y="2"></n>QUICK SPIN</string>
+	<string id="HOLD_FOR_QUICK_DISABLED" x="142" y="115" size="28" font="SFBold" color="#ffffff" align="center">HOLD FOR<n y="2"></n>QUICK SPIN</string>
+	<string id="HOLD_FOR_QUICK_DOWN" x="142" y="117" size="26" font="SFBold" color="#ffffff" align="center">HOLD FOR<n y="2"></n>QUICK SPIN</string>
+
+	<string id="GUI_MIN_MAX_BETS" font="SFBold" align="left" size="26" color="#ffffff">Min Bet: ${minBet}. Max Bet: ${maxBet}</string>
+	<string id="GUI_PAYTABLE_MAX_MULT" size="26" font="SF" color="#92928f" align="center" linespacing="7">The maximum win amount is ${value} times the bet.</string>
+	
+</config>

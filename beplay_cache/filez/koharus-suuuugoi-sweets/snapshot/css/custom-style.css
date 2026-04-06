@@ -1,0 +1,87 @@
+:root {
+    --btn-primary-stroke: #FFD0FF;
+    --btn-primary-glow: #FFD3FF;
+    --btn-primary-gradient-start: #FFADFF;
+    --btn-primary-gradient-end: #FFD0FF;
+    --btn-primary-background: #011454;
+    --btn-primary-accent: #00CCFF;
+
+    --btn-white: #ffd3ff;
+    --btn-shadow: rgba(0, 0, 0, 0.6);
+    --btn-inner-glow: rgba(255, 255, 255, 0.6);
+}
+
+.theme-pink {
+    --btn-primary-stroke: #FFD0FF;
+    --btn-primary-glow: #FFD3FF;
+    --btn-primary-gradient-start: #FFADFF;
+    --btn-primary-gradient-end: #FFD0FF;
+    --btn-primary-background: #011454;
+    --btn-primary-accent: #00CCFF;
+}
+
+.btn-background {
+    fill: var(--btn-primary-background);
+    fill-opacity: 0.8;
+}
+
+.btn-stroke {
+    stroke: var(--btn-primary-stroke);
+    stroke-opacity: 0.8;
+    stroke-width: 3;
+}
+
+.btn-glow {
+    fill: var(--btn-primary-glow);
+    fill-opacity: 0.51;
+}
+
+.btn-inner-glow {
+    fill: var(--btn-white);
+    fill-opacity: 0.6;
+}
+
+.btn-icon {
+    fill: var(--btn-white);
+}
+
+.btn-accent {
+    fill: var(--btn-primary-accent);
+    fill-opacity: 0.44;
+}
+
+.btn-gradient-ring {
+    opacity: 1;
+}
+
+:root {
+    --gradient-color: 255, 208, 255;
+}
+
+.theme-pink {
+    --gradient-color: 255, 208, 255;
+}
+
+.btn-gradient-primary {
+    fill: url(#btn-gradient-primary);
+}
+
+.btn-gradient-primary-start {
+    stop-color: var(--btn-primary-gradient-start);
+}
+
+.btn-gradient-primary-end {
+    stop-color: var(--btn-primary-gradient-end);
+}
+
+.btn-shadow {
+    filter: drop-shadow(0 4px 8px var(--btn-shadow));
+}
+
+.btn-no-shadow {
+    filter: none;
+}
+
+.boost-mode #total-bet, .boost-mode #total-bet-label {
+    color: #FFD0FF;
+}

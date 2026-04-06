@@ -1,0 +1,35 @@
+[
+  {
+    "type": "request",
+    "url": "http://127.0.0.1:8082/beplay/api/authenticate",
+    "postData": "{\"wallet\":\"demo\",\"operator\":\"slotscity\",\"key\":\"random-user-2150610051:995:usd\",\"provider\":\"beplay\",\"game\":\"tiger-s-prosperity\"}"
+  },
+  {
+    "type": "response",
+    "url": "http://127.0.0.1:8082/beplay/api/authenticate",
+    "status": 200,
+    "body": "{\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiWldWbU5qaG1OVGN5TTJZNE1HUmpZMlUwWkRRM04yVXhOemt4WlRrMFltVXhaall6WldKalpEUmhZalEwTm1Rd016SXhNRGsxWkRWa1lXUTRNV1U0WVRsaU1XWmtZbU13TXpRME9UQTRPVFZqTlRFeU9UZzJZbVprTURrMVptSXpNak0zWTJaaU5XWXhObVEwT1RFMVlqQTRZV0UxWWpZMllqVmhNR00zTXpSa05HSmlZV0V4TkRRMU1ESTVaVFJpTVdWaVltSXhZMk14Wm1SbU1UQXhaVE5rTldNNFpUVTJZMlJpTldFeFlUQmpNMkZrTVdaaU56ZzJNelExWlRsaE1qZGlNbVU0WWpZeE1HSTVZMk16TUdSbE1ETTNaalJpWlRnNVpHWTBORFV5TUdRNU5qazBOelF3T1RsaVpUWmhPR1ptWkdVeE16VXpNbVl6TjJOa1l6RTRNemcxWVRaaU9XWTRaVEkwWmprNU5qZzBOekl3WVRobU9XVXlObVprTm1GaU1qTmtOVEppTnpneE0yWm1aRGcxTkdSbU9URXlaREF4TkRNeVpUYzBNMk0xWW1NM05UUmpZelU1TlRBMFpXVTNPVE0zTkdKaVl6Z3pZV0ZpWmpNNFptUXhOR1F5TWpkaFlqUXlZbU13TjJaaU16bGtaV1pqTTJKaE5URmxOakEwTlRSaU9XRTBaalZoWVRRek5qSmhaV0ZsT1dWalpqSmtNRFJpTkRreVl6RTNNMlkxWW1ZMllXWXdPREl5Tm1ReE9XVXdOREpoTjJJeVpETTNaakprTkRNeU5qTTRNREU0TURJMU4ySTNaR1l3WmpkbFlXRTFaR1JsTUdFMlkyRTJNVFl4T0RReFl6Tm1ZakppTVRWaU0yUm1aREJoWkdJeFlXTmpZbVE9IiwiaWF0IjoxNzc1MjkwODgzLCJleHAiOjE3NzY1MDA0ODMsImF1ZCI6InBsYXllciJ9.OozGry6jTwUU4omvZnT3qxyy1osZDIVfn6eA4tVR9n8\",\"balance\":995,\"currency\":\"USD\",\"currencyDecimals\":2,\"currencySymbol\":\"USD\",\"jurisdiction\":\"mt\",\"playerId\":\"1c5511e0-7393-4c8a-b25a-b581c10c4f30\",\"nickname\":null}"
+  },
+  {
+    "type": "request",
+    "url": "http://127.0.0.1:8082/beplay/api/game/info",
+    "postData": "{\"game\":\"tiger-s-prosperity\",\"provider\":\"beplay\"}"
+  },
+  {
+    "type": "request",
+    "url": "http://127.0.0.1:8082/beplay/api/game/recover",
+    "postData": "{\"game\":\"tiger-s-prosperity\",\"provider\":\"beplay\",\"complete\":false}"
+  },
+  {
+    "type": "response",
+    "url": "http://127.0.0.1:8082/beplay/api/game/info",
+    "status": 200,
+    "body": "{\"state\":{},\"bets\":{\"main\":{\"available\":[0.1,0.2,0.3,0.4,0.5,0.6,0.8,1,1.5,2,2.5,3,4,5,7.5,10,15,20,25,50,100],\"default\":1,\"coin\":20},\"free_spins_buy\":{\"available\":[10,15,20,25,30,40,50,75,100,125,150,200,250,375,500,750,1000,1250,2500,5000],\"default\":50,\"coin\":1000}},\"config\":{\"paylines\":[[2,2,2,2,2],[1,1,1,1,1],[0,0,0,0,0],[0,1,2,1,0],[2,1,0,1,2],[0,0,1,0,0],[2,2,1,2,2],[1,0,0,0,1],[1,2,2,2,1],[1,0,1,0,1],[1,2,1,2,1],[0,1,0,1,0],[2,1,2,1,2],[1,1,0,1,1],[1,1,2,1,1],[0,1,1,1,0],[2,1,1,1,2],[0,1,2,2,2],[2,1,0,0,0],[0,2,0,2,0]],\"paytable\":{\"0\":[0,0,50,160,800],\"1\":[0,0,30,120,500],\"2\":[0,0,24,80,400],\"3\":[0,0,22,60,300],\"4\":[0,0,16,40,160],\"5\":[0,0,16,40,160],\"6\":[0,0,16,40,160],\"7\":[0,0,8,30,80],\"8\":[0,0,8,30,80],\"9\":[0,0,8,30,80],\"10\":[0,0,8,30,80],\"11\":[],\"12\":[0,0,50,160,800]},\"paytableCoins\":20,\"buyFeatureConfig\":[{\"action\":\"free_spins_buy\",\"featureMultiplier\":50,\"featureType\":0}],\"version\":\"1.2.0\"},\"settings\":{\"autoplayForbidden\":\"false\",\"defaultCampaignThemeName\":\"{\\\"freeBets\\\": \\\"default-free-bets\\\"}\"},\"betLimits\":{\"minBet\":0.01,\"maxBet\":10000,\"maxExposure\":10000000,\"currencyRate\":1,\"currencyDecimals\":2,\"currencyUnit\":0.01,\"exchangeRate\":1}}"
+  },
+  {
+    "type": "response",
+    "url": "http://127.0.0.1:8082/beplay/api/game/recover",
+    "status": 200,
+    "body": "{\"rounds\":[]}"
+  }
+]

@@ -1,0 +1,61 @@
+{"frames": {
+"res/img/main/paylines/line_glow_7.png":
+{
+	"frame":{"x":1,"y":1,"w":827,"h":163},
+	"rotated":false,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":827,"h":163},
+	"sourceSize":{"w":827,"h":163}
+},
+"res/img/main/paylines/line_normal_16.png":
+{
+	"frame":{"x":1,"y":166,"w":827,"h":163},
+	"rotated":false,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":827,"h":163},
+	"sourceSize":{"w":827,"h":163}
+},
+"res/img/main/paylines/line_normal_17.png":
+{
+	"frame":{"x":1,"y":331,"w":827,"h":163},
+	"rotated":false,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":827,"h":163},
+	"sourceSize":{"w":827,"h":163}
+},
+"res/img/main/paylines/line_normal_7.png":
+{
+	"frame":{"x":1,"y":496,"w":827,"h":163},
+	"rotated":false,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":827,"h":163},
+	"sourceSize":{"w":827,"h":163}
+},
+"res/img/main/paylines/line_glow_6.png":
+{
+	"frame":{"x":1,"y":661,"w":827,"h":143},
+	"rotated":false,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":827,"h":143},
+	"sourceSize":{"w":827,"h":143}
+},
+"res/img/main/paylines/line_normal_6.png":
+{
+	"frame":{"x":1,"y":806,"w":827,"h":143},
+	"rotated":false,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":827,"h":143},
+	"sourceSize":{"w":827,"h":143}
+}
+},
+"meta":
+{
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"format": "RGBA8888",
+	"image": "paylines-7.png",
+	"size": {"w":829,"h":950},
+	"scale": 1,
+	"smartupdate":"$TexturePacker:SmartUpdate:fe514a3dac6e7e317521ccb56560728d:46287fd6a82edce78b5b20973a3f0581:7da3cf64ae107d4c208f14b5682866c0$"
+}
+}

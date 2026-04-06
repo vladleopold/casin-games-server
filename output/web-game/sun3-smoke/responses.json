@@ -1,0 +1,46 @@
+[
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/index.js?_ts=521881b9",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/init.js?748fbf6f",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/src/libs.js?748fbf6f",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/gr.js?521881b9",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/i18n/uk.json?521881b9",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/css/font-awesome.min.css?521881b9",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/css/fonts.css?521881b9",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/MANIFEST?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/fonts/Gilroy/Gilroy-Bold.woff2",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/betman.c1.3oaks.com/slotscity-prod-axis/log/",
+    "status": 204
+  }
+]

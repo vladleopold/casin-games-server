@@ -1,0 +1,532 @@
+[
+  {
+    "id": "ecbd7a58-56c0-4c51-b710-47449482e187",
+    "payload": {
+      "id": "ecbd7a58-56c0-4c51-b710-47449482e187",
+      "result": {
+        "round": "a6d24e8f-d6f8-40e1-8e7b-38506a4332fd",
+        "final": true,
+        "step": "4b1ca357-0bbf-4103-9fc6-057b5e0830cb",
+        "balance": 100440,
+        "resp": {
+          "round": {
+            "bet": 200,
+            "buy_id": "none",
+            "freespins": [],
+            "generations": [
+              {
+                "event": {
+                  "name": "Spin"
+                },
+                "grid_final": [
+                  [
+                    "l1",
+                    "h4",
+                    "l2",
+                    "l5",
+                    "l4",
+                    "h3"
+                  ],
+                  [
+                    "l1",
+                    "h4",
+                    "l2",
+                    "l5",
+                    "l4",
+                    "h3"
+                  ],
+                  [
+                    "l4",
+                    "l3",
+                    "h4",
+                    "l1",
+                    "h2",
+                    "l4"
+                  ],
+                  [
+                    "l4",
+                    "l3",
+                    "h4",
+                    "l1",
+                    "h2",
+                    "l4"
+                  ],
+                  [
+                    "l5",
+                    "l1",
+                    "l2",
+                    "h1",
+                    "l3",
+                    "l5"
+                  ]
+                ],
+                "running_total": 0,
+                "running_total_multiplier": 0,
+                "win_total": 0
+              }
+            ],
+            "high_grid": false,
+            "top_list": {
+              "multipliers": [
+                "rm25",
+                "rm6",
+                "rm5",
+                "rm3",
+                "rm3"
+              ]
+            },
+            "win": 0
+          }
+        },
+        "freebets": null,
+        "state_lock": "SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYABpHNXp0BYgABUYA.XYNFCntf6SzXQ6sb0eG4nmNkWxhynbAs6RPMC0WBrM0"
+      },
+      "jsonrpc": "2.0"
+    },
+    "at": 1775412014573
+  },
+  {
+    "id": "86229326-eb12-4190-b0c6-4f710001e47f",
+    "payload": {
+      "id": "86229326-eb12-4190-b0c6-4f710001e47f",
+      "result": {
+        "round": "a3ceea00-71a0-4152-92b6-2da95029e2f5",
+        "step": "7cc4f947-d71b-4f6a-9e64-a1922b241972",
+        "final": true,
+        "balance": 100340,
+        "resp": {
+          "round": {
+            "bet": 200,
+            "buy_id": "none",
+            "freespins": [],
+            "generations": [
+              {
+                "clusters": [
+                  {
+                    "base_payout": 80,
+                    "cells": [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 5,
+                        "y": 0
+                      },
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 0,
+                        "y": 2
+                      },
+                      {
+                        "x": 4,
+                        "y": 2
+                      },
+                      {
+                        "x": 0,
+                        "y": 3
+                      },
+                      {
+                        "x": 4,
+                        "y": 3
+                      },
+                      {
+                        "x": 0,
+                        "y": 4
+                      }
+                    ],
+                    "payout": 80,
+                    "symbol": "l2",
+                    "symbol_count": 9
+                  }
+                ],
+                "event": {
+                  "name": "Spin"
+                },
+                "grid_final": [
+                  [
+                    "l2",
+                    "h1",
+                    "l5",
+                    "l2",
+                    "l3",
+                    "l2"
+                  ],
+                  [
+                    "l4",
+                    "h1",
+                    "l5",
+                    "l5",
+                    "l1",
+                    "l2"
+                  ],
+                  [
+                    "l1",
+                    "l4",
+                    "l3",
+                    "l5",
+                    "l5",
+                    "l3"
+                  ],
+                  [
+                    "l4",
+                    "l4",
+                    "l3",
+                    "l5",
+                    "l5",
+                    "l3"
+                  ],
+                  [
+                    "l4",
+                    "h2",
+                    "l3",
+                    "l4",
+                    "l1",
+                    "l5"
+                  ]
+                ],
+                "grid_start": [
+                  [
+                    "l4",
+                    "h1",
+                    "l5",
+                    "l2",
+                    "l5",
+                    "l2"
+                  ],
+                  [
+                    "l4",
+                    "h1",
+                    "l5",
+                    "l2",
+                    "l5",
+                    "l2"
+                  ],
+                  [
+                    "l2",
+                    "l4",
+                    "l3",
+                    "l5",
+                    "l2",
+                    "l3"
+                  ],
+                  [
+                    "l2",
+                    "l4",
+                    "l3",
+                    "l5",
+                    "l2",
+                    "l3"
+                  ],
+                  [
+                    "l2",
+                    "h2",
+                    "l3",
+                    "l4",
+                    "l1",
+                    "l5"
+                  ]
+                ],
+                "running_total": 80,
+                "running_total_multiplier": 0,
+                "win_total": 80
+              },
+              {
+                "clusters": [
+                  {
+                    "base_payout": 20,
+                    "cells": [
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 3,
+                        "y": 2
+                      },
+                      {
+                        "x": 4,
+                        "y": 2
+                      },
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 4,
+                        "y": 3
+                      },
+                      {
+                        "x": 5,
+                        "y": 4
+                      }
+                    ],
+                    "payout": 20,
+                    "symbol": "l5",
+                    "symbol_count": 8
+                  }
+                ],
+                "event": {
+                  "name": "Cascade"
+                },
+                "grid_final": [
+                  [
+                    "l2",
+                    "h1",
+                    "l5",
+                    "l5",
+                    "h1",
+                    "h2"
+                  ],
+                  [
+                    "l4",
+                    "h1",
+                    "l1",
+                    "l4",
+                    "l5",
+                    "l2"
+                  ],
+                  [
+                    "l1",
+                    "l4",
+                    "l3",
+                    "h4",
+                    "l3",
+                    "l2"
+                  ],
+                  [
+                    "l4",
+                    "l4",
+                    "l3",
+                    "l2",
+                    "l1",
+                    "l3"
+                  ],
+                  [
+                    "l4",
+                    "h2",
+                    "l3",
+                    "l4",
+                    "l1",
+                    "l3"
+                  ]
+                ],
+                "grid_start": [
+                  [
+                    "l2",
+                    "h1",
+                    "l5",
+                    "l2",
+                    "l3",
+                    "l2"
+                  ],
+                  [
+                    "l4",
+                    "h1",
+                    "l5",
+                    "l5",
+                    "l1",
+                    "l2"
+                  ],
+                  [
+                    "l1",
+                    "l4",
+                    "l3",
+                    "l5",
+                    "l5",
+                    "l3"
+                  ],
+                  [
+                    "l4",
+                    "l4",
+                    "l3",
+                    "l5",
+                    "l5",
+                    "l3"
+                  ],
+                  [
+                    "l4",
+                    "h2",
+                    "l3",
+                    "l4",
+                    "l1",
+                    "l5"
+                  ]
+                ],
+                "running_total": 100,
+                "running_total_multiplier": 0,
+                "win_total": 20
+              },
+              {
+                "event": {
+                  "name": "Cascade"
+                },
+                "grid_final": [
+                  [
+                    "l2",
+                    "h1",
+                    "l5",
+                    "l5",
+                    "h1",
+                    "h2"
+                  ],
+                  [
+                    "l4",
+                    "h1",
+                    "l1",
+                    "l4",
+                    "l5",
+                    "l2"
+                  ],
+                  [
+                    "l1",
+                    "l4",
+                    "l3",
+                    "h4",
+                    "l3",
+                    "l2"
+                  ],
+                  [
+                    "l4",
+                    "l4",
+                    "l3",
+                    "l2",
+                    "l1",
+                    "l3"
+                  ],
+                  [
+                    "l4",
+                    "h2",
+                    "l3",
+                    "l4",
+                    "l1",
+                    "l3"
+                  ]
+                ],
+                "running_total": 100,
+                "running_total_multiplier": 0,
+                "win_total": 0
+              }
+            ],
+            "high_grid": false,
+            "top_list": {
+              "multipliers": [
+                "rm5",
+                "rm4",
+                "rm3",
+                "rm3",
+                "rm2"
+              ]
+            },
+            "win": 100
+          }
+        },
+        "freebets": null,
+        "state_lock": "SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAlbXNXp0BYgABUYA.ozcUjfPyxbvroN9-aSlofBQLwmXL0hCuWnLrB9Mzu9c"
+      },
+      "jsonrpc": "2.0"
+    },
+    "at": 1775412023940
+  },
+  {
+    "id": "8763c60d-d3af-44c3-829c-07303f8cf984",
+    "payload": {
+      "id": "8763c60d-d3af-44c3-829c-07303f8cf984",
+      "result": {
+        "round": "8f817671-0c3f-48a9-813d-16755f8b6de0",
+        "step": "05aa797b-d648-480c-b406-b905a396bac3",
+        "final": true,
+        "balance": 100140,
+        "resp": {
+          "round": {
+            "bet": 200,
+            "buy_id": "none",
+            "freespins": [],
+            "generations": [
+              {
+                "event": {
+                  "name": "Spin"
+                },
+                "grid_final": [
+                  [
+                    "h4",
+                    "l1",
+                    "l4",
+                    "l5",
+                    "l2",
+                    "l3"
+                  ],
+                  [
+                    "h4",
+                    "l1",
+                    "l4",
+                    "l5",
+                    "l2",
+                    "l3"
+                  ],
+                  [
+                    "l4",
+                    "l2",
+                    "l1",
+                    "l2",
+                    "l5",
+                    "l5"
+                  ],
+                  [
+                    "l4",
+                    "l2",
+                    "l1",
+                    "l2",
+                    "l5",
+                    "l5"
+                  ],
+                  [
+                    "h1",
+                    "l4",
+                    "l5",
+                    "h3",
+                    "l2",
+                    "l1"
+                  ]
+                ],
+                "running_total": 0,
+                "running_total_multiplier": 0,
+                "win_total": 0
+              }
+            ],
+            "high_grid": false,
+            "top_list": {
+              "multipliers": [
+                "rm4",
+                "rm2",
+                "rm2",
+                "rm2",
+                "rm2"
+              ]
+            },
+            "win": 0
+          }
+        },
+        "freebets": null,
+        "state_lock": "SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYACtrNXp0BYgABUYA.5NY5Lfnt8Vefc4gtNY1fuSvlj8JSYE47hfn0H-nhI5s"
+      },
+      "jsonrpc": "2.0"
+    },
+    "at": 1775412033267
+  }
+]

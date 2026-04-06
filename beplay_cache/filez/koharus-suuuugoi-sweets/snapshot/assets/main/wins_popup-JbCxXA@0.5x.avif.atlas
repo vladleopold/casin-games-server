@@ -1,0 +1,353 @@
+wins_popup-4pcQPg@0.5x.avif
+	size: 2048, 1024
+	format: RGBA4444
+	filter: Linear, Linear
+I
+	bounds: 1164, 194, 45, 101
+	offsets: 1, 1, 47, 104
+N
+	bounds: 1222, 247, 98, 102
+	offsets: 1, 1, 100, 104
+	rotate: 90
+W
+	bounds: 802, 413, 146, 102
+	offsets: 1, 1, 148, 104
+big_B
+	bounds: 1327, 265, 94, 100
+	offsets: 1, 1, 96, 102
+big_G
+	bounds: 1222, 348, 99, 102
+	offsets: 1, 1, 101, 104
+big_cat_head
+	bounds: 407, 543, 276, 193
+big_cat_kimono
+	bounds: 407, 391, 289, 149
+big_heart_1
+	bounds: 1775, 393, 26, 24
+	offsets: 0, 0, 27, 25
+big_heart_2
+	bounds: 1436, 438, 18, 17
+	offsets: 0, 0, 19, 18
+	rotate: 90
+big_heart_3
+	bounds: 1436, 460, 23, 21
+	offsets: 0, 0, 24, 22
+	rotate: 90
+big_heart_4
+	bounds: 1898, 584, 36, 33
+	offsets: 0, 0, 37, 34
+	rotate: 90
+big_light_effects
+	bounds: 1460, 566, 116, 110
+	rotate: 90
+big_smoke_effect
+	bounds: 620, 200, 211, 188
+big_star_7
+	bounds: 1934, 607, 39, 45
+	offsets: 1, 2, 42, 48
+	rotate: 90
+big_star_8
+	bounds: 2011, 596, 24, 29
+	offsets: 0, 0, 25, 30
+big_star_9
+	bounds: 2011, 563, 24, 29
+	offsets: 0, 0, 25, 30
+blik_popup
+	bounds: 1327, 206, 86, 55
+	offsets: 0, 0, 86, 56
+cat_belly
+	bounds: 3, 145, 318, 249
+cat_drop_shadow
+	bounds: 382, 739, 362, 68
+cat_kimono_drop_shadow
+	bounds: 324, 220, 292, 167
+container_size
+	bounds: 382, 901, 500, 120
+dwb_bow_1
+	bounds: 686, 550, 186, 114
+	rotate: 90
+dwb_bow_1_sh
+	bounds: 382, 810, 441, 87
+dwb_bow_1_tape_1
+	bounds: 1030, 466, 178, 59
+dwb_bow_1_tape_2
+	bounds: 1771, 760, 178, 60
+dwb_bow_2
+	bounds: 1952, 758, 89, 62
+dwb_bow_2_tape_1
+	bounds: 1765, 700, 143, 57
+dwb_bow_2_tape_2
+	bounds: 956, 274, 143, 57
+	rotate: 90
+dwb_bow_3
+	bounds: 336, 391, 312, 67
+	rotate: 90
+dwb_flowers_1
+	bounds: 1993, 707, 47, 48
+dwb_gold_decor_1
+	bounds: 747, 770, 76, 37
+dwb_gold_decor_2
+	bounds: 1116, 828, 76, 37
+dwb_gold_decor_3
+	bounds: 747, 743, 69, 23
+dwb_gold_decor_4
+	bounds: 1400, 134, 69, 23
+	rotate: 90
+epic_C
+	bounds: 976, 166, 97, 105
+	offsets: 0, 0, 98, 106
+epic_E
+	bounds: 1038, 59, 85, 104
+	offsets: 0, 0, 86, 105
+epic_I
+	bounds: 1343, 486, 45, 101
+	offsets: 0, 0, 46, 103
+	rotate: 90
+epic_N
+	bounds: 1212, 44, 98, 102
+	offsets: 0, 0, 99, 103
+	rotate: 90
+epic_P
+	bounds: 1123, 299, 95, 104
+	offsets: 0, 0, 96, 105
+epic_W
+	bounds: 1355, 534, 146, 102
+	offsets: 0, 0, 147, 103
+	rotate: 90
+epic_cat_head
+	bounds: 1198, 815, 293, 205
+	offsets: 0, 1, 293, 206
+epic_cat_kimono_shadow
+	bounds: 885, 869, 310, 152
+epic_cat_komono
+	bounds: 3, 8, 306, 134
+epic_cat_money
+	bounds: 1268, 684, 172, 128
+	offsets: 0, 0, 172, 128
+epic_cat_money_B
+	bounds: 1116, 719, 149, 93
+epic_cat_money_shadow
+	bounds: 312, 8, 240, 58
+	offsets: 0, 0, 241, 59
+epic_cat_tail
+	bounds: 1026, 406, 122, 57
+epic_cat_tail_F
+	bounds: 1324, 368, 87, 67
+epic_coin_B
+	bounds: 1414, 373, 24, 14
+epic_coin_F
+	bounds: 1212, 5, 78, 35
+epic_coin_F2
+	bounds: 1016, 278, 34, 17
+epic_coin_F3
+	bounds: 802, 395, 29, 15
+epic_coin_F4
+	bounds: 1934, 649, 53, 33
+	offsets: 0, 0, 53, 34
+epic_heart_1
+	bounds: 1424, 248, 27, 24
+epic_heart_2
+	bounds: 1054, 277, 18, 17
+	offsets: 0, 0, 18, 17
+epic_heart_3
+	bounds: 382, 713, 23, 21
+	rotate: 90
+epic_heart_4
+	bounds: 1293, 5, 36, 33
+	rotate: 90
+epic_paw_Up_left
+	bounds: 834, 158, 110, 138
+	rotate: 90
+epic_paw_Up_right
+	bounds: 699, 410, 100, 137
+epic_smoke_effect
+	bounds: 615, 9, 210, 187
+epic_star_7
+	bounds: 1934, 565, 39, 45
+	offsets: 0, 0, 40, 46
+	rotate: 90
+epic_star_8
+	bounds: 1983, 596, 25, 29
+epic_star_9
+	bounds: 1983, 563, 25, 29
+epic_tear2
+	bounds: 1898, 623, 33, 59
+	offsets: 0, 0, 34, 60
+epic_text_base
+	bounds: 1220, 558, 132, 122
+gradient_back_80
+	bounds: 3, 397, 330, 305
+huge_E
+	bounds: 1076, 191, 85, 104
+	offsets: 0, 0, 86, 105
+huge_G
+	bounds: 1679, 586, 103, 107
+	offsets: 0, 0, 104, 107
+huge_H
+	bounds: 1016, 298, 104, 105
+	offsets: 0, 0, 105, 106
+huge_I
+	bounds: 1331, 438, 45, 101
+	offsets: 0, 0, 46, 103
+	rotate: 90
+huge_N
+	bounds: 1573, 485, 98, 102
+	offsets: 0, 0, 99, 103
+	rotate: 90
+huge_U
+	bounds: 1460, 462, 100, 105
+	offsets: 0, 0, 101, 106
+	rotate: 90
+huge_W
+	bounds: 828, 8, 146, 102
+	offsets: 0, 0, 147, 103
+	rotate: 90
+huge_cat_head
+	bounds: 1771, 823, 269, 198
+huge_cat_kimono
+	bounds: 826, 719, 286, 146
+huge_dolar_left
+	bounds: 1038, 3, 53, 69
+	offsets: 0, 0, 53, 70
+	rotate: 90
+huge_heart_1
+	bounds: 1416, 221, 27, 24
+huge_heart_2
+	bounds: 1452, 298, 18, 17
+huge_heart_3
+	bounds: 1076, 166, 23, 21
+huge_heart_4
+	bounds: 1329, 14, 36, 33
+huge_smoke_ effect
+	bounds: 1030, 528, 188, 187
+	rotate: 90
+huge_star_7
+	bounds: 1414, 390, 39, 45
+	offsets: 0, 0, 40, 46
+huge_star_8
+	bounds: 1424, 340, 25, 29
+huge_star_9
+	bounds: 1424, 308, 25, 29
+huge_taxt_base
+	bounds: 1558, 703, 126, 111
+into_dwb_back
+	bounds: 3, 706, 376, 315
+	offsets: 2, 6, 380, 327
+left_ear
+	bounds: 1673, 393, 89, 98
+	rotate: 90
+left_leg
+	bounds: 834, 271, 138, 119
+	rotate: 90
+leg_right
+	bounds: 1688, 696, 74, 118
+mega_A
+	bounds: 1785, 594, 109, 103
+	offsets: 1, 1, 112, 105
+mega_E
+	bounds: 1126, 86, 83, 102
+	offsets: 1, 1, 85, 104
+mega_G
+	bounds: 1212, 145, 99, 102
+	offsets: 1, 1, 101, 104
+	rotate: 90
+mega_I
+	bounds: 1569, 437, 45, 101
+	offsets: 1, 1, 47, 104
+	rotate: 90
+mega_M
+	bounds: 1573, 586, 113, 103
+	offsets: 1, 1, 115, 105
+	rotate: 90
+mega_N
+	bounds: 1678, 485, 98, 102
+	offsets: 1, 1, 100, 104
+	rotate: 90
+mega_W
+	bounds: 933, 8, 146, 102
+	offsets: 1, 1, 148, 104
+	rotate: 90
+mega_cat_head
+	bounds: 1495, 817, 273, 203
+mega_cat_kimono
+	bounds: 324, 70, 287, 147
+mega_dot
+	bounds: 1558, 687, 12, 13
+	offsets: 0, 1, 13, 14
+mega_dot_2
+	bounds: 826, 869, 28, 45
+	offsets: 0, 0, 29, 46
+	rotate: 90
+mega_dot_l
+	bounds: 1205, 437, 13, 13
+	offsets: 0, 3, 17, 17
+mega_dot_l_2
+	bounds: 1368, 12, 28, 36
+	offsets: 0, 0, 30, 37
+mega_heart_1
+	bounds: 1452, 343, 27, 24
+	offsets: 0, 0, 28, 25
+	rotate: 90
+mega_heart_2
+	bounds: 1452, 277, 18, 17
+	offsets: 0, 0, 19, 18
+mega_heart_3
+	bounds: 1452, 318, 23, 21
+	offsets: 0, 0, 24, 22
+mega_heart_4
+	bounds: 1990, 628, 36, 33
+	offsets: 0, 0, 37, 34
+mega_left_eye
+	bounds: 1151, 406, 51, 57
+mega_right_eye
+	bounds: 555, 11, 42, 56
+mega_smoke_ effect
+	bounds: 803, 518, 223, 198
+mega_star_7
+	bounds: 1993, 665, 39, 45
+	offsets: 1, 2, 42, 49
+	rotate: 90
+mega_star_8
+	bounds: 1424, 275, 25, 29
+	offsets: 0, 0, 26, 30
+mega_star_9
+	bounds: 1775, 453, 25, 29
+	offsets: 0, 0, 26, 30
+mega_text_base
+	bounds: 1443, 685, 127, 112
+	rotate: 90
+paw_Up_left
+	bounds: 951, 421, 94, 71
+	rotate: 90
+paw_Up_right
+	bounds: 1912, 686, 78, 69
+paw_left
+	bounds: 1126, 19, 64, 83
+	rotate: 90
+paw_right
+	bounds: 1318, 128, 75, 79
+	rotate: 90
+right_ear
+	bounds: 1317, 51, 75, 74
+star
+	bounds: 1220, 685, 31, 37
+	offsets: 0, 0, 32, 38
+	rotate: 90
+star_2
+	bounds: 1775, 420, 25, 29
+	offsets: 0, 0, 26, 30
+star_3
+	bounds: 803, 724, 16, 20
+	offsets: 0, 0, 17, 21
+	rotate: 90
+star_4
+	bounds: 1102, 168, 17, 19
+	offsets: 0, 0, 18, 20
+star_5
+	bounds: 1441, 373, 14, 16
+	offsets: 0, 0, 15, 17
+	rotate: 90
+tail
+	bounds: 1220, 503, 119, 52
+tail_shadow
+	bounds: 1211, 453, 117, 47

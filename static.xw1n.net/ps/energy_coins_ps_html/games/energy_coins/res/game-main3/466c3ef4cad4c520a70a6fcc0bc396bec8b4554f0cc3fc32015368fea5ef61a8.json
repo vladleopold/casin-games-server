@@ -1,0 +1,517 @@
+{"frames": {
+"res/img/particles/collector/coin_deactivation/06.png":
+{
+	"frame":{"x":1,"y":1,"w":119,"h":111},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":7,"y":10,"w":119,"h":111},
+	"sourceSize":{"w":128,"h":128}
+},
+"res/img/particles/collector/coin_deactivation/07.png":
+{
+	"frame":{"x":122,"y":1,"w":119,"h":111},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":7,"y":10,"w":119,"h":111},
+	"sourceSize":{"w":128,"h":128}
+},
+"res/img/particles/collector/coin_deactivation/16.png":
+{
+	"frame":{"x":243,"y":1,"w":119,"h":111},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":7,"y":10,"w":119,"h":111},
+	"sourceSize":{"w":128,"h":128}
+},
+"res/img/particles/collector/coin_deactivation/17.png":
+{
+	"frame":{"x":364,"y":1,"w":119,"h":111},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":7,"y":10,"w":119,"h":111},
+	"sourceSize":{"w":128,"h":128}
+},
+"res/img/particles/collector/coin_deactivation/05.png":
+{
+	"frame":{"x":485,"y":1,"w":119,"h":110},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":7,"y":11,"w":119,"h":110},
+	"sourceSize":{"w":128,"h":128}
+},
+"res/img/particles/collector/coin_deactivation/15.png":
+{
+	"frame":{"x":606,"y":1,"w":119,"h":110},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":7,"y":11,"w":119,"h":110},
+	"sourceSize":{"w":128,"h":128}
+},
+"res/img/particles/collector/coin_deactivation/04.png":
+{
+	"frame":{"x":727,"y":1,"w":119,"h":107},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":7,"y":14,"w":119,"h":107},
+	"sourceSize":{"w":128,"h":128}
+},
+"res/img/particles/collector/coin_deactivation/08.png":
+{
+	"frame":{"x":848,"y":1,"w":118,"h":110},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":6,"y":11,"w":118,"h":110},
+	"sourceSize":{"w":128,"h":128}
+},
+"res/img/particles/fly/particle_lighting/17.png":
+{
+	"frame":{"x":968,"y":1,"w":80,"h":55},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":24,"y":6,"w":80,"h":55},
+	"sourceSize":{"w":128,"h":64}
+},
+"res/img/particles/fly/particle_lighting/03.png":
+{
+	"frame":{"x":968,"y":83,"w":71,"h":55},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":33,"y":6,"w":71,"h":55},
+	"sourceSize":{"w":128,"h":64}
+},
+"res/img/particles/collector/coin_deactivation/14.png":
+{
+	"frame":{"x":727,"y":110,"w":118,"h":106},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":7,"y":15,"w":118,"h":106},
+	"sourceSize":{"w":128,"h":128}
+},
+"res/img/particles/collector/coin_deactivation/18.png":
+{
+	"frame":{"x":847,"y":113,"w":117,"h":110},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":7,"y":11,"w":117,"h":110},
+	"sourceSize":{"w":128,"h":128}
+},
+"res/img/particles/fly/particle_lighting/04.png":
+{
+	"frame":{"x":966,"y":156,"w":70,"h":57},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":33,"y":6,"w":70,"h":57},
+	"sourceSize":{"w":128,"h":64}
+},
+"res/img/particles/collector/coin_deactivation/03.png":
+{
+	"frame":{"x":485,"y":113,"w":117,"h":102},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":6,"y":19,"w":117,"h":102},
+	"sourceSize":{"w":128,"h":128}
+},
+"res/img/particles/collector/coin_deactivation/13.png":
+{
+	"frame":{"x":604,"y":113,"w":117,"h":101},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":6,"y":20,"w":117,"h":101},
+	"sourceSize":{"w":128,"h":128}
+},
+"res/img/particles/collector/coin_deactivation/19.png":
+{
+	"frame":{"x":604,"y":216,"w":116,"h":105},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":6,"y":16,"w":116,"h":105},
+	"sourceSize":{"w":128,"h":128}
+},
+"res/img/particles/collector/coin_deactivation/09.png":
+{
+	"frame":{"x":722,"y":218,"w":115,"h":106},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":6,"y":15,"w":115,"h":106},
+	"sourceSize":{"w":128,"h":128}
+},
+"res/img/particles/collector/coin_deactivation/12.png":
+{
+	"frame":{"x":839,"y":225,"w":115,"h":96},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":6,"y":25,"w":115,"h":96},
+	"sourceSize":{"w":128,"h":128}
+},
+"res/img/particles/fly/particle_lighting/08.png":
+{
+	"frame":{"x":956,"y":228,"w":66,"h":64},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":34,"y":0,"w":66,"h":64},
+	"sourceSize":{"w":128,"h":64}
+},
+"res/img/particles/fly/particle_lighting/15.png":
+{
+	"frame":{"x":956,"y":294,"w":66,"h":56},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":24,"y":6,"w":66,"h":56},
+	"sourceSize":{"w":128,"h":64}
+},
+"res/img/particles/collector/coin_deactivation/02.png":
+{
+	"frame":{"x":839,"y":323,"w":114,"h":94},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":6,"y":27,"w":114,"h":94},
+	"sourceSize":{"w":128,"h":128}
+},
+"res/img/particles/fly/particle_lighting/07.png":
+{
+	"frame":{"x":955,"y":352,"w":68,"h":63},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":33,"y":0,"w":68,"h":63},
+	"sourceSize":{"w":128,"h":64}
+},
+"res/img/particles/fly/particle_lighting/09.png":
+{
+	"frame":{"x":955,"y":417,"w":63,"h":64},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":34,"y":0,"w":63,"h":64},
+	"sourceSize":{"w":128,"h":64}
+},
+"res/img/particles/collector/coin_deactivation/10.png":
+{
+	"frame":{"x":1,"y":114,"w":113,"h":101},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":6,"y":20,"w":113,"h":101},
+	"sourceSize":{"w":128,"h":128}
+},
+"res/img/particles/collector/coin_deactivation/00.png":
+{
+	"frame":{"x":116,"y":114,"w":113,"h":99},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":6,"y":22,"w":113,"h":99},
+	"sourceSize":{"w":128,"h":128}
+},
+"res/img/particles/collector/coin_deactivation/01.png":
+{
+	"frame":{"x":231,"y":114,"w":113,"h":93},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":6,"y":28,"w":113,"h":93},
+	"sourceSize":{"w":128,"h":128}
+},
+"res/img/particles/collector/coin_deactivation/11.png":
+{
+	"frame":{"x":346,"y":114,"w":112,"h":91},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":6,"y":30,"w":112,"h":91},
+	"sourceSize":{"w":128,"h":128}
+},
+"res/img/particles/collector/coin/10.png":
+{
+	"frame":{"x":460,"y":114,"w":60,"h":17},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":2,"y":23,"w":60,"h":17},
+	"sourceSize":{"w":64,"h":64}
+},
+"res/img/particles/collector/coin/00.png":
+{
+	"frame":{"x":460,"y":176,"w":60,"h":14},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":2,"y":25,"w":60,"h":14},
+	"sourceSize":{"w":64,"h":64}
+},
+"res/img/particles/fly/particle_lighting/18.png":
+{
+	"frame":{"x":346,"y":207,"w":82,"h":54},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":25,"y":6,"w":82,"h":54},
+	"sourceSize":{"w":128,"h":64}
+},
+"res/img/particles/collector/coin/01.png":
+{
+	"frame":{"x":430,"y":207,"w":60,"h":28},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":2,"y":19,"w":60,"h":28},
+	"sourceSize":{"w":64,"h":64}
+},
+"res/img/particles/fly/particle_lighting/19.png":
+{
+	"frame":{"x":231,"y":209,"w":82,"h":53},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":25,"y":6,"w":82,"h":53},
+	"sourceSize":{"w":128,"h":64}
+},
+"res/img/particles/collector/coin/11.png":
+{
+	"frame":{"x":315,"y":209,"w":60,"h":24},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":2,"y":21,"w":60,"h":24},
+	"sourceSize":{"w":64,"h":64}
+},
+"res/img/particles/fly/particle_lighting/16.png":
+{
+	"frame":{"x":341,"y":263,"w":80,"h":56},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":24,"y":6,"w":80,"h":56},
+	"sourceSize":{"w":128,"h":64}
+},
+"res/img/particles/fly/particle_lighting/00.png":
+{
+	"frame":{"x":116,"y":215,"w":79,"h":52},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":26,"y":6,"w":79,"h":52},
+	"sourceSize":{"w":128,"h":64}
+},
+"res/img/particles/collector/coin/09.png":
+{
+	"frame":{"x":197,"y":215,"w":60,"h":31},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":2,"y":15,"w":60,"h":31},
+	"sourceSize":{"w":64,"h":64}
+},
+"res/img/particles/fly/particle_lighting/20.png":
+{
+	"frame":{"x":230,"y":264,"w":79,"h":52},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":26,"y":6,"w":79,"h":52},
+	"sourceSize":{"w":128,"h":64}
+},
+"res/img/particles/fly/particle_lighting/01.png":
+{
+	"frame":{"x":1,"y":217,"w":72,"h":52},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":33,"y":6,"w":72,"h":52},
+	"sourceSize":{"w":128,"h":64}
+},
+"res/img/particles/collector/coin/19.png":
+{
+	"frame":{"x":75,"y":217,"w":60,"h":35},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":2,"y":13,"w":60,"h":35},
+	"sourceSize":{"w":64,"h":64}
+},
+"res/img/particles/fly/particle_lighting/05.png":
+{
+	"frame":{"x":1,"y":271,"w":70,"h":63},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":33,"y":0,"w":70,"h":63},
+	"sourceSize":{"w":128,"h":64}
+},
+"res/img/particles/fly/particle_lighting/06.png":
+{
+	"frame":{"x":112,"y":269,"w":70,"h":62},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":33,"y":0,"w":70,"h":62},
+	"sourceSize":{"w":128,"h":64}
+},
+"res/img/particles/collector/coin/08.png":
+{
+	"frame":{"x":184,"y":277,"w":60,"h":43},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":2,"y":9,"w":60,"h":43},
+	"sourceSize":{"w":64,"h":64}
+},
+"res/img/particles/fly/particle_lighting/02.png":
+{
+	"frame":{"x":73,"y":333,"w":70,"h":55},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":34,"y":6,"w":70,"h":55},
+	"sourceSize":{"w":128,"h":64}
+},
+"res/img/particles/fly/particle_lighting/10.png":
+{
+	"frame":{"x":1,"y":336,"w":63,"h":64},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":34,"y":0,"w":63,"h":64},
+	"sourceSize":{"w":128,"h":64}
+},
+"res/img/particles/fly/particle_lighting/11.png":
+{
+	"frame":{"x":229,"y":318,"w":63,"h":64},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":34,"y":0,"w":63,"h":64},
+	"sourceSize":{"w":128,"h":64}
+},
+"res/img/particles/collector/coin/12.png":
+{
+	"frame":{"x":295,"y":318,"w":60,"h":43},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":2,"y":12,"w":60,"h":43},
+	"sourceSize":{"w":64,"h":64}
+},
+"res/img/particles/fly/particle_lighting/12.png":
+{
+	"frame":{"x":145,"y":339,"w":63,"h":59},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":33,"y":4,"w":63,"h":59},
+	"sourceSize":{"w":128,"h":64}
+},
+"res/img/particles/collector/coin/05.png":
+{
+	"frame":{"x":67,"y":390,"w":59,"h":60},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":3,"y":2,"w":59,"h":60},
+	"sourceSize":{"w":64,"h":64}
+},
+"res/img/particles/collector/coin/15.png":
+{
+	"frame":{"x":1,"y":401,"w":59,"h":60},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":3,"y":2,"w":59,"h":60},
+	"sourceSize":{"w":64,"h":64}
+},
+"res/img/particles/collector/coin/17.png":
+{
+	"frame":{"x":476,"y":217,"w":60,"h":55},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":2,"y":3,"w":60,"h":55},
+	"sourceSize":{"w":64,"h":64}
+},
+"res/img/particles/collector/coin/03.png":
+{
+	"frame":{"x":423,"y":269,"w":60,"h":51},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":2,"y":8,"w":60,"h":51},
+	"sourceSize":{"w":64,"h":64}
+},
+"res/img/particles/collector/coin/13.png":
+{
+	"frame":{"x":538,"y":217,"w":60,"h":53},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":2,"y":7,"w":60,"h":53},
+	"sourceSize":{"w":64,"h":64}
+},
+"res/img/particles/collector/coin/18.png":
+{
+	"frame":{"x":538,"y":272,"w":60,"h":46},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":2,"y":7,"w":60,"h":46},
+	"sourceSize":{"w":64,"h":64}
+},
+"res/img/particles/collector/coin/02.png":
+{
+	"frame":{"x":476,"y":274,"w":60,"h":41},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":2,"y":13,"w":60,"h":41},
+	"sourceSize":{"w":64,"h":64}
+},
+"res/img/particles/collector/coin/04.png":
+{
+	"frame":{"x":476,"y":317,"w":59,"h":59},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":3,"y":3,"w":59,"h":59},
+	"sourceSize":{"w":64,"h":64}
+},
+"res/img/particles/collector/coin/06.png":
+{
+	"frame":{"x":537,"y":320,"w":59,"h":59},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":3,"y":2,"w":59,"h":59},
+	"sourceSize":{"w":64,"h":64}
+},
+"res/img/particles/collector/coin/16.png":
+{
+	"frame":{"x":340,"y":321,"w":59,"h":59},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":3,"y":2,"w":59,"h":59},
+	"sourceSize":{"w":64,"h":64}
+},
+"res/img/particles/collector/coin/14.png":
+{
+	"frame":{"x":401,"y":331,"w":59,"h":58},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":3,"y":4,"w":59,"h":58},
+	"sourceSize":{"w":64,"h":64}
+},
+"res/img/particles/collector/coin/07.png":
+{
+	"frame":{"x":462,"y":378,"w":59,"h":56},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":3,"y":3,"w":59,"h":56},
+	"sourceSize":{"w":64,"h":64}
+},
+"res/img/particles/fly/particle_lighting/13.png":
+{
+	"frame":{"x":295,"y":382,"w":58,"h":58},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":33,"y":5,"w":58,"h":58},
+	"sourceSize":{"w":128,"h":64}
+},
+"res/img/particles/fly/particle_lighting/14.png":
+{
+	"frame":{"x":210,"y":383,"w":57,"h":58},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":33,"y":5,"w":57,"h":58},
+	"sourceSize":{"w":128,"h":64}
+},
+"res/img/particles/fly/emitter_particle.png":
+{
+	"frame":{"x":129,"y":400,"w":57,"h":52},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":6,"y":6,"w":57,"h":52},
+	"sourceSize":{"w":64,"h":64}
+},
+"res/img/particles/reel/emitter_particle.png":
+{
+	"frame":{"x":63,"y":451,"w":57,"h":52},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":6,"y":6,"w":57,"h":52},
+	"sourceSize":{"w":64,"h":64}
+}
+},
+"meta":
+{
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"format": "RGBA8888",
+	"image": "other-0.png",
+	"size": {"w":1024,"h":1024},
+	"scale": 1,
+	"smartupdate":"$TexturePacker:SmartUpdate:33e761926f783ce42506a1a9a947eea6:1d22eb6a85f38c9fa5e3e9f01a96f35d:a5fe61b31e5869b163f37ffdb236ddbb$"
+}
+}

@@ -1,0 +1,148 @@
+{
+  "bodyText": "Триває завантаження. Зачекайте.​..",
+  "pageErrors": [],
+  "consoleTail": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "debug",
+      "text": "(1) Changing state LoadState -> InitState (LeaveState)"
+    },
+    {
+      "type": "warning",
+      "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+    },
+    {
+      "type": "debug",
+      "text": "(1) Changing state InitState -> RouterState (LeaveState)"
+    },
+    {
+      "type": "debug",
+      "text": "(1) Changing state RouterState -> LoadSpinsState (ActionSpin)"
+    },
+    {
+      "type": "debug",
+      "text": "(1) Changing state LoadSpinsState -> IdleSpinsState (LeaveState)"
+    },
+    {
+      "type": "debug",
+      "text": "(1) Changing state IdleSpinsState -> SpinningSpinsState (RoundStart)"
+    },
+    {
+      "type": "debug",
+      "text": "(1) Changing state SpinningSpinsState -> ResultSpinsState (LeaveState)"
+    },
+    {
+      "type": "debug",
+      "text": "(1) Changing state ResultSpinsState -> RouterState (LeaveState)"
+    },
+    {
+      "type": "debug",
+      "text": "(1) Changing state RouterState -> LoadSpinsState (ActionSpin)"
+    },
+    {
+      "type": "debug",
+      "text": "(1) Changing state LoadSpinsState -> IdleSpinsState (LeaveState)"
+    }
+  ],
+  "apiResponses": [
+    {
+      "url": "http://127.0.0.1:8080/sun_of_egypt_3/betman.c1.3oaks.com/slotscity-prod-axis/gs/sun_of_egypt_3/desktop/c19b06787fc74bad98eedf05cb614b2f/demo/?gsc=login",
+      "status": 200,
+      "body": "{\"command\":\"login\",\"modes\":[\"auto\",\"play\"],\"request_id\":\"0b47ee6d71bc4f429732e61ee5d3e0d0\",\"session_id\":\"6b9fd518d38d4883a996e84d0274dd57\",\"status\":{\"code\":\"OK\",\"type\":\"ok\"},\"user\":{\"balance\":100000,\"balance_version\":1,\"currency\":\"FUN\",\"denominator\":100,\"huid\":\"demo-c85ca595b7e243afa233be0dc148fb05\",\"is_test\":false,\"show_balance\":true}}"
+    },
+    {
+      "url": "http://127.0.0.1:8080/sun_of_egypt_3/betman.c1.3oaks.com/slotscity-prod-axis/gs/sun_of_egypt_3/desktop/c19b06787fc74bad98eedf05cb614b2f/demo/?gsc=start",
+      "status": 200,
+      "body": "{\"command\":\"start\",\"context\":{\"actions\":[\"spin\"],\"current\":\"spins\",\"last_action\":\"init\",\"last_args\":{},\"last_win\":0,\"round_finished\":true,\"spins\":{\"bet_per_line\":12,\"board\":[[1,2,3],[1,2,3],[1,2,3],[1,2,3],[1,2,3]],\"bs_v\":[[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"bs_values\":[[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"is_sb_trigger\":false,\"is_super_state\":false,\"lines\":25,\"round_bet\":300,\"round_win\":0,\"total_win\":0},\"version\":1},\"modes\":[\"auto\",\"play\"],\"request_id\":\"b4c25b71eae24c29be625fbd09f31070\",\"session_id\":\"6b9fd518d38d4883a996e84d0274dd57\",\"settings\":{\"bet_factor\":[25],\"bets\":[1,2,3,4,5,6,7,8,10,12,14,16,20,24,30,32,40,50,52,60,72],\"big_win\":[30,50,70],\"bonus_symbols\":[1,2,3,4,5,6,7,8,9,10,12,15,\"mini\",\"minor\",\"major\"],\"cols\":5,\"currency_format\":{\"currency_style\":\"symbol\",\"denominato"
+    },
+    {
+      "url": "http://127.0.0.1:8080/sun_of_egypt_3/betman.c1.3oaks.com/slotscity-prod-axis/gs/sun_of_egypt_3/desktop/c19b06787fc74bad98eedf05cb614b2f/demo/?gsc=sync",
+      "status": 200,
+      "body": "{\"command\":\"sync\",\"context\":{\"actions\":[\"spin\"],\"current\":\"spins\",\"last_action\":\"spin\",\"last_args\":{\"bet_per_line\":12,\"lines\":25},\"last_win\":0,\"round_finished\":true,\"spins\":{\"bet_per_line\":12,\"board\":[[1,2,3],[1,2,3],[1,2,3],[1,2,3],[1,2,3]],\"bs_v\":[[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"bs_values\":[[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"is_sb_trigger\":false,\"is_super_state\":false,\"lines\":25,\"round_bet\":300,\"round_win\":0,\"total_win\":0},\"version\":1},\"modes\":[\"auto\",\"play\"],\"request_id\":\"6fa0edf664f1418db860fafbf6bf755d\",\"session_id\":\"6b9fd518d38d4883a996e84d0274dd57\",\"status\":{\"code\":\"OK\",\"type\":\"ok\"},\"user\":{\"balance\":100000,\"balance_version\":3,\"currency\":\"FUN\",\"denominator\":100,\"huid\":\"demo-c85ca595b7e243afa233be0dc148fb05\",\"is_test\":false,\"show_balance\":true}}"
+    },
+    {
+      "url": "http://127.0.0.1:8080/sun_of_egypt_3/betman.c1.3oaks.com/slotscity-prod-axis/gs/sun_of_egypt_3/desktop/c19b06787fc74bad98eedf05cb614b2f/demo/?gsc=play",
+      "status": 200,
+      "body": "{\"command\":\"play\",\"context\":{\"actions\":[\"spin\"],\"current\":\"spins\",\"last_action\":\"spin\",\"last_args\":{\"bet_per_line\":12,\"lines\":25},\"last_win\":0,\"round_finished\":true,\"spins\":{\"bet_per_line\":12,\"board\":[[4,5,6],[5,6,7],[2,3,4],[5,6,7],[9,11,12]],\"bs_v\":[[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"bs_values\":[[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"is_sb_trigger\":false,\"is_super_state\":false,\"lines\":25,\"round_bet\":300,\"round_win\":0,\"total_win\":0},\"version\":1},\"modes\":[\"auto\",\"play\"],\"request_id\":\"1b98f17114de41a2af2b6b6b0d0d69cb\",\"session_id\":\"6b9fd518d38d4883a996e84d0274dd57\",\"status\":{\"code\":\"OK\",\"type\":\"ok\"},\"user\":{\"balance\":99700,\"balance_version\":4,\"currency\":\"FUN\",\"denominator\":100,\"huid\":\"demo-c85ca595b7e243afa233be0dc148fb05\",\"is_test\":false,\"show_balance\":true}}"
+    }
+  ]
+}

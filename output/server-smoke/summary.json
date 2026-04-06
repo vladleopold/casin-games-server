@@ -1,0 +1,54 @@
+{
+  "generatedAt": "2026-04-04T08:00:53.192Z",
+  "result": "ok",
+  "checks": {
+    "ready": {
+      "games": [
+        "energy",
+        "sun3",
+        "wolf"
+      ],
+      "indexes": [
+        {
+          "gameId": "energy",
+          "filePath": "/Users/admin/Downloads/8qblm4p05hx8zao.xw1n.net/8qblm4p05hx8zao.xw1n.net/index.html",
+          "bytes": 5060
+        },
+        {
+          "gameId": "sun3",
+          "filePath": "/Users/admin/Downloads/8qblm4p05hx8zao.xw1n.net/sun_of_egypt_3/betman.c1.3oaks.com/slotscity-prod-axis/game/index.html",
+          "bytes": 44375
+        },
+        {
+          "gameId": "wolf",
+          "filePath": "/Users/admin/Downloads/8qblm4p05hx8zao.xw1n.net/wolf_power_ps/1m8c8hjgjesc3no.xw1n.net/index.html",
+          "bytes": 4616
+        }
+      ]
+    },
+    "energy": {
+      "sessionId": "energy-smoke",
+      "totalBet": 20,
+      "balance": 10000,
+      "bonusRoundsPlayed": 3,
+      "bonusWin": 6480,
+      "finalBonusStatus": "bet"
+    },
+    "wolf": {
+      "sessionId": "wolf-smoke",
+      "totalBet": 20,
+      "balance": 48420,
+      "fsLeftAfterSpin": 7,
+      "bonusRoundsPlayed": 3,
+      "finalBonusStatus": "bet"
+    },
+    "sun3": {
+      "sessionId": "sun3-smoke",
+      "totalBet": 300,
+      "totalWin": 0,
+      "balance": 99700,
+      "balanceVersion": 3,
+      "lastWin": 0
+    }
+  }
+}

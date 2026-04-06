@@ -1,0 +1,250 @@
+sym_scat-mOEhTg.avif
+	size: 1632, 270
+	format: RGBA4444
+	filter: Linear, Linear
+	scale: 0.4
+.misc/flare_clip
+	bounds: 1462, 168, 100, 100
+.misc/flare_fx
+	bounds: 1488, 66, 100, 100
+.misc/romb
+	bounds: 1386, 2, 20, 20
+	offsets: 2, 2, 24, 24
+.misc/sec/particles_00000
+	bounds: 1347, 159, 54, 109
+	offsets: 12, 41, 80, 200
+.misc/sec/particles_00001
+	bounds: 938, 157, 55, 111
+	offsets: 12, 40, 80, 200
+.misc/sec/particles_00002
+	bounds: 1193, 46, 55, 110
+	offsets: 12, 40, 80, 200
+.misc/sec/particles_00003
+	bounds: 960, 44, 55, 111
+	offsets: 12, 39, 80, 200
+.misc/sec/particles_00004
+	bounds: 882, 156, 54, 112
+	offsets: 12, 39, 80, 200
+.misc/sec/particles_00005
+	bounds: 826, 154, 54, 114
+	offsets: 13, 38, 80, 200
+.misc/sec/particles_00006
+	bounds: 784, 37, 55, 114
+	offsets: 12, 38, 80, 200
+.misc/sec/particles_00007
+	bounds: 769, 153, 55, 115
+	offsets: 12, 38, 80, 200
+.misc/sec/particles_00008
+	bounds: 726, 31, 56, 117
+	offsets: 11, 37, 80, 200
+.misc/sec/particles_00009
+	bounds: 712, 150, 55, 118
+	offsets: 11, 37, 80, 200
+.misc/sec/particles_00010
+	bounds: 668, 27, 56, 119
+	offsets: 10, 37, 80, 200
+.misc/sec/particles_00011
+	bounds: 654, 148, 56, 120
+	offsets: 10, 37, 80, 200
+.misc/sec/particles_00012
+	bounds: 1229, 159, 57, 109
+	offsets: 10, 47, 80, 200
+.misc/sec/particles_00013
+	bounds: 1113, 158, 56, 110
+	offsets: 10, 47, 80, 200
+.misc/sec/particles_00014
+	bounds: 995, 158, 57, 110
+	offsets: 10, 47, 80, 200
+.misc/sec/particles_00015
+	bounds: 1017, 46, 57, 110
+	offsets: 10, 46, 80, 200
+.misc/sec/particles_00016
+	bounds: 1135, 46, 56, 110
+	offsets: 10, 46, 80, 200
+.misc/sec/particles_00017
+	bounds: 1250, 48, 57, 109
+	offsets: 10, 46, 80, 200
+.misc/sec/particles_00018
+	bounds: 1054, 158, 57, 110
+	offsets: 10, 45, 80, 200
+.misc/sec/particles_00019
+	bounds: 1288, 159, 57, 109
+	offsets: 10, 45, 80, 200
+.misc/sec/particles_00020
+	bounds: 1403, 160, 57, 108
+	offsets: 10, 46, 80, 200
+.misc/sec/particles_00021
+	bounds: 1309, 48, 56, 109
+	offsets: 11, 45, 80, 200
+.misc/sec/particles_00022
+	bounds: 1171, 158, 56, 110
+	offsets: 11, 44, 80, 200
+.misc/sec/particles_00023
+	bounds: 1076, 46, 57, 110
+	offsets: 11, 44, 80, 200
+.misc/sec/particles_00024
+	bounds: 901, 43, 57, 111
+	offsets: 11, 43, 80, 200
+.misc/sec/particles_00025
+	bounds: 841, 39, 58, 113
+	offsets: 10, 42, 80, 200
+.misc/sec/particles_00026
+	bounds: 2, 4, 59, 112
+	offsets: 10, 43, 80, 200
+	rotate: 90
+.misc/sec/particles_00027
+	bounds: 116, 4, 59, 107
+	offsets: 10, 49, 80, 200
+	rotate: 90
+.misc/sec/particles_00028
+	bounds: 1564, 172, 50, 96
+	offsets: 19, 60, 80, 200
+scatter/sc_a
+	bounds: 495, 99, 25, 27
+	rotate: 90
+scatter/sc_back
+	bounds: 246, 80, 188, 53
+	offsets: 10, 0, 207, 66
+	rotate: 90
+scatter/sc_bang
+	bounds: 1418, 56, 102, 68
+	rotate: 90
+scatter/sc_bang_2_shadow
+	bounds: 1000, 2, 50, 40
+	offsets: 0, 0, 50, 56
+scatter/sc_bg
+	bounds: 2, 65, 203, 196
+	offsets: 1, 1, 205, 198
+	rotate: 90
+scatter/sc_c
+	bounds: 828, 3, 28, 32
+scatter/sc_e
+	bounds: 797, 3, 29, 32
+scatter/sc_ear
+	bounds: 461, 99, 25, 32
+	rotate: 90
+scatter/sc_ear_left
+	bounds: 225, 5, 59, 63
+	offsets: 0, 3, 59, 66
+	rotate: 90
+scatter/sc_ear_right
+	bounds: 1512, 6, 58, 47
+	offsets: 0, 7, 58, 54
+	rotate: 90
+scatter/sc_eyelid_left
+	bounds: 1150, 16, 28, 24
+	rotate: 90
+scatter/sc_eyelid_right
+	bounds: 696, 3, 36, 22
+scatter/sc_flower_big
+	bounds: 911, 4, 37, 42
+	rotate: 90
+scatter/sc_flower_big_shadow
+	bounds: 858, 3, 34, 31
+	rotate: 90
+scatter/sc_flower_small
+	bounds: 228, 66, 10, 12
+	rotate: 90
+scatter/sc_frame_1
+	bounds: 211, 78, 190, 33
+	rotate: 90
+scatter/sc_frame_2
+	bounds: 431, 99, 13, 169
+scatter/sc_frame_3
+	bounds: 446, 99, 13, 169
+	offsets: 1, 0, 14, 169
+scatter/sc_frame_4
+	bounds: 200, 70, 198, 9
+	rotate: 90
+scatter/sc_hair1
+	bounds: 553, 134, 64, 134
+scatter/sc_hair10
+	bounds: 1120, 16, 28, 28
+scatter/sc_hair2
+	bounds: 1367, 48, 49, 109
+scatter/sc_hair3
+	bounds: 1260, 3, 43, 102
+	rotate: 90
+scatter/sc_hair4
+	bounds: 449, 15, 82, 114
+	rotate: 90
+scatter/sc_hair5
+	bounds: 524, 99, 32, 39
+	rotate: 90
+scatter/sc_hair6
+	bounds: 1202, 20, 24, 56
+	rotate: 90
+scatter/sc_hair7
+	bounds: 409, 13, 38, 70
+scatter/sc_hair8
+	bounds: 1561, 12, 52, 69
+	offsets: 0, 7, 52, 76
+	rotate: 90
+scatter/sc_hair_back
+	bounds: 301, 85, 128, 183
+scatter/sc_head
+	bounds: 565, 2, 101, 130
+scatter/sc_head_decor
+	bounds: 290, 2, 117, 76
+scatter/sc_kimono
+	bounds: 501, 133, 135, 50
+	rotate: 90
+scatter/sc_leaf
+	bounds: 1364, 22, 24, 20
+	rotate: 90
+scatter/sc_left_eye_blik
+	bounds: 261, 70, 8, 8
+scatter/sc_left_eye_pupil
+	bounds: 1364, 3, 17, 20
+	rotate: 90
+scatter/sc_left_eye_sclera
+	bounds: 668, 2, 23, 26
+	rotate: 90
+scatter/sc_lock of hair_left_1
+	bounds: 619, 138, 33, 130
+scatter/sc_lock of hair_right_1
+	bounds: 461, 126, 38, 142
+scatter/sc_lock of hair_right_1_shadow
+	bounds: 1202, 2, 16, 56
+	rotate: 90
+scatter/sc_neck
+	bounds: 1424, 2, 52, 86
+	rotate: 90
+scatter/sc_r
+	bounds: 955, 5, 36, 43
+	rotate: 90
+scatter/sc_ribbon
+	bounds: 1098, 15, 20, 29
+scatter/sc_right_eye
+	bounds: 734, 2, 35, 27
+scatter/sc_right_eye_blik
+	bounds: 253, 69, 6, 9
+scatter/sc_right_eye_pupil
+	bounds: 1386, 24, 19, 22
+scatter/sc_s
+	bounds: 1052, 15, 29, 44
+	rotate: 90
+scatter/sc_smile_mouth
+	bounds: 891, 6, 31, 18
+	rotate: 90
+scatter/sc_smile_teeth
+	bounds: 271, 73, 15, 5
+	offsets: 0, 0, 16, 5
+scatter/sc_smile_tounge
+	bounds: 211, 66, 15, 10
+scatter/sc_t1
+	bounds: 1176, 16, 24, 28
+scatter/sc_t2
+	bounds: 771, 2, 24, 27
+wild/wild_frame_2_vfx_blik_4
+	bounds: 431, 89, 8, 7
+	offsets: 1, 1, 10, 8
+	rotate: 90
+wild/wild_frame_2_vfx_light
+	bounds: 409, 3, 8, 137
+	offsets: 6, 11, 14, 151
+	rotate: 90
+wild/wild_frame_2_vfx_light_dot
+	bounds: 242, 67, 9, 9
+wild/wild_frame_2_vfx_moon
+	bounds: 1407, 30, 15, 16

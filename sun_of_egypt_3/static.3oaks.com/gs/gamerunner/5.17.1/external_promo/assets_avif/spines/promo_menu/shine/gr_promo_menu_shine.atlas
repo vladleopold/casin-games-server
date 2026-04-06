@@ -1,0 +1,20 @@
+
+gr_promo_menu_shine.avif
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dot
+  rotate: false
+  xy: 2, 2
+  size: 200, 87
+  orig: 200, 87
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 204, 41
+  size: 47, 48
+  orig: 47, 48
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,357 @@
+game_logo-ovBAJQ@0.5x.avif
+	size: 2048, 2048
+	format: RGBA4444
+	filter: Linear, Linear
+.misc/solid
+	bounds: 487, 26, 50, 50
+game_logo/bg
+	bounds: 1, 16, 115, 135
+	rotate: 90
+game_logo/boom/boom_00
+	bounds: 137, 22, 116, 108
+	offsets: 0, 0, 116, 109
+game_logo/boom/boom_01
+	bounds: 254, 22, 116, 108
+	offsets: 0, 0, 116, 109
+game_logo/boom/boom_13
+	bounds: 663, 94, 37, 37
+	offsets: 2, 2, 41, 40
+game_logo/bow_node
+	bounds: 2020, 1770, 7, 10
+	offsets: 0, 0, 8, 11
+game_logo/e_copy
+	bounds: 85, 1, 13, 20
+	offsets: 0, 0, 14, 21
+	rotate: 90
+game_logo/e_copy_2
+	bounds: 171, 1, 13, 20
+	offsets: 0, 0, 14, 21
+game_logo/ear_1
+	bounds: 777, 107, 23, 26
+	rotate: 90
+game_logo/ear_2
+	bounds: 804, 109, 22, 26
+	offsets: 0, 0, 23, 27
+	rotate: 90
+game_logo/flower_1
+	bounds: 2029, 1888, 18, 15
+	offsets: 0, 0, 19, 16
+game_logo/flower_2
+	bounds: 831, 109, 24, 21
+	offsets: 0, 0, 25, 22
+game_logo/frame_shadow
+	bounds: 371, 28, 115, 102
+	offsets: 0, 1, 116, 104
+game_logo/g
+	bounds: 1994, 1565, 15, 20
+	offsets: 0, 0, 16, 21
+game_logo/i
+	bounds: 701, 96, 8, 20
+	offsets: 0, 0, 9, 21
+	rotate: 90
+game_logo/koharus_name
+	bounds: 1994, 1781, 122, 33
+	offsets: 0, 0, 123, 34
+	rotate: 90
+game_logo/koharus_shadow
+	bounds: 487, 97, 123, 34
+	offsets: 0, 1, 124, 35
+game_logo/left_bow_eat
+	bounds: 1994, 1611, 24, 25
+	offsets: 0, 0, 25, 26
+game_logo/left_bow_tape
+	bounds: 609, 50, 17, 26
+	offsets: 0, 0, 18, 27
+game_logo/o
+	bounds: 155, 1, 14, 20
+	offsets: 0, 0, 15, 21
+game_logo/part_1
+	bounds: 123, 6, 13, 9
+	offsets: 0, 0, 14, 10
+game_logo/part_10
+	bounds: 744, 107, 24, 32
+	offsets: 0, 0, 25, 33
+	rotate: 90
+game_logo/part_10_2
+	bounds: 1994, 1637, 24, 32
+	offsets: 0, 0, 25, 33
+game_logo/part_1_2
+	bounds: 904, 122, 13, 9
+	offsets: 0, 0, 14, 10
+game_logo/part_2
+	bounds: 185, 6, 16, 15
+	offsets: 0, 0, 17, 16
+game_logo/part_2_2
+	bounds: 887, 115, 16, 15
+	offsets: 0, 0, 17, 16
+game_logo/part_3
+	bounds: 594, 77, 19, 33
+	offsets: 0, 0, 20, 34
+	rotate: 90
+game_logo/part_3_2
+	bounds: 589, 43, 19, 33
+	offsets: 0, 0, 20, 34
+game_logo/part_4
+	bounds: 1994, 1532, 12, 11
+	offsets: 0, 0, 13, 12
+game_logo/part_4_2
+	bounds: 203, 10, 12, 11
+	offsets: 0, 0, 13, 12
+game_logo/part_5
+	bounds: 106, 3, 16, 12
+	offsets: 0, 0, 17, 13
+game_logo/part_5_2
+	bounds: 2029, 1850, 16, 12
+	offsets: 0, 0, 17, 13
+	rotate: 90
+game_logo/part_6
+	bounds: 1994, 1739, 25, 41
+game_logo/part_6_2
+	bounds: 701, 106, 25, 41
+	rotate: 90
+game_logo/part_7
+	bounds: 611, 97, 34, 50
+	rotate: 90
+game_logo/part_7_2
+	bounds: 538, 42, 34, 50
+	rotate: 90
+game_logo/part_8
+	bounds: 2041, 1838, 11, 6
+	offsets: 0, 0, 12, 7
+	rotate: 90
+game_logo/part_8_2
+	bounds: 2041, 1825, 11, 6
+	offsets: 0, 0, 12, 7
+	rotate: 90
+game_logo/part_9
+	bounds: 1994, 1704, 33, 30
+	rotate: 90
+game_logo/part_9_2
+	bounds: 1994, 1670, 33, 30
+	rotate: 90
+game_logo/ribbon_left
+	bounds: 538, 1, 40, 32
+	offsets: 0, 0, 41, 33
+	rotate: 90
+game_logo/ribbon_main
+	bounds: 1994, 1905, 142, 43
+	offsets: 0, 0, 143, 44
+	rotate: 90
+game_logo/ribbon_main_shadow
+	bounds: 487, 77, 106, 19
+	offsets: 4, 5, 112, 26
+game_logo/ribbon_right
+	bounds: 571, 1, 40, 32
+	offsets: 0, 0, 41, 33
+	rotate: 90
+game_logo/right_bow_eat
+	bounds: 1994, 1586, 23, 23
+	offsets: 0, 0, 24, 24
+game_logo/right_bow_tape
+	bounds: 628, 79, 16, 27
+	offsets: 0, 0, 17, 28
+	rotate: 90
+game_logo/s
+	bounds: 2029, 1867, 13, 20
+	offsets: 0, 0, 14, 21
+game_logo/s_2
+	bounds: 1994, 1544, 13, 20
+	offsets: 0, 0, 14, 21
+game_logo/s_copy
+	bounds: 1, 1, 14, 20
+	offsets: 0, 0, 15, 21
+	rotate: 90
+game_logo/star_1
+	bounds: 2029, 1815, 11, 10
+	offsets: 7, 2, 20, 19
+game_logo/star_2
+	bounds: 1994, 1520, 10, 11
+	offsets: 7, 2, 20, 19
+game_logo/star_3
+	bounds: 2029, 1838, 11, 11
+	offsets: 7, 2, 20, 19
+game_logo/star_4
+	bounds: 2029, 1826, 11, 11
+	offsets: 7, 2, 20, 19
+game_logo/t
+	bounds: 856, 111, 15, 20
+	offsets: 0, 0, 16, 21
+game_logo/u
+	bounds: 22, 1, 14, 20
+	offsets: 0, 0, 15, 21
+	rotate: 90
+game_logo/u_copy_1
+	bounds: 43, 1, 14, 20
+	offsets: 0, 0, 15, 21
+	rotate: 90
+game_logo/u_copy_2
+	bounds: 64, 1, 14, 20
+	offsets: 0, 0, 15, 21
+	rotate: 90
+game_logo/u_copy_3
+	bounds: 872, 111, 13, 20
+	offsets: 0, 0, 14, 21
+game_logo/w
+	bounds: 137, 1, 17, 20
+	offsets: 0, 0, 18, 21
+stars/stars_01
+	bounds: 1, 1569, 220, 478
+stars/stars_02
+	bounds: 1, 1090, 220, 478
+stars/stars_03
+	bounds: 222, 1569, 220, 478
+stars/stars_04
+	bounds: 1, 611, 220, 478
+stars/stars_05
+	bounds: 222, 1090, 220, 478
+stars/stars_06
+	bounds: 444, 1569, 220, 478
+stars/stars_07
+	bounds: 1, 132, 220, 478
+stars/stars_08
+	bounds: 222, 611, 220, 478
+stars/stars_09
+	bounds: 444, 1090, 220, 478
+stars/stars_10
+	bounds: 665, 1569, 220, 478
+stars/stars_11
+	bounds: 222, 132, 220, 478
+stars/stars_12
+	bounds: 444, 611, 220, 478
+stars/stars_13
+	bounds: 665, 1090, 220, 478
+stars/stars_14
+	bounds: 887, 1569, 220, 478
+stars/stars_15
+	bounds: 444, 132, 220, 478
+stars/stars_16
+	bounds: 665, 611, 220, 478
+stars/stars_17
+	bounds: 887, 1090, 220, 478
+stars/stars_18
+	bounds: 1108, 1569, 220, 478
+stars/stars_19
+	bounds: 665, 132, 220, 478
+stars/stars_20
+	bounds: 887, 611, 220, 478
+stars/stars_21
+	bounds: 1108, 1090, 220, 478
+stars/stars_22
+	bounds: 1330, 1569, 220, 478
+stars/stars_23
+	bounds: 887, 132, 220, 478
+stars/stars_24
+	bounds: 1108, 611, 220, 478
+stars/stars_25
+	bounds: 1330, 1090, 220, 478
+stars/stars_26
+	bounds: 1551, 1569, 220, 478
+stars/stars_27
+	bounds: 1108, 132, 220, 478
+stars/stars_28
+	bounds: 1330, 611, 220, 478
+stars/stars_29
+	bounds: 1551, 1090, 220, 478
+stars/stars_30
+	bounds: 1773, 1569, 220, 478
+stars/stars_31
+	bounds: 1330, 132, 220, 478
+stars/stars_32
+	bounds: 1551, 611, 220, 478
+stars/stars_33
+	bounds: 1773, 1090, 220, 478
+stars/stars_34
+	bounds: 1551, 132, 220, 478
+stars/stars_35
+	bounds: 1773, 611, 220, 478
+stars/stars_36
+	bounds: 1773, 132, 220, 478
+
+game_logo_2-rC57xw@0.5x.avif
+	size: 2048, 2048
+	format: RGBA4444
+	filter: Linear, Linear
+.misc/sunEfx
+	bounds: 1686, 800, 229, 236
+	offsets: 11, 7, 250, 250
+game_logo/boom/boom_02
+	bounds: 1686, 550, 249, 229
+	rotate: 90
+game_logo/boom/boom_03
+	bounds: 1609, 1330, 295, 267
+	offsets: 0, 0, 295, 267
+	rotate: 90
+game_logo/boom/boom_04
+	bounds: 1330, 1135, 301, 278
+	rotate: 90
+game_logo/boom/boom_05
+	bounds: 1108, 343, 305, 286
+	rotate: 90
+game_logo/boom/boom_06
+	bounds: 1108, 343, 305, 286
+	rotate: 90
+game_logo/boom/boom_07
+	bounds: 1108, 650, 308, 289
+	rotate: 90
+game_logo/boom/boom_08
+	bounds: 1551, 1626, 309, 290
+	offsets: 9, 0, 318, 290
+game_logo/boom/boom_09
+	bounds: 1108, 39, 303, 291
+	offsets: 13, 11, 316, 302
+	rotate: 90
+game_logo/boom/boom_10
+	bounds: 1609, 1038, 291, 291
+	offsets: 13, 13, 313, 316
+game_logo/boom/boom_11
+	bounds: 1400, 64, 291, 291
+	offsets: 10, 13, 310, 316
+game_logo/boom/boom_12
+	bounds: 1396, 356, 289, 292
+	offsets: 9, 5, 308, 303
+stars/stars_37
+	bounds: 1, 1438, 220, 478
+stars/stars_38
+	bounds: 1, 959, 220, 478
+stars/stars_39
+	bounds: 222, 1438, 220, 478
+stars/stars_40
+	bounds: 1, 480, 220, 478
+stars/stars_41
+	bounds: 222, 959, 220, 478
+stars/stars_42
+	bounds: 444, 1438, 220, 478
+stars/stars_43
+	bounds: 1, 1, 220, 478
+stars/stars_44
+	bounds: 222, 480, 220, 478
+stars/stars_45
+	bounds: 444, 959, 220, 478
+stars/stars_46
+	bounds: 665, 1438, 220, 478
+stars/stars_47
+	bounds: 222, 1, 220, 478
+stars/stars_48
+	bounds: 444, 480, 220, 478
+stars/stars_49
+	bounds: 665, 959, 220, 478
+stars/stars_50
+	bounds: 887, 1438, 220, 478
+stars/stars_51
+	bounds: 444, 1, 220, 478
+stars/stars_52
+	bounds: 665, 480, 220, 478
+stars/stars_53
+	bounds: 887, 959, 220, 478
+stars/stars_54
+	bounds: 1108, 1438, 220, 478
+stars/stars_55
+	bounds: 665, 1, 220, 478
+stars/stars_56
+	bounds: 887, 480, 220, 478
+stars/stars_57
+	bounds: 1108, 959, 220, 478
+stars/stars_58
+	bounds: 1330, 1438, 220, 478
+stars/stars_59
+	bounds: 887, 1, 220, 478

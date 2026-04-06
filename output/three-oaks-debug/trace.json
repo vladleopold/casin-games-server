@@ -1,0 +1,1188 @@
+[
+  {
+    "at": "2026-04-04T14:08:09.965Z",
+    "kind": "xhr",
+    "url": "http://127.0.0.1:8084/three-oaks/product/3oaksgaming-aztec-sun/api/slotscity-prod-axis/gs/aztec_sun/desktop/97265f9436224f7d8c84eb6952b7cb4b/money/?gsc=login",
+    "requestBody": {
+      "command": "login",
+      "request_id": "acae14d6643e496ebfa244103fb12205",
+      "token": "money-token",
+      "language": "uk",
+      "client_command_timestamp": 1775311689953
+    },
+    "requestText": "{\"command\":\"login\",\"request_id\":\"acae14d6643e496ebfa244103fb12205\",\"token\":\"money-token\",\"language\":\"uk\",\"client_command_timestamp\":1775311689953}",
+    "responseBody": {
+      "command": "login",
+      "modes": [
+        "auto",
+        "play"
+      ],
+      "request_id": "acae14d6643e496ebfa244103fb12205",
+      "session_id": "1d1459dac94d417aadc907d75b6e93c6",
+      "status": {
+        "code": "OK"
+      },
+      "user": {
+        "balance": 8700,
+        "balance_version": 1,
+        "currency": "USD",
+        "denominator": 100,
+        "huid": "prod-player-1",
+        "is_test": false,
+        "show_balance": true
+      }
+    },
+    "responseText": "{\"command\":\"login\",\"modes\":[\"auto\",\"play\"],\"request_id\":\"acae14d6643e496ebfa244103fb12205\",\"session_id\":\"1d1459dac94d417aadc907d75b6e93c6\",\"status\":{\"code\":\"OK\"},\"user\":{\"balance\":8700,\"balance_version\":1,\"currency\":\"USD\",\"denominator\":100,\"huid\":\"prod-player-1\",\"is_test\":false,\"show_balance\":true}}"
+  },
+  {
+    "at": "2026-04-04T14:08:10.016Z",
+    "kind": "xhr",
+    "url": "http://127.0.0.1:8084/three-oaks/product/3oaksgaming-aztec-sun/api/slotscity-prod-axis/gs/aztec_sun/desktop/97265f9436224f7d8c84eb6952b7cb4b/money/?gsc=start",
+    "requestBody": {
+      "command": "start",
+      "request_id": "0ca7665da95647f0862115b7878dbc0e",
+      "session_id": "1d1459dac94d417aadc907d75b6e93c6",
+      "mode": "auto",
+      "huid": "prod-player-1",
+      "client_command_timestamp": 1775311689964
+    },
+    "requestText": "{\"command\":\"start\",\"request_id\":\"0ca7665da95647f0862115b7878dbc0e\",\"session_id\":\"1d1459dac94d417aadc907d75b6e93c6\",\"mode\":\"auto\",\"huid\":\"prod-player-1\",\"client_command_timestamp\":1775311689964}",
+    "responseBody": {
+      "command": "start",
+      "context": {
+        "actions": [
+          "spin"
+        ],
+        "current": "spins",
+        "last_action": "init",
+        "last_args": {},
+        "round_finished": true,
+        "spins": {
+          "bet_per_line": 10,
+          "board": [
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          "bs_v": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "bs_values": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "is_sb_trigger": false,
+          "is_super_state": false,
+          "lines": 25,
+          "round_bet": 250,
+          "round_win": 0,
+          "sr": true,
+          "sr_rounds": 0,
+          "total_win": 0
+        },
+        "version": 3
+      },
+      "modes": [
+        "auto",
+        "play"
+      ],
+      "request_id": "0ca7665da95647f0862115b7878dbc0e",
+      "session_id": "1d1459dac94d417aadc907d75b6e93c6",
+      "settings": {
+        "bet_factor": [
+          25
+        ],
+        "bets": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          8,
+          10,
+          20,
+          30,
+          40,
+          60,
+          80,
+          100,
+          200,
+          240,
+          300
+        ],
+        "big_win": [
+          30,
+          50,
+          70
+        ],
+        "bonus_symbols": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          14,
+          16,
+          18,
+          20,
+          25,
+          "mini",
+          "major"
+        ],
+        "cols": 5,
+        "currency_format": {
+          "currency_style": "symbol",
+          "denominator": 100,
+          "style": "money"
+        },
+        "jackpots": {
+          "grand": 1000,
+          "major": 150,
+          "mini": 30
+        },
+        "lines": [
+          25
+        ],
+        "paylines": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            2,
+            2,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            1,
+            2,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            2,
+            1,
+            2
+          ],
+          [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            2,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            2,
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            1,
+            2,
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            0,
+            2,
+            0,
+            1
+          ],
+          [
+            0,
+            2,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            2,
+            0,
+            2
+          ]
+        ],
+        "paytable": {
+          "1": [
+            {
+              "multiplier": 5,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 10,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 50,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "2": [
+            {
+              "multiplier": 5,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 10,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 50,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "3": [
+            {
+              "multiplier": 5,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 10,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 50,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "4": [
+            {
+              "multiplier": 5,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 10,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 50,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "5": [
+            {
+              "multiplier": 5,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 25,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 100,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "6": [
+            {
+              "multiplier": 5,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 30,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 150,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "7": [
+            {
+              "multiplier": 5,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 40,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 200,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "8": [
+            {
+              "multiplier": 15,
+              "occurrences": 3,
+              "type": "lb"
+            },
+            {
+              "multiplier": 50,
+              "occurrences": 4,
+              "type": "lb"
+            },
+            {
+              "multiplier": 250,
+              "occurrences": 5,
+              "type": "lb"
+            }
+          ],
+          "10": [
+            {
+              "freespins": 8,
+              "multiplier": 2,
+              "occurrences": 3,
+              "trigger": "freespins",
+              "type": "tb"
+            }
+          ]
+        },
+        "pt_supported": true,
+        "reelsamples": {
+          "freespins": [
+            [
+              5,
+              6,
+              7,
+              8,
+              11
+            ],
+            [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            [
+              5,
+              6,
+              7,
+              8,
+              9,
+              11
+            ]
+          ],
+          "last_freespins": [
+            [
+              8,
+              5,
+              6,
+              7
+            ],
+            [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              5,
+              6,
+              7,
+              8,
+              9
+            ]
+          ],
+          "spins": [
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              11
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              11
+            ]
+          ]
+        },
+        "rows": 3,
+        "supported_freebets": [
+          "fixed",
+          "flexible"
+        ],
+        "symbols": [
+          {
+            "id": 1,
+            "name": "el_01",
+            "type": "line"
+          },
+          {
+            "id": 2,
+            "name": "el_02",
+            "type": "line"
+          },
+          {
+            "id": 3,
+            "name": "el_03",
+            "type": "line"
+          },
+          {
+            "id": 4,
+            "name": "el_04",
+            "type": "line"
+          },
+          {
+            "id": 5,
+            "name": "el_05",
+            "type": "line"
+          },
+          {
+            "id": 6,
+            "name": "el_06",
+            "type": "line"
+          },
+          {
+            "id": 7,
+            "name": "el_07",
+            "type": "line"
+          },
+          {
+            "id": 8,
+            "name": "el_08",
+            "type": "line"
+          },
+          {
+            "id": 9,
+            "name": "el_wild",
+            "type": "wild"
+          },
+          {
+            "id": 10,
+            "name": "el_scatter",
+            "type": "scat"
+          },
+          {
+            "id": 11,
+            "name": "el_bonus",
+            "type": "scat"
+          }
+        ],
+        "symbols_line": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "symbols_scat": [
+          10,
+          11
+        ],
+        "symbols_wild": [
+          9
+        ],
+        "use_freebet_init_pick": false,
+        "use_pt_testing": false
+      },
+      "status": {
+        "code": "OK"
+      },
+      "user": {
+        "balance": 8700,
+        "balance_version": 2,
+        "currency": "USD",
+        "denominator": 100,
+        "huid": "prod-player-1",
+        "is_test": false,
+        "show_balance": true
+      }
+    },
+    "responseText": "{\"command\":\"start\",\"context\":{\"actions\":[\"spin\"],\"current\":\"spins\",\"last_action\":\"init\",\"last_args\":{},\"round_finished\":true,\"spins\":{\"bet_per_line\":10,\"board\":[[1,2,3],[1,2,3],[1,2,3],[1,2,3],[1,2,3]],\"bs_v\":[[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"bs_values\":[[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"is_sb_trigger\":false,\"is_super_state\":false,\"lines\":25,\"round_bet\":250,\"round_win\":0,\"sr\":true,\"sr_rounds\":0,\"total_win\":0},\"version\":3},\"modes\":[\"auto\",\"play\"],\"request_id\":\"0ca7665da95647f0862115b7878dbc0e\",\"session_id\":\"1d1459dac94d417aadc907d75b6e93c6\",\"settings\":{\"bet_factor\":[25],\"bets\":[1,2,3,4,6,8,10,20,30,40,60,80,100,200,240,300],\"big_win\":[30,50,70],\"bonus_symbols\":[1,2,3,4,5,6,7,8,10,14,16,18,20,25,\"mini\",\"major\"],\"cols\":5,\"currency_format\":{\"currency_style\":\"symbol\",\"denominator\":100,\"style\":\"money\"},\"jackpots\":{\"grand\":1000,\"major\":150,\"mini\":30},\"lines\":[25],\"paylines\":[[1,1,1,1,1],[0,0,0,0,0],[2,2,2,2,2],[0,1,2,1,0],[2,1,0,1,2],[1,0,0,0,1],[1,2,2,2,1],[0,0,1,2,2],[2,2,1,0,0],[1,2,1,0,1],[1,0,1,2,1],[0,1,1,1,0],[2,1,1,1,2],[0,1,0,1,0],[2,1,2,1,2],[1,1,0,1,1],[1,1,2,1,1],[0,0,2,0,0],[2,2,0,2,2],[0,2,2,2,0],[2,0,0,0,2],[1,2,0,2,1],[1,0,2,0,1],[0,2,0,2,0],[2,0,2,0,2]],\"paytable\":{\"1\":[{\"multiplier\":5,\"occurrences\":3,\"type\":\"lb\"},{\"multiplier\":10,\"occurrences\":4,\"type\":\"lb\"},{\"multiplier\":50,\"occurrences\":5,\"type\":\"lb\"}],\"2\":[{\"multiplier\":5,\"occurrences\":3,\"type\":\"lb\"},{\"multiplier\":10,\"occurrences\":4,\"type\":\"lb\"},{\"multiplier\":50,\"occurrences\":5,\"type\":\"lb\"}],\"3\":[{\"multiplier\":5,\"occurrences\":3,\"type\":\"lb\"},{\"multiplier\":10,\"occurrences\":4,\"type\":\"lb\"},{\"multiplier\":50,\"occurrences\":5,\"type\":\"lb\"}],\"4\":[{\"multiplier\":5,\"occurrences\":3,\"type\":\"lb\"},{\"multiplier\":10,\"occurrences\":4,\"type\":\"lb\"},{\"multiplier\":50,\"occurrences\":5,\"type\":\"lb\"}],\"5\":[{\"multiplier\":5,\"occurrences\":3,\"type\":\"lb\"},{\"multiplier\":25,\"occurrences\":4,\"type\":\"lb\"},{\"multiplier\":100,\"occurrences\":5,\"type\":\"lb\"}],\"6\":[{\"multiplier\":5,\"occurrences\":3,\"type\":\"lb\"},{\"multiplier\":30,\"occurrences\":4,\"type\":\"lb\"},{\"multiplier\":150,\"occurrences\":5,\"type\":\"lb\"}],\"7\":[{\"multiplier\":5,\"occurrences\":3,\"type\":\"lb\"},{\"multiplier\":40,\"occurrences\":4,\"type\":\"lb\"},{\"multiplier\":200,\"occurrences\":5,\"type\":\"lb\"}],\"8\":[{\"multiplier\":15,\"occurrences\":3,\"type\":\"lb\"},{\"multiplier\":50,\"occurrences\":4,\"type\":\"lb\"},{\"multiplier\":250,\"occurrences\":5,\"type\":\"lb\"}],\"10\":[{\"freespins\":8,\"multiplier\":2,\"occurrences\":3,\"trigger\":\"freespins\",\"type\":\"tb\"}]},\"pt_supported\":true,\"reelsamples\":{\"freespins\":[[5,6,7,8,11],[5,6,7,8,9,10,11],[5,6,7,8,9,10,11],[5,6,7,8,9,10,11],[5,6,7,8,9,11]],\"last_freespins\":[[8,5,6,7],[5,6,7,8,9,10],[5,6,7,8,9,10],[5,6,7,8,9,10],[5,6,7,8,9]],\"spins\":[[1,2,3,4,5,6,7,8,11],[1,2,3,4,5,6,7,8,9,10,11],[1,2,3,4,5,6,7,8,9,10,11],[1,2,3,4,5,6,7,8,9,10,11],[1,2,3,4,5,6,7,8,9,11]]},\"rows\":3,\"supported_freebets\":[\"fixed\",\"flexible\"],\"symbols\":[{\"id\":1,\"name\":\"el_01\",\"type\":\"line\"},{\"id\":2,\"name\":\"el_02\",\"type\":\"line\"},{\"id\":3,\"name\":\"el_03\",\"type\":\"line\"},{\"id\":4,\"name\":\"el_04\",\"type\":\"line\"},{\"id\":5,\"name\":\"el_05\",\"type\":\"line\"},{\"id\":6,\"name\":\"el_06\",\"type\":\"line\"},{\"id\":7,\"name\":\"el_07\",\"type\":\"line\"},{\"id\":8,\"name\":\"el_08\",\"type\":\"line\"},{\"id\":9,\"name\":\"el_wild\",\"type\":\"wild\"},{\"id\":10,\"name\":\"el_scatter\",\"type\":\"scat\"},{\"id\":11,\"name\":\"el_bonus\",\"type\":\"scat\"}],\"symbols_line\":[1,2,3,4,5,6,7,8],\"symbols_scat\":[10,11],\"symbols_wild\":[9],\"use_freebet_init_pick\":false,\"use_pt_testing\":false},\"status\":{\"code\":\"OK\"},\"user\":{\"balance\":8700,\"balance_version\":2,\"currency\":\"USD\",\"denominator\":100,\"huid\":\"prod-player-1\",\"is_test\":false,\"show_balance\":true}}"
+  },
+  {
+    "at": "2026-04-04T14:08:19.320Z",
+    "kind": "xhr",
+    "url": "http://127.0.0.1:8084/three-oaks/product/3oaksgaming-aztec-sun/api/slotscity-prod-axis/gs/aztec_sun/desktop/97265f9436224f7d8c84eb6952b7cb4b/money/?gsc=play",
+    "requestBody": {
+      "command": "play",
+      "request_id": "5b4be16f8e474682ae8805dfd674808d",
+      "session_id": "1d1459dac94d417aadc907d75b6e93c6",
+      "action": {
+        "name": "spin",
+        "params": {
+          "bet_per_line": 10,
+          "lines": 25
+        }
+      },
+      "set_denominator": 1,
+      "quick_spin": 1,
+      "sound": true,
+      "autogame": false,
+      "mobile": "0",
+      "portrait": false,
+      "fullscreen": true,
+      "viewportSize": "1200x1245",
+      "client_command_timestamp": 1775311699314
+    },
+    "requestText": "{\"command\":\"play\",\"request_id\":\"5b4be16f8e474682ae8805dfd674808d\",\"session_id\":\"1d1459dac94d417aadc907d75b6e93c6\",\"action\":{\"name\":\"spin\",\"params\":{\"bet_per_line\":10,\"lines\":25}},\"set_denominator\":1,\"quick_spin\":1,\"sound\":true,\"autogame\":false,\"mobile\":\"0\",\"portrait\":false,\"fullscreen\":true,\"viewportSize\":\"1200x1245\",\"client_command_timestamp\":1775311699314}",
+    "responseBody": {
+      "command": "play",
+      "context": {
+        "actions": [
+          "spin"
+        ],
+        "current": "spins",
+        "last_action": "spin",
+        "last_args": {
+          "bet_per_line": 10,
+          "lines": 25
+        },
+        "round_finished": true,
+        "spins": {
+          "bet_per_line": 10,
+          "board": [
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              9,
+              10,
+              11
+            ],
+            [
+              9,
+              10,
+              11
+            ],
+            [
+              3,
+              4,
+              5
+            ],
+            [
+              11,
+              1,
+              2
+            ]
+          ],
+          "bs_v": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "bs_values": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "is_sb_trigger": false,
+          "is_super_state": false,
+          "lines": 25,
+          "round_bet": 250,
+          "round_win": 100,
+          "sr": true,
+          "sr_rounds": 0,
+          "total_win": 100,
+          "winlines": [
+            {
+              "amount": 50,
+              "line": 1,
+              "occurrences": 3,
+              "positions": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  0
+                ]
+              ],
+              "symbol": 1,
+              "type": "lb"
+            },
+            {
+              "amount": 50,
+              "line": 13,
+              "occurrences": 3,
+              "positions": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  0
+                ]
+              ],
+              "symbol": 2,
+              "type": "lb"
+            }
+          ]
+        },
+        "version": 3,
+        "last_win": 100
+      },
+      "modes": [
+        "auto",
+        "play"
+      ],
+      "request_id": "5b4be16f8e474682ae8805dfd674808d",
+      "session_id": "1d1459dac94d417aadc907d75b6e93c6",
+      "status": {
+        "code": "OK"
+      },
+      "user": {
+        "balance": 8550,
+        "balance_version": 3,
+        "currency": "USD",
+        "denominator": 100,
+        "huid": "prod-player-1",
+        "is_test": false,
+        "show_balance": true
+      },
+      "origin_data": {
+        "autogame": false,
+        "client_command_timestamp": 1775311699314,
+        "fullscreen": true,
+        "mobile": "0",
+        "portrait": false,
+        "quickspin": 1,
+        "set_denominator": 1,
+        "sound": true,
+        "viewportSize": "1200x1245"
+      }
+    },
+    "responseText": "{\"command\":\"play\",\"context\":{\"actions\":[\"spin\"],\"current\":\"spins\",\"last_action\":\"spin\",\"last_args\":{\"bet_per_line\":10,\"lines\":25},\"round_finished\":true,\"spins\":{\"bet_per_line\":10,\"board\":[[1,2,3],[9,10,11],[9,10,11],[3,4,5],[11,1,2]],\"bs_v\":[[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"bs_values\":[[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"is_sb_trigger\":false,\"is_super_state\":false,\"lines\":25,\"round_bet\":250,\"round_win\":100,\"sr\":true,\"sr_rounds\":0,\"total_win\":100,\"winlines\":[{\"amount\":50,\"line\":1,\"occurrences\":3,\"positions\":[[0,0],[1,0],[2,0]],\"symbol\":1,\"type\":\"lb\"},{\"amount\":50,\"line\":13,\"occurrences\":3,\"positions\":[[0,1],[1,0],[2,0]],\"symbol\":2,\"type\":\"lb\"}]},\"version\":3,\"last_win\":100},\"modes\":[\"auto\",\"play\"],\"request_id\":\"5b4be16f8e474682ae8805dfd674808d\",\"session_id\":\"1d1459dac94d417aadc907d75b6e93c6\",\"status\":{\"code\":\"OK\"},\"user\":{\"balance\":8550,\"balance_version\":3,\"currency\":\"USD\",\"denominator\":100,\"huid\":\"prod-player-1\",\"is_test\":false,\"show_balance\":true},\"origin_data\":{\"autogame\":false,\"client_command_timestamp\":1775311699314,\"fullscreen\":true,\"mobile\":\"0\",\"portrait\":false,\"quickspin\":1,\"set_denominator\":1,\"sound\":true,\"viewportSize\":\"1200x1245\"}}"
+  },
+  {
+    "at": "2026-04-04T14:08:25.887Z",
+    "kind": "xhr",
+    "url": "http://127.0.0.1:8084/three-oaks/product/3oaksgaming-aztec-sun/api/slotscity-prod-axis/gs/aztec_sun/desktop/97265f9436224f7d8c84eb6952b7cb4b/money/?gsc=play",
+    "requestBody": {
+      "command": "play",
+      "request_id": "7c9d581435004c4e8a145361dbbc7eef",
+      "session_id": "1d1459dac94d417aadc907d75b6e93c6",
+      "action": {
+        "name": "spin",
+        "params": {
+          "bet_per_line": 10,
+          "lines": 25
+        }
+      },
+      "set_denominator": 1,
+      "quick_spin": 1,
+      "sound": true,
+      "autogame": false,
+      "mobile": "0",
+      "portrait": false,
+      "fullscreen": true,
+      "prev_client_command_time": 6,
+      "client_command_timestamp": 1775311705882
+    },
+    "requestText": "{\"command\":\"play\",\"request_id\":\"7c9d581435004c4e8a145361dbbc7eef\",\"session_id\":\"1d1459dac94d417aadc907d75b6e93c6\",\"action\":{\"name\":\"spin\",\"params\":{\"bet_per_line\":10,\"lines\":25}},\"set_denominator\":1,\"quick_spin\":1,\"sound\":true,\"autogame\":false,\"mobile\":\"0\",\"portrait\":false,\"fullscreen\":true,\"prev_client_command_time\":6,\"client_command_timestamp\":1775311705882}",
+    "responseBody": {
+      "command": "play",
+      "context": {
+        "actions": [
+          "spin"
+        ],
+        "current": "spins",
+        "last_action": "spin",
+        "last_args": {
+          "bet_per_line": 10,
+          "lines": 25
+        },
+        "round_finished": true,
+        "spins": {
+          "bet_per_line": 10,
+          "board": [
+            [
+              2,
+              3,
+              4
+            ],
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              9,
+              10,
+              11
+            ],
+            [
+              3,
+              4,
+              5
+            ],
+            [
+              11,
+              1,
+              2
+            ]
+          ],
+          "bs_v": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "bs_values": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "is_sb_trigger": false,
+          "is_super_state": false,
+          "lines": 25,
+          "round_bet": 250,
+          "round_win": 50,
+          "sr": true,
+          "sr_rounds": 0,
+          "total_win": 50,
+          "winlines": [
+            {
+              "amount": 50,
+              "line": 10,
+              "occurrences": 3,
+              "positions": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  0
+                ]
+              ],
+              "symbol": 2,
+              "type": "lb"
+            }
+          ]
+        },
+        "version": 3,
+        "last_win": 50
+      },
+      "modes": [
+        "auto",
+        "play"
+      ],
+      "request_id": "7c9d581435004c4e8a145361dbbc7eef",
+      "session_id": "1d1459dac94d417aadc907d75b6e93c6",
+      "status": {
+        "code": "OK"
+      },
+      "user": {
+        "balance": 8350,
+        "balance_version": 4,
+        "currency": "USD",
+        "denominator": 100,
+        "huid": "prod-player-1",
+        "is_test": false,
+        "show_balance": true
+      },
+      "origin_data": {
+        "autogame": false,
+        "client_command_timestamp": 1775311705882,
+        "fullscreen": true,
+        "mobile": "0",
+        "portrait": false,
+        "quickspin": 1,
+        "set_denominator": 1,
+        "sound": true
+      }
+    },
+    "responseText": "{\"command\":\"play\",\"context\":{\"actions\":[\"spin\"],\"current\":\"spins\",\"last_action\":\"spin\",\"last_args\":{\"bet_per_line\":10,\"lines\":25},\"round_finished\":true,\"spins\":{\"bet_per_line\":10,\"board\":[[2,3,4],[1,2,3],[9,10,11],[3,4,5],[11,1,2]],\"bs_v\":[[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"bs_values\":[[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"is_sb_trigger\":false,\"is_super_state\":false,\"lines\":25,\"round_bet\":250,\"round_win\":50,\"sr\":true,\"sr_rounds\":0,\"total_win\":50,\"winlines\":[{\"amount\":50,\"line\":10,\"occurrences\":3,\"positions\":[[0,0],[1,1],[2,0]],\"symbol\":2,\"type\":\"lb\"}]},\"version\":3,\"last_win\":50},\"modes\":[\"auto\",\"play\"],\"request_id\":\"7c9d581435004c4e8a145361dbbc7eef\",\"session_id\":\"1d1459dac94d417aadc907d75b6e93c6\",\"status\":{\"code\":\"OK\"},\"user\":{\"balance\":8350,\"balance_version\":4,\"currency\":\"USD\",\"denominator\":100,\"huid\":\"prod-player-1\",\"is_test\":false,\"show_balance\":true},\"origin_data\":{\"autogame\":false,\"client_command_timestamp\":1775311705882,\"fullscreen\":true,\"mobile\":\"0\",\"portrait\":false,\"quickspin\":1,\"set_denominator\":1,\"sound\":true}}"
+  }
+]

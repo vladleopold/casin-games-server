@@ -1,0 +1,269 @@
+character-LZL_uQ.avif
+	size: 2230, 1035
+	filter: Linear, Linear
+.misc/flare_shine
+	bounds: 1976, 783, 250, 250
+.misc/sec/particles_00000
+	bounds: 1566, 757, 142, 276
+	offsets: 30, 103, 200, 500
+.misc/sec/particles_00001
+	bounds: 1421, 756, 143, 277
+	offsets: 30, 102, 200, 500
+.misc/sec/particles_00002
+	bounds: 1277, 755, 142, 278
+	offsets: 30, 100, 200, 500
+.misc/sec/particles_00003
+	bounds: 1691, 479, 137, 276
+	offsets: 31, 99, 200, 500
+.misc/sec/particles_00004
+	bounds: 1130, 175, 141, 280
+	offsets: 30, 97, 200, 500
+.misc/sec/particles_00005
+	bounds: 845, 2, 140, 283
+	offsets: 30, 96, 200, 500
+	rotate: 90
+.misc/sec/particles_00006
+	bounds: 1107, 457, 141, 285
+	offsets: 29, 95, 200, 500
+.misc/sec/particles_00007
+	bounds: 987, 744, 141, 289
+	offsets: 28, 95, 200, 500
+.misc/sec/particles_00008
+	bounds: 842, 144, 138, 293
+	offsets: 29, 94, 200, 500
+.misc/sec/particles_00009
+	bounds: 818, 439, 139, 296
+	offsets: 28, 93, 200, 500
+.misc/sec/particles_00010
+	bounds: 700, 126, 140, 299
+	offsets: 27, 93, 200, 500
+.misc/sec/particles_00011
+	bounds: 557, 124, 141, 301
+	offsets: 26, 92, 200, 500
+.misc/sec/particles_00012
+	bounds: 267, 121, 143, 303
+	offsets: 25, 91, 200, 500
+.misc/sec/particles_00013
+	bounds: 412, 122, 143, 302
+	offsets: 25, 91, 200, 500
+.misc/sec/particles_00014
+	bounds: 122, 118, 143, 304
+	offsets: 25, 90, 200, 500
+.misc/sec/particles_00015
+	bounds: 1571, 200, 142, 276
+	offsets: 25, 116, 200, 500
+.misc/sec/particles_00016
+	bounds: 1710, 758, 145, 275
+	offsets: 25, 115, 200, 500
+.misc/sec/particles_00017
+	bounds: 1830, 482, 144, 274
+	offsets: 25, 114, 200, 500
+.misc/sec/particles_00018
+	bounds: 1423, 198, 146, 276
+	offsets: 25, 113, 200, 500
+.misc/sec/particles_00019
+	bounds: 258, 426, 149, 276
+	offsets: 23, 112, 200, 500
+	rotate: 90
+.misc/sec/particles_00020
+	bounds: 1273, 190, 148, 277
+	offsets: 22, 110, 200, 500
+.misc/sec/particles_00021
+	bounds: 1715, 202, 145, 275
+	offsets: 24, 111, 200, 500
+.misc/sec/particles_00022
+	bounds: 1545, 478, 144, 276
+	offsets: 24, 109, 200, 500
+.misc/sec/particles_00023
+	bounds: 1398, 476, 145, 277
+	offsets: 23, 108, 200, 500
+.misc/sec/particles_00024
+	bounds: 1250, 469, 146, 279
+	offsets: 23, 106, 200, 500
+.misc/sec/particles_00025
+	bounds: 536, 427, 148, 280
+	offsets: 22, 106, 200, 500
+	rotate: 90
+.misc/sec/particles_00026
+	bounds: 1130, 750, 145, 283
+	offsets: 26, 104, 200, 500
+.misc/sec/particles_00027
+	bounds: 982, 156, 146, 287
+	offsets: 26, 102, 200, 500
+.misc/sec/particles_00028
+	bounds: 959, 445, 146, 290
+	offsets: 26, 100, 200, 500
+character/char_apron_l
+	bounds: 2015, 490, 73, 113
+	rotate: 90
+character/char_apron_r
+	bounds: 1379, 5, 93, 183
+character/char_bang big
+	bounds: 1607, 3, 195, 139
+	rotate: 90
+character/char_belt
+	bounds: 1973, 270, 210, 255
+	rotate: 90
+character/char_bow_part_1
+	bounds: 1857, 758, 23, 44
+	rotate: 90
+character/char_bow_part_2
+	bounds: 233, 2, 70, 64
+character/char_bow_part_3
+	bounds: 305, 3, 63, 59
+	rotate: 90
+character/char_bow_part_4
+	bounds: 366, 3, 39, 116
+character/char_bow_part_5
+	bounds: 706, 3, 36, 121
+character/char_decor_shadow
+	bounds: 1857, 788, 24, 24
+character/char_ear_l
+	bounds: 412, 577, 30, 58
+	rotate: 90
+character/char_ear_r
+	bounds: 317, 70, 49, 47
+	rotate: 90
+character/char_eye_l_blik
+	bounds: 722, 598, 11, 11
+character/char_eye_l_pupil
+	bounds: 547, 578, 27, 29
+character/char_eye_l_sclera
+	bounds: 1857, 914, 43, 36
+character/char_eye_r_blik
+	bounds: 722, 586, 10, 10
+character/char_eye_r_pupil
+	bounds: 624, 580, 27, 29
+character/char_eye_r_sclera
+	bounds: 216, 68, 48, 37
+	rotate: 90
+character/char_eyelid_l
+	bounds: 1857, 886, 43, 26
+character/char_eyelid_r
+	bounds: 285, 68, 51, 30
+	rotate: 90
+character/char_flower
+	bounds: 1984, 6, 60, 69
+	rotate: 90
+character/char_flower_decor_1
+	bounds: 122, 68, 50, 48
+character/char_flower_decor_2
+	bounds: 255, 68, 28, 48
+character/char_flower_decor_3
+	bounds: 1914, 27, 34, 65
+	rotate: 90
+character/char_flower_decor_4
+	bounds: 1973, 213, 36, 55
+character/char_hair1
+	bounds: 1328, 2, 49, 186
+	offsets: 0, 0, 49, 189
+character/char_hair2
+	bounds: 2, 2, 64, 229
+	rotate: 90
+character/char_hair3
+	bounds: 412, 609, 145, 424
+character/char_hair4
+	bounds: 256, 577, 154, 456
+	offsets: 0, 1, 154, 457
+character/char_hair5
+	bounds: 780, 737, 205, 296
+character/char_hair_back_1_l
+	bounds: 2, 68, 118, 354
+character/char_hand_l_finger_1
+	bounds: 1857, 992, 44, 41
+character/char_hand_l_finger_2
+	bounds: 1857, 952, 38, 43
+	rotate: 90
+character/char_hand_l_finger_3
+	bounds: 1857, 814, 33, 39
+	rotate: 90
+character/char_hand_l_finger_4
+	bounds: 511, 577, 30, 34
+	rotate: 90
+character/char_hand_l_finger_arm
+	bounds: 1976, 482, 81, 37
+	rotate: 90
+character/char_hand_l_finger_palm
+	bounds: 1903, 758, 56, 46
+character/char_hand_l_sleeve
+	bounds: 1474, 3, 131, 193
+	offsets: 0, 51, 131, 244
+character/char_hand_l_sleeve_part_
+	bounds: 1903, 890, 70, 143
+character/char_hand_l_thumb
+	bounds: 174, 68, 40, 48
+character/char_hand_r_arm
+	bounds: 2051, 94, 100, 72
+	rotate: 90
+character/char_hand_r_finger_1
+	bounds: 576, 577, 46, 32
+character/char_hand_r_finger_2
+	bounds: 1857, 849, 35, 39
+	rotate: 90
+character/char_hand_r_finger_3
+	bounds: 1879, 22, 33, 39
+character/char_hand_r_finger_4
+	bounds: 472, 577, 30, 37
+	rotate: 90
+character/char_hand_r_palm
+	bounds: 2130, 490, 73, 87
+	rotate: 90
+character/char_hand_r_sleeve
+	bounds: 1748, 28, 129, 172
+character/char_head
+	bounds: 1130, 14, 159, 196
+	rotate: 90
+character/char_head_decor
+	bounds: 407, 6, 173, 113
+character/char_head_shadow_1
+	bounds: 653, 583, 26, 56
+	rotate: 90
+character/char_head_shadow_2
+	bounds: 166, 428, 17, 36
+	rotate: 90
+character/char_kimono_chest
+	bounds: 1976, 565, 216, 219
+	offsets: 0, 0, 216, 224
+	rotate: 90
+character/char_kimono_l_bottom
+	bounds: 2125, 54, 93, 140
+character/char_kimono_r
+	bounds: 1862, 213, 109, 267
+character/char_kimono_r_back
+	bounds: 735, 580, 81, 155
+character/char_kimono_r_bottom
+	bounds: 1879, 63, 103, 148
+character/char_kimono_right_l_inner
+	bounds: 1984, 68, 65, 143
+character/char_leg_l
+	bounds: 130, 447, 124, 586
+	offsets: 0, 0, 125, 586
+character/char_leg_l_shadow
+	bounds: 744, 11, 113, 99
+	offsets: 0, 0, 116, 99
+	rotate: 90
+character/char_leg_r
+	bounds: 2, 424, 126, 609
+character/char_leg_r_shadow
+	bounds: 582, 2, 120, 122
+	rotate: 90
+character/char_menu
+	bounds: 559, 611, 174, 124
+character/char_neck
+	bounds: 2055, 196, 72, 142
+	rotate: 90
+character/char_open_mouth_tounge
+	bounds: 233, 429, 23, 16
+character/char_pen
+	bounds: 1903, 806, 70, 82
+character/char_skirt
+	bounds: 559, 737, 296, 219
+	rotate: 90
+character/char_smile_mouth
+	bounds: 130, 427, 34, 18
+character/char_smile_teeth
+	bounds: 711, 585, 24, 9
+	offsets: 4, 0, 28, 9
+	rotate: 90
+character/char_smile_tounge
+	bounds: 204, 428, 27, 17

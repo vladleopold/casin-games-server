@@ -1,0 +1,34 @@
+
+gr_promo_menu_hot_period_plate.avif
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dot
+  rotate: false
+  xy: 2, 33
+  size: 53, 53
+  orig: 59, 59
+  offset: 3, 3
+  index: -1
+dote
+  rotate: false
+  xy: 797, 88
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+fire
+  rotate: false
+  xy: 668, 2
+  size: 127, 124
+  orig: 128, 128
+  offset: 0, 1
+  index: -1
+leaderboard_row
+  rotate: false
+  xy: 2, 88
+  size: 664, 38
+  orig: 664, 38
+  offset: 0, 0
+  index: -1

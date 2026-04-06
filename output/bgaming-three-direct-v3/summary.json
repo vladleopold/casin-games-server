@@ -1,0 +1,22 @@
+{
+  "launchUrl": "http://127.0.0.1:8092/bgaming/location?game=gates-of-power&token=d3125fcad73e59736d3ef84118792e6d&options=eyJ0YXJnZXRfZWxlbWVudCI6ImdhbWVfd3JhcHBlciIsImxhdW5jaF9vcHRpb25zIjp7ImdhbWVfbGF1bmNoZXJfdXJsIjoiaHR0cHM6Ly9nYXRlcy1vZi1wb3dlci5wdWJpbnRlcmxheWVyLm9ubGluZT90b2tlbj1kMzEyNWZjYWQ3M2U1OTczNmQzZWY4NDExODc5MmU2ZCIsImdhbWVfdXJsIjoiaHR0cHM6Ly9nYXRlcy1vZi1wb3dlci5wdWJpbnRlcmxheWVyLm9ubGluZT90b2tlbj1kMzEyNWZjYWQ3M2U1OTczNmQzZWY4NDExODc5MmU2ZCIsInN0cmF0ZWd5IjoiaWZyYW1lIn19",
+  "playRequestCount": 3,
+  "playResponseCount": 3,
+  "pageErrorCount": 0,
+  "bodyText": "20:50\nGATES OF POWER\nBalance 1,006.40 FUN\nTotal bet\n2.00 FUN",
+  "balances": [
+    101040,
+    100840,
+    100640
+  ],
+  "wins": [
+    0,
+    0,
+    0
+  ],
+  "ids": [
+    "0747aa80-72f8-497b-b587-108465485af2",
+    "fd5a0f38-e178-4dcd-ad16-9500dc5e91b5",
+    "0db4ee34-be38-4c30-9315-5e952d6053ef"
+  ]
+}

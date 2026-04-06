@@ -1,0 +1,27 @@
+
+gr_widget_progressbar_light_landscape.avif
+size: 512,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+landscape
+  rotate: false
+  xy: 168, 2
+  size: 164, 32
+  orig: 164, 32
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 334, 2
+  size: 75, 32
+  orig: 75, 32
+  offset: 0, 0
+  index: -1
+progress_l_bar_100%
+  rotate: false
+  xy: 2, 2
+  size: 164, 32
+  orig: 164, 32
+  offset: 0, 0
+  index: -1

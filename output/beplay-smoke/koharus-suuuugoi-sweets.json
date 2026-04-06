@@ -1,0 +1,48 @@
+{
+  "launchUrl": "http://127.0.0.1:8082/beplay/location?game=koharus-suuuugoi-sweets&key=&language=uk&operator=slotscity&lobbyUrl=https%3A%2F%2Fslotcity.ua%2F&currency=uah&depositUrl=https%3A%2F%2Fslotcity.ua%2Fcashbox%3Fbackgameurl%3Dbeplay-koharus-suuuugoi-sweets&exitTarget=self&channel=desktop&rgs=beplay&provider=beplay",
+  "game": "koharus-suuuugoi-sweets",
+  "eventCount": 8,
+  "missing": [],
+  "events": [
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://127.0.0.1:8082/api/config"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://127.0.0.1:8082/api/config"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8082/beplay/api/authenticate"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://127.0.0.1:8082/beplay/api/authenticate"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8082/beplay/api/game/info"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://127.0.0.1:8082/beplay/api/game/info"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8082/beplay/api/game/recover"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "http://127.0.0.1:8082/beplay/api/game/recover"
+    }
+  ]
+}

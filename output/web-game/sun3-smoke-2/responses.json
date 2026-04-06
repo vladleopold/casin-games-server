@@ -1,0 +1,450 @@
+[
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/index.js?_ts=521881b9",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/init.js?748fbf6f",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/src/libs.js?748fbf6f",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/gr.js?521881b9",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/i18n/uk.json?521881b9",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/css/font-awesome.min.css?521881b9",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/css/fonts.css?521881b9",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/MANIFEST?521881b9",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/betman.c1.3oaks.com/slotscity-prod-axis/gs/sun_of_egypt_3/desktop/c19b06787fc74bad98eedf05cb614b2f/demo/?gsc=login",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/src/game.js?748fbf6f",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/fonts/Gilroy/Gilroy-Bold.woff2",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/betman.c1.3oaks.com/slotscity-prod-axis/gs/sun_of_egypt_3/desktop/c19b06787fc74bad98eedf05cb614b2f/demo/?gsc=start",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/external_promo/external-promo.js?521881b90",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/anticipation.json?2bf6f9e9f9",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/anticipation.atlas?be1894b5b2",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/anticipation.png?a80df7b642",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/back_bonus_game.jpg?84ba32e589",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/canvas_assets_webp/ui/textures/gr_ui_textures.json?521881b9",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/fonts/Gilroy/Gilroy-Regular.woff2?521881b9",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/fonts/Gilroy/Gilroy-Bold.woff2?521881b9",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/back_freespins.jpg?946f712a48",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/background.jpg?7184ce83c2",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/canvas_assets_webp/ui/textures/gr_ui_textures.webp?521881b90",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/bitmapFont.xml?690501f649",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/bitmapFont.png?08d4e9cd53",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/bonus_dragon_1.png?25dfeab531",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/bonus-0.json?84349127eb",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/fonts/Gilroy/Gilroy-Regular.woff2?521881b9",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/bonus-0.png?771a7b29f7",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/fonts/Gilroy/Gilroy-Bold.woff2?521881b9",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/bw_emitter.json?9cfc28608a",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/el_bonus.json?edf19fdc3a",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/el_bonus.atlas?90c68f29a6",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/el_bonus.png?f1acfd5181",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/el_bonus_explosion.json?3c514218fe",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/el_bonus_explosion.atlas?ace3bf4c87",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/el_bonus_explosion.png?d748cec7b2",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/el_scatter.json?7a9d7ebc42",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/el_scatter.atlas?3660b411b0",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/el_scatter.png?a6585aaa79",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/el_super_bonus.json?cdda633e38",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/el_super_bonus.atlas?a966295dea",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/el_super_bonus.png?a5a1bf89ba",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/el_super_bonus_explosion.json?353b59ef84",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/el_super_bonus_explosion.atlas?e29902b20d",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/el_super_bonus_explosion.png?1c7976039c",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/frame-0.json?e0d1bc4d5e",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/frame-0.png?885a2d789f",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/logo-0.json?bca9bb24be",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/logo-0.png?0a71bc91ca",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/mystery_animation.json?f962d93df8",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/mystery_animation.atlas?b68261fdb2",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/mystery_animation.png?0cce91f7fa",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/mystery_wave.json?c0caf00840",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/mystery_wave_image.png?81def7475c",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/QUICK.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/TURBO.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/PAYTABLE.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/SOUND.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/SPIN.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/AUTOPLAY.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/STOP_DEFAULT.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/BETS.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/BETS_PLUS.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/BETS_MINUS.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/BETS_MAX.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/CLOSE.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/HISTORY.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/ARROWS.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/numbers_bonus.png?c145eff7c0",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/numbers_bonus.xml?6102854825",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/paytable-0.json?fd553e5201",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/QUICK.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/TURBO.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/PAYTABLE.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/SOUND.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/SPIN.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/AUTOPLAY.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/STOP_DEFAULT.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/BETS.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/BETS_PLUS.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/BETS_MINUS.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/BETS_MAX.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/CLOSE.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/HISTORY.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/images/ARROWS.png?521881b9",
+    "status": 404
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/paytable-0.png?d50ee80fff",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/start_screen_d.jpg?170895934e",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/start_screen_m.jpg?77bc7a5ff9",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/symbols-0.json?75781553fa",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/symbols-0.png?eff814707c",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/fonts/bonzai.ttf?5f338722af",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/fonts/Calibri.ttf?8c8e1a43b3",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/fonts/Roboto-Black.ttf?ec4c9962ba",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/fonts/Roboto-Bold.ttf?ee7b96fa85",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/fonts/Roboto-Medium.ttf?d08840599e",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/i18n/uk.json?748fbf6f",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/external_promo/external-promo.js?521881b91",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/bigwin-0.json?76a1334651",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/bigwin-0.png?2bcfbdd967",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/external_promo/external-promo.js?521881b92",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/betman.c1.3oaks.com/slotscity-prod-axis/log/",
+    "status": 204
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/external_promo/external-promo.js?521881b93",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/external_promo/external-promo.js?521881b94",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/bigwin.atlas?b6e4a8c485",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/bigwin.json?b35491dab0",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/assets/packs/720/bigwin.png?9759acae0b",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/external_promo/external-promo.js?521881b95",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/betman.c1.3oaks.com/slotscity-prod-axis/gs/sun_of_egypt_3/desktop/c19b06787fc74bad98eedf05cb614b2f/demo/?gsc=sync",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/external_promo/external-promo.js?521881b96",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8080/sun_of_egypt_3/static.3oaks.com/gs/gamerunner/5.17.1/external_promo/external-promo.js?521881b97",
+    "status": 200
+  }
+]

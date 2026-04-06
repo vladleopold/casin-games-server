@@ -1,0 +1,42 @@
+<config>
+	<string id="POPUP_CONNECTION_LOST" font="SFBold" size="25" align="center" color="#EEEEEE">Connection lost.
+Click anywhere on the screen
+to reconnect.</string>
+	<string id="POPUP_SESSION_LOST" font="SFBold" size="25" align="center" color="#EEEEEE">Session timeout.
+Please re-open the game.</string>
+	<string id="POPUP_SERVER_ERROR" font="SFBold" size="25" align="center" color="#EEEEEE">Server error.
+Please reload the game.</string>
+	<string id="POPUP_SERVER_FAIL" font="SFBold" size="25" align="center" color="#EEEEEE">Restore session.
+The session data crashed.
+All the crucial information saved.
+Please reload the page.</string>
+	<string id="POPUP_INTERNAL_ERROR" font="SFBold" size="25" align="center" color="#EEEEEE">Internal error.
+Please reload the game.</string>
+	<string id="POPUP_NO_MONEY" font="SFBold" size="25" align="center" color="#EEEEEE">Please, refill your balance
+to place a bet.</string>
+	<string id="POPUP_BET_REDUCED" font="SFBold" size="25" align="center" color="#EEEEEE">Bets were reduced
+to match your balance.</string>
+	<string id="POPUP_BET_DEFAULT" font="SFBold" size="25" align="center" color="#EEEEEE">Bet parameters were modified.
+Bet is set to default.</string>
+	<string id="POPUP_FAIL" font="SFBold" size="25" align="center" color="#EEEEEE">Oops! Something went wrong.
+But it's ok, we've fixed it.
+Please continue playing.</string>
+<string id="POPUP_BONUS_MODE_END" font="SFBold" size="40" align="center" color="#EEEEEE">Bonus Game finished.</string>
+<string id="POPUP_BONUS_MODE_END_BUTTON" x="120" y="25" font="SFBold" size="30" align="center" color="#ffffff">Continue to
+Base Game.</string>
+
+	<string id="POPUP_ACCESS_DENIED" font="SFBold" size="20" align="center" color="#EEEEEE">Sorry, this game is not available in your country.</string>
+	<string id="POPUP_GAME_LIMIT_REACHED" font="SFBold" size="20" align="center" color="#EEEEEE">Game limit reached.</string>
+	<string id="POPUP_WAGER_LIMIT_REACHED" font="SFBold" size="20" align="center" color="#EEEEEE">You have reached the wager limit.</string>
+	<string id="POPUP_USER_BLOCKED" font="SFBold" size="20" align="center" color="#EEEEEE">You have reached your wager limit.</string>
+	<string id="POPUP_NO_MONEY_FOR_INCREASE_BET" font="SFBold" size="20" align="center" color="#EEEEEE">Current bet exceeds your credits.
+To place more chips, please refill your balance.</string>
+	<string id="POPUP_NOT_ENOUGH_MONEY_1" font="SFBold" size="20" align="center" color="#EEEEEE">NOT ENOUGH MONEY ON YOUR BALANCE.</string>
+	<string id="POPUP_NOT_ENOUGH_MONEY_2" font="SFBold" size="20" align="center" color="#EEEEEE">We hope you enjoyed our games,
+if you wish to continue the fun
+please proceed to the Cashier.</string>
+	<string id="POPUP_FATAL_ERROR" font="SFBold" size="20" align="center" color="#EEEEEE">Fatal error.</string>
+	<string id="POPUP_CLOSE_BUTTON" x="120" y="40" font="SFBold" size="30" align="center" color="#ffffff">Close</string>
+	<string id="POPUP_DEPOSIT_BUTTON" x="120" y="40" font="SFBold" size="30" align="center" color="#ffffff">Deposit</string>
+
+</config>

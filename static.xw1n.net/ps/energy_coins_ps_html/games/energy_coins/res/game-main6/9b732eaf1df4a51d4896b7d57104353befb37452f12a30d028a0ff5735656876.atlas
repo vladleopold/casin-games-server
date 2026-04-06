@@ -1,0 +1,251 @@
+
+other-0.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bw_glow_back_fx1
+  rotate: false
+  xy: 1, 1
+  size: 432, 389
+  orig: 432, 389
+  offset: 0, 0
+  index: -1
+collapse_frame
+  rotate: false
+  xy: 1806, 1
+  size: 239, 160
+  orig: 239, 160
+  offset: 0, 0
+  index: -1
+lt_orb_fx/lt_orb_fx_00
+  rotate: false
+  xy: 153, 1323
+  size: 132, 131
+  orig: 342, 342
+  offset: 107, 109
+  index: -1
+lt_orb_fx/lt_orb_fx_01
+  rotate: true
+  xy: 1, 1313
+  size: 137, 150
+  orig: 342, 342
+  offset: 103, 94
+  index: -1
+lt_orb_fx/lt_orb_fx_02
+  rotate: true
+  xy: 1, 1168
+  size: 143, 153
+  orig: 342, 342
+  offset: 101, 97
+  index: -1
+lt_orb_fx/lt_orb_fx_03
+  rotate: false
+  xy: 220, 1165
+  size: 160, 156
+  orig: 342, 342
+  offset: 91, 98
+  index: -1
+lt_orb_fx/lt_orb_fx_04
+  rotate: false
+  xy: 905, 969
+  size: 173, 172
+  orig: 342, 342
+  offset: 85, 87
+  index: -1
+lt_orb_fx/lt_orb_fx_05
+  rotate: true
+  xy: 495, 1154
+  size: 178, 191
+  orig: 342, 342
+  offset: 82, 80
+  index: -1
+lt_orb_fx/lt_orb_fx_06
+  rotate: true
+  xy: 701, 969
+  size: 192, 202
+  orig: 342, 342
+  offset: 78, 75
+  index: -1
+lt_orb_fx/lt_orb_fx_07
+  rotate: false
+  xy: 495, 948
+  size: 204, 204
+  orig: 342, 342
+  offset: 71, 72
+  index: -1
+lt_orb_fx/lt_orb_fx_08
+  rotate: false
+  xy: 273, 948
+  size: 220, 215
+  orig: 342, 342
+  offset: 60, 70
+  index: -1
+lt_orb_fx/lt_orb_fx_09
+  rotate: false
+  xy: 1805, 408
+  size: 236, 224
+  orig: 342, 342
+  offset: 50, 64
+  index: -1
+lt_orb_fx/lt_orb_fx_10
+  rotate: true
+  xy: 1806, 163
+  size: 243, 237
+  orig: 342, 342
+  offset: 50, 56
+  index: -1
+lt_orb_fx/lt_orb_fx_11
+  rotate: true
+  xy: 1786, 1178
+  size: 248, 254
+  orig: 342, 342
+  offset: 46, 47
+  index: -1
+lt_orb_fx/lt_orb_fx_12
+  rotate: false
+  xy: 1795, 922
+  size: 250, 254
+  orig: 342, 342
+  offset: 46, 50
+  index: -1
+lt_orb_fx/lt_orb_fx_13
+  rotate: true
+  xy: 1, 720
+  size: 262, 270
+  orig: 342, 342
+  offset: 43, 42
+  index: -1
+lt_orb_fx/lt_orb_fx_14
+  rotate: false
+  xy: 375, 677
+  size: 273, 269
+  orig: 342, 342
+  offset: 40, 41
+  index: -1
+lt_orb_fx/lt_orb_fx_15
+  rotate: false
+  xy: 1118, 663
+  size: 333, 325
+  orig: 342, 342
+  offset: 5, 17
+  index: -1
+lt_orb_fx/lt_orb_fx_16
+  rotate: false
+  xy: 1453, 981
+  size: 331, 326
+  orig: 342, 342
+  offset: 7, 16
+  index: -1
+lt_orb_fx/lt_orb_fx_17
+  rotate: false
+  xy: 778, 336
+  size: 338, 328
+  orig: 342, 342
+  offset: 0, 14
+  index: -1
+lt_orb_fx/lt_orb_fx_18
+  rotate: false
+  xy: 1464, 325
+  size: 339, 331
+  orig: 342, 342
+  offset: 0, 11
+  index: -1
+lt_orb_fx/lt_orb_fx_19
+  rotate: false
+  xy: 778, 1
+  size: 341, 333
+  orig: 342, 342
+  offset: 1, 9
+  index: -1
+lt_orb_fx/lt_orb_fx_20
+  rotate: false
+  xy: 1121, 1
+  size: 341, 333
+  orig: 342, 342
+  offset: 0, 9
+  index: -1
+lt_orb_fx/lt_orb_fx_21
+  rotate: false
+  xy: 435, 1
+  size: 341, 336
+  orig: 342, 342
+  offset: 1, 6
+  index: -1
+lt_orb_fx/lt_orb_fx_22
+  rotate: true
+  xy: 435, 339
+  size: 336, 337
+  orig: 342, 342
+  offset: 6, 5
+  index: -1
+lt_orb_fx/lt_orb_fx_23
+  rotate: true
+  xy: 1118, 336
+  size: 325, 337
+  orig: 342, 342
+  offset: 17, 5
+  index: -1
+lt_orb_fx/lt_orb_fx_24
+  rotate: true
+  xy: 1464, 1
+  size: 322, 340
+  orig: 342, 342
+  offset: 20, 2
+  index: -1
+lt_orb_fx/lt_orb_fx_25
+  rotate: true
+  xy: 1457, 658
+  size: 321, 336
+  orig: 342, 342
+  offset: 20, 6
+  index: -1
+lt_orb_fx/lt_orb_fx_26
+  rotate: false
+  xy: 774, 666
+  size: 321, 301
+  orig: 342, 342
+  offset: 18, 26
+  index: -1
+lt_orb_fx/lt_orb_fx_27
+  rotate: false
+  xy: 1, 445
+  size: 315, 273
+  orig: 342, 342
+  offset: 19, 27
+  index: -1
+lt_orb_fx/lt_orb_fx_28
+  rotate: true
+  xy: 1805, 634
+  size: 286, 227
+  orig: 342, 342
+  offset: 28, 37
+  index: -1
+placeholder_reels_win_particle
+  rotate: false
+  xy: 2043, 408
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+reel_horizontal_fx
+  rotate: false
+  xy: 1, 392
+  size: 320, 51
+  orig: 320, 60
+  offset: 0, 6
+  index: -1
+reel_vertical_fx
+  rotate: false
+  xy: 323, 392
+  size: 50, 312
+  orig: 60, 320
+  offset: 5, 3
+  index: -1
+symbol_frame_highlight
+  rotate: false
+  xy: 1, 984
+  size: 217, 182
+  orig: 250, 200
+  offset: 16, 9
+  index: -1

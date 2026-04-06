@@ -1,0 +1,8 @@
+{
+  "plugins": [
+    {
+      "script": "plugins/starfield.js",
+      "delay": 500
+    }
+  ]
+}

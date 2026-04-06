@@ -1,0 +1,72 @@
+sym_hp2-bnjHxg.avif
+	size: 955, 267
+	format: RGBA4444
+	filter: Linear, Linear
+	scale: 0.5
+.misc/romb
+	bounds: 439, 28, 25, 25
+	offsets: 3, 3, 31, 31
+hp1/hp1_fx_dot
+	bounds: 411, 8, 16, 17
+	offsets: 2, 2, 20, 20
+	rotate: 90
+hp1/hp1_vfx_Ellipse
+	bounds: 2, 38, 228, 227
+hp2/hp2_back
+	bounds: 475, 68, 198, 197
+	offsets: 1, 1, 200, 198
+hp2/hp2_bisquit
+	bounds: 675, 145, 188, 120
+hp2/hp2_honey
+	bounds: 232, 10, 115, 43
+hp2/hp2_honey2
+	bounds: 542, 14, 52, 129
+	rotate: 90
+hp2/hp2_ice_cream_shadow
+	bounds: 2, 2, 84, 34
+	offsets: 1, 2, 87, 37
+hp2/hp2_ice_creame
+	bounds: 735, 7, 82, 43
+hp2/hp2_jelly2
+	bounds: 675, 52, 152, 91
+hp2/hp2_jelly_ear
+	bounds: 349, 13, 41, 40
+hp2/hp2_jelly_ear2
+	bounds: 914, 32, 39, 44
+hp2/hp2_leaf
+	bounds: 439, 6, 25, 20
+hp2/hp2_leafs
+	bounds: 392, 26, 27, 45
+	rotate: 90
+hp2/hp2_leafs1
+	bounds: 829, 91, 52, 32
+	rotate: 90
+hp2/hp2_left_eye
+	bounds: 88, 22, 14, 14
+hp2/hp2_left_eye_1
+	bounds: 853, 83, 6, 5
+	rotate: 90
+hp2/hp2_left_eye_2
+	bounds: 829, 83, 6, 6
+hp2/hp2_lemon
+	bounds: 475, 6, 65, 60
+hp2/hp2_lemon_shadow
+	bounds: 829, 7, 83, 69
+	offsets: 0, 1, 89, 70
+hp2/hp2_lemon_top
+	bounds: 673, 4, 60, 46
+hp2/hp2_mouse_and_nose
+	bounds: 914, 9, 33, 21
+hp2/hp2_plate_cutted
+	bounds: 865, 78, 187, 82
+	offsets: 1, 0, 189, 82
+	rotate: 90
+hp2/hp2_right_eye
+	bounds: 392, 7, 17, 17
+hp2/hp2_right_eye_1
+	bounds: 837, 83, 6, 6
+hp2/hp2_right_eye_2
+	bounds: 845, 83, 6, 6
+hp3/hp3_frame
+	bounds: 232, 55, 210, 241
+	rotate: 90

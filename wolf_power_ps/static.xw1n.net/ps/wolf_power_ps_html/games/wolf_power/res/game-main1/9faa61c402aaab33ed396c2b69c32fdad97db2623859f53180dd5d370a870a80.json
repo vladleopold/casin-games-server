@@ -1,0 +1,93 @@
+{"frames": {
+"res/img/main/paylines/line_all.png":
+{
+	"frame":{"x":1,"y":1,"w":827,"h":412},
+	"rotated":false,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":827,"h":412},
+	"sourceSize":{"w":827,"h":412}
+},
+"res/img/main/paylines/line_glow_14.png":
+{
+	"frame":{"x":830,"y":1,"w":827,"h":174},
+	"rotated":true,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":827,"h":174},
+	"sourceSize":{"w":827,"h":174}
+},
+"res/img/main/paylines/line_glow_20.png":
+{
+	"frame":{"x":1,"y":415,"w":827,"h":340},
+	"rotated":false,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":827,"h":340},
+	"sourceSize":{"w":827,"h":340}
+},
+"res/img/main/paylines/line_glow_15.png":
+{
+	"frame":{"x":1,"y":757,"w":827,"h":174},
+	"rotated":false,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":827,"h":174},
+	"sourceSize":{"w":827,"h":174}
+},
+"res/img/main/paylines/line_glow_1.png":
+{
+	"frame":{"x":1,"y":933,"w":827,"h":21},
+	"rotated":false,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":827,"h":21},
+	"sourceSize":{"w":827,"h":21}
+},
+"res/img/main/paylines/line_glow_2.png":
+{
+	"frame":{"x":1,"y":933,"w":827,"h":21},
+	"rotated":false,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":827,"h":21},
+	"sourceSize":{"w":827,"h":21}
+},
+"res/img/main/paylines/line_glow_3.png":
+{
+	"frame":{"x":1,"y":933,"w":827,"h":21},
+	"rotated":false,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":827,"h":21},
+	"sourceSize":{"w":827,"h":21}
+},
+"res/img/main/paylines/line_normal_1.png":
+{
+	"frame":{"x":1,"y":956,"w":827,"h":21},
+	"rotated":false,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":827,"h":21},
+	"sourceSize":{"w":827,"h":21}
+},
+"res/img/main/paylines/line_normal_2.png":
+{
+	"frame":{"x":1,"y":956,"w":827,"h":21},
+	"rotated":false,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":827,"h":21},
+	"sourceSize":{"w":827,"h":21}
+},
+"res/img/main/paylines/line_normal_3.png":
+{
+	"frame":{"x":1,"y":956,"w":827,"h":21},
+	"rotated":false,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":827,"h":21},
+	"sourceSize":{"w":827,"h":21}
+}
+},
+"meta":
+{
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"format": "RGBA8888",
+	"image": "paylines-0.png",
+	"size": {"w":1005,"h":978},
+	"scale": 1,
+	"smartupdate":"$TexturePacker:SmartUpdate:fe514a3dac6e7e317521ccb56560728d:46287fd6a82edce78b5b20973a3f0581:7da3cf64ae107d4c208f14b5682866c0$"
+}
+}

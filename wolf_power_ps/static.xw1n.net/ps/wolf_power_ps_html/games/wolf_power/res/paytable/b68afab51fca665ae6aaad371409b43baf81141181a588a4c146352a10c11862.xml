@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <!-- PG-1 -->
+    <string id="PAYTABLE_PAGE0_TEXT1_MOB"    color="#ffd141" font="SF" size="38" align="center" linespacing="0">Stacked Wild</string>
+    <string id="PAYTABLE_PAGE0_TEXT2_MOB"    color="#ffffff" font="SF" size="28" align="center" linespacing="0">Substitutes all symbols <n/>except Scatter and Bonus.</string>
+    <string id="PAYTABLE_PAGE0_TEXT3_MOB"    color="#92928f" font="SF" size="28" align="center" linespacing="0">Appears in main game only.</string>
+    <string id="PAYTABLE_PAGE0_TEXT4_MOB"    color="#ffd141" font="SF" size="38" align="center" linespacing="0">Wild Nudge</string>
+    <string id="PAYTABLE_PAGE0_TEXT5_MOB"    color="#ffffff" font="SF" size="28" align="center" linespacing="0">Wild symbols nudge to<n/>cover the whole reel.</string>
+    <string id="PAYTABLE_PAGE0_TEXT6_MOB"    color="#92928f" font="SF" size="28" align="center" linespacing="0">Appears in Free Spins only.</string>
+    <string id="PAYTABLE_PAGE0_TEXT7_MOB"    color="#ffd141" font="SF" size="38" align="center" linespacing="0">Bonus</string>
+    <string id="PAYTABLE_PAGE0_TEXT8_MOB"    color="#ffffff" font="SF" size="28" align="center" linespacing="0">Сombination of 6 or more Bonus and<n/>Power symbols triggers Bonus Game.</string>
+    <string id="PAYTABLE_PAGE0_TEXT9_MOB"    color="#ffffff" font="SF" size="28" align="center" linespacing="0">Payment is indicated on the symbol <n/>in currency: from x1 to x10 bets.</string>
+    <string id="PAYTABLE_PAGE0_TEXT10_MOB"   color="#ffd141" font="SF" size="38" align="center" linespacing="0">Power</string>
+    <string id="PAYTABLE_PAGE0_TEXT11_MOB"   color="#ffffff" font="SF" size="28" align="center" linespacing="0">Сombination of 6 or more Bonus and<n/>Power symbols triggers Bonus Game.</string>
+    <string id="PAYTABLE_PAGE0_TEXT12_MOB"   color="#92928f" font="SF" size="28" align="center" linespacing="0">Bonus and Power symbols pay<n/>only during Bonus game.</string>
+    <string id="PAYTABLE_PAGE0_TEXT13_MOB"   color="#ffd141" font="SF" size="38" align="center" linespacing="0">Scatter</string>
+    <string id="PAYTABLE_PAGE0_TEXT14_MOB"   color="#ffffff" font="SF" size="28" align="center" linespacing="0">3 Scatter symbols trigger 8 Free Spins.</string>
+    <string id="PAYTABLE_PAGE0_TEXT15_MOB"   color="#92928f" font="SF" size="28" align="center" linespacing="0">Appears in Main Game only.</string>
+    <string id="PAYTABLE_PAGE0_TEXT15_2_MOB" color="#92928f" font="SF" size="28" align="center" linespacing="0">Appears on the reels 2, 3 and 4.</string>
+    <string id="PAYTABLE_PAGE0_TEXT16_MOB"   color="#ffffff" font="SF" size="40" align="center" linespacing="0">BONUS GAME</string>
+    <string id="PAYTABLE_PAGE0_TEXT17_MOB"   color="#ffffff" font="SF" size="27" align="center" linespacing="0">Сombination of 6 or more Bonus and Power symbols <n/>   triggers Bonus Game.</string>
+    <string id="PAYTABLE_PAGE0_TEXT18_MOB"   color="#ffffff" font="SF" size="28" align="center" linespacing="0">All Bonus symbols stick on the reels during <n/>   the Bonus Game.</string>
+    <string id="PAYTABLE_PAGE0_TEXT19_MOB"   color="#ffffff" font="SF" size="27" align="center" linespacing="0">Only Bonus and Power symbols pay in Bonus Game.</string>
+    <string id="PAYTABLE_PAGE0_TEXT20_MOB"   color="#ffffff" font="SF" size="27" align="center" linespacing="0">3 respins are granted at the beginning of the Bonus Game.</string>
+    <string id="PAYTABLE_PAGE0_TEXT21_MOB"   color="#ffffff" font="SF" size="27" align="center" linespacing="0">Each new Bonus or Power symbol resets the number <n/>   of re-spins to 3.</string>
+    <string id="PAYTABLE_PAGE0_TEXT22_MOB"   color="#ffd141" font="SF" size="38" align="center" linespacing="0">X2 Multiplier</string>
+    <string id="PAYTABLE_PAGE0_TEXT23_MOB"   color="#ffffff" font="SF" size="28" align="center" linespacing="0">Total bonus win is doubled when the whole game <n/>   field is filled with Bonus and/or Power symbols.</string>
+    <string id="PAYTABLE_PAGE0_TEXT24_MOB"   color="#ffffff" font="SF" size="40" align="center" linespacing="0"><string cert="gbr">BONUS GAME PRIZES</string><string cert="ltu">BONUS GAME PRIZES</string><string cert="en">BONUS GAME JACKPOTS</string></string>
+    <string id="PAYTABLE_PAGE0_TEXT25_MOB"   color="#ffffff" font="SF" size="28" align="center" linespacing="0"><string cert="gbr">Collect Power symbols and win Prizes:</string><string cert="ltu">Collect Power symbols and win Prizes:</string><string cert="en">Collect Power symbols and win Jackpots:</string></string>
+    <string id="PAYTABLE_PAGE0_TEXT26_MOB"   color="#ffffff" font="SF" size="28" align="center" linespacing="0">Power symbol pays only in the end of Bonus Game.</string>
+    <string id="PAYTABLE_PAGE0_TEXT27_MOB"   color="#ffffff" font="SF" size="40" align="center" linespacing="0">FREE SPINS</string>
+    <string id="PAYTABLE_PAGE0_TEXT28_MOB"   color="#ffffff" font="SF" size="28" align="center" linespacing="0">3 Scatter symbols trigger 8 Free Spins.</string>
+    <string id="PAYTABLE_PAGE0_TEXT29_MOB"   color="#ffffff" font="SF" size="28" align="center" linespacing="0">Wild symbols nudge to cover the whole reel.</string>
+    <string id="PAYTABLE_PAGE0_TEXT30_MOB"   color="#ffffff" font="SF" size="40" align="center" linespacing="0">FORMATION OF PAYS</string>
+    <string id="PAYTABLE_PAGE0_TEXT31_MOB"   color="#ffffff" font="SF" size="37" align="center" linespacing="0">Pay Lines</string>
+    <string id="PAYTABLE_PAGE0_TEXT32_MOB"   color="#ffffff" font="SF" size="28" align="center" linespacing="0">Bet lines pay if in succession from leftmost to rightmost.</string>
+    <string id="PAYTABLE_PAGE0_TEXT33_MOB"   color="#ffffff" font="SF" size="28" align="center" linespacing="0">Only the highest win per pay line is paid.</string>
+    <string id="PAYTABLE_PAGE0_TEXT34_MOB"   color="#ffffff" font="SF" size="28" align="center" linespacing="0">Active lines are fixed: 20 lines.</string>
+    <string id="PAYTABLE_PAGE0_TEXT35_MOB"   color="#92928f" font="SF" size="28" align="center" linespacing="0">Malfunction voids all pays and plays.</string>
+    <string id="GAME_DATA_RTP_MOB"           color="#92928f" font="SF" size="31" align="center" linespacing="0">RTP: ${rtp}%</string>
+    <string id="GAME_DATA_VERSION_MOB"       color="#92928f" font="SF" size="31" align="center" linespacing="0">VER: ${version}</string>
+    <string id="GAME_DATA_DATE_MOB"          color="#92928f" font="SF" size="31" align="center" linespacing="0">${date}</string>
+    <!-- /PG-1 -->
+
+</config>

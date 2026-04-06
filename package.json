@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "discover:recommended": "node scripts/discover_recommended_games.mjs",
+    "download:game-hall-assets": "node scripts/download_game_hall_assets.mjs",
+    "download:popular-game-clients": "node scripts/download_popular_game_clients.mjs",
+    "service:wallet": "node wallet-service.mjs",
+    "spin:bgaming": "node scripts/run_bgaming_three_spins.mjs",
+    "smoke:amatic": "node scripts/smoke_amatic_local.mjs",
+    "spin:three-oaks-live": "node scripts/run_three_oaks_live_spin.mjs",
+    "smoke:server": "node scripts/smoke_server.mjs"
+  },
+  "dependencies": {
+    "pg": "^8.20.0",
+    "playwright": "^1.59.1"
+  }
+}

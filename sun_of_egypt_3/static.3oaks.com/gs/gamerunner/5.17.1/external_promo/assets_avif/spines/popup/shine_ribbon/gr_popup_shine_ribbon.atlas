@@ -1,0 +1,34 @@
+
+gr_popup_shine_ribbon.avif
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glare
+  rotate: false
+  xy: 129, 152
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+glare_1
+  rotate: false
+  xy: 129, 130
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+shine
+  rotate: false
+  xy: 2, 218
+  size: 450, 18
+  orig: 450, 18
+  offset: 0, 0
+  index: -1
+shine_2
+  rotate: false
+  xy: 2, 2
+  size: 125, 214
+  orig: 125, 214
+  offset: 0, 0
+  index: -1

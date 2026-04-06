@@ -1,0 +1,8 @@
+<config>
+  <string id="GUI_GAME_NAME" font="SF">Energy Coins: Hold and Win</string>
+
+  <string id="POPUP_TAP_ANYWHERE_LANDSCAPE" y="330"  x="0"  font="SF" align="center" size="30" color="#747474">TAP TO CONTINUE</string>
+  <string id="POPUP_TAP_ANYWHERE_DESKTOP"   y="330"  x="0"  font="SF" align="center" size="30" color="#747474">CLICK TO CONTINUE</string>
+  <string id="POPUP_TAP_ANYWHERE_PORTRAIT"  y="400"  x="0"  font="SF" align="center" size="30" color="#747474">TAP TO CONTINUE</string>
+  <string id="GUI_PAYTABLE_MAX_MULT" size="28" font="SF" color="#92928f" align="center" linespacing="8"/>
+</config>

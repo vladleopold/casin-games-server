@@ -1,0 +1,141 @@
+{
+  "seededSessionId": "28ab56c29b7d4ee68335bbcf24410df9",
+  "liveSessionId": "d8bb7069679c4a0d8d5039270107e32a",
+  "game": "energy",
+  "feature": "bonus",
+  "expectedMode": "bonus",
+  "responseCount": 6,
+  "matchedExpectedMode": true,
+  "pageErrorCount": 0,
+  "consoleErrorCount": 1,
+  "snapshot": {
+    "requestId": "1171e408b5e0403381429eb36027c9d8",
+    "gameId": "energy",
+    "sessionId": "d8bb7069679c4a0d8d5039270107e32a",
+    "snapshot": {
+      "id": "d8bb7069679c4a0d8d5039270107e32a",
+      "updatedAt": 1775288638300,
+      "mode": "bonus",
+      "balance": 11900,
+      "totalBet": 0,
+      "totalWin": 1900,
+      "state": {
+        "schemaVersion": 6,
+        "balance": 11900,
+        "totalBet": 0,
+        "totalWin": 1900,
+        "lineBet": 1,
+        "cashBet": 0,
+        "cashWin": 0,
+        "lastWindow": [
+          [
+            12,
+            1,
+            10
+          ],
+          [
+            10,
+            3,
+            7
+          ],
+          [
+            1,
+            6,
+            10
+          ],
+          [
+            6,
+            10,
+            2
+          ],
+          [
+            10,
+            10,
+            2
+          ]
+        ],
+        "lastWindowServer": null,
+        "lastWins": [],
+        "reelSet": 1,
+        "scatterCount": 0,
+        "freespinsActive": false,
+        "freespinsLeft": 0,
+        "freespinsTotal": 0,
+        "freeWin": 0,
+        "pendingFsTrigger": false,
+        "bonusActive": true,
+        "bonusRoundsLeft": 0,
+        "bonusTotalRounds": 3,
+        "bonusPositions": [
+          0,
+          10,
+          1,
+          12,
+          8,
+          4,
+          9
+        ],
+        "bonusTypes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "bonusValuesTb": [
+          0,
+          25,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          10,
+          2,
+          1,
+          0,
+          150,
+          0,
+          0
+        ],
+        "bonusMatrix": [
+          [
+            12,
+            1,
+            10
+          ],
+          [
+            10,
+            3,
+            7
+          ],
+          [
+            1,
+            6,
+            10
+          ],
+          [
+            6,
+            10,
+            2
+          ],
+          [
+            10,
+            10,
+            2
+          ]
+        ],
+        "bonusMatrixServer": null,
+        "bonusWin": 1900,
+        "bonusWinApplied": true,
+        "bonusCollectResolved": true,
+        "pendingBonusTrigger": false,
+        "bonusRoundIndex": 3,
+        "energyMainSpinCount": 0
+      }
+    }
+  }
+}

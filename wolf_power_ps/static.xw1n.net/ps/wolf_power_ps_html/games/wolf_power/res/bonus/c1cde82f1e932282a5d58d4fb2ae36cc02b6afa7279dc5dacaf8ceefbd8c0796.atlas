@@ -1,0 +1,249 @@
+
+bonus.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/FS_Game_edgesGlow
+  rotate: false
+  xy: 2, 756
+  size: 290, 194
+  orig: 290, 194
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00000
+  rotate: true
+  xy: 2, 492
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00001
+  rotate: true
+  xy: 337, 488
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00002
+  rotate: true
+  xy: 672, 488
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00003
+  rotate: true
+  xy: 2, 249
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00004
+  rotate: true
+  xy: 337, 245
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00005
+  rotate: true
+  xy: 672, 245
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00006
+  rotate: true
+  xy: 2, 6
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00007
+  rotate: true
+  xy: 337, 2
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00008
+  rotate: true
+  xy: 672, 2
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/blue
+  rotate: false
+  xy: 294, 735
+  size: 357, 215
+  orig: 357, 215
+  offset: 0, 0
+  index: -1
+images/orange
+  rotate: false
+  xy: 653, 731
+  size: 356, 219
+  orig: 356, 219
+  offset: 0, 0
+  index: -1
+
+bonus2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/_rays_bonus/_rays_bonus_00009
+  rotate: false
+  xy: 2, 672
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00010
+  rotate: false
+  xy: 2, 337
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00011
+  rotate: false
+  xy: 245, 672
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00012
+  rotate: false
+  xy: 2, 2
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00013
+  rotate: false
+  xy: 245, 337
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00014
+  rotate: false
+  xy: 488, 672
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00015
+  rotate: false
+  xy: 245, 2
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00016
+  rotate: false
+  xy: 488, 337
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00017
+  rotate: false
+  xy: 731, 672
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00018
+  rotate: false
+  xy: 488, 2
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00019
+  rotate: false
+  xy: 731, 337
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00020
+  rotate: false
+  xy: 731, 2
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+
+bonus3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/_rays_bonus/_rays_bonus_00021
+  rotate: false
+  xy: 2, 672
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00022
+  rotate: false
+  xy: 2, 337
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00023
+  rotate: false
+  xy: 245, 672
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00024
+  rotate: false
+  xy: 2, 2
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00025
+  rotate: false
+  xy: 245, 337
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00026
+  rotate: false
+  xy: 488, 672
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00027
+  rotate: false
+  xy: 245, 2
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00028
+  rotate: false
+  xy: 488, 337
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1
+images/_rays_bonus/_rays_bonus_00029
+  rotate: false
+  xy: 731, 672
+  size: 241, 333
+  orig: 241, 333
+  offset: 0, 0
+  index: -1

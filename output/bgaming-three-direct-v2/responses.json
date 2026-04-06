@@ -1,0 +1,922 @@
+[
+  {
+    "id": "c2e36771-f85e-41d8-97b4-09624ce34a9d",
+    "payload": {
+      "id": "c2e36771-f85e-41d8-97b4-09624ce34a9d",
+      "result": {
+        "round": "94cf4287-d756-4b7e-b742-95a5e76e4106",
+        "final": true,
+        "step": "a4708f39-b6a5-4582-bf3b-5d6b32934352",
+        "balance": 101440,
+        "resp": {
+          "round": {
+            "bet": 200,
+            "buy_id": "none",
+            "freespins": [],
+            "generations": [
+              {
+                "clusters": [
+                  {
+                    "base_payout": 40,
+                    "cells": [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 1,
+                        "y": 1
+                      },
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 0,
+                        "y": 2
+                      },
+                      {
+                        "x": 3,
+                        "y": 2
+                      },
+                      {
+                        "x": 5,
+                        "y": 2
+                      },
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 5,
+                        "y": 3
+                      }
+                    ],
+                    "payout": 40,
+                    "symbol": "l4",
+                    "symbol_count": 9
+                  }
+                ],
+                "event": {
+                  "name": "Spin"
+                },
+                "grid_final": [
+                  [
+                    "l2",
+                    "l5",
+                    "l5",
+                    "l3",
+                    "l2",
+                    "l3"
+                  ],
+                  [
+                    "l3",
+                    "l5",
+                    "l1",
+                    "l3",
+                    "l2",
+                    "l3"
+                  ],
+                  [
+                    "l3",
+                    "l3",
+                    "l2",
+                    "rm3",
+                    "l3",
+                    "l2"
+                  ],
+                  [
+                    "rm5",
+                    "l3",
+                    "l2",
+                    "h4",
+                    "l3",
+                    "l2"
+                  ],
+                  [
+                    "l5",
+                    "l5",
+                    "l1",
+                    "h3",
+                    "l5",
+                    "h1"
+                  ]
+                ],
+                "grid_start": [
+                  [
+                    "l3",
+                    "l4",
+                    "l4",
+                    "rm3",
+                    "l2",
+                    "l2"
+                  ],
+                  [
+                    "l3",
+                    "l4",
+                    "l4",
+                    "h4",
+                    "l2",
+                    "l2"
+                  ],
+                  [
+                    "l4",
+                    "l3",
+                    "l2",
+                    "l4",
+                    "l3",
+                    "l4"
+                  ],
+                  [
+                    "rm5",
+                    "l3",
+                    "l2",
+                    "l4",
+                    "l3",
+                    "l4"
+                  ],
+                  [
+                    "l5",
+                    "l5",
+                    "l1",
+                    "h3",
+                    "l5",
+                    "h1"
+                  ]
+                ],
+                "running_total": 40,
+                "running_total_multiplier": 0,
+                "win_total": 40
+              },
+              {
+                "clusters": [
+                  {
+                    "base_payout": 100,
+                    "cells": [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 5,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 0,
+                        "y": 2
+                      },
+                      {
+                        "x": 1,
+                        "y": 2
+                      },
+                      {
+                        "x": 4,
+                        "y": 2
+                      },
+                      {
+                        "x": 1,
+                        "y": 3
+                      },
+                      {
+                        "x": 4,
+                        "y": 3
+                      }
+                    ],
+                    "payout": 100,
+                    "symbol": "l3",
+                    "symbol_count": 10
+                  }
+                ],
+                "event": {
+                  "name": "Cascade"
+                },
+                "grid_final": [
+                  [
+                    "h3",
+                    "l4",
+                    "l5",
+                    "l5",
+                    "l3",
+                    "l4"
+                  ],
+                  [
+                    "l2",
+                    "l1",
+                    "l1",
+                    "l3",
+                    "l4",
+                    "l1"
+                  ],
+                  [
+                    "l2",
+                    "l5",
+                    "l2",
+                    "rm3",
+                    "l2",
+                    "l2"
+                  ],
+                  [
+                    "rm5",
+                    "l5",
+                    "l2",
+                    "h4",
+                    "l2",
+                    "l2"
+                  ],
+                  [
+                    "l5",
+                    "l5",
+                    "l1",
+                    "h3",
+                    "l5",
+                    "h1"
+                  ]
+                ],
+                "grid_start": [
+                  [
+                    "l2",
+                    "l5",
+                    "l5",
+                    "l3",
+                    "l2",
+                    "l3"
+                  ],
+                  [
+                    "l3",
+                    "l5",
+                    "l1",
+                    "l3",
+                    "l2",
+                    "l3"
+                  ],
+                  [
+                    "l3",
+                    "l3",
+                    "l2",
+                    "rm3",
+                    "l3",
+                    "l2"
+                  ],
+                  [
+                    "rm5",
+                    "l3",
+                    "l2",
+                    "h4",
+                    "l3",
+                    "l2"
+                  ],
+                  [
+                    "l5",
+                    "l5",
+                    "l1",
+                    "h3",
+                    "l5",
+                    "h1"
+                  ]
+                ],
+                "running_total": 140,
+                "running_total_multiplier": 0,
+                "win_total": 100
+              },
+              {
+                "clusters": [
+                  {
+                    "base_payout": 80,
+                    "cells": [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 0,
+                        "y": 2
+                      },
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 4,
+                        "y": 2
+                      },
+                      {
+                        "x": 5,
+                        "y": 2
+                      },
+                      {
+                        "x": 2,
+                        "y": 3
+                      },
+                      {
+                        "x": 4,
+                        "y": 3
+                      },
+                      {
+                        "x": 5,
+                        "y": 3
+                      }
+                    ],
+                    "payout": 80,
+                    "symbol": "l2",
+                    "symbol_count": 8
+                  }
+                ],
+                "event": {
+                  "name": "Cascade"
+                },
+                "grid_final": [
+                  [
+                    "l5",
+                    "l4",
+                    "l5",
+                    "l5",
+                    "l5",
+                    "l4"
+                  ],
+                  [
+                    "l5",
+                    "l1",
+                    "l4",
+                    "l3",
+                    "h4",
+                    "l4"
+                  ],
+                  [
+                    "h3",
+                    "l5",
+                    "l5",
+                    "rm3",
+                    "l3",
+                    "l4"
+                  ],
+                  [
+                    "rm5",
+                    "l5",
+                    "l1",
+                    "h4",
+                    "l4",
+                    "l1"
+                  ],
+                  [
+                    "l5",
+                    "l5",
+                    "l1",
+                    "h3",
+                    "l5",
+                    "h1"
+                  ]
+                ],
+                "grid_start": [
+                  [
+                    "h3",
+                    "l4",
+                    "l5",
+                    "l5",
+                    "l3",
+                    "l4"
+                  ],
+                  [
+                    "l2",
+                    "l1",
+                    "l1",
+                    "l3",
+                    "l4",
+                    "l1"
+                  ],
+                  [
+                    "l2",
+                    "l5",
+                    "l2",
+                    "rm3",
+                    "l2",
+                    "l2"
+                  ],
+                  [
+                    "rm5",
+                    "l5",
+                    "l2",
+                    "h4",
+                    "l2",
+                    "l2"
+                  ],
+                  [
+                    "l5",
+                    "l5",
+                    "l1",
+                    "h3",
+                    "l5",
+                    "h1"
+                  ]
+                ],
+                "running_total": 220,
+                "running_total_multiplier": 0,
+                "win_total": 80
+              },
+              {
+                "clusters": [
+                  {
+                    "base_payout": 80,
+                    "cells": [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 4,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 1,
+                        "y": 2
+                      },
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 1,
+                        "y": 3
+                      },
+                      {
+                        "x": 0,
+                        "y": 4
+                      },
+                      {
+                        "x": 1,
+                        "y": 4
+                      },
+                      {
+                        "x": 4,
+                        "y": 4
+                      }
+                    ],
+                    "payout": 80,
+                    "symbol": "l5",
+                    "symbol_count": 11
+                  }
+                ],
+                "event": {
+                  "name": "Cascade"
+                },
+                "grid_final": [
+                  [
+                    "l1",
+                    "l5",
+                    "l4",
+                    "l2",
+                    "l1",
+                    "l4"
+                  ],
+                  [
+                    "l4",
+                    "l5",
+                    "h1",
+                    "l3",
+                    "l2",
+                    "l4"
+                  ],
+                  [
+                    "l4",
+                    "l3",
+                    "l4",
+                    "rm3",
+                    "h4",
+                    "l4"
+                  ],
+                  [
+                    "h3",
+                    "l4",
+                    "l1",
+                    "h4",
+                    "l3",
+                    "l1"
+                  ],
+                  [
+                    "rm5",
+                    "l1",
+                    "l1",
+                    "h3",
+                    "l4",
+                    "h1"
+                  ]
+                ],
+                "grid_start": [
+                  [
+                    "l5",
+                    "l4",
+                    "l5",
+                    "l5",
+                    "l5",
+                    "l4"
+                  ],
+                  [
+                    "l5",
+                    "l1",
+                    "l4",
+                    "l3",
+                    "h4",
+                    "l4"
+                  ],
+                  [
+                    "h3",
+                    "l5",
+                    "l5",
+                    "rm3",
+                    "l3",
+                    "l4"
+                  ],
+                  [
+                    "rm5",
+                    "l5",
+                    "l1",
+                    "h4",
+                    "l4",
+                    "l1"
+                  ],
+                  [
+                    "l5",
+                    "l5",
+                    "l1",
+                    "h3",
+                    "l5",
+                    "h1"
+                  ]
+                ],
+                "running_total": 300,
+                "running_total_multiplier": 0,
+                "win_total": 80
+              },
+              {
+                "clusters": [
+                  {
+                    "base_payout": 40,
+                    "cells": [
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 5,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 0,
+                        "y": 2
+                      },
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 5,
+                        "y": 2
+                      },
+                      {
+                        "x": 1,
+                        "y": 3
+                      },
+                      {
+                        "x": 4,
+                        "y": 4
+                      }
+                    ],
+                    "payout": 40,
+                    "symbol": "l4",
+                    "symbol_count": 9
+                  }
+                ],
+                "event": {
+                  "name": "Cascade"
+                },
+                "grid_final": [
+                  [
+                    "h4",
+                    "l4",
+                    "h1",
+                    "l2",
+                    "h4",
+                    "l2"
+                  ],
+                  [
+                    "l4",
+                    "l5",
+                    "l2",
+                    "l3",
+                    "l1",
+                    "l4"
+                  ],
+                  [
+                    "l1",
+                    "l5",
+                    "h1",
+                    "rm3",
+                    "l2",
+                    "rm3"
+                  ],
+                  [
+                    "h3",
+                    "l3",
+                    "l1",
+                    "h4",
+                    "h4",
+                    "l1"
+                  ],
+                  [
+                    "rm5",
+                    "l1",
+                    "l1",
+                    "h3",
+                    "l3",
+                    "h1"
+                  ]
+                ],
+                "grid_start": [
+                  [
+                    "l1",
+                    "l5",
+                    "l4",
+                    "l2",
+                    "l1",
+                    "l4"
+                  ],
+                  [
+                    "l4",
+                    "l5",
+                    "h1",
+                    "l3",
+                    "l2",
+                    "l4"
+                  ],
+                  [
+                    "l4",
+                    "l3",
+                    "l4",
+                    "rm3",
+                    "h4",
+                    "l4"
+                  ],
+                  [
+                    "h3",
+                    "l4",
+                    "l1",
+                    "h4",
+                    "l3",
+                    "l1"
+                  ],
+                  [
+                    "rm5",
+                    "l1",
+                    "l1",
+                    "h3",
+                    "l4",
+                    "h1"
+                  ]
+                ],
+                "running_total": 340,
+                "running_total_multiplier": 0,
+                "win_total": 40
+              },
+              {
+                "event": {
+                  "name": "Multiplier"
+                },
+                "grid_final": [
+                  [
+                    "h4",
+                    "l4",
+                    "h1",
+                    "l2",
+                    "h4",
+                    "l2"
+                  ],
+                  [
+                    "l4",
+                    "l5",
+                    "l2",
+                    "l3",
+                    "l1",
+                    "l4"
+                  ],
+                  [
+                    "l1",
+                    "l5",
+                    "h1",
+                    "rm3",
+                    "l2",
+                    "rm3"
+                  ],
+                  [
+                    "h3",
+                    "l3",
+                    "l1",
+                    "h4",
+                    "h4",
+                    "l1"
+                  ],
+                  [
+                    "rm5",
+                    "l1",
+                    "l1",
+                    "h3",
+                    "l3",
+                    "h1"
+                  ]
+                ],
+                "running_total": 3740,
+                "running_total_multiplier": 11,
+                "win_total": 3400
+              },
+              {
+                "event": {
+                  "name": "Cascade"
+                },
+                "grid_final": [
+                  [
+                    "h4",
+                    "l4",
+                    "h1",
+                    "l2",
+                    "h4",
+                    "l2"
+                  ],
+                  [
+                    "l4",
+                    "l5",
+                    "l2",
+                    "l3",
+                    "l1",
+                    "l4"
+                  ],
+                  [
+                    "l1",
+                    "l5",
+                    "h1",
+                    "rm3",
+                    "l2",
+                    "rm3"
+                  ],
+                  [
+                    "h3",
+                    "l3",
+                    "l1",
+                    "h4",
+                    "h4",
+                    "l1"
+                  ],
+                  [
+                    "rm5",
+                    "l1",
+                    "l1",
+                    "h3",
+                    "l3",
+                    "h1"
+                  ]
+                ],
+                "running_total": 3740,
+                "running_total_multiplier": 11,
+                "win_total": 0
+              }
+            ],
+            "high_grid": false,
+            "top_list": {
+              "multipliers": [
+                "rm5",
+                "rm5",
+                "rm3",
+                "rm3",
+                "rm2"
+              ]
+            },
+            "win": 3740
+          }
+        },
+        "freebets": null,
+        "state_lock": "SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYATULCXp0BYgABUYA.UqKw5FFWkLfHnNd3x9bN1Z1ClTQ-JWbVRTDZopBEIL4"
+      },
+      "jsonrpc": "2.0"
+    },
+    "at": 1775411274722
+  },
+  {
+    "id": "e4a8cca2-648e-4a51-a97d-4e8ff9baa476",
+    "payload": {
+      "id": "e4a8cca2-648e-4a51-a97d-4e8ff9baa476",
+      "result": {
+        "round": "26c682ef-0375-4f86-af27-57a0bd07ef89",
+        "final": true,
+        "step": "fbb1d717-c461-4f90-95ae-87370bf3fd6a",
+        "balance": 101240,
+        "resp": {
+          "round": {
+            "bet": 200,
+            "buy_id": "none",
+            "freespins": [],
+            "generations": [
+              {
+                "event": {
+                  "name": "Spin"
+                },
+                "grid_final": [
+                  [
+                    "l1",
+                    "l2",
+                    "l1",
+                    "l4",
+                    "h3",
+                    "l4"
+                  ],
+                  [
+                    "l1",
+                    "l2",
+                    "l1",
+                    "l4",
+                    "h3",
+                    "l4"
+                  ],
+                  [
+                    "l4",
+                    "h2",
+                    "h4",
+                    "l3",
+                    "l2",
+                    "l5"
+                  ],
+                  [
+                    "l4",
+                    "h2",
+                    "h4",
+                    "l3",
+                    "l2",
+                    "l5"
+                  ],
+                  [
+                    "l5",
+                    "l5",
+                    "l5",
+                    "l5",
+                    "l5",
+                    "h1"
+                  ]
+                ],
+                "running_total": 0,
+                "running_total_multiplier": 0,
+                "win_total": 0
+              }
+            ],
+            "high_grid": false,
+            "top_list": {
+              "multipliers": [
+                "rm6",
+                "rm5",
+                "rm4",
+                "rm3",
+                "rm2"
+              ]
+            },
+            "win": 0
+          }
+        },
+        "freebets": null,
+        "state_lock": "SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYA9y_DXp0BYgABUYA.M0k52E7Q3rADGB3OrOcC_HygxYXAT8S6gjglc8VvOT4"
+      },
+      "jsonrpc": "2.0"
+    },
+    "at": 1775411335430
+  }
+]

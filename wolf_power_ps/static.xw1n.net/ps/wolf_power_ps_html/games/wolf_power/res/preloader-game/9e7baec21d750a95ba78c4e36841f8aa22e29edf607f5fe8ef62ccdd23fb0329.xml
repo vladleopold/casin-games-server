@@ -1,0 +1,55 @@
+<config>
+	<string id="BIG_WIN_COUNTER" x="-8" y="-100" size="130" font="font_bw.json"   align="center">${value}</string>
+	<string id="VALUE_TOTAL_WIN"  y="-50"  size="100" font="font_bw.json"   align="center">${value}</string>
+	<string id="VALUE_LINE_WIN"   y="25"   size="54"  font="font_line.json" align="center">${value}</string>
+
+	<string id="TOTAL_WIN_TEXT" x="-8" y="-90" font="total_win_lat.json" align="center" size="108">TOTAL WIN</string>
+
+	<string id="VALUE_BONUS_MAIN_SYMBOL" size="52" font="font_sun.json" align="center">${value}</string>
+	<string id="VALUE_BONUS_MAIN_SYMBOL_DISABLE" size="52" font="ball_bitmap_disable.json" align="center">${value}</string>
+	<string id="VALUE_PANEL_JACKPOT" size="50" y="42" font="jackpot_bitmap.json" align="center">${value}</string>
+
+	<string id="RESPIN_PANEL_COUNTER" x="75" y="-7" size="32" font="SFBold" align="center" color="#fbdf53" stroke="#3d0202 5"><string align="left">RESPINS</string>                             <n y="-33"/><string size="44" align="right" font="font_sun.json">${value}</string></string>
+	<string id="TOTALWIN_PANEL_TEXT"  x="298" y="10" font="SFBold" align="center" size="24" color="#f9eaa2">TOTAL WIN</string>
+	<string id="TOTALWIN_PANEL_COUNTER" x="298" y="50" size="50" font="jackpot_bitmap.json" align="center">${value}</string>
+	<string id="FREESPIN_PANEL_TEXT" x="203" y="47" size="27" font="SFBold" color="#fbdf53" stroke="#3d0202 5">FREE SPINS</string>
+	<string id="FREESPIN_PANEL_COUNTER" x="357" y="43" size="44" font="font_sun.json">${value}</string>
+
+	<string id="PAYOUTS_3"		size="20" color="#ffffff" font="SF" padding="10"><string color="#ffd141">5x</string> - ${value5}<n/><string color="#ffd141">4x</string> - ${value4}<n/><string color="#ffd141">3x</string> - ${value3}</string>
+	<string id="PAYOUTS_3_MOB"	size="30" color="#ffffff" font="SF" padding="10"><string color="#ffd141">5x</string> - ${value5}<n/><string color="#ffd141">4x</string> - ${value4}<n/><string color="#ffd141">3x</string> - ${value3}</string>
+	<string id="PAYOUTS_5"		size="20" color="#ffffff" font="SF" padding="10"><string color="#ffd141">5x</string> - ${value5}<n/><string color="#ffd141">4x</string> - ${value4}<n/><string color="#ffd141">3x</string> - ${value3}<n/><string color="#ffd141">2x</string> - ${value2}<n/><string color="#ffd141">1x</string> - ${value1}</string>
+	<string id="PAYOUTS_5_MOB"	size="30" color="#ffffff" font="SF" padding="10"><string color="#ffd141">5x</string> - ${value5}<n/><string color="#ffd141">4x</string> - ${value4}<n/><string color="#ffd141">3x</string> - ${value3}<n/><string color="#ffd141">2x</string> - ${value2}<n/><string color="#ffd141">1x</string> - ${value1}</string>
+
+	<string id="PRELOADER_1" y="970" x="360" font="SFBold" align="center" size="30" color="#ffffff">Free Spins</string>
+	<string id="PRELOADER_2" y="970" x="800" font="SFBold" align="center" size="30" color="#ffffff">Bonus Game</string>
+	<string id="PRELOADER_3" y="970" x="1250" font="SFBold" align="center" size="30" color="#ffffff">Wild Nudge in Free Spins</string>
+
+	<string id="PRELOADER_PORTRAIT_1" y="1280" x="600" font="SFBold" align="center" size="52" color="#ffffff">Free Spins</string>
+	<string id="PRELOADER_PORTRAIT_2" y="780" x="800" font="SFBold" align="center" size="52" color="#ffffff">Bonus Game</string>
+	<string id="PRELOADER_PORTRAIT_3" y="1280" x="1000" font="SFBold" align="center" size="52" color="#ffffff">Wild Nudge<n/>in Free Spins</string>
+
+
+	<string id="BONUS_START_TITLE" x="0" y="-260" font="SFBold" align="center">
+<string  color="#ff7200" stroke="#d10000 6" size="120">BONUS GAME</string><n y="-130"/>
+<string  color="#fbdf53" stroke="#ff7200 2" size="120">BONUS GAME</string>
+	</string>
+
+	<string id="BONUS_START_TEXT1" x="-200" y="80" color="#fcde45" size="27" font="SFBold" align="center"><string cert="gbr">Collect Power symbols<n/> to win Grand Prize.</string><string cert="ltu">Collect Power symbols<n/> to win Grand Prize.</string><string cert="en">Collect Power symbols<n/> to win Grand Jackpot.</string></string>
+	<string id="BONUS_START_TEXT2" x="200"  y="80" color="#fcde45" size="27" font="SFBold" align="center">Fill all cells to<n/> double the win.</string>
+
+	<string id="BONUS_START_TITLE_PORTRAIT" x="0" y="-380" font="SFBold" align="center">
+<string  color="#ff7200" stroke="#d10000 6" size="120">BONUS GAME</string><n y="-130"/>
+<string  color="#fbdf53" stroke="#ff7200 2" size="120">BONUS GAME</string>
+	</string>
+
+	<string id="BONUS_START_TEXT1_PORTRAIT" y="80"  color="#fcde45" size="36" font="SFBold" align="center"><string cert="gbr">Collect Power symbols to win Grand Prize.</string><string cert="ltu">Collect Power symbols to win Grand Prize.</string><string cert="en">Collect Power symbols to win Grand Jackpot.</string></string>
+	<string id="BONUS_START_TEXT2_PORTRAIT" y="500" color="#fcde45" size="36" font="SFBold" align="center">Fill all cells to double the win.</string>
+
+
+	<string id="FREESPINS_START_NUMBER" x="0" y="-415" font="SFBold" align="center" size="82">
+<string align="center" color="#ff7200" stroke="#d10000 6">8 FREE SPINS</string><n y="-164"/> <!--lower-->
+<string align="center" color="#fbdf53" stroke="#ff7200 2">8 FREE SPINS</string>
+	</string>
+
+	<string id="FREESPINS_START_TEXT" y="-244" x="0" font="SFBold" align="center" size="35" color="#fbdf53">with Wild Nudge</string>
+</config>

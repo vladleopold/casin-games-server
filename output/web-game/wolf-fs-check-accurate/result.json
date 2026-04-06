@@ -1,0 +1,42 @@
+{
+  "sessionId": "45af4188c1d24a61b1b12f3c4326b484",
+  "fsTriggeredAt": 1,
+  "fsResults": [
+    {
+      "fsSpin": 1,
+      "bonusGames": "6",
+      "cashWin": "100",
+      "freeWin": "105",
+      "state": "fs"
+    },
+    {
+      "fsSpin": 2,
+      "bonusGames": "5",
+      "cashWin": "0",
+      "freeWin": "105",
+      "state": "fs"
+    },
+    {
+      "fsSpin": 3,
+      "bonusGames": "4",
+      "cashWin": "15",
+      "freeWin": "120",
+      "state": "fs"
+    },
+    {
+      "fsSpin": 4,
+      "bonusGames": "3",
+      "cashWin": "100",
+      "freeWin": "220",
+      "state": "fs"
+    },
+    {
+      "fsSpin": 5,
+      "bonusGames": null,
+      "cashWin": null,
+      "freeWin": null,
+      "state": null
+    }
+  ],
+  "pageErrors": []
+}

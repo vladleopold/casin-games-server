@@ -1,0 +1,180 @@
+
+speedup.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+vfx_orange_bonus/SpeedUp_00000
+  rotate: false
+  xy: 2, 422
+  size: 214, 208
+  orig: 214, 208
+  offset: 0, 0
+  index: -1
+vfx_orange_bonus/SpeedUp_00001
+  rotate: false
+  xy: 218, 632
+  size: 214, 208
+  orig: 214, 208
+  offset: 0, 0
+  index: -1
+vfx_orange_bonus/SpeedUp_00002
+  rotate: false
+  xy: 2, 212
+  size: 214, 208
+  orig: 214, 208
+  offset: 0, 0
+  index: -1
+vfx_orange_bonus/SpeedUp_00003
+  rotate: false
+  xy: 218, 422
+  size: 214, 208
+  orig: 214, 208
+  offset: 0, 0
+  index: -1
+vfx_orange_bonus/SpeedUp_00004
+  rotate: false
+  xy: 434, 632
+  size: 214, 208
+  orig: 214, 208
+  offset: 0, 0
+  index: -1
+vfx_orange_bonus/SpeedUp_00005
+  rotate: false
+  xy: 2, 2
+  size: 214, 208
+  orig: 214, 208
+  offset: 0, 0
+  index: -1
+vfx_orange_bonus/SpeedUp_00006
+  rotate: false
+  xy: 218, 212
+  size: 214, 208
+  orig: 214, 208
+  offset: 0, 0
+  index: -1
+vfx_orange_bonus/SpeedUp_00007
+  rotate: false
+  xy: 434, 422
+  size: 214, 208
+  orig: 214, 208
+  offset: 0, 0
+  index: -1
+vfx_orange_bonus/SpeedUp_00008
+  rotate: false
+  xy: 650, 632
+  size: 214, 208
+  orig: 214, 208
+  offset: 0, 0
+  index: -1
+vfx_orange_bonus/SpeedUp_00009
+  rotate: false
+  xy: 218, 2
+  size: 214, 208
+  orig: 214, 208
+  offset: 0, 0
+  index: -1
+vfx_orange_bonus/SpeedUp_00010
+  rotate: false
+  xy: 434, 212
+  size: 214, 208
+  orig: 214, 208
+  offset: 0, 0
+  index: -1
+vfx_orange_bonus/SpeedUp_00011
+  rotate: false
+  xy: 650, 422
+  size: 214, 208
+  orig: 214, 208
+  offset: 0, 0
+  index: -1
+vfx_orange_bonus/SpeedUp_00012
+  rotate: false
+  xy: 434, 2
+  size: 214, 208
+  orig: 214, 208
+  offset: 0, 0
+  index: -1
+vfx_orange_bonus/SpeedUp_00013
+  rotate: false
+  xy: 650, 212
+  size: 214, 208
+  orig: 214, 208
+  offset: 0, 0
+  index: -1
+vfx_orange_bonus/SpeedUp_00014
+  rotate: false
+  xy: 650, 2
+  size: 214, 208
+  orig: 214, 208
+  offset: 0, 0
+  index: -1
+vfx_orange_bonus/SpeedUp_00023
+  rotate: false
+  xy: 2, 632
+  size: 214, 208
+  orig: 214, 208
+  offset: 0, 0
+  index: -1
+
+speedup2.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+vfx_orange_bonus/SpeedUp_00015
+  rotate: false
+  xy: 2, 212
+  size: 214, 208
+  orig: 214, 208
+  offset: 0, 0
+  index: -1
+vfx_orange_bonus/SpeedUp_00016
+  rotate: false
+  xy: 2, 2
+  size: 214, 208
+  orig: 214, 208
+  offset: 0, 0
+  index: -1
+vfx_orange_bonus/SpeedUp_00017
+  rotate: false
+  xy: 218, 212
+  size: 214, 208
+  orig: 214, 208
+  offset: 0, 0
+  index: -1
+vfx_orange_bonus/SpeedUp_00018
+  rotate: false
+  xy: 218, 2
+  size: 214, 208
+  orig: 214, 208
+  offset: 0, 0
+  index: -1
+vfx_orange_bonus/SpeedUp_00019
+  rotate: false
+  xy: 434, 212
+  size: 214, 208
+  orig: 214, 208
+  offset: 0, 0
+  index: -1
+vfx_orange_bonus/SpeedUp_00020
+  rotate: false
+  xy: 434, 2
+  size: 214, 208
+  orig: 214, 208
+  offset: 0, 0
+  index: -1
+vfx_orange_bonus/SpeedUp_00021
+  rotate: false
+  xy: 650, 212
+  size: 214, 208
+  orig: 214, 208
+  offset: 0, 0
+  index: -1
+vfx_orange_bonus/SpeedUp_00022
+  rotate: false
+  xy: 650, 2
+  size: 214, 208
+  orig: 214, 208
+  offset: 0, 0
+  index: -1

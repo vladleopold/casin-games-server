@@ -1,0 +1,117 @@
+{"frames": {
+"res/img/paytable/images/paytable_mob-02.png":
+{
+	"frame":{"x":1,"y":1,"w":863,"h":220},
+	"rotated":false,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":863,"h":220},
+	"sourceSize":{"w":863,"h":220}
+},
+"res/img/paytable/images/paytable_mob-01.png":
+{
+	"frame":{"x":866,"y":1,"w":840,"h":507},
+	"rotated":false,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":840,"h":507},
+	"sourceSize":{"w":840,"h":507}
+},
+"res/img/paytable/images/paytable_mob-13.png":
+{
+	"frame":{"x":1708,"y":1,"w":754,"h":328},
+	"rotated":true,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":754,"h":328},
+	"sourceSize":{"w":754,"h":328}
+},
+"res/img/paytable/images/paytable_mob-06.png":
+{
+	"frame":{"x":1,"y":223,"w":832,"h":469},
+	"rotated":false,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":832,"h":469},
+	"sourceSize":{"w":832,"h":469}
+},
+"res/img/paytable/images/paytable_mob-12.png":
+{
+	"frame":{"x":835,"y":510,"w":370,"h":138},
+	"rotated":false,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":370,"h":138},
+	"sourceSize":{"w":370,"h":138}
+},
+"res/img/paytable/images/paytable_mob-10.png":
+{
+	"frame":{"x":1207,"y":510,"w":308,"h":174},
+	"rotated":false,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":308,"h":174},
+	"sourceSize":{"w":308,"h":174}
+},
+"res/img/paytable/images/paytable_mob-09.png":
+{
+	"frame":{"x":1517,"y":510,"w":156,"h":151},
+	"rotated":false,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":156,"h":151},
+	"sourceSize":{"w":156,"h":151}
+},
+"res/img/paytable/images/paytable_mob-11.png":
+{
+	"frame":{"x":1517,"y":663,"w":261,"h":154},
+	"rotated":true,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":261,"h":154},
+	"sourceSize":{"w":261,"h":154}
+},
+"res/img/paytable/images/paytable_mob-08.png":
+{
+	"frame":{"x":835,"y":650,"w":215,"h":281},
+	"rotated":true,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":215,"h":281},
+	"sourceSize":{"w":215,"h":281}
+},
+"res/img/paytable/images/paytable_mob-05.png":
+{
+	"frame":{"x":1673,"y":757,"w":202,"h":202},
+	"rotated":false,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":202,"h":202},
+	"sourceSize":{"w":202,"h":202}
+},
+"res/img/paytable/images/paytable_mob-03.png":
+{
+	"frame":{"x":1118,"y":686,"w":202,"h":201},
+	"rotated":false,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":202,"h":201},
+	"sourceSize":{"w":202,"h":201}
+},
+"res/img/paytable/images/paytable_mob-07.png":
+{
+	"frame":{"x":1,"y":694,"w":202,"h":201},
+	"rotated":false,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":202,"h":201},
+	"sourceSize":{"w":202,"h":201}
+},
+"res/img/paytable/images/paytable_mob-04.png":
+{
+	"frame":{"x":205,"y":694,"w":201,"h":201},
+	"rotated":false,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":201,"h":201},
+	"sourceSize":{"w":201,"h":201}
+}
+},
+"meta":
+{
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"format": "RGBA8888",
+	"image": "other-0.png",
+	"size": {"w":2048,"h":2048},
+	"scale": 1,
+	"smartupdate":"$TexturePacker:SmartUpdate:47a510276ba621ba29fd21c1666fa962:a310e73c32f962e6c20795d253fa6e9c:a5fe61b31e5869b163f37ffdb236ddbb$"
+}
+}

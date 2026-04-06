@@ -1,0 +1,110 @@
+sym_hp3-FInqdQ.avif
+	size: 1213, 238
+	format: RGBA4444
+	filter: Linear, Linear
+	scale: 0.5
+.misc/romb
+	bounds: 1145, 3, 25, 25
+	offsets: 3, 3, 31, 31
+hp1/hp1_fx_dot
+	bounds: 388, 7, 16, 17
+	offsets: 2, 2, 20, 20
+hp1/hp1_vfx_Ellipse
+	bounds: 2, 8, 228, 227
+	rotate: 90
+hp3/hp3_bg
+	bounds: 637, 33, 203, 202
+	offsets: 1, 1, 205, 204
+	rotate: 90
+hp3/hp3_blueberry_1
+	bounds: 832, 5, 26, 26
+hp3/hp3_blueberry_10
+	bounds: 278, 4, 20, 19
+	offsets: 0, 0, 20, 20
+	rotate: 90
+hp3/hp3_blueberry_11
+	bounds: 860, 7, 32, 41
+hp3/hp3_blueberry_2
+	bounds: 1089, 2, 26, 25
+	offsets: 1, 0, 27, 25
+hp3/hp3_blueberry_3
+	bounds: 1115, 30, 32, 31
+	rotate: 90
+hp3/hp3_blueberry_4
+	bounds: 1148, 31, 31, 31
+hp3/hp3_blueberry_5
+	bounds: 1181, 32, 30, 30
+hp3/hp3_blueberry_6
+	bounds: 1117, 2, 26, 26
+hp3/hp3_blueberry_7
+	bounds: 477, 2, 23, 23
+hp3/hp3_blueberry_8
+	bounds: 369, 7, 17, 17
+hp3/hp3_blueberry_9
+	bounds: 325, 6, 18, 17
+	rotate: 90
+hp3/hp3_bow1
+	bounds: 1021, 8, 66, 48
+hp3/hp3_bow2
+	bounds: 930, 8, 25, 40
+hp3/hp3_bow3
+	bounds: 742, 4, 27, 44
+	offsets: 0, 1, 27, 45
+	rotate: 90
+hp3/hp3_bread_back
+	bounds: 841, 50, 156, 186
+hp3/hp3_bread_front
+	bounds: 474, 27, 161, 209
+hp3/hp3_eye_l_blik
+	bounds: 469, 17, 6, 7
+hp3/hp3_eye_l_close
+	bounds: 299, 6, 24, 18
+hp3/hp3_eye_l_iris
+	bounds: 231, 2, 22, 22
+hp3/hp3_eye_r_blik
+	bounds: 469, 9, 6, 6
+hp3/hp3_eye_r_close
+	bounds: 344, 7, 23, 17
+hp3/hp3_eye_r_iris
+	bounds: 255, 2, 21, 22
+hp3/hp3_face
+	bounds: 452, 8, 15, 16
+hp3/hp3_face2
+	bounds: 424, 8, 26, 16
+	offsets: 1, 0, 27, 17
+hp3/hp3_face3
+	bounds: 406, 7, 17, 16
+	rotate: 90
+hp3/hp3_frame
+	bounds: 231, 26, 210, 241
+	rotate: 90
+hp3/hp3_hand_l
+	bounds: 674, 3, 34, 28
+	offsets: 0, 0, 36, 28
+hp3/hp3_hand_l_shadow
+	bounds: 957, 10, 38, 24
+	offsets: 3, 0, 42, 28
+	rotate: 90
+hp3/hp3_hand_r
+	bounds: 710, 3, 30, 28
+	offsets: 0, 0, 30, 29
+hp3/hp3_hand_r_shadow
+	bounds: 637, 3, 35, 28
+	offsets: 2, 0, 37, 32
+hp3/hp3_jam
+	bounds: 1062, 64, 136, 172
+hp3/hp3_jam_drope
+	bounds: 983, 12, 36, 36
+hp3/hp3_leaf_1
+	bounds: 894, 8, 40, 34
+	offsets: 0, 0, 41, 34
+	rotate: 90
+hp3/hp3_leaf_2
+	bounds: 788, 4, 42, 27
+	offsets: 1, 0, 43, 27
+hp3/hp3_leaf_3
+	bounds: 1089, 29, 33, 24
+	rotate: 90
+hp3/hp3_ribbon
+	bounds: 999, 58, 178, 61
+	rotate: 90

@@ -1,0 +1,1341 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": []
+    },
+    {
+      "name": "fps-sounds",
+      "assets": [
+        {
+          "alias": [
+            "fps-sounds/bt_play.wav",
+            "bt_play.wav"
+          ],
+          "src": [
+            "fps-sounds/bt_play-nmziIg.ogg",
+            "fps-sounds/bt_play-7v2yrg.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "fps-sounds/logo.wav",
+            "logo.wav"
+          ],
+          "src": [
+            "fps-sounds/logo-WJS7lg.mp3",
+            "fps-sounds/logo-RMHD-g.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "fps-sounds/m_info_idle.wav",
+            "m_info_idle.wav"
+          ],
+          "src": [
+            "fps-sounds/m_info_idle-S9lD5w.mp3",
+            "fps-sounds/m_info_idle-KZN19g.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "fps-sounds/m_main.wav",
+            "m_main.wav"
+          ],
+          "src": [
+            "fps-sounds/m_main-d_F-OA.mp3",
+            "fps-sounds/m_main-bakXtA.ogg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fps",
+      "assets": [
+        {
+          "alias": [
+            "fps/features",
+            "features"
+          ],
+          "src": [
+            "fps/features-x3fbjw.png.json",
+            "fps/features-VRDu2g@0.5x.webp.json",
+            "fps/features-neVyiw@0.3x.webp.json",
+            "fps/features-KRzoWQ@0.3x.png.json",
+            "fps/features-KEwXyg@0.75x.webp.json",
+            "fps/features-HQUL6g@0.75x.avif.json",
+            "fps/features-HqNeNA@0.75x.png.json",
+            "fps/features-HH6wWg@0.3x.avif.json",
+            "fps/features-G-qKPg@0.5x.png.json",
+            "fps/features-F7r5kA@0.5x.avif.json",
+            "fps/features-E065Dg.avif.json",
+            "fps/features-764ORQ.webp.json"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fs-sounds",
+      "assets": [
+        {
+          "alias": [
+            "fs-sounds/fs_intro.wav",
+            "fs_intro.wav"
+          ],
+          "src": [
+            "fs-sounds/fs_intro-u-qa7Q.mp3",
+            "fs-sounds/fs_intro-PHWvFA.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "fs-sounds/fs_outro.wav",
+            "fs_outro.wav"
+          ],
+          "src": [
+            "fs-sounds/fs_outro-iyei4w.mp3",
+            "fs-sounds/fs_outro-e-twHQ.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "fs-sounds/fs_x2.wav",
+            "fs_x2.wav"
+          ],
+          "src": [
+            "fs-sounds/fs_x2-kKIysA.ogg",
+            "fs-sounds/fs_x2-8Tb6QA.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "fs-sounds/fs_x3.wav",
+            "fs_x3.wav"
+          ],
+          "src": [
+            "fs-sounds/fs_x3-nYSmyA.mp3",
+            "fs-sounds/fs_x3-hujHVQ.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "fs-sounds/fs_x4.wav",
+            "fs_x4.wav"
+          ],
+          "src": [
+            "fs-sounds/fs_x4-xa0oIg.mp3",
+            "fs-sounds/fs_x4-sIcmEA.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "fs-sounds/fs_x5.wav",
+            "fs_x5.wav"
+          ],
+          "src": [
+            "fs-sounds/fs_x5-VB5gag.mp3",
+            "fs-sounds/fs_x5-nfLtvA.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "fs-sounds/fs_x6.wav",
+            "fs_x6.wav"
+          ],
+          "src": [
+            "fs-sounds/fs_x6-ojeYTA.mp3",
+            "fs-sounds/fs_x6-Jh8Xkg.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "fs-sounds/m_fs.wav",
+            "m_fs.wav"
+          ],
+          "src": [
+            "fs-sounds/m_fs-lTax.ogg",
+            "fs-sounds/m_fs-0Enbqg.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "fs-sounds/m_pending.wav",
+            "m_pending.wav"
+          ],
+          "src": [
+            "fs-sounds/m_pending-OT3uUw.ogg",
+            "fs-sounds/m_pending-hQupYQ.mp3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "i18n_default",
+      "assets": [
+        {
+          "alias": [
+            "i18n_default/de/texts.json"
+          ],
+          "src": [
+            "i18n_default/de/texts-f021PA.json"
+          ]
+        },
+        {
+          "alias": [
+            "i18n_default/en/texts.json"
+          ],
+          "src": [
+            "i18n_default/en/texts-eqw4Ug.json"
+          ]
+        },
+        {
+          "alias": [
+            "i18n_default/es/texts.json"
+          ],
+          "src": [
+            "i18n_default/es/texts-V0Mnuw.json"
+          ]
+        },
+        {
+          "alias": [
+            "i18n_default/es-mx/texts.json"
+          ],
+          "src": [
+            "i18n_default/es-mx/texts-_9LdQw.json"
+          ]
+        },
+        {
+          "alias": [
+            "i18n_default/fr/texts.json"
+          ],
+          "src": [
+            "i18n_default/fr/texts-3BFarQ.json"
+          ]
+        },
+        {
+          "alias": [
+            "i18n_default/nl/texts.json"
+          ],
+          "src": [
+            "i18n_default/nl/texts-ZXZAPA.json"
+          ]
+        },
+        {
+          "alias": [
+            "i18n_default/pt/texts.json"
+          ],
+          "src": [
+            "i18n_default/pt/texts-KiQ1og.json"
+          ]
+        },
+        {
+          "alias": [
+            "i18n_default/ro/texts.json"
+          ],
+          "src": [
+            "i18n_default/ro/texts-G5H9Ag.json"
+          ]
+        },
+        {
+          "alias": [
+            "i18n_default/ru/texts.json"
+          ],
+          "src": [
+            "i18n_default/ru/texts-zJCPug.json"
+          ]
+        },
+        {
+          "alias": [
+            "i18n_default/tr/texts.json"
+          ],
+          "src": [
+            "i18n_default/tr/texts-Wr1u3A.json"
+          ]
+        },
+        {
+          "alias": [
+            "i18n_default/uk/texts.json"
+          ],
+          "src": [
+            "i18n_default/uk/texts-sCwNTQ.json"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "info",
+      "assets": [
+        {
+          "alias": [
+            "info/bf-images",
+            "bf-images"
+          ],
+          "src": [
+            "info/bf-images-XHFnoQ.png.json",
+            "info/bf-images-w1C_-g@0.3x.webp.json",
+            "info/bf-images-VegNWA@0.5x.avif.json",
+            "info/bf-images-Tm5zgQ@0.5x.webp.json",
+            "info/bf-images-m5vc-A@0.75x.png.json",
+            "info/bf-images-izHRnQ@0.3x.png.json",
+            "info/bf-images-9YuaNw.webp.json",
+            "info/bf-images-8cKyfw@0.75x.webp.json",
+            "info/bf-images-7NDVqg@0.3x.avif.json",
+            "info/bf-images-5WURhg.avif.json",
+            "info/bf-images-0j6jSw@0.5x.png.json",
+            "info/bf-images-_kDgxw@0.75x.avif.json"
+          ]
+        },
+        {
+          "alias": [
+            "info/info-images",
+            "info-images"
+          ],
+          "src": [
+            "info/info-images-YEZtjg@0.75x.png.json",
+            "info/info-images-X16Dxg@0.5x.png.json",
+            "info/info-images-WPInFA@0.5x.avif.json",
+            "info/info-images-wkFTJQ@0.3x.png.json",
+            "info/info-images-Vr8lRw.avif.json",
+            "info/info-images-Vq5q9Q.webp.json",
+            "info/info-images-rcLOfQ.png.json",
+            "info/info-images-cJ04bg@0.75x.avif.json",
+            "info/info-images-cDjoDg@0.5x.webp.json",
+            "info/info-images-bnH4XQ@0.75x.webp.json",
+            "info/info-images-5_l32Q@0.3x.avif.json",
+            "info/info-images-2zn7cw@0.3x.webp.json"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "main-sounds",
+      "assets": [
+        {
+          "alias": [
+            "main-sounds/anticip_end.wav",
+            "anticip_end.wav"
+          ],
+          "src": [
+            "main-sounds/anticip_end-lPcOOw.ogg",
+            "main-sounds/anticip_end-77Tr.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/b_b_off.wav",
+            "b_b_off.wav"
+          ],
+          "src": [
+            "main-sounds/b_b_off-XR4QkQ.mp3",
+            "main-sounds/b_b_off-jaOVMQ.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/b_b_on.wav",
+            "b_b_on.wav"
+          ],
+          "src": [
+            "main-sounds/b_b_on-e4gWwA.ogg",
+            "main-sounds/b_b_on-cC1jXw.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/bt_buy.wav",
+            "bt_buy.wav"
+          ],
+          "src": [
+            "main-sounds/bt_buy-1xssvg.mp3",
+            "main-sounds/bt_buy-1DTutA.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/bt_buy_confirm.wav",
+            "bt_buy_confirm.wav"
+          ],
+          "src": [
+            "main-sounds/bt_buy_confirm-z6bDxw.ogg",
+            "main-sounds/bt_buy_confirm-4wYiEA.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/bt_click.wav",
+            "bt_click.wav"
+          ],
+          "src": [
+            "main-sounds/bt_click-JTP6bw.ogg",
+            "main-sounds/bt_click-azavQw.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/bt_exit.wav",
+            "bt_exit.wav"
+          ],
+          "src": [
+            "main-sounds/bt_exit-gDzEAg.mp3",
+            "main-sounds/bt_exit-6R7aqg.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/bt_m_click.wav",
+            "bt_m_click.wav"
+          ],
+          "src": [
+            "main-sounds/bt_m_click-azavQw.mp3",
+            "main-sounds/bt_m_click-6jG85g.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/bt_start.wav",
+            "bt_start.wav"
+          ],
+          "src": [
+            "main-sounds/bt_start-fC5tHQ.mp3",
+            "main-sounds/bt_start-EmGzgg.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/bt_stop.wav",
+            "bt_stop.wav"
+          ],
+          "src": [
+            "main-sounds/bt_stop-Ppavjw.ogg",
+            "main-sounds/bt_stop-2dzO5Q.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/r_anticipation_1.wav",
+            "r_anticipation_1.wav"
+          ],
+          "src": [
+            "main-sounds/r_anticipation_1-wiqv.mp3",
+            "main-sounds/r_anticipation_1-G8nMdg.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/r_anticipation_2.wav",
+            "r_anticipation_2.wav"
+          ],
+          "src": [
+            "main-sounds/r_anticipation_2-qcIzfg.mp3",
+            "main-sounds/r_anticipation_2-kadSIw.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/r_anticipation_3.wav",
+            "r_anticipation_3.wav"
+          ],
+          "src": [
+            "main-sounds/r_anticipation_3-K-Soqg.mp3",
+            "main-sounds/r_anticipation_3-HFQI.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/r_mult_appear.wav",
+            "r_mult_appear.wav"
+          ],
+          "src": [
+            "main-sounds/r_mult_appear-S7OeFA.mp3",
+            "main-sounds/r_mult_appear-2ZL2SQ.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/r_spin.wav",
+            "r_spin.wav"
+          ],
+          "src": [
+            "main-sounds/r_spin-NpT27A.mp3",
+            "main-sounds/r_spin--B4E.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/r_toggle.wav",
+            "r_toggle.wav"
+          ],
+          "src": [
+            "main-sounds/r_toggle-VEVrVQ.mp3",
+            "main-sounds/r_toggle-cOfRdA.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/r_win_line.wav",
+            "r_win_line.wav"
+          ],
+          "src": [
+            "main-sounds/r_win_line-FIV2.ogg",
+            "main-sounds/r_win_line-2yD_Uw.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/stop-reels/r_stop.wav",
+            "r_stop.wav"
+          ],
+          "src": [
+            "main-sounds/stop-reels/r_stop-tKSFsQ.ogg",
+            "main-sounds/stop-reels/r_stop-0_f6.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/stop-reels/s_scatter_1.wav",
+            "s_scatter_1.wav"
+          ],
+          "src": [
+            "main-sounds/stop-reels/s_scatter_1-MDVZjw.mp3",
+            "main-sounds/stop-reels/s_scatter_1-Lxrczg.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/stop-reels/s_scatter_2.wav",
+            "s_scatter_2.wav"
+          ],
+          "src": [
+            "main-sounds/stop-reels/s_scatter_2-MuBhzQ.mp3",
+            "main-sounds/stop-reels/s_scatter_2-JzvyIw.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/stop-reels/s_scatter_3.wav",
+            "s_scatter_3.wav"
+          ],
+          "src": [
+            "main-sounds/stop-reels/s_scatter_3-z_0HSg.mp3",
+            "main-sounds/stop-reels/s_scatter_3-ROa3_A.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/stop-reels/s_scatter_4.wav",
+            "s_scatter_4.wav"
+          ],
+          "src": [
+            "main-sounds/stop-reels/s_scatter_4-oFGlIw.mp3",
+            "main-sounds/stop-reels/s_scatter_4-_7w_qw.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/stop-reels/s_scatter_5.wav",
+            "s_scatter_5.wav"
+          ],
+          "src": [
+            "main-sounds/stop-reels/s_scatter_5-Q9OeEA.mp3",
+            "main-sounds/stop-reels/s_scatter_5-KxEKVw.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/stop-reels/s_wild.wav",
+            "s_wild.wav"
+          ],
+          "src": [
+            "main-sounds/stop-reels/s_wild-HW00.mp3",
+            "main-sounds/stop-reels/s_wild-_pQ61Q.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/wins/big_win.wav",
+            "big_win.wav"
+          ],
+          "src": [
+            "main-sounds/wins/big_win-8gAu.ogg",
+            "main-sounds/wins/big_win-8bz8fw.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/wins/dwb_0.wav",
+            "dwb_0.wav"
+          ],
+          "src": [
+            "main-sounds/wins/dwb_0-TvvfyA.mp3",
+            "main-sounds/wins/dwb_0-OOlw.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/wins/dwb_1.wav",
+            "dwb_1.wav"
+          ],
+          "src": [
+            "main-sounds/wins/dwb_1-s6T-8A.mp3",
+            "main-sounds/wins/dwb_1-9CHGMg.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/wins/dwb_skip.wav",
+            "dwb_skip.wav"
+          ],
+          "src": [
+            "main-sounds/wins/dwb_skip-XfUCGA.ogg",
+            "main-sounds/wins/dwb_skip-VTZljw.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/wins/epic_win.wav",
+            "epic_win.wav"
+          ],
+          "src": [
+            "main-sounds/wins/epic_win-g594mw.ogg",
+            "main-sounds/wins/epic_win-01mM0g.mp3"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/wins/huge_win.wav",
+            "huge_win.wav"
+          ],
+          "src": [
+            "main-sounds/wins/huge_win-qGtiTw.mp3",
+            "main-sounds/wins/huge_win-9j2b8w.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/wins/mega_win.wav",
+            "mega_win.wav"
+          ],
+          "src": [
+            "main-sounds/wins/mega_win-W4lt6A.mp3",
+            "main-sounds/wins/mega_win-R5N27w.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/wins/win_line.wav",
+            "win_line.wav"
+          ],
+          "src": [
+            "main-sounds/wins/win_line-Q9OeEA.mp3",
+            "main-sounds/wins/win_line-pmsevQ.ogg"
+          ]
+        },
+        {
+          "alias": [
+            "main-sounds/wins/win_skip.wav",
+            "win_skip.wav"
+          ],
+          "src": [
+            "main-sounds/wins/win_skip-YwRujA.ogg",
+            "main-sounds/wins/win_skip-JCB4hg.mp3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "assets": [
+        {
+          "alias": [
+            "main/anticipation.atlas",
+            "anticipation.atlas"
+          ],
+          "src": [
+            "main/anticipation-UtRCdg@0.75x.png.atlas",
+            "main/anticipation-UbeD8A@0.5x.png.atlas",
+            "main/anticipation-sZBgXQ@0.3x.png.atlas",
+            "main/anticipation-piqEYw@0.75x.avif.atlas",
+            "main/anticipation-nCLnqg@0.3x.avif.atlas",
+            "main/anticipation-IC7vDA.webp.atlas",
+            "main/anticipation-ceY3Cg@0.5x.webp.atlas",
+            "main/anticipation-7skZXA@0.75x.webp.atlas",
+            "main/anticipation-1zbElg@0.3x.webp.atlas",
+            "main/anticipation-13QP0g.avif.atlas",
+            "main/anticipation--ozLCQ@0.5x.avif.atlas",
+            "main/anticipation-_8BXeA.png.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/anticipation.json",
+            "anticipation.json"
+          ],
+          "src": [
+            "main/anticipation-1ZE3bA.json"
+          ]
+        },
+        {
+          "alias": [
+            "main/background.atlas",
+            "background.atlas"
+          ],
+          "src": [
+            "main/background-VppnMw@0.5x.avif.atlas",
+            "main/background-T8P-RA.avif.atlas",
+            "main/background-Pyfh1A@0.3x.webp.atlas",
+            "main/background-oOgDaw@0.3x.avif.atlas",
+            "main/background-M3HS@0.3x.png.atlas",
+            "main/background-lg2qUA@0.75x.avif.atlas",
+            "main/background-K_bMoA@0.5x.png.atlas",
+            "main/background-h_JwvQ@0.75x.webp.atlas",
+            "main/background-FLOOJg.png.atlas",
+            "main/background-EZY0_Q.webp.atlas",
+            "main/background-7J4leA@0.5x.webp.atlas",
+            "main/background-3aO91A@0.75x.png.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/background.json",
+            "background.json"
+          ],
+          "src": [
+            "main/background-ddX_7g.json"
+          ]
+        },
+        {
+          "alias": [
+            "main/background_2.png",
+            "background_2.png"
+          ],
+          "src": [
+            "main/background_2-uLzvGA@0.3x.webp",
+            "main/background_2-TSuhAw.avif",
+            "main/background_2-RLRCDQ@0.75x.avif",
+            "main/background_2-rKu6@0.5x.png",
+            "main/background_2-oOR7tw@0.75x.png",
+            "main/background_2-NBftYg.webp",
+            "main/background_2-IVxNeg@0.3x.avif",
+            "main/background_2-G4I_5g@0.3x.png",
+            "main/background_2-aCfPrw.png",
+            "main/background_2-8z_hnw@0.75x.webp",
+            "main/background_2-4k3QwA@0.5x.avif",
+            "main/background_2-3KQq4w@0.5x.webp"
+          ]
+        },
+        {
+          "alias": [
+            "main/background_3.png",
+            "background_3.png"
+          ],
+          "src": [
+            "main/background_3-zQgdGA.png",
+            "main/background_3-ZM4fTQ@0.3x.webp",
+            "main/background_3-XITR2w@0.75x.webp",
+            "main/background_3-Tn9oWw.avif",
+            "main/background_3-m620mw@0.5x.png",
+            "main/background_3-LaZ_1A@0.5x.avif",
+            "main/background_3-HrBZdA@0.75x.png",
+            "main/background_3-gXNWZA.webp",
+            "main/background_3-ahnkdw@0.75x.avif",
+            "main/background_3-7Yhr3A@0.5x.webp",
+            "main/background_3-49FHBQ@0.3x.avif",
+            "main/background_3-3qOvGg@0.3x.png"
+          ]
+        },
+        {
+          "alias": [
+            "main/cell_anticipation.atlas",
+            "cell_anticipation.atlas"
+          ],
+          "src": [
+            "main/cell_anticipation-ZXEH-A@0.5x.png.atlas",
+            "main/cell_anticipation-znB0Lg@0.3x.png.atlas",
+            "main/cell_anticipation-rrPl1g@0.75x.webp.atlas",
+            "main/cell_anticipation-mtqU@0.3x.webp.atlas",
+            "main/cell_anticipation-LOZSBA@0.5x.webp.atlas",
+            "main/cell_anticipation-hHRTJw@0.75x.png.atlas",
+            "main/cell_anticipation-FPtXPg@0.3x.avif.atlas",
+            "main/cell_anticipation-F2YZNw@0.5x.avif.atlas",
+            "main/cell_anticipation-EMa3@0.75x.avif.atlas",
+            "main/cell_anticipation-diolRg.webp.atlas",
+            "main/cell_anticipation-9UBoKg.avif.atlas",
+            "main/cell_anticipation-3FceEA.png.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/cell_anticipation.json",
+            "cell_anticipation.json"
+          ],
+          "src": [
+            "main/cell_anticipation-MdWeyA.json"
+          ]
+        },
+        {
+          "alias": [
+            "main/character.atlas",
+            "character.atlas"
+          ],
+          "src": [
+            "main/character-zWrMjw.png.atlas",
+            "main/character-xSLlcQ@0.5x.webp.atlas",
+            "main/character-rcyv1w.avif.atlas",
+            "main/character-PnMNDA@0.75x.webp.atlas",
+            "main/character-mVyo3w@0.5x.png.atlas",
+            "main/character-iBRqpg@0.75x.png.atlas",
+            "main/character-9rcUEA@0.75x.avif.atlas",
+            "main/character-7c2inw@0.3x.png.atlas",
+            "main/character-63j27w@0.3x.avif.atlas",
+            "main/character-5N9jqg@0.5x.avif.atlas",
+            "main/character-3f_klw@0.3x.webp.atlas",
+            "main/character-2vJ_bA.webp.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/character.json",
+            "character.json"
+          ],
+          "src": [
+            "main/character-urMkng.json"
+          ]
+        },
+        {
+          "alias": [
+            "main/coins",
+            "coins"
+          ],
+          "src": [
+            "main/coins-sLhCbw@0.5x.webp.json",
+            "main/coins-PhsEmw.png.json",
+            "main/coins-oVybwg@0.75x.avif.json",
+            "main/coins-NP6UjA@0.3x.avif.json",
+            "main/coins-N9wJCw@0.75x.png.json",
+            "main/coins-LEDmOA@0.75x.webp.json",
+            "main/coins-kIB_xg@0.5x.avif.json",
+            "main/coins-iksEow.webp.json",
+            "main/coins-GRsQMQ@0.5x.png.json",
+            "main/coins-ew2pJA.avif.json",
+            "main/coins-dL25@0.3x.png.json",
+            "main/coins-6mrAkw@0.3x.webp.json"
+          ]
+        },
+        {
+          "alias": [
+            "main/dialogues.atlas",
+            "dialogues.atlas"
+          ],
+          "src": [
+            "main/dialogues-Vo0WcQ@0.3x.avif.atlas",
+            "main/dialogues-Rf4gAQ@0.5x.webp.atlas",
+            "main/dialogues-PlU7vQ@0.5x.png.atlas",
+            "main/dialogues-hf_p@0.75x.png.atlas",
+            "main/dialogues-gxZ4YQ@0.3x.webp.atlas",
+            "main/dialogues-Fbp5@0.5x.avif.atlas",
+            "main/dialogues-cYsAOA.avif.atlas",
+            "main/dialogues-7v4vcQ.webp.atlas",
+            "main/dialogues-6VB3XA.png.atlas",
+            "main/dialogues-6LCo@0.75x.avif.atlas",
+            "main/dialogues-3c9o@0.3x.png.atlas",
+            "main/dialogues-2r_aMQ@0.75x.webp.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/dialogues.json",
+            "dialogues.json"
+          ],
+          "src": [
+            "main/dialogues-ZQbqLQ.json"
+          ]
+        },
+        {
+          "alias": [
+            "main/fonts/Nunito.woff2",
+            "Nunito.woff2"
+          ],
+          "src": [
+            "main/fonts/Nunito.woff2"
+          ]
+        },
+        {
+          "alias": [
+            "main/fonts/WinFont.fnt",
+            "WinFont.fnt"
+          ],
+          "src": [
+            {
+              "src": "main/fonts/WinFont-UQGoQw@0.3x.webp.fnt",
+              "resolution": 0.3,
+              "format": "webp"
+            },
+            {
+              "src": "main/fonts/WinFont-qefOzw@0.75x.avif.fnt",
+              "resolution": 0.75,
+              "format": "avif"
+            },
+            {
+              "src": "main/fonts/WinFont-PuZx7Q.webp.fnt",
+              "resolution": 1,
+              "format": "webp"
+            },
+            {
+              "src": "main/fonts/WinFont-l26hxA@0.5x.webp.fnt",
+              "resolution": 0.5,
+              "format": "webp"
+            },
+            {
+              "src": "main/fonts/WinFont-Kq9hoQ@0.5x.avif.fnt",
+              "resolution": 0.5,
+              "format": "avif"
+            },
+            {
+              "src": "main/fonts/WinFont-jOeyIg@0.3x.png.fnt",
+              "resolution": 0.3,
+              "format": "png"
+            },
+            {
+              "src": "main/fonts/WinFont-gyexiA.avif.fnt",
+              "resolution": 1,
+              "format": "avif"
+            },
+            {
+              "src": "main/fonts/WinFont-FCYOqg@0.75x.webp.fnt",
+              "resolution": 0.75,
+              "format": "webp"
+            },
+            {
+              "src": "main/fonts/WinFont-dB0uDw@0.75x.png.fnt",
+              "resolution": 0.75,
+              "format": "png"
+            },
+            {
+              "src": "main/fonts/WinFont-7zeHGA@0.5x.png.fnt",
+              "resolution": 0.5,
+              "format": "png"
+            },
+            {
+              "src": "main/fonts/WinFont-7MBoJg@0.3x.avif.fnt",
+              "resolution": 0.3,
+              "format": "avif"
+            },
+            {
+              "src": "main/fonts/WinFont-20n99A.png.fnt",
+              "resolution": 1,
+              "format": "png"
+            }
+          ]
+        },
+        {
+          "alias": [
+            "main/fonts/WinFont.png",
+            "WinFont.png"
+          ],
+          "src": [
+            "main/fonts/WinFont-xT9rlg@0.3x.webp",
+            "main/fonts/WinFont-VGhi@0.75x.avif",
+            "main/fonts/WinFont-Te7aLw.webp",
+            "main/fonts/WinFont-sZfYEQ@0.5x.avif",
+            "main/fonts/WinFont-qQLVPw@0.5x.png",
+            "main/fonts/WinFont-P0fSMA@0.75x.png",
+            "main/fonts/WinFont-OAKn-g@0.3x.png",
+            "main/fonts/WinFont-m-NbHw@0.75x.webp",
+            "main/fonts/WinFont-jYx0xA@0.3x.avif",
+            "main/fonts/WinFont-dS6F.png",
+            "main/fonts/WinFont-deP7rA.avif",
+            "main/fonts/WinFont-8AP4WQ@0.5x.webp"
+          ]
+        },
+        {
+          "alias": [
+            "main/game_logo.atlas",
+            "game_logo.atlas"
+          ],
+          "src": [
+            "main/game_logo-W3mLmw.webp.atlas",
+            "main/game_logo-t-5z7Q@0.3x.webp.atlas",
+            "main/game_logo-Sfnzew.avif.atlas",
+            "main/game_logo-sayjjQ@0.5x.avif.atlas",
+            "main/game_logo-Oko4FA@0.5x.png.atlas",
+            "main/game_logo-NJp9.png.atlas",
+            "main/game_logo-JRThOw@0.75x.avif.atlas",
+            "main/game_logo-J8TE9Q@0.3x.avif.atlas",
+            "main/game_logo-hLRg@0.3x.png.atlas",
+            "main/game_logo-hcod@0.75x.webp.atlas",
+            "main/game_logo-dMpGBA@0.75x.png.atlas",
+            "main/game_logo-bVNvBA@0.5x.webp.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/game_logo.json",
+            "game_logo.json"
+          ],
+          "src": [
+            "main/game_logo-2xP0oQ.json"
+          ]
+        },
+        {
+          "alias": [
+            "main/reels.atlas",
+            "reels.atlas"
+          ],
+          "src": [
+            "main/reels-Zy2nfQ@0.3x.avif.atlas",
+            "main/reels-z2shTg@0.3x.webp.atlas",
+            "main/reels-wYcbAA@0.5x.png.atlas",
+            "main/reels-tztFpA@0.75x.webp.atlas",
+            "main/reels-TOkBIw@0.75x.png.atlas",
+            "main/reels-OCv_0A.avif.atlas",
+            "main/reels-JaXxbg.webp.atlas",
+            "main/reels-JAHK@0.75x.avif.atlas",
+            "main/reels-FuYNgQ@0.5x.avif.atlas",
+            "main/reels-F66sBQ@0.3x.png.atlas",
+            "main/reels-7ueaIw@0.5x.webp.atlas",
+            "main/reels-5zaf1A.png.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/reels.json",
+            "reels.json"
+          ],
+          "src": [
+            "main/reels-e4dsig.json"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_hp1.atlas",
+            "sym_hp1.atlas"
+          ],
+          "src": [
+            "main/sym_hp1-r3ekeQ@0.5x.png.atlas",
+            "main/sym_hp1-p8-VZQ.avif.atlas",
+            "main/sym_hp1-opwBGw@0.5x.avif.atlas",
+            "main/sym_hp1-OGSkig.png.atlas",
+            "main/sym_hp1-ne-PJw@0.3x.webp.atlas",
+            "main/sym_hp1-HkJu6g@0.75x.webp.atlas",
+            "main/sym_hp1-dV0aXw.webp.atlas",
+            "main/sym_hp1-dqfGUg@0.3x.png.atlas",
+            "main/sym_hp1-8nmJ7A@0.75x.png.atlas",
+            "main/sym_hp1-3eHgDw@0.5x.webp.atlas",
+            "main/sym_hp1-0RXYEw@0.3x.avif.atlas",
+            "main/sym_hp1-_uU7_Q@0.75x.avif.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_hp1.json",
+            "sym_hp1.json"
+          ],
+          "src": [
+            "main/sym_hp1-f42W8A.json"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_hp2.atlas",
+            "sym_hp2.atlas"
+          ],
+          "src": [
+            "main/sym_hp2-yQRgcw.webp.atlas",
+            "main/sym_hp2-ypNjqA@0.5x.png.atlas",
+            "main/sym_hp2-vMVDBg@0.75x.avif.atlas",
+            "main/sym_hp2-UHNV@0.3x.png.atlas",
+            "main/sym_hp2-terd7g@0.3x.avif.atlas",
+            "main/sym_hp2-No8F1w.avif.atlas",
+            "main/sym_hp2-kQ09hg@0.3x.webp.atlas",
+            "main/sym_hp2-htD53w.png.atlas",
+            "main/sym_hp2-Hgn8yg@0.75x.webp.atlas",
+            "main/sym_hp2-1Mp6Zg@0.75x.png.atlas",
+            "main/sym_hp2-1JrAdg@0.5x.webp.atlas",
+            "main/sym_hp2-01p4Hw@0.5x.avif.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_hp2.json",
+            "sym_hp2.json"
+          ],
+          "src": [
+            "main/sym_hp2-eyFlQQ.json"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_hp3.atlas",
+            "sym_hp3.atlas"
+          ],
+          "src": [
+            "main/sym_hp3-yfpwUQ.avif.atlas",
+            "main/sym_hp3-Y81RNw@0.3x.avif.atlas",
+            "main/sym_hp3-vmUDQA@0.75x.png.atlas",
+            "main/sym_hp3-oQ6yzw@0.5x.avif.atlas",
+            "main/sym_hp3-ofXSEA@0.3x.png.atlas",
+            "main/sym_hp3-i1SScw@0.75x.avif.atlas",
+            "main/sym_hp3-h7qu3g@0.75x.webp.atlas",
+            "main/sym_hp3-FN2v3Q@0.5x.png.atlas",
+            "main/sym_hp3-akjNKQ.png.atlas",
+            "main/sym_hp3-88RvsA@0.5x.webp.atlas",
+            "main/sym_hp3-5OQVZA@0.3x.webp.atlas",
+            "main/sym_hp3--THDbQ.webp.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_hp3.json",
+            "sym_hp3.json"
+          ],
+          "src": [
+            "main/sym_hp3-JGlAZA.json"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_hp4.atlas",
+            "sym_hp4.atlas"
+          ],
+          "src": [
+            "main/sym_hp4-zL5Tww@0.3x.webp.atlas",
+            "main/sym_hp4-ZbTWxg@0.3x.png.atlas",
+            "main/sym_hp4-uiAt1w@0.5x.webp.atlas",
+            "main/sym_hp4-qUtsww.avif.atlas",
+            "main/sym_hp4-qp_nlw@0.75x.png.atlas",
+            "main/sym_hp4-LoK1UA.png.atlas",
+            "main/sym_hp4-gArvcw@0.75x.avif.atlas",
+            "main/sym_hp4-G2DEwQ@0.5x.avif.atlas",
+            "main/sym_hp4-dCSIxQ@0.5x.png.atlas",
+            "main/sym_hp4-5bPn7g@0.75x.webp.atlas",
+            "main/sym_hp4-3z5DUw@0.3x.avif.atlas",
+            "main/sym_hp4-_l6bbA.webp.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_hp4.json",
+            "sym_hp4.json"
+          ],
+          "src": [
+            "main/sym_hp4-Ger8qw.json"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_hp5.atlas",
+            "sym_hp5.atlas"
+          ],
+          "src": [
+            "main/sym_hp5-x6RPJw.png.atlas",
+            "main/sym_hp5-vzI5Dg@0.5x.png.atlas",
+            "main/sym_hp5-v1lcYQ@0.75x.avif.atlas",
+            "main/sym_hp5-Tao--g@0.3x.png.atlas",
+            "main/sym_hp5-sXr8EQ.webp.atlas",
+            "main/sym_hp5-OEaTQQ@0.5x.webp.atlas",
+            "main/sym_hp5-LHHYPg@0.5x.avif.atlas",
+            "main/sym_hp5-HV9t2Q.avif.atlas",
+            "main/sym_hp5-HmsWHw@0.75x.png.atlas",
+            "main/sym_hp5-2SZSmw@0.75x.webp.atlas",
+            "main/sym_hp5-2Lvv9A@0.3x.avif.atlas",
+            "main/sym_hp5--zhl1Q@0.3x.webp.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_hp5.json",
+            "sym_hp5.json"
+          ],
+          "src": [
+            "main/sym_hp5-1rhpoQ.json"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_lp.atlas",
+            "sym_lp.atlas"
+          ],
+          "src": [
+            "main/sym_lp-yIIMHA@0.75x.png.atlas",
+            "main/sym_lp-wgsPLQ@0.5x.avif.atlas",
+            "main/sym_lp-vNpHDg@0.75x.webp.atlas",
+            "main/sym_lp-u7a-Jw@0.3x.png.atlas",
+            "main/sym_lp-sJ9qEw@0.3x.avif.atlas",
+            "main/sym_lp-NaM9Wg@0.5x.png.atlas",
+            "main/sym_lp-m270jg.webp.atlas",
+            "main/sym_lp-Hic_vA@0.5x.webp.atlas",
+            "main/sym_lp-fPxciw.avif.atlas",
+            "main/sym_lp-f-e1Ww@0.75x.avif.atlas",
+            "main/sym_lp-9CZuHQ.png.atlas",
+            "main/sym_lp-1Fr46w@0.3x.webp.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_lp.json",
+            "sym_lp.json"
+          ],
+          "src": [
+            "main/sym_lp-HqwsJw.json"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_scat.atlas",
+            "sym_scat.atlas"
+          ],
+          "src": [
+            "main/sym_scat-W2Ok5A.png.atlas",
+            "main/sym_scat-ueWKMA@0.3x.webp.atlas",
+            "main/sym_scat-Rn_GeQ@0.5x.avif.atlas",
+            "main/sym_scat-ReuPiw@0.75x.png.atlas",
+            "main/sym_scat-R20oSg.avif.atlas",
+            "main/sym_scat-OhPbWg@0.75x.avif.atlas",
+            "main/sym_scat-NcDSXw@0.75x.webp.atlas",
+            "main/sym_scat-h2-s6Q@0.3x.avif.atlas",
+            "main/sym_scat-crJpTw@0.5x.png.atlas",
+            "main/sym_scat-9x1Q7w@0.3x.png.atlas",
+            "main/sym_scat-8yh8yQ.webp.atlas",
+            "main/sym_scat--tK1-w@0.5x.webp.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_scat.json",
+            "sym_scat.json"
+          ],
+          "src": [
+            "main/sym_scat-PUQXmA.json"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_wild.atlas",
+            "sym_wild.atlas"
+          ],
+          "src": [
+            "main/sym_wild-XJz07w.avif.atlas",
+            "main/sym_wild-W6PV8A@0.75x.avif.atlas",
+            "main/sym_wild-VYzyow@0.3x.png.atlas",
+            "main/sym_wild-U4K3lQ@0.3x.webp.atlas",
+            "main/sym_wild-NR9LIA.png.atlas",
+            "main/sym_wild-llYdiQ.webp.atlas",
+            "main/sym_wild-IbiWrQ@0.5x.avif.atlas",
+            "main/sym_wild-Ffq31A@0.3x.avif.atlas",
+            "main/sym_wild-Ei_h-Q@0.5x.webp.atlas",
+            "main/sym_wild-egMG-A@0.5x.png.atlas",
+            "main/sym_wild-aN4uKA@0.75x.webp.atlas",
+            "main/sym_wild-62zQeg@0.75x.png.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/sym_wild.json",
+            "sym_wild.json"
+          ],
+          "src": [
+            "main/sym_wild-quQanQ.json"
+          ]
+        },
+        {
+          "alias": [
+            "main/win_lines.atlas",
+            "win_lines.atlas"
+          ],
+          "src": [
+            "main/win_lines-VUZWwQ.webp.atlas",
+            "main/win_lines-uVvCpA@0.5x.png.atlas",
+            "main/win_lines-rtmvZQ.png.atlas",
+            "main/win_lines-Kmb7IA@0.3x.png.atlas",
+            "main/win_lines-Jo76Ow@0.5x.avif.atlas",
+            "main/win_lines-fCdPRA@0.75x.webp.atlas",
+            "main/win_lines-FaY7Zg@0.5x.webp.atlas",
+            "main/win_lines-csQ_Cg@0.75x.png.atlas",
+            "main/win_lines-9SiuiQ@0.3x.webp.atlas",
+            "main/win_lines-7SHxgA@0.3x.avif.atlas",
+            "main/win_lines-7NXvzw@0.75x.avif.atlas",
+            "main/win_lines-07XfCA.avif.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/win_lines.json",
+            "win_lines.json"
+          ],
+          "src": [
+            "main/win_lines-Fc6jVQ.json"
+          ]
+        },
+        {
+          "alias": [
+            "main/wins_popup.atlas",
+            "wins_popup.atlas"
+          ],
+          "src": [
+            "main/wins_popup-zvjxiA@0.75x.avif.atlas",
+            "main/wins_popup-XwHUIQ@0.5x.webp.atlas",
+            "main/wins_popup-XAnNSQ@0.3x.png.atlas",
+            "main/wins_popup-x0cpWQ@0.75x.png.atlas",
+            "main/wins_popup-Ql14SQ@0.5x.png.atlas",
+            "main/wins_popup-q6r1yQ@0.75x.webp.atlas",
+            "main/wins_popup-l-6Wzw.webp.atlas",
+            "main/wins_popup-JbCxXA@0.5x.avif.atlas",
+            "main/wins_popup-geyP3Q@0.3x.avif.atlas",
+            "main/wins_popup-EvJ9iA@0.3x.webp.atlas",
+            "main/wins_popup-1mhd6Q.avif.atlas",
+            "main/wins_popup--ILy1g.png.atlas"
+          ]
+        },
+        {
+          "alias": [
+            "main/wins_popup.json",
+            "wins_popup.json"
+          ],
+          "src": [
+            "main/wins_popup-KqTs3Q.json"
+          ]
+        },
+        {
+          "alias": [
+            "main/wins_popup_2.png",
+            "wins_popup_2.png"
+          ],
+          "src": [
+            "main/wins_popup_2-ySjm6Q@0.75x.webp",
+            "main/wins_popup_2-tRL-tQ@0.5x.png",
+            "main/wins_popup_2-s4yPSw@0.3x.png",
+            "main/wins_popup_2-PQK2eg.png",
+            "main/wins_popup_2-ONFzAQ@0.75x.avif",
+            "main/wins_popup_2-mRPPgQ@0.3x.avif",
+            "main/wins_popup_2-jtSWRw@0.5x.webp",
+            "main/wins_popup_2-JM4uiw@0.5x.avif",
+            "main/wins_popup_2-j7NClw@0.75x.png",
+            "main/wins_popup_2-fYTkfA.avif",
+            "main/wins_popup_2-f5Q_Ag@0.3x.webp",
+            "main/wins_popup_2-7Ua06g.webp"
+          ]
+        },
+        {
+          "alias": [
+            "main/wins_popup_3.png",
+            "wins_popup_3.png"
+          ],
+          "src": [
+            "main/wins_popup_3-xeXjBw@0.3x.avif",
+            "main/wins_popup_3-x9qj7A@0.5x.avif",
+            "main/wins_popup_3-tAMSsQ.png",
+            "main/wins_popup_3-P1-84Q@0.5x.png",
+            "main/wins_popup_3-L9O29Q.avif",
+            "main/wins_popup_3-GSt2xg@0.75x.avif",
+            "main/wins_popup_3-ER_Cqw@0.3x.webp",
+            "main/wins_popup_3-9cLm0g@0.75x.webp",
+            "main/wins_popup_3-8w2StA.webp",
+            "main/wins_popup_3-69G2Zg@0.3x.png",
+            "main/wins_popup_3-1x1i0Q@0.75x.png",
+            "main/wins_popup_3-0I-jkg@0.5x.webp"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{"frames": {
+"res/img/symbols/normal/mid_1.png":
+{
+	"frame":{"x":1,"y":1,"w":160,"h":176},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":0,"y":4,"w":160,"h":176},
+	"sourceSize":{"w":160,"h":180}
+},
+"res/img/symbols/normal/hidden.png":
+{
+	"frame":{"x":1,"y":179,"w":174,"h":160},
+	"rotated":true,
+	"trimmed":false,
+	"spriteSourceSize":{"x":0,"y":0,"w":174,"h":160},
+	"sourceSize":{"w":174,"h":160}
+},
+"res/img/symbols/normal/mid_4.png":
+{
+	"frame":{"x":1,"y":355,"w":155,"h":156},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":2,"y":12,"w":155,"h":156},
+	"sourceSize":{"w":160,"h":180}
+},
+"res/img/symbols/normal/mid_3.png":
+{
+	"frame":{"x":158,"y":355,"w":157,"h":155},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":0,"y":14,"w":157,"h":155},
+	"sourceSize":{"w":160,"h":180}
+},
+"res/img/symbols/normal/mid_2.png":
+{
+	"frame":{"x":317,"y":1,"w":164,"h":88},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":0,"y":36,"w":164,"h":88},
+	"sourceSize":{"w":164,"h":160}
+},
+"res/img/symbols/normal/low_2.png":
+{
+	"frame":{"x":163,"y":1,"w":134,"h":127},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":7,"y":24,"w":134,"h":127},
+	"sourceSize":{"w":160,"h":160}
+},
+"res/img/symbols/normal/wild.png":
+{
+	"frame":{"x":317,"y":91,"w":158,"h":153},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":1,"y":4,"w":158,"h":153},
+	"sourceSize":{"w":160,"h":160}
+},
+"res/img/symbols/normal/low_4.png":
+{
+	"frame":{"x":163,"y":130,"w":125,"h":132},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":21,"y":13,"w":125,"h":132},
+	"sourceSize":{"w":160,"h":160}
+},
+"res/img/symbols/normal/low_1.png":
+{
+	"frame":{"x":317,"y":246,"w":109,"h":125},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":25,"y":16,"w":109,"h":125},
+	"sourceSize":{"w":160,"h":160}
+},
+"res/img/symbols/normal/low_3.png":
+{
+	"frame":{"x":317,"y":357,"w":119,"h":124},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":21,"y":18,"w":119,"h":124},
+	"sourceSize":{"w":160,"h":160}
+}
+},
+"meta":
+{
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"format": "RGBA8888",
+	"image": "faces-0.png",
+	"size": {"w":512,"h":512},
+	"scale": 1,
+	"smartupdate":"$TexturePacker:SmartUpdate:5c0e36380f4257eb3f302e0d5d4a4428:d5237f369f1d18519877934545d4322f:b746bb8a4036292360b46972c656a135$"
+}
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "point": {
+      "x": 1305,
+      "y": 455
+    },
+    "newRequests": 1,
+    "spinRequests": 1,
+    "recent": [
+      {
+        "url": "https://betman.c1.3oaks.com/slotscity-prod-axis/gs/aztec_sun/desktop/6cd03a56fd634d9fb3f6d5946b3a4520/demo/?gsc=play",
+        "method": "POST",
+        "postData": "{\"command\":\"play\",\"request_id\":\"00c9b8f567ce40e493375fd1615f147b\",\"session_id\":\"fe2905c7030c4a858be45285182739ac\",\"action\":{\"name\":\"spin\",\"params\":{\"bet_per_line\":10,\"lines\":25}},\"set_denominator\":1,\"quick_spin\":1,\"sound\":true,\"autogame\":false,\"mobile\":\"0\",\"portrait\":false,\"fullscreen\":true,\"viewportSize\":\"1440x900\",\"client_command_timestamp\":1775302558417}"
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+<font>
+	<info face="gr_promo_menu_flip_font_brown" size="48" />
+	<common lineHeight="48" scaleW="128" scaleH="256" pages="1" />
+	<pages>
+		<page id="0" file="gr_promo_menu_flip_font_brown.avif" />
+	</pages>
+	<chars count="11">
+		<char id="48" x="35" y="1" width="32" height="48" xoffset="0" yoffset="0" xadvance="32" /><!-- 0 -->
+		<char id="49" x="69" y="1" width="32" height="48" xoffset="0" yoffset="0" xadvance="32" /><!-- 1 -->
+		<char id="50" x="1" y="51" width="32" height="48" xoffset="0" yoffset="0" xadvance="32" /><!-- 2 -->
+		<char id="51" x="35" y="51" width="32" height="48" xoffset="0" yoffset="0" xadvance="32" /><!-- 3 -->
+		<char id="52" x="69" y="51" width="32" height="48" xoffset="0" yoffset="0" xadvance="32" /><!-- 4 -->
+		<char id="53" x="1" y="101" width="32" height="48" xoffset="0" yoffset="0" xadvance="32" /><!-- 5 -->
+		<char id="54" x="1" y="151" width="32" height="48" xoffset="0" yoffset="0" xadvance="32" /><!-- 6 -->
+		<char id="55" x="1" y="201" width="32" height="48" xoffset="0" yoffset="0" xadvance="32" /><!-- 7 -->
+		<char id="56" x="35" y="101" width="32" height="48" xoffset="0" yoffset="0" xadvance="32" /><!-- 8 -->
+		<char id="57" x="69" y="101" width="32" height="48" xoffset="0" yoffset="0" xadvance="32" /><!-- 9 -->
+		<char id="120" x="1" y="1" width="32" height="48" xoffset="0" yoffset="0" xadvance="32" /><!-- x -->
+	</chars>
+	<kernings count="0">
+	</kernings>
+</font>

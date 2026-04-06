@@ -1,0 +1,7 @@
+{
+  "plugins": [
+    {
+      "script": "plugins/fps-animation-stars.js"
+    }
+  ]
+}

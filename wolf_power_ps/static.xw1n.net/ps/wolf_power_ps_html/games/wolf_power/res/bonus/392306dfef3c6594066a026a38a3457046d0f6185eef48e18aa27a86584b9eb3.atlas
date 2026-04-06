@@ -1,0 +1,395 @@
+
+PassesTotalWin1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+VFX_LIGHNTNING/LIGHNTNING_00000
+  rotate: true
+  xy: 888, 654
+  size: 54, 108
+  orig: 281, 206
+  offset: 227, 41
+  index: -1
+VFX_LIGHNTNING/LIGHNTNING_00001
+  rotate: true
+  xy: 778, 653
+  size: 55, 108
+  orig: 281, 206
+  offset: 226, 42
+  index: -1
+VFX_LIGHNTNING/LIGHNTNING_00015
+  rotate: false
+  xy: 738, 263
+  size: 281, 165
+  orig: 281, 206
+  offset: 0, 9
+  index: -1
+VFX_LIGHNTNING/LIGHNTNING_00018
+  rotate: false
+  xy: 738, 102
+  size: 281, 159
+  orig: 281, 206
+  offset: 0, 42
+  index: -1
+VFX_Lightning2/lightning_00000
+  rotate: true
+  xy: 693, 631
+  size: 77, 83
+  orig: 603, 246
+  offset: 526, 99
+  index: -1
+VFX_Lightning2/lightning_00001
+  rotate: true
+  xy: 607, 630
+  size: 78, 84
+  orig: 603, 246
+  offset: 525, 98
+  index: -1
+VFX_Lightning2/lightning_00006
+  rotate: false
+  xy: 607, 862
+  size: 381, 152
+  orig: 603, 246
+  offset: 0, 29
+  index: -1
+VFX_Lightning2/lightning_00007
+  rotate: false
+  xy: 607, 710
+  size: 380, 150
+  orig: 603, 246
+  offset: 0, 29
+  index: -1
+VFX_Lightning2/lightning_00012
+  rotate: true
+  xy: 361, 24
+  size: 603, 176
+  orig: 603, 246
+  offset: 0, 12
+  index: -1
+VFX_Lightning2/lightning_00013
+  rotate: true
+  xy: 2, 24
+  size: 603, 178
+  orig: 603, 246
+  offset: 0, 12
+  index: -1
+VFX_Lightning2/lightning_00014
+  rotate: false
+  xy: 2, 629
+  size: 603, 179
+  orig: 603, 246
+  offset: 0, 11
+  index: -1
+VFX_Lightning2/lightning_00015
+  rotate: false
+  xy: 2, 810
+  size: 603, 204
+  orig: 603, 246
+  offset: 0, 4
+  index: -1
+VFX_Lightning2/lightning_00018
+  rotate: true
+  xy: 182, 24
+  size: 603, 177
+  orig: 603, 246
+  offset: 0, 63
+  index: -1
+VFX_Lightning2/lightning_00021
+  rotate: false
+  xy: 539, 430
+  size: 465, 197
+  orig: 603, 246
+  offset: 0, 49
+  index: -1
+VFX_Lightning2/lightning_00022
+  rotate: true
+  xy: 539, 2
+  size: 426, 197
+  orig: 603, 246
+  offset: 0, 49
+  index: -1
+
+PassesTotalWin12.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+VFX_LIGHNTNING/LIGHNTNING_00020
+  rotate: true
+  xy: 804, 193
+  size: 220, 167
+  orig: 281, 206
+  offset: 0, 38
+  index: -1
+VFX_LIGHNTNING/LIGHNTNING_00021
+  rotate: false
+  xy: 801, 9
+  size: 220, 169
+  orig: 281, 206
+  offset: 0, 36
+  index: -1
+VFX_LIGHNTNING/LIGHNTNING_00025
+  rotate: false
+  xy: 607, 2
+  size: 192, 176
+  orig: 281, 206
+  offset: 8, 30
+  index: -1
+VFX_Lightning2/lightning_00004
+  rotate: false
+  xy: 2, 49
+  size: 603, 155
+  orig: 603, 246
+  offset: 0, 5
+  index: -1
+VFX_Lightning2/lightning_00005
+  rotate: false
+  xy: 2, 842
+  size: 603, 173
+  orig: 603, 246
+  offset: 0, 9
+  index: -1
+VFX_Lightning2/lightning_00008
+  rotate: false
+  xy: 2, 571
+  size: 603, 97
+  orig: 603, 246
+  offset: 0, 69
+  index: -1
+VFX_Lightning2/lightning_00009
+  rotate: false
+  xy: 2, 206
+  size: 603, 169
+  orig: 603, 246
+  offset: 0, 22
+  index: -1
+VFX_Lightning2/lightning_00010
+  rotate: false
+  xy: 2, 670
+  size: 603, 170
+  orig: 603, 246
+  offset: 0, 22
+  index: -1
+VFX_Lightning2/lightning_00011
+  rotate: false
+  xy: 2, 377
+  size: 603, 171
+  orig: 603, 246
+  offset: 0, 22
+  index: -1
+VFX_Lightning2/lightning_00019
+  rotate: true
+  xy: 804, 415
+  size: 600, 181
+  orig: 603, 246
+  offset: 0, 59
+  index: -1
+VFX_Lightning2/lightning_00020
+  rotate: true
+  xy: 607, 550
+  size: 465, 195
+  orig: 603, 246
+  offset: 0, 51
+  index: -1
+VFX_Lightning2/lightning_00023
+  rotate: true
+  xy: 607, 180
+  size: 368, 195
+  orig: 603, 246
+  offset: 51, 51
+  index: -1
+
+PassesTotalWin13.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+VFX_LIGHNTNING/LIGHNTNING_00002
+  rotate: false
+  xy: 432, 263
+  size: 281, 122
+  orig: 281, 206
+  offset: 0, 29
+  index: -1
+VFX_LIGHNTNING/LIGHNTNING_00005
+  rotate: false
+  xy: 149, 261
+  size: 281, 151
+  orig: 281, 206
+  offset: 0, 4
+  index: -1
+VFX_LIGHNTNING/LIGHNTNING_00006
+  rotate: true
+  xy: 432, 387
+  size: 186, 138
+  orig: 281, 206
+  offset: 0, 18
+  index: -1
+VFX_LIGHNTNING/LIGHNTNING_00009
+  rotate: true
+  xy: 715, 13
+  size: 281, 147
+  orig: 281, 206
+  offset: 0, 11
+  index: -1
+VFX_LIGHNTNING/LIGHNTNING_00010
+  rotate: true
+  xy: 864, 13
+  size: 281, 147
+  orig: 281, 206
+  offset: 0, 11
+  index: -1
+VFX_LIGHNTNING/LIGHNTNING_00012
+  rotate: false
+  xy: 715, 296
+  size: 281, 148
+  orig: 281, 206
+  offset: 0, 10
+  index: -1
+VFX_LIGHNTNING/LIGHNTNING_00019
+  rotate: false
+  xy: 149, 414
+  size: 281, 159
+  orig: 281, 206
+  offset: 0, 42
+  index: -1
+VFX_LIGHNTNING/LIGHNTNING_00022
+  rotate: true
+  xy: 149, 58
+  size: 201, 171
+  orig: 281, 206
+  offset: 0, 35
+  index: -1
+VFX_LIGHNTNING/LIGHNTNING_00023
+  rotate: false
+  xy: 499, 87
+  size: 192, 174
+  orig: 281, 206
+  offset: 8, 32
+  index: -1
+VFX_LIGHNTNING/LIGHNTNING_00024
+  rotate: true
+  xy: 322, 67
+  size: 192, 175
+  orig: 281, 206
+  offset: 8, 31
+  index: -1
+VFX_Lightning2/lightning_00002
+  rotate: true
+  xy: 2, 2
+  size: 571, 145
+  orig: 603, 246
+  offset: 0, 49
+  index: -1
+VFX_Lightning2/lightning_00003
+  rotate: false
+  xy: 2, 575
+  size: 571, 146
+  orig: 603, 246
+  offset: 0, 49
+  index: -1
+VFX_Lightning2/lightning_00016
+  rotate: false
+  xy: 2, 873
+  size: 598, 147
+  orig: 603, 246
+  offset: 0, 77
+  index: -1
+VFX_Lightning2/lightning_00017
+  rotate: false
+  xy: 2, 723
+  size: 594, 148
+  orig: 603, 246
+  offset: 0, 76
+  index: -1
+VFX_Lightning2/lightning_00024
+  rotate: false
+  xy: 602, 828
+  size: 365, 192
+  orig: 603, 246
+  offset: 53, 54
+  index: -1
+VFX_Lightning2/lightning_00025
+  rotate: false
+  xy: 598, 636
+  size: 364, 190
+  orig: 603, 246
+  offset: 53, 56
+  index: -1
+VFX_Lightning2/lightning_00026
+  rotate: false
+  xy: 575, 446
+  size: 358, 188
+  orig: 603, 246
+  offset: 46, 58
+  index: -1
+
+PassesTotalWin14.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+VFX_LIGHNTNING/LIGHNTNING_00003
+  rotate: false
+  xy: 285, 26
+  size: 281, 122
+  orig: 281, 206
+  offset: 0, 29
+  index: -1
+VFX_LIGHNTNING/LIGHNTNING_00004
+  rotate: false
+  xy: 568, 305
+  size: 281, 135
+  orig: 281, 206
+  offset: 0, 1
+  index: -1
+VFX_LIGHNTNING/LIGHNTNING_00007
+  rotate: true
+  xy: 851, 255
+  size: 185, 138
+  orig: 281, 206
+  offset: 0, 18
+  index: -1
+VFX_LIGHNTNING/LIGHNTNING_00008
+  rotate: false
+  xy: 568, 195
+  size: 281, 108
+  orig: 281, 206
+  offset: 0, 43
+  index: -1
+VFX_LIGHNTNING/LIGHNTNING_00011
+  rotate: false
+  xy: 285, 150
+  size: 278, 145
+  orig: 281, 206
+  offset: 0, 11
+  index: -1
+VFX_LIGHNTNING/LIGHNTNING_00013
+  rotate: false
+  xy: 2, 294
+  size: 281, 146
+  orig: 281, 206
+  offset: 0, 11
+  index: -1
+VFX_LIGHNTNING/LIGHNTNING_00014
+  rotate: false
+  xy: 2, 147
+  size: 281, 145
+  orig: 281, 206
+  offset: 0, 11
+  index: -1
+VFX_LIGHNTNING/LIGHNTNING_00016
+  rotate: false
+  xy: 285, 297
+  size: 281, 143
+  orig: 281, 206
+  offset: 0, 50
+  index: -1
+VFX_LIGHNTNING/LIGHNTNING_00017
+  rotate: false
+  xy: 2, 2
+  size: 281, 143
+  orig: 281, 206
+  offset: 0, 49
+  index: -1

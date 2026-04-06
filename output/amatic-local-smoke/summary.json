@@ -1,0 +1,25 @@
+{
+  "game": "ladyfruits10easter",
+  "launchLocation": "/amatic/ladyfruits10easter/cdn02.cdn.amatic.com/gmsl/mpp/amarent/ladyfruits10easter.html?hash=freeplay&curr=EUR&lang=uk&type=desktop&config=1411",
+  "configRewriteOk": true,
+  "htmlFileExists": true,
+  "websocketHandshakeOk": true,
+  "replayFrameCount": 3,
+  "firstReplayFrames": [
+    {
+      "opcode": 1,
+      "sample": "9freeplay",
+      "length": 9
+    },
+    {
+      "opcode": 1,
+      "sample": "-10526d11777444555333266695556102566677704448333",
+      "length": 785
+    },
+    {
+      "opcode": 1,
+      "sample": "-110908fd134f6a4272421e0523e2322421d25d000a10101",
+      "length": 116
+    }
+  ]
+}

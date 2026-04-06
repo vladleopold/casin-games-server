@@ -1,0 +1,131 @@
+dialogues-V9rOoQ.avif
+	size: 2676, 503
+	format: RGBA4444
+	filter: Linear, Linear
+	scale: 0.7
+1shadow
+	bounds: 1820, 2, 106, 105
+	offsets: 1, 0, 107, 105
+1start_pop_body
+	bounds: 2328, 302, 232, 148
+1start_pop_cat_head
+	bounds: 1235, 6, 193, 170
+	rotate: 90
+1start_pop_ice_cream
+	bounds: 1939, 124, 63, 108
+1start_pop_kimono
+	bounds: 2019, 233, 307, 217
+1start_pop_left_paw_under_sleeve_shadow
+	bounds: 1401, 203, 74, 113
+1start_pop_left_pop_left_paw
+	bounds: 2543, 20, 56, 60
+1start_pop_left_sleeve_big
+	bounds: 1820, 109, 117, 123
+1start_pop_mouth
+	bounds: 2103, 49, 86, 69
+	rotate: 90
+1start_pop_right_paw_under_sleeve
+	bounds: 2330, 45, 74, 59
+1start_pop_right_sleeve_big
+	bounds: 2131, 146, 95, 85
+	offsets: 7, 0, 102, 85
+1start_pop_tounge
+	bounds: 2406, 30, 72, 58
+1start_pop_up_left_paw
+	bounds: 2245, 71, 82, 70
+	rotate: 90
+nw_c_hand_l_b
+	bounds: 2245, 71, 82, 70
+	rotate: 90
+1start_popup_left_ear
+	bounds: 2021, 2, 55, 55
+1start_popup_right_ear
+	bounds: 2416, 90, 78, 64
+	offsets: 0, 0, 78, 65
+5fs_back
+	bounds: 947, 201, 452, 115
+	offsets: 7, 5, 466, 125
+gradient_back_sample
+	bounds: 2, 488, 13, 1712
+	rotate: 90
+into_FS_back_a
+	bounds: 947, 367, 119, 559
+	offsets: 2, 21, 123, 603
+	rotate: 90
+nw_c_body
+	bounds: 1691, 234, 326, 216
+nw_c_ear_l
+	bounds: 2245, 2, 83, 67
+nw_c_ear_r
+	bounds: 2496, 82, 67, 72
+nw_c_hand_l_a
+	bounds: 1700, 108, 118, 124
+nw_c_hand_l_c
+	bounds: 2562, 317, 133, 104
+	rotate: 90
+nw_c_hand_l_sh
+	bounds: 2021, 59, 80, 76
+	offsets: 6, 6, 90, 88
+nw_c_hand_r_a
+	bounds: 1928, 2, 105, 91
+	rotate: 90
+nw_c_hand_r_b
+	bounds: 2601, 22, 60, 57
+	offsets: 0, 0, 60, 58
+	rotate: 90
+nw_c_hand_r_c
+	bounds: 1700, 23, 103, 83
+nw_c_hand_r_sh
+	bounds: 2330, 106, 84, 48
+	offsets: 6, 5, 95, 57
+nw_c_head
+	bounds: 1477, 167, 209, 147
+	offsets: 0, 4, 209, 151
+nw_c_leg_l
+	bounds: 2565, 153, 162, 109
+	rotate: 90
+nw_c_leg_r
+	bounds: 2328, 156, 235, 144
+	offsets: 8, 0, 243, 144
+nw_c_mouth
+	bounds: 1474, 319, 46, 28
+	rotate: 90
+nw_c_mouth_part
+	bounds: 2330, 13, 43, 30
+nw_c_mouth_part_back
+	bounds: 2174, 59, 85, 69
+	offsets: 0, 0, 86, 69
+	rotate: 90
+nw_c_tail
+	bounds: 2228, 155, 91, 76
+nw_frame_back
+	bounds: 2, 4, 943, 482
+	offsets: 0, 0, 943, 485
+nw_frame_back_shine
+	bounds: 947, 26, 286, 173
+	offsets: 1, 1, 289, 175
+nw_frame_decor
+	bounds: 2004, 137, 125, 94
+nw_frame_fl_a
+	bounds: 1407, 167, 34, 38
+	offsets: 0, 1, 35, 39
+	rotate: 90
+nw_frame_fl_anw_frame_fl_c
+	bounds: 2565, 84, 67, 74
+	rotate: 90
+nw_frame_fl_b
+	bounds: 2480, 20, 61, 60
+nw_frame_side_g
+	bounds: 1716, 452, 947, 49
+	offsets: 10, 5, 962, 55
+nw_frame_side_v
+	bounds: 947, 318, 47, 525
+	offsets: 5, 7, 53, 538
+	rotate: 90
+nw_text_ice_cream
+	bounds: 1407, 22, 150, 143
+outro_lp2
+	bounds: 1559, 15, 150, 139
+	rotate: 90
+outro_lp3
+	bounds: 1508, 316, 181, 170

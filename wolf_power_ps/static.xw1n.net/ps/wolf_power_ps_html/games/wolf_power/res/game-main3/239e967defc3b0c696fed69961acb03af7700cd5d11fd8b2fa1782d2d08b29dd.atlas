@@ -1,0 +1,254 @@
+
+freespins.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bonusGame_edgesGlow
+  rotate: false
+  xy: 2, 2
+  size: 293, 198
+  orig: 293, 198
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00000
+  rotate: false
+  xy: 2, 594
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00001
+  rotate: false
+  xy: 2, 202
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00002
+  rotate: true
+  xy: 301, 687
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00003
+  rotate: false
+  xy: 693, 594
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00004
+  rotate: true
+  xy: 301, 388
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00005
+  rotate: false
+  xy: 693, 202
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00006
+  rotate: true
+  xy: 301, 89
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+
+freespins2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/rays_bg_bonus/rays_bg_bonus_00007
+  rotate: false
+  xy: 2, 507
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00008
+  rotate: false
+  xy: 2, 115
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00009
+  rotate: true
+  xy: 301, 600
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00010
+  rotate: false
+  xy: 693, 507
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00011
+  rotate: true
+  xy: 301, 301
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00012
+  rotate: false
+  xy: 693, 115
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00013
+  rotate: true
+  xy: 301, 2
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+
+freespins3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/rays_bg_bonus/rays_bg_bonus_00014
+  rotate: false
+  xy: 2, 507
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00015
+  rotate: false
+  xy: 2, 115
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00016
+  rotate: true
+  xy: 301, 600
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00017
+  rotate: false
+  xy: 693, 507
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00018
+  rotate: true
+  xy: 301, 301
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00019
+  rotate: false
+  xy: 693, 115
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00020
+  rotate: true
+  xy: 301, 2
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+
+freespins4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/rays_bg_bonus/rays_bg_bonus_00021
+  rotate: false
+  xy: 2, 507
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00022
+  rotate: false
+  xy: 2, 115
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00023
+  rotate: true
+  xy: 301, 600
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00024
+  rotate: false
+  xy: 693, 507
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00025
+  rotate: true
+  xy: 301, 301
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00026
+  rotate: false
+  xy: 693, 115
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00027
+  rotate: true
+  xy: 301, 2
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+
+freespins5.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bonusGame_Glow
+  rotate: true
+  xy: 2, 25
+  size: 367, 331
+  orig: 367, 331
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00028
+  rotate: false
+  xy: 335, 2
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1
+images/rays_bg_bonus/rays_bg_bonus_00029
+  rotate: false
+  xy: 634, 2
+  size: 297, 390
+  orig: 297, 390
+  offset: 0, 0
+  index: -1

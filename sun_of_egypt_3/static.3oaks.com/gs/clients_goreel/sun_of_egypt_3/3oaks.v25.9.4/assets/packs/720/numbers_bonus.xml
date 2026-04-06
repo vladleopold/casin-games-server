@@ -1,0 +1,23 @@
+<font>
+	<info face="numbers_bonus" size="50" />
+	<common lineHeight="50" scaleW="128" scaleH="256" pages="1" />
+	<pages>
+		<page id="0" file="numbers_bonus.png" />
+	</pages>
+	<chars count="12">
+		<char id="44" x="43" y="180" width="20" height="50" xoffset="0" yoffset="0" xadvance="20" /><!-- , -->
+		<char id="46" x="73" y="180" width="19" height="50" xoffset="0" yoffset="0" xadvance="19" /><!-- . -->
+		<char id="48" x="44" y="0" width="33" height="50" xoffset="0" yoffset="0" xadvance="33" /><!-- 0 -->
+		<char id="49" x="87" y="0" width="33" height="50" xoffset="0" yoffset="0" xadvance="33" /><!-- 1 -->
+		<char id="50" x="0" y="60" width="33" height="50" xoffset="0" yoffset="0" xadvance="33" /><!-- 2 -->
+		<char id="51" x="0" y="0" width="34" height="50" xoffset="0" yoffset="0" xadvance="34" /><!-- 3 -->
+		<char id="52" x="43" y="60" width="33" height="50" xoffset="0" yoffset="0" xadvance="33" /><!-- 4 -->
+		<char id="53" x="86" y="60" width="33" height="50" xoffset="0" yoffset="0" xadvance="33" /><!-- 5 -->
+		<char id="54" x="0" y="120" width="33" height="50" xoffset="0" yoffset="0" xadvance="33" /><!-- 6 -->
+		<char id="55" x="0" y="180" width="33" height="50" xoffset="0" yoffset="0" xadvance="33" /><!-- 7 -->
+		<char id="56" x="43" y="120" width="33" height="50" xoffset="0" yoffset="0" xadvance="33" /><!-- 8 -->
+		<char id="57" x="86" y="120" width="33" height="50" xoffset="0" yoffset="0" xadvance="33" /><!-- 9 -->
+	</chars>
+	<kernings count="0">
+	</kernings>
+</font>

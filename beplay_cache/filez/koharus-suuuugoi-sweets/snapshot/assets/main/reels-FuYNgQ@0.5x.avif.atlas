@@ -1,0 +1,127 @@
+reels-KTTQ8w@0.5x.avif
+	size: 2048, 256
+	format: RGBA4444
+	filter: Linear, Linear
+counter/candle_lght
+	bounds: 1840, 197, 58, 55
+	offsets: 2, 0, 61, 59
+reels/flowers_left_1
+	bounds: 1986, 193, 32, 27
+	offsets: 0, 0, 33, 28
+reels/flowers_left_2
+	bounds: 1465, 76, 21, 19
+	offsets: 0, 0, 22, 20
+reels/frame_1
+	bounds: 3, 8, 12, 273
+	offsets: 0, 0, 13, 274
+	rotate: 90
+reels/frame_1_1
+	bounds: 1442, 12, 83, 20
+	offsets: 0, 0, 84, 21
+	rotate: 90
+reels/frame_1_2
+	bounds: 1622, 204, 49, 77
+	offsets: 0, 0, 50, 78
+	rotate: 90
+reels/frame_1_glow
+	bounds: 3, 23, 48, 296
+	rotate: 90
+reels/frame_3
+	bounds: 463, 224, 429, 13
+	offsets: 1, 0, 431, 14
+reels/frame_3_glow
+	bounds: 3, 172, 447, 35
+	offsets: 1, 0, 450, 36
+reels/frame_4
+	bounds: 463, 241, 444, 12
+	offsets: 3, 0, 448, 13
+reels/frame_4_glow
+	bounds: 3, 210, 457, 42
+reels/free_spin_frame_1_5
+	bounds: 1537, 204, 49, 82
+	offsets: 0, 0, 50, 83
+	rotate: 90
+reels/left_leaves_1
+	bounds: 1490, 102, 22, 18
+	offsets: 0, 0, 23, 19
+reels/left_leaves_2
+	bounds: 2029, 234, 14, 18
+	offsets: 0, 0, 15, 20
+reels/multiplayer_frame1
+	bounds: 1442, 188, 92, 65
+	offsets: 0, 1, 93, 67
+reels/multiplayer_main__vfx_back
+	bounds: 1772, 202, 65, 50
+	offsets: 0, 0, 66, 51
+reels/multiplayer_main__vfx_light_1
+	bounds: 1703, 201, 52, 66
+	offsets: 1, 0, 54, 68
+	rotate: 90
+reels/multiplayer_main__vfx_light_2_copy
+	bounds: 463, 211, 10, 75
+	offsets: 0, 0, 11, 76
+	rotate: 90
+reels/multiplayer_main__vfx_star_1
+	bounds: 896, 234, 3, 4
+	offsets: 0, 0, 4, 5
+reels/multiplayer_main__vfx_star_2
+	bounds: 453, 201, 4, 6
+	offsets: 0, 0, 5, 7
+reels/multiplayer_main__vfx_star_3
+	bounds: 279, 16, 3, 4
+	offsets: 0, 0, 4, 5
+reels/multiplayer_main__vfx_star_4
+	bounds: 384, 75, 4, 4
+	offsets: 0, 0, 5, 5
+reels/particles_C
+	bounds: 1189, 3, 250, 250
+reels/reel_base_game
+	bounds: 910, 167, 86, 275
+	offsets: 0, 0, 87, 276
+	rotate: 90
+reels/reel_freespin_game
+	bounds: 3, 74, 87, 275
+	offsets: 0, 0, 88, 276
+	rotate: 90
+reels/saber_rainbow_00
+	bounds: 1442, 98, 45, 87
+reels/separator_base_game
+	bounds: 3, 164, 5, 442
+	rotate: 90
+reels/separator_freespin_game
+	bounds: 3, 3, 2, 275
+	offsets: 0, 0, 3, 276
+	rotate: 90
+reels/solid_blur
+	bounds: 281, 75, 100, 86
+	offsets: 0, 0, 100, 100
+reels/x2
+	bounds: 345, 43, 38, 29
+	offsets: 0, 0, 39, 30
+reels/x2_active
+	bounds: 384, 82, 79, 59
+	rotate: 90
+reels/x3_
+	bounds: 1490, 123, 39, 29
+	offsets: 0, 0, 40, 30
+reels/x3_active
+	bounds: 1901, 193, 39, 28
+	offsets: 0, 0, 40, 29
+reels/x4_
+	bounds: 1987, 223, 39, 29
+	offsets: 1, 0, 40, 30
+reels/x4_active
+	bounds: 1944, 193, 39, 28
+	offsets: 0, 1, 40, 29
+reels/x5_
+	bounds: 1901, 224, 40, 29
+	offsets: 0, 0, 41, 30
+reels/x5_active
+	bounds: 302, 44, 39, 28
+	offsets: 0, 0, 41, 29
+reels/x6
+	bounds: 1490, 155, 40, 30
+	offsets: 0, 0, 41, 31
+reels/x6_active
+	bounds: 1944, 224, 39, 29
+	offsets: 0, 1, 41, 30

@@ -1,0 +1,101 @@
+{"frames": {
+"res/img/symbols/normal/wild.png":
+{
+	"frame":{"x":1,"y":1,"w":228,"h":229},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":8,"y":0,"w":228,"h":229},
+	"sourceSize":{"w":244,"h":229}
+},
+"res/img/symbols/normal/jackpot.png":
+{
+	"frame":{"x":1,"y":232,"w":206,"h":207},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":9,"y":10,"w":206,"h":207},
+	"sourceSize":{"w":224,"h":224}
+},
+"res/img/symbols/normal/scatter.png":
+{
+	"frame":{"x":1,"y":441,"w":164,"h":176},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":31,"y":21,"w":164,"h":176},
+	"sourceSize":{"w":224,"h":224}
+},
+"res/img/symbols/normal/mid_3.png":
+{
+	"frame":{"x":1,"y":619,"w":162,"h":150},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":0,"y":2,"w":162,"h":150},
+	"sourceSize":{"w":162,"h":152}
+},
+"res/img/symbols/normal/mid_1.png":
+{
+	"frame":{"x":1,"y":783,"w":162,"h":149},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":0,"y":3,"w":162,"h":149},
+	"sourceSize":{"w":162,"h":152}
+},
+"res/img/symbols/normal/top.png":
+{
+	"frame":{"x":152,"y":783,"w":162,"h":148},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":0,"y":4,"w":162,"h":148},
+	"sourceSize":{"w":162,"h":152}
+},
+"res/img/symbols/normal/mid_2.png":
+{
+	"frame":{"x":153,"y":619,"w":162,"h":145},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":0,"y":7,"w":162,"h":145},
+	"sourceSize":{"w":162,"h":152}
+},
+"res/img/symbols/normal/low_3.png":
+{
+	"frame":{"x":167,"y":441,"w":113,"h":121},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":25,"y":16,"w":113,"h":121},
+	"sourceSize":{"w":162,"h":152}
+},
+"res/img/symbols/normal/low_1.png":
+{
+	"frame":{"x":209,"y":232,"w":117,"h":112},
+	"rotated":true,
+	"trimmed":true,
+	"spriteSourceSize":{"x":23,"y":20,"w":117,"h":112},
+	"sourceSize":{"w":162,"h":152}
+},
+"res/img/symbols/normal/low_4.png":
+{
+	"frame":{"x":231,"y":1,"w":90,"h":113},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":36,"y":20,"w":90,"h":113},
+	"sourceSize":{"w":162,"h":152}
+},
+"res/img/symbols/normal/low_2.png":
+{
+	"frame":{"x":231,"y":116,"w":109,"h":109},
+	"rotated":false,
+	"trimmed":true,
+	"spriteSourceSize":{"x":27,"y":22,"w":109,"h":109},
+	"sourceSize":{"w":162,"h":152}
+}
+},
+"meta":
+{
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"format": "RGBA8888",
+	"image": "faces-0.png",
+	"size": {"w":1024,"h":1024},
+	"scale": 1,
+	"smartupdate":"$TexturePacker:SmartUpdate:5a6b3e5244f2a79e5ae9eb5367d4c3a4:727585434da7a5864af290a053aac9ae:b746bb8a4036292360b46972c656a135$"
+}
+}

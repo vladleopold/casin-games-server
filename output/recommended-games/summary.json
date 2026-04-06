@@ -1,0 +1,167 @@
+{
+  "generatedAt": "2026-04-04T07:42:06.652Z",
+  "totalGames": 30,
+  "providers": [
+    {
+      "providerTerm": "endorphina",
+      "displayProviders": [
+        "Endorphina"
+      ],
+      "count": 3
+    },
+    {
+      "providerTerm": "amusnet",
+      "displayProviders": [
+        "Amusnet"
+      ],
+      "count": 2
+    },
+    {
+      "providerTerm": "beplay",
+      "displayProviders": [
+        "BePlay"
+      ],
+      "count": 2
+    },
+    {
+      "providerTerm": "elagames",
+      "displayProviders": [
+        "ElaGames"
+      ],
+      "count": 2
+    },
+    {
+      "providerTerm": "playson",
+      "displayProviders": [
+        "Playson"
+      ],
+      "count": 2
+    },
+    {
+      "providerTerm": "pragmatic-play",
+      "displayProviders": [
+        "Pragmatic Play"
+      ],
+      "count": 2
+    },
+    {
+      "providerTerm": "threeoaks",
+      "displayProviders": [
+        "3 Oaks Gaming"
+      ],
+      "count": 2
+    },
+    {
+      "providerTerm": "thunderspin",
+      "displayProviders": [
+        "Thunderspin"
+      ],
+      "count": 2
+    },
+    {
+      "providerTerm": "champion",
+      "displayProviders": [
+        "Champion"
+      ],
+      "count": 1
+    },
+    {
+      "providerTerm": "dreamplay",
+      "displayProviders": [
+        "Dream Play"
+      ],
+      "count": 1
+    },
+    {
+      "providerTerm": "gamzix",
+      "displayProviders": [
+        "Gamzix"
+      ],
+      "count": 1
+    },
+    {
+      "providerTerm": "hacksaw",
+      "displayProviders": [
+        "Hacksaw"
+      ],
+      "count": 1
+    },
+    {
+      "providerTerm": "netgameentertainment",
+      "displayProviders": [
+        "NetGame"
+      ],
+      "count": 1
+    },
+    {
+      "providerTerm": "pateplay",
+      "displayProviders": [
+        "PatePlay"
+      ],
+      "count": 1
+    },
+    {
+      "providerTerm": "platipus",
+      "displayProviders": [
+        "Platipus"
+      ],
+      "count": 1
+    },
+    {
+      "providerTerm": "spinjoy",
+      "displayProviders": [
+        "Spinjoy"
+      ],
+      "count": 1
+    },
+    {
+      "providerTerm": "spinomenal",
+      "displayProviders": [
+        "Spinomenal"
+      ],
+      "count": 1
+    },
+    {
+      "providerTerm": "spinoro",
+      "displayProviders": [
+        "Spinoro"
+      ],
+      "count": 1
+    },
+    {
+      "providerTerm": "tadagaming",
+      "displayProviders": [
+        "TaDa Gaming"
+      ],
+      "count": 1
+    },
+    {
+      "providerTerm": "wazdan",
+      "displayProviders": [
+        "Wazdan"
+      ],
+      "count": 1
+    },
+    {
+      "providerTerm": "zephyr",
+      "displayProviders": [
+        "Zephyr"
+      ],
+      "count": 1
+    }
+  ],
+  "adapterGuesses": [
+    {
+      "adapterGuess": "unsupported",
+      "count": 26
+    },
+    {
+      "adapterGuess": "amusnet_remote",
+      "count": 2
+    },
+    {
+      "adapterGuess": "beplay_remote",
+      "count": 2
+    }
+  ]
+}

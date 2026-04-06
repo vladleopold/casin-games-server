@@ -1,0 +1,23 @@
+databases:
+  - name: slot-wallet-db
+    plan: free
+    databaseName: slot_wallet
+    user: slot_wallet
+
+services:
+  - type: web
+    name: slot-wallet-service
+    runtime: node
+    plan: free
+    buildCommand: npm ci
+    startCommand: node wallet-service.mjs
+    healthCheckPath: /health
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: slot-wallet-db
+          property: connectionString
+      - key: WALLET_SERVICE_DEFAULT_CURRENCY
+        value: USD
+      - key: WALLET_SERVICE_DEFAULT_BALANCE
+        value: "10000"

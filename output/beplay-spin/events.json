@@ -1,0 +1,198 @@
+[
+  {
+    "type": "console",
+    "level": "warning",
+    "text": "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio"
+  },
+  {
+    "type": "console",
+    "level": "warning",
+    "text": "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio"
+  },
+  {
+    "type": "console",
+    "level": "warning",
+    "text": "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio"
+  },
+  {
+    "type": "console",
+    "level": "warning",
+    "text": "[.WebGL-0x12c0014e600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+  },
+  {
+    "type": "console",
+    "level": "warning",
+    "text": "[.WebGL-0x12c034c1800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+  },
+  {
+    "type": "console",
+    "level": "error",
+    "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/authenticate",
+    "postData": "{\"wallet\":\"demo\",\"operator\":\"slotscity\",\"key\":\"random-user-1364952484:995:usd\",\"provider\":\"beplay\",\"game\":\"tiger-s-prosperity\"}"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/authenticate",
+    "body": "{\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiT0RJNU5HWTJNbVk0TXpSbVpUVTJObVppWldNME1qWmtaRFV3TjJZNFpqWTFORFprWlRnME5qRXhOREZoWkRNd016RmlPVEkzT0dVMk9UazFNVFprTVdFek1EazFZelU1WVdJNU9EYzJPVFV6TlRReU1XRXpPRE5oTW1FMllXUmtOVFl3WkRCbFpqZGpNRGxsTjJJMk5EZ3pNV0UzWW1NNU1qazBPV0V3TlRWaE56a3pZemt3TVRZM1ptUXdOakkwWWpsak1qQXdNV1ZsTjJabE9EVmxOREkzTTJSaU5qa3dPVFppTXpJellUbG1aR0k0TTJNell6UXhNRE01TmpjeE5EZG1NR0ZoWkRka09EbGlPVEF4TlRFek5URm1NREZoTlRsak9URmlNalkwWW1ObE9EVTFOMlExWW1VNE5ETmpNV1EwTmprMVpUQTBNekkyWldWak1qUTFaRGMyTkRJM1pqQTJOakV4Wm1VNVpUVXpPVEl6TldNd1l6VTRaREZrWlRGaVlUTXhOalExTURZeVpUQTFOamxsTm1Rek5UQmxObVkyT1RsalkySmxNek0wWkdSaU5UUTVZMlJqWlRWa00yTTNZalF4WXpBM016STJNV1l5TnpCaU1qZ3dOak0yTkdKaE1qUTJNVEU0WVRNd1pqY3pNekEwTTJJeU1qTXlOV1E0T1dReFl6STJaVE5tTXpjMlpXUTJNRE5tWkRRek5UVXdaRFZoT1RnMllXWTVOakV4TmpJeU5UWTFNalZrTmpabE16UTNZV0UxTXpBMVpXTmpZakF4WW1NM09UQmtaR015TjJZNVkyWTBaamxrTlRnMVlqQTJaalpsTVROaE9EVXdNelV3TXpBMU5tVXlOV1U0WlRsaFpURXhOakJrWXpJMk5EbGhOamM9IiwiaWF0IjoxNzc1Mjg5NjQ2LCJleHAiOjE3NzY0OTkyNDYsImF1ZCI6InBsYXllciJ9.G5ssxMDc8Br3DSWIqLBlos5_ekC3vDBCU3bH_aHuUq4\",\"balance\":995,\"currency\":\"USD\",\"currencyDecimals\":2,\"currencySymbol\":\"USD\",\"jurisdiction\":\"mt\",\"playerId\":\"a27d1132-aeb8-436d-9666-6e93edba9d2b\",\"nickname\":null}"
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/game/info",
+    "postData": "{\"game\":\"tiger-s-prosperity\",\"provider\":\"beplay\"}"
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/game/recover",
+    "postData": "{\"game\":\"tiger-s-prosperity\",\"provider\":\"beplay\",\"complete\":false}"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/game/info",
+    "body": "{\"state\":{},\"bets\":{\"main\":{\"available\":[0.1,0.2,0.3,0.4,0.5,0.6,0.8,1,1.5,2,2.5,3,4,5,7.5,10,15,20,25,50,100],\"default\":1,\"coin\":20},\"free_spins_buy\":{\"available\":[10,15,20,25,30,40,50,75,100,125,150,200,250,375,500,750,1000,1250,2500,5000],\"default\":50,\"coin\":1000}},\"config\":{\"paylines\":[[2,2,2,2,2],[1,1,1,1,1],[0,0,0,0,0],[0,1,2,1,0],[2,1,0,1,2],[0,0,1,0,0],[2,2,1,2,2],[1,0,0,0,1],[1,2,2,2,1],[1,0,1,0,1],[1,2,1,2,1],[0,1,0,1,0],[2,1,2,1,2],[1,1,0,1,1],[1,1,2,1,1],[0,1,1,1,0],[2,1,1,1,2],[0,1,2,2,2],[2,1,0,0,0],[0,2,0,2,0]],\"paytable\":{\"0\":[0,0,50,160,800],\"1\":[0,0,30,120,500],\"2\":[0,0,24,80,400],\"3\":[0,0,22,60,300],\"4\":[0,0,16,40,160],\"5\":[0,0,16,40,160],\"6\":[0,0,16,40,160],\"7\":[0,0,8,30,80],\"8\":[0,0,8,30,80],\"9\":[0,0,8,30,80],\"10\":[0,0,8,30,80],\"11\":[],\"12\":[0,0,50,160,800]},\"paytableCoins\":20,\"buyFeatureConfig\":[{\"action\":\"free_spins_buy\",\"featureMultiplier\":50,\"featureType\":0}],\"version\":\"1.2.0\"},\"settings\":{\"autoplayForbidden\":\"false\",\"defaultCampaignThemeName\":\"{\\\"freeBets\\\": \\\"default-free-bets\\\"}\"},\"betLimits\":{\"minBet\":0.01,\"maxBet\":10000,\"maxExposure\":10000000,\"currencyRate\":1,\"currencyDecimals\":2,\"currencyUnit\":0.01,\"exchangeRate\":1}}"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/game/recover",
+    "body": "{\"rounds\":[]}"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "Info | tiger-s-prosperity: v1.3.14-6485693, common: v2.1.25, server: v1.2.0"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "cloth_back_port_left: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "cloth_back_port_right: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "cloth_back_port_top: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "cloth_back_land_back_big_anim_wb: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "r_cloth_port_wb: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "l_cloth_port_1_wb: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "l_cloth_port_2_wb: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "r_cloth_port_5_wb: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "l_cloth_port_6_wb: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "l_shoulder_land_wb: null"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "l_hand_cloth_land_part_2_wb: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "l_hand_cloth_land_part_back_wb: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "r_shoulder_land_wb: null"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "r_hand_cloth_land_part_2_wb: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "r_hand_cloth_land_part_back_wb: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "r_hand_cloth_land_part_2_wheel_anim_wb: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "r_hand_cloth_land_part_back_wheel_anim_wb: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "warning",
+    "text": "Pagination container not found"
+  },
+  {
+    "type": "console",
+    "level": "warning",
+    "text": "Pagination arrows not found"
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/game/recover",
+    "postData": "{\"game\":\"tiger-s-prosperity\",\"provider\":\"beplay\",\"complete\":false}"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/game/recover",
+    "body": "{\"rounds\":[]}"
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/campaigns",
+    "postData": "{\"game\":\"tiger-s-prosperity\",\"provider\":\"beplay\"}"
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/campaigns",
+    "postData": "{\"game\":\"tiger-s-prosperity\",\"provider\":\"beplay\"}"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/campaigns",
+    "body": "{\"campaigns\":[]}"
+  }
+]

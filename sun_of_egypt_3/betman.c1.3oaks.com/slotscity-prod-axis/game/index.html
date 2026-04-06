@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+</head>
+
+<body>
+    <script>
+        (function(window, app_config, app_config_url) {
+
+            /**
+             * Universal Plugin launcher.
+             * @param {object} window - window object
+             * @param {object} app_config - launcher options
+             * @param {string}  app_config_url -  url to obtain app_config if that wasn't provided
+             * @returns {undefined}
+             */
+            function PluginLauncher(window, app_config, app_config_url) {
+                this.window = window;
+                this.app_config = app_config;
+                this.app_config_url = app_config_url;
+                this.app_started = false;
+                this.init();
+            }
+
+            /**
+             * This method is called from constructor and may be overwritten.
+             * @returns {undefined}
+             */
+            PluginLauncher.prototype.init = function() {}
+
+            /**
+             * This method is called when plugin is loaded and may be overwritten.
+             * @returns {undefined}
+             */
+            PluginLauncher.prototype.onLoad = function() {}
+
+            /**
+             * This method is called when plugin cannot be loaded and may be overwritten.
+             * @returns {undefined}
+             */
+            PluginLauncher.prototype.onLoadError = function() {}
+
+            /**
+             * This method should check if CDN may be used.
+             * @returns {boolean}
+             */
+            PluginLauncher.prototype.usesCDN = function() {
+                throw new Error('Method not implemented');
+            }
+
+            /**
+             * This method should replace all urls in this.app_config with domain provided.
+             * @returns {undefined}
+             */
+            PluginLauncher.prototype.replaceDomainInConfig = function(domain) {
+                throw new Error('Method not implemented');
+            }
+
+            /**
+             * This method should return the url to the start script
+             * @returns {string}
+             */
+            PluginLauncher.prototype.getStartScript = function() {
+                throw new Error('Method not implemented');
+            }
+
+            /**
+             * This method may be used to replace domain in url
+             * @param {string} url - original url
+             * @param {string} domain - new domain
+             * @returns {string}
+             */
+            PluginLauncher.prototype.replaceDomainInURL = function(url, domain) {
+                if (!url || !domain) return url;
+                if (domain[domain.length - 1] !== '/') {
+                    domain += '/';
+                }
+                return url.replace(/^([^/]*\/\/[^/]*)?\/?/, domain);
+            }
+
+            /**
+             * Run the plugin according to provided config/config_url.
+             */
+            PluginLauncher.prototype.run = function() {
+                if (this.app_config) {
+                    var force_domain = this.app_config.static_domains.force_domain;
+                    if (!this.usesCDN()) {
+                        this._runOnDomain();
+                    } else if (force_domain) {
+                        this._runOnDomain('//' + force_domain);
+                    } else {
+                        this._runOnBestCDN();
+                    }
+                } else {
+                    var self = this;
+                    xhr(this.app_config_url + this.window.location.search, {
+                        success: function(resp) {
+                            self.app_config = JSON.parse(resp);
+                            self.run();
+                        },
+                        error: function(xhr) {
+                            if (xhr.responseText) document.write(xhr.responseText);
+                        }
+                    });
+                }
+            }
+
+            PluginLauncher.prototype._runOnDomain = function(domain) {
+                if (this.app_started) return;
+                this.app_started = true;
+
+                if (domain) {
+                    this.replaceDomainInConfig(domain);
+                    this.app_config.static_domain = domain;
+                }
+
+                if (
+                    this.app_config.static_domain &&
+                    this.app_config.static_domain.startsWith('//')
+                ) {
+                    this.app_config.static_domain = this.app_config.static_domain.slice(2);
+                }
+
+                this.window._PROVIDER = this.app_config;
+
+                var script = this.window.document.createElement('script'),
+                    self = this;
+                script.setAttribute('type', 'text/javascript');
+                script.setAttribute('src', this.getStartScript());
+                script.onload = function() {
+                    self.onLoad();
+                }
+                script.onerror = function() {
+                    self.onLoadError();
+                }
+                this.window.document.getElementsByTagName('head')[0].appendChild(script);
+            }
+
+            PluginLauncher.prototype._runOnBestCDN = function() {
+                var self = this,
+                    first_detected = false,
+                    unchecked_domains = 0;
+
+                function velocityDetect(domain) {
+                    var start_time = (new Date()).getTime();
+                    xhr(domain + self.app_config.static_domains.metric_url, {
+                        method: 'HEAD',
+                        success: function() {
+                            unchecked_domains -= 1;
+                            var duration = (new Date()).getTime() - start_time;
+                            if (!first_detected) {
+                                first_detected = true;
+                                self._runOnDomain(domain);
+                                self._logMessage('info', 'CDN_METER_FIRST', domain, duration);
+                            } else {
+                                self._logMessage('info', 'CDN_METER', domain, duration);
+                            }
+                        },
+                        error: function() {
+                            unchecked_domains -= 1;
+                            if (!first_detected && unchecked_domains === 0) {
+                                self._runOnDomain();
+                            }
+                            self._logMessage('error', 'CDN_METER_ERROR', domain);
+                        }
+                    });
+                }
+
+                xhr(this.app_config.static_domains.domains_url, {
+                    success: function(resp) {
+                        var static_domains = JSON.parse(resp).domains || [];
+
+                        unchecked_domains = static_domains.length;
+                        if (!unchecked_domains) {
+                            return self._runOnDomain();
+                        }
+                        setTimeout(function() {
+                            self._runOnDomain();
+                        }, self.app_config.static_domains.timeout);
+                        var i = 0;
+                        while (static_domains[i]) {
+                            velocityDetect(static_domains[i]);
+                            i++;
+                        }
+                    }
+                });
+            }
+
+            PluginLauncher.prototype._logMessage = function(type, msg, data, number) {
+                if (!this.app_config.static_domains.log_url) return;
+                xhr(this.app_config.static_domains.log_url, {
+                    method: 'POST',
+                    data: JSON.stringify([{
+                        type: type,
+                        msg: msg,
+                        data: data,
+                        time: Number(new Date()),
+                        number: number
+                    }])
+                });
+            }
+
+            PluginLauncher.extend = function(obj) {
+                function Child() {
+                    PluginLauncher.apply(this, arguments);
+                }
+                Child.prototype = Object.create(PluginLauncher.prototype);
+                Child.prototype.constructor = Child;
+
+                for (var attr in obj) {
+                    if (obj.hasOwnProperty(attr)) Child.prototype[attr] = obj[attr];
+                }
+                return Child;
+            };
+
+            function xhr(url, options) {
+                options = options || {};
+                var xhr = new window.XMLHttpRequest();
+                xhr.onreadystatechange = function() {
+                    if (xhr.readyState === 4) {
+                        if (xhr.status === 200) {
+                            options.success && options.success(xhr.responseText, xhr);
+                        } else {
+                            options.error && options.error(xhr);
+                        }
+                    }
+                };
+                xhr.open(options.method || 'GET', url, true);
+                xhr.send(options.data || '');
+            }
+            var GameLauncher = PluginLauncher.extend({
+                usesCDN: function() {
+                    return this.app_config.desktop.use_cdn ||
+                        this.app_config.mobile.use_cdn ||
+                        this.app_config.gr.use_cdn ||
+                        this.app_config.promo_widget.use_cdn;
+                },
+                replaceDomainInConfig: function(domain) {
+                    if (this.app_config.desktop.use_cdn) {
+                        this.app_config.desktop.client_url = this.replaceDomainInURL(
+                            this.app_config.desktop.client_url, domain
+                        );
+                    }
+                    if (this.app_config.mobile.use_cdn) {
+                        this.app_config.mobile.client_url = this.replaceDomainInURL(
+                            this.app_config.mobile.client_url, domain
+                        );
+                    }
+                    if (this.app_config.gr.use_cdn) {
+                        this.app_config.gr.static_path = this.replaceDomainInURL(
+                            this.app_config.gr.static_path, domain
+                        );
+                    }
+                    if (this.app_config.promo_widget.use_cdn) {
+                        this.app_config.promo_widget.static_path =
+                            this.replaceDomainInURL(
+                                this.app_config.promo_widget.static_path, domain
+                            );
+                    }
+                    if (this.app_config.available_games.length != null) {
+                        for (var i in this.app_config.available_games) {
+                            var game = this.app_config.available_games[i];
+                            game.client_url = this.replaceDomainInURL(
+                                game.client_url, domain
+                            );
+                        }
+                    }
+                },
+                getStartScript: function() {
+                    return this.app_config.gr.static_path + 'index.js' +
+                        '?_ts=' + this.app_config.gr.revision;
+                }
+            });
+
+            var launcher = new GameLauncher(window, app_config, app_config_url);
+            launcher.run();
+        })(window, {
+            "available_games": [{
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/3_china_pots/3oaks.v26.3.1/",
+                "game": "3_china_pots",
+                "name": "3_china_pots",
+                "title": "3 China Pots"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/hit_more_gold/3oaks.v25.11.8/",
+                "game": "hit_more_gold",
+                "name": "hit_more_gold",
+                "title": "Hit more Gold"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/sun_of_egypt_5/3oaks.v26.4.4/",
+                "game": "sun_of_egypt_5",
+                "name": "sun_of_egypt_5",
+                "title": "Sun of Egypt 5"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/space_coins/3oaks.v25.12.8/",
+                "game": "space_coins",
+                "name": "space_coins",
+                "title": "Space Coins"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/lucky_penny/3oaks.v26.3.11/",
+                "game": "lucky_penny",
+                "name": "lucky_penny",
+                "title": "Lucky Penny"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/sunlight_princess/3oaks.v25.11.8/",
+                "game": "sunlight_princess",
+                "name": "sunlight_princess",
+                "title": "Sunlight Princess"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_kendoo/3_super_hot_chillies/3oaks.v25.9.10/",
+                "game": "3_super_hot_chillies",
+                "name": "3_super_hot_chillies",
+                "title": "3 Super Hot Chillies"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/777_gems_respin/3oaks.v25.9.3/",
+                "game": "777_gems_respin",
+                "name": "777_gems_respin",
+                "title": "777 Gems Respin"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_ratpack/777_fruity_coins/3oaks.v25.10.6/",
+                "game": "777_fruity_coins",
+                "name": "777_fruity_coins",
+                "title": "777 Fruity Coins"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/power_sun/3oaks.v25.10.2/",
+                "game": "power_sun",
+                "name": "power_sun",
+                "title": "Power Sun"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/buddha_megaways/3oaks.v25.9.3/",
+                "game": "buddha_megaways",
+                "name": "buddha_megaways",
+                "title": "Buddha Megaways"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/grab_more_gold/3oaks.v26.3.12/",
+                "game": "grab_more_gold",
+                "name": "grab_more_gold",
+                "title": "Grab more Gold!"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/lady_fortune/3oaks.v26.3.18/",
+                "game": "lady_fortune",
+                "name": "lady_fortune",
+                "title": "Lady Fortune"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/magic_apple/3oaks.v25.11.5/",
+                "game": "magic_apple",
+                "name": "magic_apple",
+                "title": "Magic Apple"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_hraymo/super_hot_teapots/3oaks.v26.3.19/",
+                "game": "super_hot_teapots",
+                "name": "super_hot_teapots",
+                "title": "Super Hot Teapots"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/coin_lamp/3oaks.v26.2.3/",
+                "game": "coin_lamp",
+                "name": "coin_lamp",
+                "title": "Coin Lamp"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_ratpack/chili_coins/3oaks.v26.3.6/",
+                "game": "chili_coins",
+                "name": "chili_coins",
+                "title": "Chili Coins"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/book_of_sun_multichance/3oaks.v25.9.3/",
+                "game": "book_of_sun_multichance",
+                "name": "book_of_sun_multichance",
+                "title": "Book of Sun: Multichance"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_kendoo/black_wolf_2/3oaks.v25.9.10/",
+                "game": "black_wolf_2",
+                "name": "black_wolf_2",
+                "title": "Black Wolf 2"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_kendoo/coin_up/3oaks.v25.12.6/",
+                "game": "coin_up",
+                "name": "coin_up",
+                "title": "Coin UP : Hot Fire"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_hraymo/amazonia_wins/3oaks.v25.10.7/",
+                "game": "amazonia_wins",
+                "name": "amazonia_wins",
+                "title": "Amazonia Wins"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_hraymo/3_hot_teapots/3oaks.v26.3.18/",
+                "game": "3_hot_teapots",
+                "name": "3_hot_teapots",
+                "title": "3 Hot Teapots"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/gold_nuggets/3oaks.v25.12.8/",
+                "game": "gold_nuggets",
+                "name": "gold_nuggets",
+                "title": "Gold Nuggets"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/lord_of_thunder/3oaks.v26.1.9/",
+                "game": "lord_of_thunder",
+                "name": "lord_of_thunder",
+                "title": "Lord of Thunder"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_kendoo/aztec_fire_2/3oaks.v25.9.10/",
+                "game": "aztec_fire_2",
+                "name": "aztec_fire_2",
+                "title": "Aztec Fire 2"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/little_farm/3oaks.v25.11.8/",
+                "game": "little_farm",
+                "name": "little_farm",
+                "title": "Little Farm"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/purple_diamond/3oaks.v26.3.5/",
+                "game": "purple_diamond",
+                "name": "purple_diamond",
+                "title": "Purple Diamond"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/dragon_pearls/3oaks.v25.11.5/",
+                "game": "dragon_pearls",
+                "name": "dragon_pearls",
+                "title": "Dragon Pearls"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/green_chilli/3oaks.v25.9.3/",
+                "game": "green_chilli",
+                "name": "green_chilli",
+                "title": "Green Chilli"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_ratpack/lava_coins_2/3oaks.v25.12.4/",
+                "game": "lava_coins_2",
+                "name": "lava_coins_2",
+                "title": "Lava Coins 2"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/tiger_jungle/3oaks.v25.9.4/",
+                "game": "tiger_jungle",
+                "name": "tiger_jungle",
+                "title": "Tiger Jungle"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_hraymo/3_african_drums/3oaks.v26.3.19/",
+                "game": "3_african_drums",
+                "name": "3_african_drums",
+                "title": "3 African Drums"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/sun_of_egypt_2/3oaks.v25.9.4/",
+                "game": "sun_of_egypt_2",
+                "name": "sun_of_egypt_2",
+                "title": "Sun of Egypt 2"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/grab_the_gold/3oaks.v25.11.8/",
+                "game": "grab_the_gold",
+                "name": "grab_the_gold",
+                "title": "Grab the Gold!"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_ratpack/fortune_globe/3oaks.v25.9.13/",
+                "game": "fortune_globe",
+                "name": "fortune_globe",
+                "title": "Fortune Globe"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_ratpack/coin_express/3oaks.v25.10.2/",
+                "game": "coin_express",
+                "name": "coin_express",
+                "title": "Coin Express"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/magic_apple_2/3oaks.v25.11.5/",
+                "game": "magic_apple_2",
+                "name": "magic_apple_2",
+                "title": "Magic Apple 2"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/egypt_power_x1000/3oaks.v26.4.1/",
+                "game": "egypt_power_x1000",
+                "name": "egypt_power_x1000",
+                "title": "Egypt Power x1000"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/super_hot_chilli/3oaks.v25.9.2/",
+                "game": "super_hot_chilli",
+                "name": "super_hot_chilli",
+                "title": "Super Hot Chilli"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_kendoo/3_super_coin_volcanoes/3oaks.v26.1.8/",
+                "game": "3_super_coin_volcanoes",
+                "name": "3_super_coin_volcanoes",
+                "title": "3 Super Coin Volcanoes"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/3_egypt_chests/3oaks.v25.11.1/",
+                "game": "3_egypt_chests",
+                "name": "3_egypt_chests",
+                "title": "3 Egypt Chests"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/dj_tiger_x1000/3oaks.v26.2.8/",
+                "game": "dj_tiger_x1000",
+                "name": "dj_tiger_x1000",
+                "title": "DJ Tiger x1000"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_kendoo/boom_gold/3oaks.v25.9.10/",
+                "game": "boom_gold",
+                "name": "boom_gold",
+                "title": "Boom! Boom! Gold!"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_kendoo/egypt_fire_2/3oaks.v25.9.13/",
+                "game": "egypt_fire_2",
+                "name": "egypt_fire_2",
+                "title": "Egypt Fire 2"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/rush_for_gold/3oaks.v25.12.5/",
+                "game": "rush_for_gold",
+                "name": "rush_for_gold",
+                "title": "Rush for Gold"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/",
+                "game": "sun_of_egypt_3",
+                "name": "sun_of_egypt_3",
+                "title": "Sun of Egypt 3"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_ratpack/lava_coins/3oaks.v25.9.13/",
+                "game": "lava_coins",
+                "name": "lava_coins",
+                "title": "Lava Coins"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_kendoo/fishing_bear/3oaks.v25.9.10/",
+                "game": "fishing_bear",
+                "name": "fishing_bear",
+                "title": "Fishin\u0027 Bear"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/lion_coins/3oaks.v25.11.5/",
+                "game": "lion_coins",
+                "name": "lion_coins",
+                "title": "Lion Coins"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/dragon_wealth/3oaks.v25.11.8/",
+                "game": "dragon_wealth",
+                "name": "dragon_wealth",
+                "title": "Dragon Wealth"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/mdj_hot_fire_fruits/3oaks.v25.9.3/",
+                "game": "mdj_hot_fire_fruits",
+                "name": "mdj_hot_fire_fruits",
+                "title": "Must Drop JACKPOT Hot Fire Fruits"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_kendoo/coin_lightning/3oaks.v26.1.9/",
+                "game": "coin_lightning",
+                "name": "coin_lightning",
+                "title": "Coin UP : Lightning"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/big_heist/3oaks.v25.9.3/",
+                "game": "big_heist",
+                "name": "big_heist",
+                "title": "Big Heist"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_kendoo/3_coin_volcanoes/3oaks.v26.1.8/",
+                "game": "3_coin_volcanoes",
+                "name": "3_coin_volcanoes",
+                "title": "3 Coin Volcanoes"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/super_rich_god/3oaks.v25.9.4/",
+                "game": "super_rich_god",
+                "name": "super_rich_god",
+                "title": "Super Rich God"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/crystal_scarabs/3oaks.v25.11.8/",
+                "game": "crystal_scarabs",
+                "name": "crystal_scarabs",
+                "title": "Crystal Scarabs"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/super_marble/3oaks.v25.9.4/",
+                "game": "super_marble",
+                "name": "super_marble",
+                "title": "Super Marble"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_kendoo/black_wolf/3oaks.v25.10.10/",
+                "game": "black_wolf",
+                "name": "black_wolf",
+                "title": "Black Wolf"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/hot_fire_fruits/3oaks.v25.11.8/",
+                "game": "hot_fire_fruits",
+                "name": "hot_fire_fruits",
+                "title": "Hot Fire Fruits"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_hraymo/4_african_drums/3oaks.v26.3.19/",
+                "game": "4_african_drums",
+                "name": "4_african_drums",
+                "title": "4 African Drums"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/scarab_riches/3oaks.v25.9.4/",
+                "game": "scarab_riches",
+                "name": "scarab_riches",
+                "title": "Scarab Riches"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_ratpack/3_clover_pots/3oaks.v25.9.13/",
+                "game": "3_clover_pots",
+                "name": "3_clover_pots",
+                "title": "3 Clover Pots"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/green_chilli_2/3oaks.v25.9.3/",
+                "game": "green_chilli_2",
+                "name": "green_chilli_2",
+                "title": "Green Chilli 2"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/moon_sisters/3oaks.v25.9.3/",
+                "game": "moon_sisters",
+                "name": "moon_sisters",
+                "title": "Moon Sisters"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_kendoo/sticky_piggy/3oaks.v25.12.10/",
+                "game": "sticky_piggy",
+                "name": "sticky_piggy",
+                "title": "Sticky Piggy"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_kendoo/coin_volcano_2/3oaks.v26.3.12/",
+                "game": "coin_volcano_2",
+                "name": "coin_volcano_2",
+                "title": "Coin Volcano 2"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/sun_of_egypt/3oaks.v25.9.4/",
+                "game": "sun_of_egypt",
+                "name": "sun_of_egypt",
+                "title": "Sun of Egypt"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/coin_princess_x1000/3oaks.v26.3.14/",
+                "game": "coin_princess_x1000",
+                "name": "coin_princess_x1000",
+                "title": "Coin Princess x1000"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_kendoo/coin_volcano/3oaks.v25.9.10/",
+                "game": "coin_volcano",
+                "name": "coin_volcano",
+                "title": "Coin Volcano"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_ratpack/sky_pearls/3oaks.v25.9.13/",
+                "game": "sky_pearls",
+                "name": "sky_pearls",
+                "title": "Sky Pearls"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/4_fairy_flowers/3oaks.v26.3.14/",
+                "game": "4_fairy_flowers",
+                "name": "4_fairy_flowers",
+                "title": "4 Fairy Flowers"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_ratpack/3_jewel_crowns/3oaks.v25.10.6/",
+                "game": "3_jewel_crowns",
+                "name": "3_jewel_crowns",
+                "title": "3 Jewel Crowns"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/aztec_sun/3oaks.v25.11.6/",
+                "game": "aztec_sun",
+                "name": "aztec_sun",
+                "title": "Aztec Sun"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/4_pots_of_egypt/3oaks.v25.11.4/",
+                "game": "4_pots_of_egypt",
+                "name": "4_pots_of_egypt",
+                "title": "4 Pots of Egypt"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_kendoo/wolf_saga/3oaks.v25.10.10/",
+                "game": "wolf_saga",
+                "name": "wolf_saga",
+                "title": "Wolf Saga"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_hraymo/golden_teapot/3oaks.v26.3.6/",
+                "game": "golden_teapot",
+                "name": "golden_teapot",
+                "title": "Golden Teapot"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/3_coins/3oaks.v25.9.3/",
+                "game": "3_coins",
+                "name": "3_coins",
+                "title": "3 Coins"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/maya_lock/3oaks.v25.9.2/",
+                "game": "maya_lock",
+                "name": "maya_lock",
+                "title": "Maya Lock"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/magic_clovers/3oaks.v25.9.2/",
+                "game": "magic_clovers",
+                "name": "magic_clovers",
+                "title": "Magic Clovers"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/3_pots_of_egypt/3oaks.v26.3.12/",
+                "game": "3_pots_of_egypt",
+                "name": "3_pots_of_egypt",
+                "title": "3 Pots of Egypt"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_kendoo/aztec_fire/3oaks.v25.10.10/",
+                "game": "aztec_fire",
+                "name": "aztec_fire",
+                "title": "Aztec Fire"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/power_sun_xxl/3oaks.v26.4.4/",
+                "game": "power_sun_xxl",
+                "name": "power_sun_xxl",
+                "title": "Power Sun XXL"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_hraymo/4_wolf_drums/3oaks.v26.3.6/",
+                "game": "4_wolf_drums",
+                "name": "4_wolf_drums",
+                "title": "4 Wolf Drums"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/thunder_tiger/3oaks.v26.3.19/",
+                "game": "thunder_tiger",
+                "name": "thunder_tiger",
+                "title": "Thunder Tiger"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/gold_express/3oaks.v25.11.5/",
+                "game": "gold_express",
+                "name": "gold_express",
+                "title": "Gold Express"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/more_magic_apple/3oaks.v25.11.13/",
+                "game": "more_magic_apple",
+                "name": "more_magic_apple",
+                "title": "More Magic Apple"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/15_dragon_pearls/3oaks.v25.9.3/",
+                "game": "15_dragon_pearls",
+                "name": "15_dragon_pearls",
+                "title": "15 Dragon Pearls"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/sun_of_egypt_4/3oaks.v26.3.12/",
+                "game": "sun_of_egypt_4",
+                "name": "sun_of_egypt_4",
+                "title": "Sun of Egypt 4"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/lucky_penny_2/3oaks.v26.3.16/",
+                "game": "lucky_penny_2",
+                "name": "lucky_penny_2",
+                "title": "Lucky Penny 2"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_kendoo/3_hot_chillies/3oaks.v25.9.10/",
+                "game": "3_hot_chillies",
+                "name": "3_hot_chillies",
+                "title": "3 Hot Chillies"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/hit_the_gold/3oaks.v25.9.3/",
+                "game": "hit_the_gold",
+                "name": "hit_the_gold",
+                "title": "Hit the Gold"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/777_coins/3oaks.v25.12.1/",
+                "game": "777_coins",
+                "name": "777_coins",
+                "title": "777 Coins"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_kendoo/rio_gems/3oaks.v25.10.10/",
+                "game": "rio_gems",
+                "name": "rio_gems",
+                "title": "Rio Gems"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_kendoo/tiger_gems/3oaks.v25.9.10/",
+                "game": "tiger_gems",
+                "name": "tiger_gems",
+                "title": "Tiger Gems"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/queen_of_the_sun/3oaks.v25.11.5/",
+                "game": "queen_of_the_sun",
+                "name": "queen_of_the_sun",
+                "title": "Queen of the Sun"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/scarab_temple/3oaks.v25.9.4/",
+                "game": "scarab_temple",
+                "name": "scarab_temple",
+                "title": "Scarab Temple"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/3_aztec_temples/3oaks.v26.2.3/",
+                "game": "3_aztec_temples",
+                "name": "3_aztec_temples",
+                "title": "3 Aztec Temples"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/china_festival/3oaks.v26.3.18/",
+                "game": "china_festival",
+                "name": "china_festival",
+                "title": "China Festival"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_kendoo/super_sticky_piggy/3oaks.v25.9.10/",
+                "game": "super_sticky_piggy",
+                "name": "super_sticky_piggy",
+                "title": "Super Sticky Piggy"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/super_china_pots/3oaks.v26.3.11/",
+                "game": "super_china_pots",
+                "name": "super_china_pots",
+                "title": "Super China Pots"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/book_of_sun_choice/3oaks.v25.9.3/",
+                "game": "book_of_sun_choice",
+                "name": "book_of_sun_choice",
+                "title": "Book of Sun: Choice"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_ratpack/3_clover_pots_extra/3oaks.v25.9.13/",
+                "game": "3_clover_pots_extra",
+                "name": "3_clover_pots_extra",
+                "title": "3 Clover Pots Extra"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/dancing_joker/3oaks.v26.3.12/",
+                "game": "dancing_joker",
+                "name": "dancing_joker",
+                "title": "Dancing Joker"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/wolf_night/3oaks.v25.11.5/",
+                "game": "wolf_night",
+                "name": "wolf_night",
+                "title": "Wolf Night"
+            }, {
+                "client_url": "https://static.3oaks.com/gs/clients_kendoo/egypt_fire/3oaks.v25.10.10/",
+                "game": "egypt_fire",
+                "name": "egypt_fire",
+                "title": "Egypt Fire"
+            }],
+            "desktop": {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/",
+                "log_url": "//betman.c1.3oaks.com/slotscity-prod-axis/log/sun_of_egypt_3/desktop/{QUEUE}/demo/",
+                "revision": "748fbf6f",
+                "server_url": "//betman.c1.3oaks.com/slotscity-prod-axis/gs/sun_of_egypt_3/desktop/{QUEUE}/demo/",
+                "use_cdn": true,
+                "version": "3oaks.v25.9.4"
+            },
+            "gr": {
+                "revision": "521881b9",
+                "static_path": "https://static.3oaks.com/gs/gamerunner/5.17.1/",
+                "use_cdn": true
+            },
+            "log_url": "//betman.c1.3oaks.com/slotscity-prod-axis/log/",
+            "mobile": {
+                "client_url": "https://static.3oaks.com/gs/clients_goreel/sun_of_egypt_3/3oaks.v25.9.4/",
+                "log_url": "//betman.c1.3oaks.com/slotscity-prod-axis/log/sun_of_egypt_3/mobile/{QUEUE}/demo/",
+                "revision": "748fbf6f",
+                "server_url": "//betman.c1.3oaks.com/slotscity-prod-axis/gs/sun_of_egypt_3/mobile/{QUEUE}/demo/",
+                "use_cdn": true,
+                "version": "3oaks.v25.9.4"
+            },
+            "options": {
+                "allow_autoplay": "1",
+                "allow_freebet_deferred_use": "0",
+                "allow_gamble": "0",
+                "allow_http_debug": "0",
+                "allow_paytable_during_spin": "0",
+                "allow_shop": "1",
+                "autoplay_menu_bet_change": "0",
+                "autoplay_menu_loss_limit": "0",
+                "autoplay_menu_rounds": [5, 10, 25, 50, 75, 100],
+                "autoplay_menu_single_win_limit": "0",
+                "cashier_url": "https://slotcity.ua/cashbox?backgameurl=3oaksgaming-sun-of-egypt-3",
+                "cashier_url_blank": "0",
+                "cta_url": "",
+                "disable_autogame_in_bonus_game": "0",
+                "disable_autoplay_in_bonus_game": "0",
+                "disable_buy_bonus": "0",
+                "disable_gold_bet": "0",
+                "disable_line_switching": "0",
+                "disable_reel_skipping": "0",
+                "disable_spin_on_play": "0",
+                "exit_url": "https://slotcity.ua/",
+                "game_name": "sun_of_egypt_3",
+                "glory_to_ukraine": "1",
+                "history_url": "",
+                "hyper_url": "",
+                "i18n": {
+                    "bg": "Sun of Egypt 3",
+                    "de": "Sun of Egypt 3",
+                    "el": "Sun of Egypt 3",
+                    "en": "Sun of Egypt 3",
+                    "en-soc": "Sun of Egypt 3",
+                    "es": "Sun of Egypt 3",
+                    "fi": "Sun of Egypt 3",
+                    "fr": "Sun of Egypt 3",
+                    "id": "Sun of Egypt 3",
+                    "it": "Sun of Egypt 3",
+                    "ja": "Sun of Egypt 3",
+                    "ko": "Sun of Egypt 3",
+                    "nl": "Sun of Egypt 3",
+                    "no": "Sun of Egypt 3",
+                    "pt": "Sun of Egypt 3",
+                    "pt-br": "Sun of Egypt 3",
+                    "ro": "Sun of Egypt 3",
+                    "ru": "Sun of Egypt 3",
+                    "sv": "Sun of Egypt 3",
+                    "th": "\u0e27\u0e34\u0e2b\u0e32\u0e23\u0e1e\u0e23\u0e30\u0e2d\u0e32\u0e17\u0e34\u0e15\u0e22\u0e4c3-\u0e25\u0e31\u0e04\u0e01\u0e35\u0e49",
+                    "tr": "Sun of Egypt 3",
+                    "uk": "Sun of Egypt 3",
+                    "vi": "Sun of Egypt 3",
+                    "zh": "\u592a\u9633\u795e\u6bbf3 - \u96c6\u9e3f\u8fd0",
+                    "zh-hant": "\u592a\u967d\u795e\u6bbf3 - \u96c6\u9d3b\u904b"
+                },
+                "incognito": "0",
+                "lang": "uk",
+                "min_spin_time": 0,
+                "mobile": "0",
+                "ping_interval": 30,
+                "ping_url": "",
+                "profile": "default",
+                "project_name": "slotscity-prod-axis",
+                "project_uid": "4624",
+                "promo_widget": "0",
+                "protocol": null,
+                "provider": "3oaks",
+                "queue": "c19b06787fc74bad98eedf05cb614b2f",
+                "quickspin": "1",
+                "reality_check_interval": 0,
+                "replay_url": "",
+                "round_expire": 30,
+                "round_exterminate": 35,
+                "round_exterminate_precision": "DAYS",
+                "session_idle_timeout": 600,
+                "show_additional_math_info": "0",
+                "show_autoplay_menu": "0",
+                "show_autoplay_total_bet_confirmation": "0",
+                "show_balance_switch_popup_after_freebet": "0",
+                "show_button_explanations_in_common_rules": "0",
+                "show_compliance_version": "0",
+                "show_demo_mode_in_game": "0",
+                "show_game_name": "0",
+                "show_lower_bet_popup": "0",
+                "show_max_exposure_in_common_rules": "0",
+                "show_min_max_bet_in_common_rules": "0",
+                "show_net_position": "0",
+                "show_paytable_on_start": "0",
+                "show_persistence_description": "0",
+                "show_rtp_in_common_rules": "0",
+                "show_rtp_in_game": "0",
+                "show_session_time": "0",
+                "show_time": "0",
+                "show_win_up_to_info": "1",
+                "show_winnings": "0",
+                "sound": "1",
+                "title": "",
+                "token": "testtoken",
+                "vendor": "GOREEL",
+                "wl": "demo"
+            },
+            "promo_widget": {},
+            "sentry_url": "//betman.c1.3oaks.com/slotscity-prod-axis/snt/",
+            "static_domain": "//static.3oaks.com",
+            "static_domains": {
+                "domains_url": "//betman.c1.3oaks.com/slotscity-prod-axis/cdn_domain/",
+                "force_domain": "",
+                "log_url": "//betman.c1.3oaks.com/slotscity-prod-axis/log/sun_of_egypt_3/desktop/measure_checker/demo/",
+                "metric_url": "/static/games/cdn_measure.png",
+                "timeout": 1000
+            }
+        }, "//betman.c1.3oaks.com/slotscity-prod-axis/game/runner_config/");
+    </script>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"f27eac8b2a634b53a1bf9ae834d5fc78","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

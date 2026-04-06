@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="232" height="183">
+<defs>
+<style>.white_90{fill:#fff;opacity:0.9;}.green{fill:#4DC100;}</style>
+
+<filter id="dropshadow" x="-10" y="-10" width="232" height="183" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.3"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+</filter>
+    
+</defs>
+
+<rect class="green" filter="url(#dropshadow)" width="172" height="123" rx="24" transform="translate(20 10)" />
+
+<path class="white_90" d="M57.1,18.5l-42.4,0.3L26.2,7.4c1.7-1.7,1.7-4.4,0-6.1s-4.4-1.7-6.1,0L1.3,20.1l0,0c-0.7,0.7-1.1,1.5-1.2,2.5
+	C0,22.8,0,23,0,23.2v0c0,0.1,0,0.2,0,0.4c0,0.2,0,0.3,0.1,0.5c0,0.2,0.1,0.4,0.2,0.6c0,0.1,0,0.1,0.1,0.2c0.1,0.2,0.2,0.5,0.4,0.7
+	l0,0c0.2,0.3,0.4,0.5,0.6,0.7l18.8,18.8c1.7,1.7,4.4,1.7,6.1,0s1.7-4.4,0-6.1L14.6,27.4l42.5-0.3c1.5,0,14.6,0.4,14.6,14.6
+	c0,14-13.1,14.6-14.6,14.6H45.7c-2.4,0-4.3,1.9-4.3,4.3c0,2.4,1.9,4.3,4.3,4.3h11.5c8,0,23.2-4.8,23.2-23.2S65.2,18.5,57.1,18.5z" transform="translate(65 36)" />
+
+</svg>

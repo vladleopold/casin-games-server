@@ -1,0 +1,1839 @@
+
+faces-0.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+big_win_0003_mega-win
+  rotate: false
+  xy: 1, 125
+  size: 842, 123
+  orig: 842, 123
+  offset: 0, 0
+  index: -1
+big_win_0004_super_win
+  rotate: false
+  xy: 1, 1
+  size: 895, 122
+  orig: 895, 122
+  offset: 0, 0
+  index: -1
+big_win_0005_big_win
+  rotate: true
+  xy: 898, 1
+  size: 670, 124
+  orig: 670, 124
+  offset: 0, 0
+  index: -1
+grand_0001_grand
+  rotate: true
+  xy: 174, 382
+  size: 626, 132
+  orig: 626, 132
+  offset: 0, 0
+  index: -1
+major
+  rotate: false
+  xy: 174, 250
+  size: 628, 130
+  orig: 628, 130
+  offset: 0, 0
+  index: -1
+x2
+  rotate: true
+  xy: 1, 673
+  size: 262, 171
+  orig: 343, 202
+  offset: 45, 13
+  index: -1
+
+other-0.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+energy_posteffect/energy_posteffect_00001
+  rotate: false
+  xy: 1, 1006
+  size: 8, 13
+  orig: 384, 123
+  offset: 204, 45
+  index: -1
+energy_posteffect/energy_posteffect_00002
+  rotate: true
+  xy: 973, 1
+  size: 65, 29
+  orig: 384, 123
+  offset: 158, 43
+  index: -1
+megawin_glow_orange
+  rotate: false
+  xy: 1, 1
+  size: 970, 249
+  orig: 970, 252
+  offset: 0, 0
+  index: -1
+placeholder
+  rotate: false
+  xy: 11, 1006
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+placeholder_coins
+  rotate: false
+  xy: 11, 1016
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+placeholderTotalWin
+  rotate: false
+  xy: 11, 1011
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+vfx_circle/vfx_circle_-0001
+  rotate: false
+  xy: 16, 1006
+  size: 3, 3
+  orig: 376, 340
+  offset: 0, 337
+  index: -1
+VFX_Lightning/Lightning_00006
+  rotate: false
+  xy: 1, 252
+  size: 129, 752
+  orig: 238, 1002
+  offset: 51, 65
+  index: -1
+VFX_Lightning/Lightning_00008
+  rotate: true
+  xy: 132, 252
+  size: 146, 888
+  orig: 238, 1002
+  offset: 44, 114
+  index: -1
+VFX_Lightning/Lightning_00009
+  rotate: true
+  xy: 132, 400
+  size: 139, 888
+  orig: 238, 1002
+  offset: 53, 114
+  index: -1
+VFX_Lightning2/lightning_00020
+  rotate: true
+  xy: 332, 541
+  size: 466, 196
+  orig: 603, 246
+  offset: 0, 50
+  index: -1
+VFX_Lightning2/lightning_00021
+  rotate: true
+  xy: 132, 541
+  size: 466, 198
+  orig: 603, 246
+  offset: 0, 48
+  index: -1
+VFX_X2/VFX_X2_00005
+  rotate: true
+  xy: 783, 541
+  size: 449, 237
+  orig: 478, 268
+  offset: 16, 4
+  index: -1
+VFX_X2/VFX_X2_00007
+  rotate: true
+  xy: 530, 541
+  size: 456, 251
+  orig: 478, 268
+  offset: 22, 10
+  index: -1
+
+other-1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+energy_posteffect/energy_posteffect_00003
+  rotate: true
+  xy: 962, 252
+  size: 84, 58
+  orig: 384, 123
+  offset: 145, 28
+  index: -1
+energy_posteffect/energy_posteffect_00004
+  rotate: true
+  xy: 962, 338
+  size: 98, 54
+  orig: 384, 123
+  offset: 146, 36
+  index: -1
+idle/idle_00028
+  rotate: true
+  xy: 700, 662
+  size: 360, 306
+  orig: 447, 312
+  offset: 42, 4
+  index: -1
+idle/idle_00036
+  rotate: false
+  xy: 700, 463
+  size: 323, 197
+  orig: 447, 312
+  offset: 0, 68
+  index: -1
+megawin_glow_white
+  rotate: false
+  xy: 1, 1
+  size: 970, 249
+  orig: 970, 252
+  offset: 0, 0
+  index: -1
+super_win_orange_00000
+  rotate: false
+  xy: 1, 252
+  size: 959, 209
+  orig: 959, 243
+  offset: 0, 17
+  index: -1
+VFX_Lightning/Lightning_00029
+  rotate: false
+  xy: 1, 463
+  size: 175, 557
+  orig: 238, 1002
+  offset: 60, 343
+  index: -1
+VFX_Lightning/Lightning_00030
+  rotate: false
+  xy: 178, 463
+  size: 174, 553
+  orig: 238, 1002
+  offset: 62, 345
+  index: -1
+VFX_Lightning/Lightning_00031
+  rotate: false
+  xy: 354, 463
+  size: 172, 552
+  orig: 238, 1002
+  offset: 64, 346
+  index: -1
+VFX_Lightning/Lightning_00032
+  rotate: false
+  xy: 528, 463
+  size: 170, 543
+  orig: 238, 1002
+  offset: 66, 366
+  index: -1
+
+other-10.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+idle/idle_00016
+  rotate: false
+  xy: 701, 826
+  size: 178, 196
+  orig: 447, 312
+  offset: 148, 68
+  index: -1
+idle/idle_00029
+  rotate: false
+  xy: 1, 518
+  size: 345, 306
+  orig: 447, 312
+  offset: 85, 4
+  index: -1
+idle/idle_00035
+  rotate: true
+  xy: 348, 518
+  size: 306, 185
+  orig: 447, 312
+  offset: 141, 81
+  index: -1
+idle/idle_00039
+  rotate: false
+  xy: 373, 826
+  size: 326, 196
+  orig: 447, 312
+  offset: 0, 68
+  index: -1
+VFX_Lightning2/lightning_00004
+  rotate: false
+  xy: 1, 174
+  size: 603, 157
+  orig: 603, 246
+  offset: 0, 4
+  index: -1
+VFX_Lightning2/lightning_00009
+  rotate: false
+  xy: 1, 1
+  size: 603, 171
+  orig: 603, 246
+  offset: 0, 21
+  index: -1
+VFX_Lightning2/lightning_00019
+  rotate: false
+  xy: 1, 333
+  size: 601, 183
+  orig: 603, 246
+  offset: 0, 58
+  index: -1
+VFX_Lightning2/lightning_00023
+  rotate: false
+  xy: 1, 826
+  size: 370, 196
+  orig: 603, 246
+  offset: 50, 50
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00014
+  rotate: true
+  xy: 606, 1
+  size: 393, 411
+  orig: 438, 428
+  offset: 20, 8
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00022
+  rotate: true
+  xy: 604, 396
+  size: 428, 408
+  orig: 438, 428
+  offset: 1, 1
+  index: -1
+
+other-11.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bigwin_glow_orange
+  rotate: false
+  xy: 1, 419
+  size: 436, 139
+  orig: 451, 159
+  offset: 11, 12
+  index: -1
+bigwin_glow_white
+  rotate: false
+  xy: 1, 560
+  size: 436, 139
+  orig: 451, 159
+  offset: 11, 12
+  index: -1
+energy_posteffect/energy_posteffect_00022
+  rotate: true
+  xy: 1, 709
+  size: 312, 95
+  orig: 384, 123
+  offset: 33, 9
+  index: -1
+vfx_circle/vfx_circle_00000
+  rotate: true
+  xy: 441, 152
+  size: 171, 158
+  orig: 376, 340
+  offset: 107, 98
+  index: -1
+vfx_circle/vfx_circle_00001
+  rotate: false
+  xy: 98, 810
+  size: 208, 211
+  orig: 376, 340
+  offset: 85, 70
+  index: -1
+vfx_circle/vfx_circle_00004
+  rotate: true
+  xy: 308, 709
+  size: 292, 286
+  orig: 376, 340
+  offset: 41, 33
+  index: -1
+VFX_Lightning2/lightning_00006
+  rotate: true
+  xy: 441, 325
+  size: 382, 154
+  orig: 603, 246
+  offset: 0, 28
+  index: -1
+VFX_Lightning2/lightning_00016
+  rotate: false
+  xy: 1, 1
+  size: 599, 149
+  orig: 603, 246
+  offset: 0, 76
+  index: -1
+VFX_Lightning2/lightning_00022
+  rotate: false
+  xy: 596, 810
+  size: 427, 198
+  orig: 603, 246
+  offset: 0, 48
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00018
+  rotate: true
+  xy: 597, 402
+  size: 406, 426
+  orig: 438, 428
+  offset: 18, 2
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00021
+  rotate: false
+  xy: 602, 1
+  size: 420, 399
+  orig: 438, 428
+  offset: 5, 7
+  index: -1
+VFX_X2/VFX_X2_00009
+  rotate: false
+  xy: 1, 152
+  size: 438, 265
+  orig: 478, 268
+  offset: 21, 3
+  index: -1
+
+other-12.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+energy_posteffect/energy_posteffect_00026
+  rotate: true
+  xy: 725, 756
+  size: 265, 89
+  orig: 384, 123
+  offset: 51, 15
+  index: -1
+idle/idle_00033
+  rotate: false
+  xy: 436, 1
+  size: 432, 182
+  orig: 447, 312
+  offset: 15, 80
+  index: -1
+vfx_circle/vfx_circle_00005
+  rotate: true
+  xy: 725, 455
+  size: 299, 297
+  orig: 376, 340
+  offset: 39, 26
+  index: -1
+vfx_circle/vfx_circle_00013
+  rotate: false
+  xy: 364, 672
+  size: 359, 340
+  orig: 376, 340
+  offset: 4, 0
+  index: -1
+VFX_Lightning2/lightning_00007
+  rotate: true
+  xy: 870, 1
+  size: 381, 152
+  orig: 603, 246
+  offset: 0, 28
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00001
+  rotate: false
+  xy: 816, 756
+  size: 207, 225
+  orig: 438, 428
+  offset: 119, 93
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00006
+  rotate: true
+  xy: 1, 672
+  size: 346, 361
+  orig: 438, 428
+  offset: 43, 29
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00016
+  rotate: true
+  xy: 1, 271
+  size: 399, 426
+  orig: 438, 428
+  offset: 22, 0
+  index: -1
+VFX_X2/VFX_X2_00001
+  rotate: false
+  xy: 429, 455
+  size: 291, 204
+  orig: 478, 268
+  offset: 90, 24
+  index: -1
+VFX_X2/VFX_X2_00010
+  rotate: false
+  xy: 1, 1
+  size: 433, 268
+  orig: 478, 268
+  offset: 27, 0
+  index: -1
+VFX_X2/VFX_X2_00011
+  rotate: false
+  xy: 436, 185
+  size: 431, 268
+  orig: 478, 268
+  offset: 28, 0
+  index: -1
+
+other-14.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+idle/idle_00003
+  rotate: true
+  xy: 849, 187
+  size: 188, 172
+  orig: 447, 312
+  offset: 144, 71
+  index: -1
+idle/idle_00019
+  rotate: true
+  xy: 408, 402
+  size: 257, 270
+  orig: 447, 312
+  offset: 114, 33
+  index: -1
+idle/idle_00020
+  rotate: true
+  xy: 813, 757
+  size: 217, 204
+  orig: 447, 312
+  offset: 142, 61
+  index: -1
+idle/idle_00041
+  rotate: false
+  xy: 849, 1
+  size: 174, 184
+  orig: 447, 312
+  offset: 150, 79
+  index: -1
+vfx_circle/vfx_circle_00011
+  rotate: true
+  xy: 680, 402
+  size: 353, 340
+  orig: 376, 340
+  offset: 11, 0
+  index: -1
+VFX_Lightning2/lightning_00026
+  rotate: true
+  xy: 1, 661
+  size: 360, 189
+  orig: 603, 246
+  offset: 45, 57
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00002
+  rotate: false
+  xy: 562, 757
+  size: 249, 264
+  orig: 438, 428
+  offset: 97, 70
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00007
+  rotate: true
+  xy: 192, 661
+  size: 354, 368
+  orig: 438, 428
+  offset: 39, 26
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00013
+  rotate: true
+  xy: 1, 271
+  size: 388, 405
+  orig: 438, 428
+  offset: 21, 11
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00015
+  rotate: true
+  xy: 427, 1
+  size: 399, 420
+  orig: 438, 428
+  offset: 18, 2
+  index: -1
+VFX_X2/VFX_X2_00013
+  rotate: false
+  xy: 1, 1
+  size: 424, 268
+  orig: 478, 268
+  offset: 28, 0
+  index: -1
+
+other-15.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+energy_posteffect/energy_posteffect_00027
+  rotate: true
+  xy: 819, 749
+  size: 273, 88
+  orig: 384, 123
+  offset: 51, 19
+  index: -1
+idle/idle_00000
+  rotate: false
+  xy: 234, 811
+  size: 187, 203
+  orig: 447, 312
+  offset: 147, 61
+  index: -1
+idle/idle_00007
+  rotate: false
+  xy: 819, 378
+  size: 202, 179
+  orig: 447, 312
+  offset: 137, 72
+  index: -1
+idle/idle_00009
+  rotate: false
+  xy: 819, 559
+  size: 201, 188
+  orig: 447, 312
+  offset: 138, 78
+  index: -1
+idle/idle_00012
+  rotate: false
+  xy: 824, 1
+  size: 199, 182
+  orig: 447, 312
+  offset: 138, 80
+  index: -1
+idle/idle_00013
+  rotate: true
+  xy: 824, 185
+  size: 191, 198
+  orig: 447, 312
+  offset: 141, 68
+  index: -1
+idle/idle_00023
+  rotate: false
+  xy: 1, 811
+  size: 231, 203
+  orig: 447, 312
+  offset: 103, 61
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00023
+  rotate: false
+  xy: 1, 1
+  size: 398, 403
+  orig: 438, 428
+  offset: 35, 9
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00024
+  rotate: false
+  xy: 1, 406
+  size: 398, 403
+  orig: 438, 428
+  offset: 35, 9
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00026
+  rotate: true
+  xy: 423, 1
+  size: 371, 399
+  orig: 438, 428
+  offset: 58, 18
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00027
+  rotate: true
+  xy: 423, 374
+  size: 376, 394
+  orig: 438, 428
+  offset: 55, 27
+  index: -1
+VFX_X2/VFX_X2_00003
+  rotate: false
+  xy: 423, 752
+  size: 389, 237
+  orig: 478, 268
+  offset: 44, 6
+  index: -1
+
+other-13.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+energy_posteffect/energy_posteffect_00025
+  rotate: true
+  xy: 541, 428
+  size: 280, 94
+  orig: 384, 123
+  offset: 48, 10
+  index: -1
+glow
+  rotate: false
+  xy: 1, 857
+  size: 394, 164
+  orig: 436, 214
+  offset: 23, 17
+  index: -1
+idle/idle_00017
+  rotate: true
+  xy: 785, 771
+  size: 229, 237
+  orig: 447, 312
+  offset: 125, 51
+  index: -1
+vfx_circle/vfx_circle_00002
+  rotate: true
+  xy: 541, 771
+  size: 251, 242
+  orig: 376, 340
+  offset: 65, 51
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00010
+  rotate: true
+  xy: 639, 1
+  size: 369, 384
+  orig: 438, 428
+  offset: 31, 20
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00012
+  rotate: false
+  xy: 639, 372
+  size: 382, 397
+  orig: 438, 428
+  offset: 24, 15
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00017
+  rotate: false
+  xy: 1, 1
+  size: 399, 426
+  orig: 438, 428
+  offset: 22, 0
+  index: -1
+VFX_X2/VFX_X2_00004
+  rotate: true
+  xy: 402, 1
+  size: 425, 235
+  orig: 478, 268
+  offset: 26, 7
+  index: -1
+VFX_X2/VFX_X2_00012
+  rotate: true
+  xy: 271, 429
+  size: 425, 268
+  orig: 478, 268
+  offset: 29, 0
+  index: -1
+VFX_X2/VFX_X2_00014
+  rotate: true
+  xy: 1, 429
+  size: 426, 268
+  orig: 478, 268
+  offset: 25, 0
+  index: -1
+
+other-17.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+idle/idle_00002
+  rotate: false
+  xy: 831, 836
+  size: 191, 186
+  orig: 447, 312
+  offset: 143, 66
+  index: -1
+idle/idle_00014
+  rotate: false
+  xy: 653, 836
+  size: 176, 187
+  orig: 447, 312
+  offset: 147, 78
+  index: -1
+idle/idle_00031
+  rotate: true
+  xy: 710, 1
+  size: 318, 311
+  orig: 447, 312
+  offset: 86, 0
+  index: -1
+idle/idle_00032
+  rotate: false
+  xy: 710, 321
+  size: 310, 187
+  orig: 447, 312
+  offset: 137, 79
+  index: -1
+moon/moon_00000
+  rotate: true
+  xy: 1, 339
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+moon/moon_00001
+  rotate: false
+  xy: 1, 665
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+moon/moon_00002
+  rotate: false
+  xy: 327, 665
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+moon/moon_00003
+  rotate: true
+  xy: 660, 510
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+vfx_circle/vfx_circle_00010
+  rotate: false
+  xy: 356, 1
+  size: 352, 340
+  orig: 376, 340
+  offset: 17, 0
+  index: -1
+vfx_circle/vfx_circle_00014
+  rotate: false
+  xy: 1, 1
+  size: 353, 336
+  orig: 376, 340
+  offset: 1, 4
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00004
+  rotate: true
+  xy: 331, 343
+  size: 309, 327
+  orig: 438, 428
+  offset: 63, 41
+  index: -1
+
+other-18.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+moon/moon_00004
+  rotate: false
+  xy: 1, 1
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+moon/moon_00005
+  rotate: false
+  xy: 1, 331
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+moon/moon_00006
+  rotate: false
+  xy: 1, 661
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+moon/moon_00007
+  rotate: true
+  xy: 327, 1
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+moon/moon_00008
+  rotate: true
+  xy: 657, 1
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+moon/moon_00009
+  rotate: false
+  xy: 327, 327
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+moon/moon_00010
+  rotate: false
+  xy: 327, 657
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+moon/moon_00011
+  rotate: true
+  xy: 653, 327
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+moon/moon_00012
+  rotate: false
+  xy: 653, 653
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+
+other-16.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+energy_posteffect/energy_posteffect_00024
+  rotate: false
+  xy: 728, 889
+  size: 285, 98
+  orig: 384, 123
+  offset: 44, 7
+  index: -1
+idle/idle_00010
+  rotate: true
+  xy: 182, 763
+  size: 201, 187
+  orig: 447, 312
+  offset: 137, 79
+  index: -1
+idle/idle_00022
+  rotate: true
+  xy: 717, 319
+  size: 293, 294
+  orig: 447, 312
+  offset: 99, 15
+  index: -1
+idle/idle_00025
+  rotate: true
+  xy: 717, 1
+  size: 316, 300
+  orig: 447, 312
+  offset: 81, 10
+  index: -1
+vfx_circle/vfx_circle_00007
+  rotate: true
+  xy: 389, 356
+  size: 332, 325
+  orig: 376, 340
+  offset: 27, 11
+  index: -1
+vfx_circle/vfx_circle_00008
+  rotate: false
+  xy: 389, 690
+  size: 337, 333
+  orig: 376, 340
+  offset: 22, 5
+  index: -1
+vfx_circle/vfx_circle_00012
+  rotate: true
+  xy: 379, 1
+  size: 353, 336
+  orig: 376, 340
+  offset: 9, 4
+  index: -1
+VFX_Lightning2/lightning_00024
+  rotate: true
+  xy: 1, 394
+  size: 367, 193
+  orig: 603, 246
+  offset: 52, 53
+  index: -1
+VFX_Lightning2/lightning_00025
+  rotate: true
+  xy: 196, 394
+  size: 366, 191
+  orig: 603, 246
+  offset: 52, 55
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00003
+  rotate: true
+  xy: 728, 614
+  size: 273, 292
+  orig: 438, 428
+  offset: 83, 56
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00011
+  rotate: false
+  xy: 1, 1
+  size: 376, 391
+  orig: 438, 428
+  offset: 27, 17
+  index: -1
+VFX_X2/VFX_X2_00000
+  rotate: true
+  xy: 1, 763
+  size: 247, 179
+  orig: 478, 268
+  offset: 118, 39
+  index: -1
+
+other-19.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+moon/moon_00013
+  rotate: false
+  xy: 1, 1
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+moon/moon_00014
+  rotate: false
+  xy: 1, 331
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+moon/moon_00015
+  rotate: false
+  xy: 1, 661
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+moon/moon_00016
+  rotate: true
+  xy: 327, 1
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+moon/moon_00017
+  rotate: true
+  xy: 657, 1
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+moon/moon_00018
+  rotate: false
+  xy: 327, 327
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+moon/moon_00019
+  rotate: false
+  xy: 327, 657
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+moon/moon_00020
+  rotate: true
+  xy: 653, 327
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+moon/moon_00021
+  rotate: false
+  xy: 653, 653
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+
+other-2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+energy_posteffect/energy_posteffect_00010
+  rotate: true
+  xy: 940, 212
+  size: 244, 83
+  orig: 384, 123
+  offset: 72, 17
+  index: -1
+energy_posteffect/energy_posteffect_00014
+  rotate: false
+  xy: 702, 908
+  size: 319, 99
+  orig: 384, 123
+  offset: 42, 12
+  index: -1
+glow3
+  rotate: true
+  xy: 321, 720
+  size: 303, 379
+  orig: 303, 379
+  offset: 0, 0
+  index: -1
+idle/idle_00037
+  rotate: false
+  xy: 702, 720
+  size: 321, 186
+  orig: 447, 312
+  offset: 0, 79
+  index: -1
+super_win_white
+  rotate: false
+  xy: 1, 1
+  size: 959, 209
+  orig: 959, 243
+  offset: 0, 17
+  index: -1
+VFX_Lightning/Lightning_00005
+  rotate: true
+  xy: 321, 376
+  size: 134, 614
+  orig: 238, 1002
+  offset: 40, 66
+  index: -1
+VFX_Lightning/Lightning_00010
+  rotate: true
+  xy: 1, 212
+  size: 162, 937
+  orig: 238, 1002
+  offset: 18, 65
+  index: -1
+VFX_Lightning/Lightning_00012
+  rotate: false
+  xy: 182, 376
+  size: 137, 639
+  orig: 238, 1002
+  offset: 39, 359
+  index: -1
+VFX_Lightning/Lightning_00028
+  rotate: false
+  xy: 1, 376
+  size: 179, 646
+  orig: 238, 1002
+  offset: 56, 333
+  index: -1
+VFX_Lightning2/lightning_00000
+  rotate: true
+  xy: 926, 539
+  size: 78, 85
+  orig: 603, 246
+  offset: 525, 98
+  index: -1
+VFX_Lightning2/lightning_00001
+  rotate: true
+  xy: 937, 458
+  size: 79, 86
+  orig: 603, 246
+  offset: 524, 97
+  index: -1
+VFX_Lightning2/lightning_00015
+  rotate: false
+  xy: 321, 512
+  size: 603, 206
+  orig: 603, 246
+  offset: 0, 3
+  index: -1
+
+other-20.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+energy_posteffect/energy_posteffect_00012
+  rotate: true
+  xy: 653, 743
+  size: 280, 85
+  orig: 384, 123
+  offset: 56, 12
+  index: -1
+energy_posteffect/energy_posteffect_00013
+  rotate: false
+  xy: 653, 653
+  size: 307, 88
+  orig: 384, 123
+  offset: 48, 13
+  index: -1
+idle/idle_00001
+  rotate: false
+  xy: 740, 743
+  size: 190, 198
+  orig: 447, 312
+  offset: 142, 62
+  index: -1
+moon/moon_00022
+  rotate: false
+  xy: 1, 1
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+moon/moon_00023
+  rotate: false
+  xy: 1, 331
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+moon/moon_00024
+  rotate: false
+  xy: 1, 661
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+moon/moon_00025
+  rotate: true
+  xy: 327, 1
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+moon/moon_00026
+  rotate: true
+  xy: 657, 1
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+moon/moon_00027
+  rotate: false
+  xy: 327, 327
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+moon/moon_00028
+  rotate: false
+  xy: 327, 657
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+moon/moon_00029
+  rotate: true
+  xy: 653, 327
+  size: 324, 328
+  orig: 324, 328
+  offset: 0, 0
+  index: -1
+
+other-4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+energy_posteffect/energy_posteffect_00005
+  rotate: true
+  xy: 948, 861
+  size: 107, 71
+  orig: 384, 123
+  offset: 142, 26
+  index: -1
+energy_posteffect/energy_posteffect_00006
+  rotate: true
+  xy: 948, 729
+  size: 130, 73
+  orig: 384, 123
+  offset: 129, 25
+  index: -1
+energy_posteffect/energy_posteffect_00007
+  rotate: true
+  xy: 858, 729
+  size: 157, 83
+  orig: 384, 123
+  offset: 113, 15
+  index: -1
+energy_posteffect/energy_posteffect_00015
+  rotate: false
+  xy: 1, 917
+  size: 340, 101
+  orig: 384, 123
+  offset: 25, 12
+  index: -1
+glow4
+  rotate: true
+  xy: 480, 1
+  size: 549, 539
+  orig: 549, 539
+  offset: 0, 0
+  index: -1
+VFX_Lightning/Lightning_00011
+  rotate: false
+  xy: 322, 1
+  size: 156, 914
+  orig: 238, 1002
+  offset: 21, 65
+  index: -1
+VFX_Lightning/Lightning_00016
+  rotate: false
+  xy: 163, 1
+  size: 157, 914
+  orig: 238, 1002
+  offset: 33, 65
+  index: -1
+VFX_Lightning/Lightning_00024
+  rotate: false
+  xy: 1, 1
+  size: 160, 914
+  orig: 238, 1002
+  offset: 69, 65
+  index: -1
+VFX_Lightning2/lightning_00008
+  rotate: false
+  xy: 343, 917
+  size: 603, 99
+  orig: 603, 246
+  offset: 0, 68
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00000
+  rotate: false
+  xy: 858, 552
+  size: 164, 175
+  orig: 438, 428
+  offset: 139, 118
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00008
+  rotate: true
+  xy: 480, 552
+  size: 362, 376
+  orig: 438, 428
+  offset: 35, 23
+  index: -1
+
+other-3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+energy_posteffect/energy_posteffect_00011
+  rotate: false
+  xy: 761, 420
+  size: 259, 85
+  orig: 384, 123
+  offset: 66, 14
+  index: -1
+energy_posteffect/energy_posteffect_00019
+  rotate: false
+  xy: 343, 918
+  size: 333, 103
+  orig: 384, 123
+  offset: 26, 12
+  index: -1
+energy_posteffect/energy_posteffect_00020
+  rotate: false
+  xy: 1, 918
+  size: 340, 105
+  orig: 384, 123
+  offset: 21, 10
+  index: -1
+energy_posteffect/energy_posteffect_00021
+  rotate: false
+  xy: 678, 918
+  size: 345, 94
+  orig: 384, 123
+  offset: 16, 12
+  index: -1
+idle/idle_00030
+  rotate: true
+  xy: 761, 507
+  size: 409, 193
+  orig: 447, 312
+  offset: 33, 72
+  index: -1
+VFX_Lightning/Lightning_00014
+  rotate: false
+  xy: 671, 1
+  size: 88, 915
+  orig: 238, 1002
+  offset: 74, 64
+  index: -1
+VFX_Lightning/Lightning_00018
+  rotate: false
+  xy: 511, 1
+  size: 158, 915
+  orig: 238, 1002
+  offset: 24, 64
+  index: -1
+VFX_Lightning/Lightning_00019
+  rotate: false
+  xy: 349, 1
+  size: 160, 915
+  orig: 238, 1002
+  offset: 24, 64
+  index: -1
+VFX_Lightning/Lightning_00020
+  rotate: false
+  xy: 186, 1
+  size: 161, 915
+  orig: 238, 1002
+  offset: 23, 64
+  index: -1
+VFX_Lightning/Lightning_00021
+  rotate: false
+  xy: 1, 1
+  size: 183, 915
+  orig: 238, 1002
+  offset: 17, 64
+  index: -1
+VFX_X2/VFX_X2_00015
+  rotate: true
+  xy: 761, 1
+  size: 417, 262
+  orig: 478, 268
+  offset: 25, 2
+  index: -1
+
+other-21.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+idle/idle_00004
+  rotate: true
+  xy: 1, 194
+  size: 188, 177
+  orig: 447, 312
+  offset: 144, 71
+  index: -1
+idle/idle_00005
+  rotate: true
+  xy: 179, 1
+  size: 188, 177
+  orig: 447, 312
+  offset: 144, 71
+  index: -1
+idle/idle_00015
+  rotate: false
+  xy: 1, 1
+  size: 176, 191
+  orig: 447, 312
+  offset: 149, 74
+  index: -1
+idle/idle_00027
+  rotate: true
+  xy: 1, 384
+  size: 188, 177
+  orig: 447, 312
+  offset: 144, 71
+  index: -1
+idle/idle_00038
+  rotate: false
+  xy: 1, 574
+  size: 178, 186
+  orig: 447, 312
+  offset: 148, 78
+  index: -1
+idle/idle_00040
+  rotate: false
+  xy: 1, 762
+  size: 176, 184
+  orig: 447, 312
+  offset: 148, 79
+  index: -1
+
+other-5.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+energy_posteffect/energy_posteffect_00016
+  rotate: false
+  xy: 1, 917
+  size: 341, 99
+  orig: 384, 123
+  offset: 21, 13
+  index: -1
+energy_posteffect/energy_posteffect_00017
+  rotate: false
+  xy: 344, 917
+  size: 338, 98
+  orig: 384, 123
+  offset: 20, 13
+  index: -1
+energy_posteffect/energy_posteffect_00018
+  rotate: false
+  xy: 688, 531
+  size: 335, 98
+  orig: 384, 123
+  offset: 22, 11
+  index: -1
+grand_orange
+  rotate: false
+  xy: 344, 361
+  size: 670, 168
+  orig: 670, 168
+  offset: 0, 0
+  index: -1
+idle/idle_00006
+  rotate: true
+  xy: 823, 821
+  size: 202, 180
+  orig: 447, 312
+  offset: 137, 71
+  index: -1
+idle/idle_00008
+  rotate: false
+  xy: 823, 631
+  size: 200, 188
+  orig: 447, 312
+  offset: 138, 77
+  index: -1
+VFX_Lightning/Lightning_00003
+  rotate: false
+  xy: 688, 631
+  size: 133, 391
+  orig: 238, 1002
+  offset: 34, 20
+  index: -1
+VFX_Lightning/Lightning_00015
+  rotate: false
+  xy: 1, 1
+  size: 156, 914
+  orig: 238, 1002
+  offset: 33, 65
+  index: -1
+VFX_Lightning/Lightning_00017
+  rotate: false
+  xy: 159, 1
+  size: 156, 914
+  orig: 238, 1002
+  offset: 33, 65
+  index: -1
+VFX_Lightning/Lightning_00026
+  rotate: true
+  xy: 317, 182
+  size: 177, 706
+  orig: 238, 1002
+  offset: 58, 273
+  index: -1
+VFX_Lightning/Lightning_00027
+  rotate: true
+  xy: 317, 1
+  size: 179, 706
+  orig: 238, 1002
+  offset: 56, 273
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00009
+  rotate: false
+  xy: 317, 531
+  size: 369, 384
+  orig: 438, 428
+  offset: 31, 20
+  index: -1
+
+other-6.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+energy_posteffect/energy_posteffect_00008
+  rotate: false
+  xy: 751, 940
+  size: 193, 79
+  orig: 384, 123
+  offset: 94, 20
+  index: -1
+energy_posteffect/energy_posteffect_00009
+  rotate: false
+  xy: 532, 940
+  size: 217, 80
+  orig: 384, 123
+  offset: 84, 20
+  index: -1
+idle/idle_00024
+  rotate: false
+  xy: 706, 740
+  size: 317, 198
+  orig: 447, 312
+  offset: 85, 62
+  index: -1
+idle/idle_00026
+  rotate: false
+  xy: 706, 437
+  size: 317, 301
+  orig: 447, 312
+  offset: 94, 8
+  index: -1
+VFX_Lightning/Lightning_00004
+  rotate: true
+  xy: 1, 912
+  size: 110, 529
+  orig: 238, 1002
+  offset: 38, 46
+  index: -1
+VFX_Lightning/Lightning_00013
+  rotate: true
+  xy: 439, 1
+  size: 135, 577
+  orig: 238, 1002
+  offset: 39, 402
+  index: -1
+VFX_Lightning/Lightning_00022
+  rotate: false
+  xy: 167, 1
+  size: 133, 906
+  orig: 238, 1002
+  offset: 82, 73
+  index: -1
+VFX_Lightning/Lightning_00023
+  rotate: false
+  xy: 302, 1
+  size: 135, 901
+  orig: 238, 1002
+  offset: 80, 78
+  index: -1
+VFX_Lightning/Lightning_00025
+  rotate: false
+  xy: 1, 1
+  size: 164, 909
+  orig: 238, 1002
+  offset: 65, 70
+  index: -1
+VFX_Lightning2/lightning_00002
+  rotate: false
+  xy: 439, 288
+  size: 572, 147
+  orig: 603, 246
+  offset: 0, 48
+  index: -1
+VFX_Lightning2/lightning_00003
+  rotate: false
+  xy: 439, 138
+  size: 572, 148
+  orig: 603, 246
+  offset: 0, 48
+  index: -1
+VFX_X2/VFX_X2_00008
+  rotate: true
+  xy: 439, 437
+  size: 455, 265
+  orig: 478, 268
+  offset: 21, 3
+  index: -1
+
+other-7.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+idle/idle_00011
+  rotate: true
+  xy: 1, 823
+  size: 199, 193
+  orig: 447, 312
+  offset: 138, 69
+  index: -1
+idle/idle_00018
+  rotate: false
+  xy: 426, 400
+  size: 257, 270
+  orig: 447, 312
+  offset: 114, 33
+  index: -1
+major_orange
+  rotate: true
+  xy: 122, 1
+  size: 670, 168
+  orig: 670, 168
+  offset: 0, 0
+  index: -1
+major_white
+  rotate: true
+  xy: 292, 1
+  size: 630, 132
+  orig: 670, 168
+  offset: 20, 18
+  index: -1
+vfx_circle/vfx_circle_00009
+  rotate: true
+  xy: 196, 673
+  size: 348, 332
+  orig: 376, 340
+  offset: 14, 8
+  index: -1
+VFX_Lightning/Lightning_00007
+  rotate: false
+  xy: 1, 1
+  size: 119, 820
+  orig: 238, 1002
+  offset: 61, 65
+  index: -1
+VFX_Lightning2/lightning_00017
+  rotate: false
+  xy: 426, 1
+  size: 595, 150
+  orig: 603, 246
+  offset: 0, 75
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00005
+  rotate: false
+  xy: 685, 400
+  size: 338, 354
+  orig: 438, 428
+  offset: 47, 31
+  index: -1
+VFX_X2/VFX_X2_00006
+  rotate: false
+  xy: 530, 153
+  size: 443, 245
+  orig: 478, 268
+  offset: 25, 3
+  index: -1
+VFX_X2/VFX_X2_00016
+  rotate: false
+  xy: 530, 756
+  size: 410, 266
+  orig: 478, 268
+  offset: 30, 0
+  index: -1
+
+other-9.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+energy_posteffect/energy_posteffect_00023
+  rotate: false
+  xy: 204, 888
+  size: 303, 98
+  orig: 384, 123
+  offset: 38, 8
+  index: -1
+VFX_Lightning/Lightning_00001
+  rotate: true
+  xy: 1, 888
+  size: 119, 201
+  orig: 238, 1002
+  offset: 42, 17
+  index: -1
+VFX_Lightning2/lightning_00005
+  rotate: false
+  xy: 1, 362
+  size: 603, 175
+  orig: 603, 246
+  offset: 0, 8
+  index: -1
+VFX_Lightning2/lightning_00010
+  rotate: false
+  xy: 1, 714
+  size: 603, 172
+  orig: 603, 246
+  offset: 0, 21
+  index: -1
+VFX_Lightning2/lightning_00011
+  rotate: false
+  xy: 1, 539
+  size: 603, 173
+  orig: 603, 246
+  offset: 0, 21
+  index: -1
+VFX_Lightning2/lightning_00012
+  rotate: false
+  xy: 1, 182
+  size: 603, 178
+  orig: 603, 246
+  offset: 0, 11
+  index: -1
+VFX_Lightning2/lightning_00018
+  rotate: false
+  xy: 1, 1
+  size: 603, 179
+  orig: 603, 246
+  offset: 0, 62
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00019
+  rotate: false
+  xy: 606, 1
+  size: 413, 399
+  orig: 438, 428
+  offset: 14, 0
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00025
+  rotate: true
+  xy: 606, 402
+  size: 396, 412
+  orig: 438, 428
+  offset: 32, 4
+  index: -1
+VFX_X2/VFX_X2_00002
+  rotate: false
+  xy: 606, 800
+  size: 341, 222
+  orig: 478, 268
+  offset: 70, 16
+  index: -1
+
+other-8.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+grand_white
+  rotate: false
+  xy: 1, 1
+  size: 628, 133
+  orig: 631, 135
+  offset: 1, 2
+  index: -1
+idle/idle_00021
+  rotate: true
+  xy: 349, 136
+  size: 275, 280
+  orig: 447, 312
+  offset: 106, 25
+  index: -1
+idle/idle_00034
+  rotate: false
+  xy: 688, 692
+  size: 333, 193
+  orig: 447, 312
+  offset: 4, 69
+  index: -1
+raysBG_01
+  rotate: true
+  xy: 1, 136
+  size: 275, 346
+  orig: 275, 346
+  offset: 0, 0
+  index: -1
+raysBG_02
+  rotate: true
+  xy: 631, 415
+  size: 275, 346
+  orig: 275, 346
+  offset: 0, 0
+  index: -1
+vfx_circle/vfx_circle_00003
+  rotate: true
+  xy: 366, 413
+  size: 278, 263
+  orig: 376, 340
+  offset: 51, 36
+  index: -1
+vfx_circle/vfx_circle_00006
+  rotate: true
+  xy: 366, 693
+  size: 330, 320
+  orig: 376, 340
+  offset: 26, 13
+  index: -1
+VFX_Lightning/Lightning_00002
+  rotate: true
+  xy: 688, 887
+  size: 130, 280
+  orig: 238, 1002
+  offset: 31, 17
+  index: -1
+VFX_Lightning2/lightning_00013
+  rotate: true
+  xy: 184, 415
+  size: 603, 180
+  orig: 603, 246
+  offset: 0, 11
+  index: -1
+VFX_Lightning2/lightning_00014
+  rotate: true
+  xy: 1, 415
+  size: 603, 181
+  orig: 603, 246
+  offset: 0, 10
+  index: -1
+vfx_particles_opening/vfx_particles_opening_00020
+  rotate: true
+  xy: 631, 1
+  size: 412, 391
+  orig: 438, 428
+  offset: 9, 12
+  index: -1

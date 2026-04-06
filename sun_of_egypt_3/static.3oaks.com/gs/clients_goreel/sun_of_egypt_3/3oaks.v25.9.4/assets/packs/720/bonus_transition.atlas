@@ -1,0 +1,20 @@
+
+bonus_transition.png
+size: 1112,776
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+10
+  rotate: false
+  xy: 0, 0
+  size: 750, 773
+  orig: 750, 800
+  offset: 0, 22
+  index: -1
+spark
+  rotate: false
+  xy: 750, 261
+  size: 360, 512
+  orig: 360, 512
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <!-- PG-1 -->
+    <string id="PAYTABLE_PAGE0_TEXT0_MOB"    color="#ffffff" font="SFBlack" size="70" align="center" linespacing="8">BONUS GAME</string>
+    <string id="PAYTABLE_PAGE0_TEXT1_MOB"    color="#ffd141" font="SFBold"  size="37" align="left"   linespacing="8"><string>&#8226;</string>      6+ Bonus symbols or their combination with an <n/>        Energy Bonus symbols triggers the Bonus Game.</string>
+    <string id="PAYTABLE_PAGE0_TEXT2_MOB"    color="#ffffff" font="SF"      size="37" align="left"   linespacing="8"><string>&#8226;</string>      Only Bonus and Energy Bonus symbols land on the <n/>        reels during the Bonus Game.</string>
+    <string id="PAYTABLE_PAGE0_TEXT3_MOB"    color="#ffffff" font="SF"      size="37" align="left"   linespacing="8"><string>&#8226;</string>      During the Bonus Game, all symbols stick on the reels.</string>
+    <string id="PAYTABLE_PAGE0_TEXT4_MOB"    color="#ffffff" font="SF"      size="37" align="left"   linespacing="8"><string>&#8226;</string>      Payment is indicated on the symbol in currency: <n/>        x1, x2, x3, x4, x5, x6, x7, x10 bets.</string>
+    <string id="PAYTABLE_PAGE0_TEXT5_MOB"    color="#ffffff" font="SF"      size="37" align="left"   linespacing="8"><string>&#8226;</string>      3 re-spins are granted at the beginning of the Bonus <n/>        Game.</string>
+    <string id="PAYTABLE_PAGE0_TEXT6_MOB"    color="#ffffff" font="SF"      size="37" align="left"   linespacing="8"><string>&#8226;</string>      Each new symbol resets the number of re-spins to 3.</string>
+    <string id="PAYTABLE_PAGE0_TEXT7_MOB"    color="#ffffff" font="SF"      size="37" align="left"   linespacing="8"><string>&#8226;</string>      The Bonus Game continues until the player runs out <n/>        of re-spins or all cells are filled with Bonus symbols.</string>
+
+    <string id="PAYTABLE_PAGE0_TEXT8_MOB"    color="#ffd141" font="SFBlack" size="50" align="center" linespacing="8">ENERGY BONUS FEATURE</string>
+    <string id="PAYTABLE_PAGE0_TEXT9_MOB"    color="#ffd141" font="SFBold"  size="37" align="center" linespacing="8">When dropped, each Energy Bonus symbol gathers <n/>all the values from the reels, including Mini, Minor, <n/>and Major <string cert="gbr">Prize</string><string cert="ltu">Prize</string><string cert="en">Jackpot</string> symbol values.</string>
+    <string id="PAYTABLE_PAGE0_TEXT10_MOB"   color="#ffd141" font="SFBlack" size="50" align="center" linespacing="8">PILE OF GOLD FEATURE</string>
+    <string id="PAYTABLE_PAGE0_TEXT11_MOB"   color="#ffffff" font="SF"      size="37" align="center" linespacing="8">Any Bonus or Energy Bonus symbol landing on the reels <n/>during the Main Game grants a chance of triggering the <n/>Pile of Gold Feature, which adds Bonus and Energy Bonus <n/>symbols in quantity enough (or more) to activate the <n/>Bonus Game.</string>
+
+    <string id="PAYTABLE_PAGE0_TEXT12_MOB"   color="#ffd141" font="SFBlack" size="50" align="center" linespacing="8">BONUS GAME <string cert="gbr">PRIZES</string><string cert="ltu">PRIZES</string><string cert="en">JACKPOT</string></string>
+    <string id="PAYTABLE_PAGE0_TEXT13_MOB"   color="#ffffff" font="SF"      size="37" align="center" linespacing="8">The random appearance of the following Bonus <n/>symbols during the Bonus Game triggers the <n/>corresponding <string cert="gbr">Prize</string><string cert="ltu">Prize</string><string cert="en">Jackpot</string>:</string>
+    <string id="PAYTABLE_PAGE0_TEXT14_MOB"   color="#ffffff" font="SFBlack" size="37" align="center" linespacing="8">MAJOR<n/><string cert="gbr">PRIZE</string><string cert="ltu">PRIZE</string><string cert="en">JACKPOT</string></string>
+    <string id="PAYTABLE_PAYOUT_MAJOR_MOB"   color="#ffd141" font="SFBold"  size="37" align="center" linespacing="8">${value}</string>
+    <string id="PAYTABLE_PAGE0_TEXT15_MOB"   color="#ffffff" font="SFBlack" size="37" align="center" linespacing="8">MINOR<n/><string cert="gbr">PRIZE</string><string cert="ltu">PRIZE</string><string cert="en">JACKPOT</string></string>
+    <string id="PAYTABLE_PAYOUT_MINOR_MOB"   color="#ffd141" font="SFBold"  size="37" align="center" linespacing="8">${value}</string>
+    <string id="PAYTABLE_PAGE0_TEXT16_MOB"   color="#ffffff" font="SFBlack" size="37" align="center" linespacing="8">MINI<n/><string cert="gbr">PRIZE</string><string cert="ltu">PRIZE</string><string cert="en">JACKPOT</string></string>
+    <string id="PAYTABLE_PAYOUT_MINI_MOB"    color="#ffd141" font="SFBold"  size="37" align="center" linespacing="8">${value}</string>
+    <string id="PAYTABLE_PAGE0_TEXT17_MOB"   color="#ffd141" font="SFBold"  size="37" align="center" linespacing="8">Fill all cells and get the <n/>GRAND <string cert="gbr">PRIZE</string><string cert="ltu">PRIZE</string><string cert="en">JACKPOT</string> of ${value}!</string>
+
+    <string id="PAYTABLE_PAGE0_TEXT18_MOB"   color="#ffffff" font="SFBlack" size="70" align="center" linespacing="8">PAYOUTS</string>
+    <string id="PAYTABLE_PAGE0_TEXT19_MOB"   color="#ffd141" font="SFBlack" size="37" align="left"   linespacing="8">BONUS</string>
+    <string id="PAYTABLE_PAGE0_TEXT20_MOB"   color="#ffffff" font="SF"      size="37" align="left"   linespacing="8">Triggers Bonus Game.</string>
+    <string id="PAYTABLE_PAGE0_TEXT21_MOB"   color="#808080" font="SF"      size="28" align="left"   linespacing="8">Pay only during the Bonus Game.</string>
+    <string id="PAYTABLE_PAGE0_TEXT22_MOB"   color="#ffd141" font="SFBlack" size="37" align="left"   linespacing="8">ENERGY BONUS</string>
+    <string id="PAYTABLE_PAGE0_TEXT23_MOB"   color="#ffffff" font="SF"      size="37" align="left"   linespacing="8">Triggers Energy Bonus Feature <n/>in the Bonus Game.</string>
+    <string id="PAYTABLE_PAGE0_TEXT24_MOB"   color="#808080" font="SF"      size="28" align="left"   linespacing="8">Pay only during the Bonus Game.</string>
+    <string id="PAYTABLE_PAGE0_TEXT25_MOB"   color="#ffd141" font="SFBlack" size="37" align="left"   linespacing="8">WILD</string>
+    <string id="PAYTABLE_PAGE0_TEXT26_MOB"   color="#ffffff" font="SF"      size="37" align="left"   linespacing="8">Substitutes all symbols except <n/>Bonus and Energy Bonus.</string>
+
+    <string id="PAYTABLE_PAGE0_TEXT27_MOB"   color="#ffffff" font="SFBlack" size="70" align="center" linespacing="8">PAY LINES</string>
+    <string id="PAYTABLE_PAGE0_TEXT28_MOB"   color="#ffffff" font="SF"      size="37" align="center" linespacing="8">Bet lines pay if in succession from leftmost to rightmost.</string>
+    <string id="PAYTABLE_PAGE0_TEXT29_MOB"   color="#ffffff" font="SF"      size="37" align="center" linespacing="8">Only the highest win per pay line is paid.</string>
+    <string id="PAYTABLE_PAGE0_TEXT30_MOB"   color="#ffffff" font="SF"      size="37" align="center" linespacing="8">Active lines are fixed: <string font="SFBold" color="#ffd141">5 lines.</string></string>
+
+    <string id="PAYTABLE_LASTPAGE_TEXT0_MOB" color="#92928f" font="SF"      size="28" align="center" linespacing="8">Malfunction voids all pays and plays.</string>
+    <string id="GAME_DATA_RTP_MOB"           color="#92928f" font="SF"      size="25" align="center" linespacing="8">RTP: ${rtp}%</string>
+    <string id="GAME_DATA_VERSION_MOB"       color="#92928f" font="SF"      size="25" align="center" linespacing="8">VER: ${version}</string>
+    <string id="GAME_DATA_DATE_MOB"          color="#92928f" font="SF"      size="25" align="center" linespacing="8">${date}</string>
+    <!-- /PG-1 -->
+
+</config>

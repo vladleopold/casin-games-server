@@ -1,0 +1,62 @@
+
+gr_widget_clover_icon.avif
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+clover
+  rotate: false
+  xy: 2, 20
+  size: 93, 95
+  orig: 93, 95
+  offset: 0, 0
+  index: -1
+dot
+  rotate: false
+  xy: 375, 56
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+light_1
+  rotate: false
+  xy: 324, 38
+  size: 49, 77
+  orig: 49, 77
+  offset: 0, 0
+  index: -1
+light_2
+  rotate: false
+  xy: 218, 19
+  size: 51, 96
+  orig: 51, 96
+  offset: 0, 0
+  index: -1
+light_3
+  rotate: false
+  xy: 97, 2
+  size: 59, 113
+  orig: 59, 113
+  offset: 0, 0
+  index: -1
+light_4
+  rotate: false
+  xy: 158, 8
+  size: 58, 107
+  orig: 58, 107
+  offset: 0, 0
+  index: -1
+light_5
+  rotate: false
+  xy: 271, 21
+  size: 51, 94
+  orig: 51, 94
+  offset: 0, 0
+  index: -1
+star_5
+  rotate: false
+  xy: 375, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1

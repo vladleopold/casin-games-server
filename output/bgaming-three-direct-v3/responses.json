@@ -1,0 +1,260 @@
+[
+  {
+    "id": "0747aa80-72f8-497b-b587-108465485af2",
+    "payload": {
+      "id": "0747aa80-72f8-497b-b587-108465485af2",
+      "result": {
+        "round": "1708abde-8bb8-4fd9-b482-d1165f03ca48",
+        "final": true,
+        "step": "63138377-9a5a-41dd-8938-bf58db9471b1",
+        "balance": 101040,
+        "resp": {
+          "round": {
+            "bet": 200,
+            "buy_id": "none",
+            "freespins": [],
+            "generations": [
+              {
+                "event": {
+                  "name": "Spin"
+                },
+                "grid_final": [
+                  [
+                    "l5",
+                    "h2",
+                    "l3",
+                    "h3",
+                    "l3",
+                    "l4"
+                  ],
+                  [
+                    "l5",
+                    "h2",
+                    "l3",
+                    "h3",
+                    "l3",
+                    "l4"
+                  ],
+                  [
+                    "l4",
+                    "l2",
+                    "l3",
+                    "l2",
+                    "l4",
+                    "l5"
+                  ],
+                  [
+                    "l4",
+                    "l2",
+                    "l3",
+                    "l2",
+                    "l4",
+                    "l5"
+                  ],
+                  [
+                    "h2",
+                    "l5",
+                    "l5",
+                    "l1",
+                    "l5",
+                    "l2"
+                  ]
+                ],
+                "running_total": 0,
+                "running_total_multiplier": 0,
+                "win_total": 0
+              }
+            ],
+            "high_grid": false,
+            "top_list": {
+              "multipliers": [
+                "rm8",
+                "rm2",
+                "rm2",
+                "rm2",
+                "rm2"
+              ]
+            },
+            "win": 0
+          }
+        },
+        "freebets": null,
+        "state_lock": "SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYA0enDXp0BYgABUYA.jchbM0MH9pU8YuHn2CoFs0u75q2JVj70wOr_F9tmDQc"
+      },
+      "jsonrpc": "2.0"
+    },
+    "at": 1775411383263
+  },
+  {
+    "id": "fd5a0f38-e178-4dcd-ad16-9500dc5e91b5",
+    "payload": {
+      "id": "fd5a0f38-e178-4dcd-ad16-9500dc5e91b5",
+      "result": {
+        "round": "16765c17-2a90-44e6-869f-851990b1bf6d",
+        "step": "2676e7fc-176c-4ef4-958b-bbbd7af9c88f",
+        "final": true,
+        "balance": 100840,
+        "resp": {
+          "round": {
+            "bet": 200,
+            "buy_id": "none",
+            "freespins": [],
+            "generations": [
+              {
+                "event": {
+                  "name": "Spin"
+                },
+                "grid_final": [
+                  [
+                    "l5",
+                    "h1",
+                    "l3",
+                    "l2",
+                    "l2",
+                    "l4"
+                  ],
+                  [
+                    "l5",
+                    "h1",
+                    "l3",
+                    "l2",
+                    "l2",
+                    "l4"
+                  ],
+                  [
+                    "h4",
+                    "l2",
+                    "l5",
+                    "l3",
+                    "sc",
+                    "l5"
+                  ],
+                  [
+                    "h4",
+                    "l2",
+                    "l5",
+                    "l3",
+                    "l4",
+                    "l5"
+                  ],
+                  [
+                    "l1",
+                    "l3",
+                    "l2",
+                    "h2",
+                    "h1",
+                    "l5"
+                  ]
+                ],
+                "running_total": 0,
+                "running_total_multiplier": 0,
+                "win_total": 0
+              }
+            ],
+            "high_grid": false,
+            "top_list": {
+              "multipliers": [
+                "rm25",
+                "rm5",
+                "rm5",
+                "rm2",
+                "rm2"
+              ]
+            },
+            "win": 0
+          }
+        },
+        "freebets": null,
+        "state_lock": "SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAHiHEXp0BYgABUYA.vuD51PlWJ_If78iBE3tXSriGmQpomPVms-FrEJKb1GI"
+      },
+      "jsonrpc": "2.0"
+    },
+    "at": 1775411397294
+  },
+  {
+    "id": "0db4ee34-be38-4c30-9315-5e952d6053ef",
+    "payload": {
+      "id": "0db4ee34-be38-4c30-9315-5e952d6053ef",
+      "result": {
+        "round": "ad1d8cb1-efae-43bc-9ab4-daedafb1b5bb",
+        "step": "862b9218-2638-422f-8865-a525399deed1",
+        "final": true,
+        "balance": 100640,
+        "resp": {
+          "round": {
+            "bet": 200,
+            "buy_id": "none",
+            "freespins": [],
+            "generations": [
+              {
+                "event": {
+                  "name": "Spin"
+                },
+                "grid_final": [
+                  [
+                    "l2",
+                    "l3",
+                    "h1",
+                    "l4",
+                    "l2",
+                    "l4"
+                  ],
+                  [
+                    "l2",
+                    "l3",
+                    "h1",
+                    "l4",
+                    "l2",
+                    "l4"
+                  ],
+                  [
+                    "h4",
+                    "l2",
+                    "l5",
+                    "l3",
+                    "h2",
+                    "l5"
+                  ],
+                  [
+                    "h4",
+                    "l2",
+                    "l5",
+                    "l3",
+                    "h2",
+                    "l5"
+                  ],
+                  [
+                    "l2",
+                    "h3",
+                    "l1",
+                    "l5",
+                    "l3",
+                    "rm6"
+                  ]
+                ],
+                "running_total": 0,
+                "running_total_multiplier": 0,
+                "win_total": 0
+              }
+            ],
+            "high_grid": false,
+            "top_list": {
+              "multipliers": [
+                "rm6",
+                "rm3",
+                "rm2",
+                "rm2",
+                "rm2"
+              ]
+            },
+            "win": 0
+          }
+        },
+        "freebets": null,
+        "state_lock": "SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAXVTEXp0BYgABUYA.t_u2y4xxNoi2-NEZo7G9tPYWw7zEmC75vIN23Hdga94"
+      },
+      "jsonrpc": "2.0"
+    },
+    "at": 1775411410413
+  }
+]

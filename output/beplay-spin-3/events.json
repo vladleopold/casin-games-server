@@ -1,0 +1,107 @@
+[
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/authenticate",
+    "postData": "{\"wallet\":\"demo\",\"operator\":\"slotscity\",\"key\":\"random-user-1156222025:995:usd\",\"provider\":\"beplay\",\"game\":\"tiger-s-prosperity\"}",
+    "at": 1775289817293
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/authenticate",
+    "body": "{\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiTldRMFkyWXhORFF6WkRjeVpHRXdZelF6TkdKaE1EVmhPVEkzWmpkaE5ERmhOVFJtWm1Vek5qWXdPVEUyTUdOa05qUXhOVEZtTkdVME9UZzJZamRrWkdFNU5UZzRZelF4TW1aaVlURm1aR1ExTW1JeE1qWTBOMlZoTVRRME9HWTFNVGRoWldVMVpXRmhOemRrTkRCalptUTVNVGMwWVRJME1EWTBOREptWm1WbVpqWmpPREZsWXpkbE56YzFNR1UyT0Rjek1USmpZakUwTm1NMFlqZGxaV1JrTW1VNE5XSXhOekF4Tm1WbU5HTXhZbUl6TW1RMU1EWXpPR1JpTkRsaE5qTmpZamxpTldZMll6QTVabVJrTTJJek16STFZbUZoTWpNNE1UQXdNV05pTkRKaU1USmhOalEwTW1VellqRmpaRFZqTmpZd1pEUmxZelJqWlRCaFpUVTFZbVEwTnpGbU5qQTFNREk1WkRNMk5HWmtPR1U1WlRJd1pqUXdNekU1WTJReU1Ua3hPR0k1WXpRM1l6YzRaVEEyWkRnek5XSmtNemM1WldWaFptSTFNV0UyTURoak1EZG1OemhpWTJRNU4yVXdNemN4T1RRelkyTmlNR1V4TkRka05tVTBNRFV4WldVNFl6UXdPRFUwWldGbFlqYzBaVGMwWW1VM1lqQmhZMlZqWVdVeU4yRmlZV1ZoT1daa056Z3dOamMzTTJVek56Tm1PVEEyTm1Ka04ySmpNemc1WXpKbU1qY3daV0l4TWpKalpEazNNR0UyTVdFd01EQmhPVEkzT1RJNE1UTXhaRFpoT1RRNE9XTXpOemhtWlRkbU1ERTBZekkzWXpBd1l6VTROalUxTkdZMU5tWTJNMkk1WXpRek9URTFabUU1T0dZNE5XSXhNbU09IiwiaWF0IjoxNzc1Mjg5ODI1LCJleHAiOjE3NzY0OTk0MjUsImF1ZCI6InBsYXllciJ9.Y2LrqUTRYRcTMptbEBl7aqfo5UhbIgq27Cm917Ssd8c\",\"balance\":995,\"currency\":\"USD\",\"currencyDecimals\":2,\"currencySymbol\":\"USD\",\"jurisdiction\":\"mt\",\"playerId\":\"b4eb2dbf-f880-4944-8cf5-dbef9aa9dd8a\",\"nickname\":null}",
+    "at": 1775289817458
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/game/info",
+    "postData": "{\"game\":\"tiger-s-prosperity\",\"provider\":\"beplay\"}",
+    "at": 1775289817484
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/game/recover",
+    "postData": "{\"game\":\"tiger-s-prosperity\",\"provider\":\"beplay\",\"complete\":false}",
+    "at": 1775289817544
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/game/info",
+    "body": "{\"state\":{},\"bets\":{\"main\":{\"available\":[0.1,0.2,0.3,0.4,0.5,0.6,0.8,1,1.5,2,2.5,3,4,5,7.5,10,15,20,25,50,100],\"default\":1,\"coin\":20},\"free_spins_buy\":{\"available\":[10,15,20,25,30,40,50,75,100,125,150,200,250,375,500,750,1000,1250,2500,5000],\"default\":50,\"coin\":1000}},\"config\":{\"paylines\":[[2,2,2,2,2],[1,1,1,1,1],[0,0,0,0,0],[0,1,2,1,0],[2,1,0,1,2],[0,0,1,0,0],[2,2,1,2,2],[1,0,0,0,1],[1,2,2,2,1],[1,0,1,0,1],[1,2,1,2,1],[0,1,0,1,0],[2,1,2,1,2],[1,1,0,1,1],[1,1,2,1,1],[0,1,1,1,0],[2,1,1,1,2],[0,1,2,2,2],[2,1,0,0,0],[0,2,0,2,0]],\"paytable\":{\"0\":[0,0,50,160,800],\"1\":[0,0,30,120,500],\"2\":[0,0,24,80,400],\"3\":[0,0,22,60,300],\"4\":[0,0,16,40,160],\"5\":[0,0,16,40,160],\"6\":[0,0,16,40,160],\"7\":[0,0,8,30,80],\"8\":[0,0,8,30,80],\"9\":[0,0,8,30,80],\"10\":[0,0,8,30,80],\"11\":[],\"12\":[0,0,50,160,800]},\"paytableCoins\":20,\"buyFeatureConfig\":[{\"action\":\"free_spins_buy\",\"featureMultiplier\":50,\"featureType\":0}],\"version\":\"1.2.0\"},\"settings\":{\"autoplayForbidden\":\"false\",\"defaultCampaignThemeName\":\"{\\\"freeBets\\\": \\\"default-free-bets\\\"}\"},\"betLimits\":{\"minBet\":0.01,\"maxBet\":10000,\"maxExposure\":10000000,\"currencyRate\":1,\"currencyDecimals\":2,\"currencyUnit\":0.01,\"exchangeRate\":1}}",
+    "at": 1775289817545
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/game/recover",
+    "body": "{\"rounds\":[]}",
+    "at": 1775289817607
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/game/recover",
+    "postData": "{\"game\":\"tiger-s-prosperity\",\"provider\":\"beplay\",\"complete\":false}",
+    "at": 1775289820924
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/game/recover",
+    "body": "{\"rounds\":[]}",
+    "at": 1775289823269
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/campaigns",
+    "postData": "{\"game\":\"tiger-s-prosperity\",\"provider\":\"beplay\"}",
+    "at": 1775289823898
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/campaigns",
+    "postData": "{\"game\":\"tiger-s-prosperity\",\"provider\":\"beplay\"}",
+    "at": 1775289824547
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/campaigns",
+    "body": "{\"campaigns\":[]}",
+    "at": 1775289824547
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/campaigns",
+    "body": "{\"campaigns\":[]}",
+    "at": 1775289826070
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/game/play",
+    "postData": "{\"game\":\"tiger-s-prosperity\",\"provider\":\"beplay\",\"action\":\"main\",\"complete\":false,\"asyncWin\":false,\"bet\":\"1.00\"}",
+    "at": 1775289838816
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/game/play",
+    "body": "{\"roundId\":\"7259d4ba-d010-454f-b0d3-5ad48ff4d9cc\",\"wager\":{\"win\":0,\"state\":{\"display\":[[7,5,2],[4,6,10],[9,0,5],[8,9,3],[5,4,9]],\"bet\":1,\"roundWin\":0},\"data\":{\"winLines\":[],\"action\":\"main\"}},\"balance\":994}",
+    "at": 1775289839664
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/game/complete",
+    "postData": "{\"game\":\"tiger-s-prosperity\",\"provider\":\"beplay\",\"roundId\":\"7259d4ba-d010-454f-b0d3-5ad48ff4d9cc\",\"asyncWin\":false}",
+    "at": 1775289843138
+  }
+]

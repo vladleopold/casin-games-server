@@ -1,0 +1,20 @@
+
+blik.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+vfx_glow_1
+  rotate: false
+  xy: 2, 109
+  size: 513, 289
+  orig: 513, 289
+  offset: 0, 0
+  index: -1
+vfx_glow_2
+  rotate: false
+  xy: 2, 2
+  size: 145, 105
+  orig: 145, 105
+  offset: 0, 0
+  index: -1

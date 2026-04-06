@@ -1,0 +1,1979 @@
+{
+    "PG-1":
+    {
+        "type": "page",
+        "position": "relative",
+        "children":
+        [
+            {
+                "type": "folder",
+                "position": "columns",
+                "children":
+                [
+                    {
+                        "type": "folder",
+                        "position": "column",
+                        "children":
+                        [
+                            {
+                                "name": "IMAGE_01",
+                                "type": "IMG",
+                                "pstype": "image",
+                                "position":
+                                {
+                                    "x": 159,
+                                    "y": 140
+                                },
+                                "width": 206,
+                                "height": 463,
+                                "bounds":
+                                [
+                                    159,
+                                    140,
+                                    365,
+                                    603
+                                ],
+                                "src": "paytable_mob-01.png",
+                                "offsetTop": 0
+                            },
+                            {
+                                "name": "PAYTABLE_PAGE0_TEXT1_MOB",
+                                "type": "TEXT",
+                                "pstype": "text",
+                                "position":
+                                {
+                                    "x": 254,
+                                    "y": 79
+                                },
+                                "bounds":
+                                [
+                                    146,
+                                    79,
+                                    361,
+                                    109
+                                ],
+                                "width": 215,
+                                "height": 30,
+                                "leadingOffset": -3,
+                                "offsetTop": -524
+                            },
+                            {
+                                "name": "PAYTABLE_PAGE0_TEXT2_MOB",
+                                "type": "TEXT",
+                                "pstype": "text",
+                                "position":
+                                {
+                                    "x": 265,
+                                    "y": 637
+                                },
+                                "bounds":
+                                [
+                                    114,
+                                    637,
+                                    415,
+                                    690
+                                ],
+                                "width": 301,
+                                "height": 53,
+                                "leadingOffset": -4,
+                                "offsetTop": 528
+                            },
+                            {
+                                "name": "PAYTABLE_PAGE0_TEXT3_MOB",
+                                "type": "TEXT",
+                                "pstype": "text",
+                                "position":
+                                {
+                                    "x": 265,
+                                    "y": 717
+                                },
+                                "bounds":
+                                [
+                                    107,
+                                    717,
+                                    422,
+                                    743
+                                ],
+                                "width": 315,
+                                "height": 26,
+                                "leadingOffset": -2,
+                                "offsetTop": 27
+                            }
+                        ],
+                        "height": 0,
+                        "marginBottom": 0,
+                        "bounds":
+                        [
+                            107,
+                            79,
+                            422,
+                            743
+                        ],
+                        "offsetTop": 0
+                    },
+                    {
+                        "type": "folder",
+                        "position": "column",
+                        "children":
+                        [
+                            {
+                                "name": "IMAGE_02",
+                                "type": "IMG",
+                                "pstype": "image",
+                                "position":
+                                {
+                                    "x": 523,
+                                    "y": 113
+                                },
+                                "width": 264,
+                                "height": 521,
+                                "bounds":
+                                [
+                                    523,
+                                    113,
+                                    787,
+                                    634
+                                ],
+                                "src": "paytable_mob-02.png",
+                                "offsetTop": 0
+                            },
+                            {
+                                "name": "PAYTABLE_PAGE0_TEXT4_MOB",
+                                "type": "TEXT",
+                                "pstype": "text",
+                                "position":
+                                {
+                                    "x": 655,
+                                    "y": 79
+                                },
+                                "bounds":
+                                [
+                                    557,
+                                    79,
+                                    753,
+                                    116
+                                ],
+                                "width": 196,
+                                "height": 37,
+                                "leadingOffset": -3,
+                                "offsetTop": -555
+                            },
+                            {
+                                "name": "PAYTABLE_PAGE0_TEXT5_MOB",
+                                "type": "TEXT",
+                                "pstype": "text",
+                                "position":
+                                {
+                                    "x": 655,
+                                    "y": 643
+                                },
+                                "bounds":
+                                [
+                                    569,
+                                    643,
+                                    740,
+                                    696
+                                ],
+                                "width": 171,
+                                "height": 53,
+                                "leadingOffset": -4,
+                                "offsetTop": 527
+                            },
+                            {
+                                "name": "PAYTABLE_PAGE0_TEXT6_MOB",
+                                "type": "TEXT",
+                                "pstype": "text",
+                                "position":
+                                {
+                                    "x": 655,
+                                    "y": 723
+                                },
+                                "bounds":
+                                [
+                                    501,
+                                    723,
+                                    809,
+                                    749
+                                ],
+                                "width": 308,
+                                "height": 26,
+                                "leadingOffset": -2,
+                                "offsetTop": 27
+                            }
+                        ],
+                        "height": 0,
+                        "marginBottom": 0,
+                        "bounds":
+                        [
+                            501,
+                            79,
+                            809,
+                            749
+                        ],
+                        "offsetTop": 0
+                    }
+                ],
+                "height": 0,
+                "marginBottom": 0,
+                "bounds":
+                [
+                    107,
+                    79,
+                    809,
+                    749
+                ],
+                "offsetTop": 0
+            },
+            {
+                "type": "folder",
+                "position": "columns",
+                "children":
+                [
+                    {
+                        "type": "folder",
+                        "position": "column",
+                        "children":
+                        [
+                            {
+                                "name": "PAYOUTS_3_MOB",
+                                "type": "TEXT",
+                                "pstype": "payout",
+                                "position":
+                                {
+                                    "x": 456,
+                                    "y": 773
+                                },
+                                "bounds":
+                                [
+                                    327,
+                                    773,
+                                    585,
+                                    862
+                                ],
+                                "width": 258,
+                                "height": 89,
+                                "leadingOffset": -7,
+                                "symbolId": 9,
+                                "offsetTop": 0
+                            }
+                        ],
+                        "height": 0,
+                        "marginBottom": 0,
+                        "bounds":
+                        [
+                            327,
+                            773,
+                            585,
+                            862
+                        ],
+                        "offsetTop": 0
+                    }
+                ],
+                "height": 0,
+                "marginBottom": 0,
+                "bounds":
+                [
+                    327,
+                    773,
+                    585,
+                    862
+                ],
+                "offsetTop": 24
+            },
+            {
+                "type": "folder",
+                "position": "columns",
+                "children":
+                [
+                    {
+                        "type": "folder",
+                        "position": "column",
+                        "children":
+                        [
+                            {
+                                "name": "PAYTABLE_PAGE0_TEXT7_MOB",
+                                "type": "TEXT",
+                                "pstype": "text",
+                                "position":
+                                {
+                                    "x": 461,
+                                    "y": 898
+                                },
+                                "bounds":
+                                [
+                                    409,
+                                    898,
+                                    512,
+                                    928
+                                ],
+                                "width": 103,
+                                "height": 30,
+                                "leadingOffset": -3,
+                                "offsetTop": 0
+                            },
+                            {
+                                "name": "PAYTABLE_PAGE0_TEXT8_MOB",
+                                "type": "TEXT",
+                                "pstype": "text",
+                                "position":
+                                {
+                                    "x": 460,
+                                    "y": 953
+                                },
+                                "bounds":
+                                [
+                                    238,
+                                    953,
+                                    682,
+                                    1009
+                                ],
+                                "width": 444,
+                                "height": 56,
+                                "leadingOffset": -5,
+                                "offsetTop": 25
+                            },
+                            {
+                                "name": "IMAGE_03",
+                                "type": "IMG",
+                                "pstype": "image",
+                                "position":
+                                {
+                                    "x": 349,
+                                    "y": 1020
+                                },
+                                "width": 219,
+                                "height": 212,
+                                "bounds":
+                                [
+                                    349,
+                                    1020,
+                                    568,
+                                    1232
+                                ],
+                                "src": "paytable_mob-03.png",
+                                "offsetTop": 11
+                            },
+                            {
+                                "name": "PAYTABLE_PAGE0_TEXT9_MOB",
+                                "type": "TEXT",
+                                "pstype": "text",
+                                "position":
+                                {
+                                    "x": 460,
+                                    "y": 1251
+                                },
+                                "bounds":
+                                [
+                                    250,
+                                    1251,
+                                    669,
+                                    1307
+                                ],
+                                "width": 419,
+                                "height": 56,
+                                "leadingOffset": -5,
+                                "offsetTop": 19
+                            }
+                        ],
+                        "height": 0,
+                        "marginBottom": 0,
+                        "bounds":
+                        [
+                            238,
+                            898,
+                            682,
+                            1307
+                        ],
+                        "offsetTop": 0
+                    }
+                ],
+                "height": 0,
+                "marginBottom": 0,
+                "bounds":
+                [
+                    238,
+                    898,
+                    682,
+                    1307
+                ],
+                "offsetTop": 36
+            },
+            {
+                "type": "folder",
+                "position": "columns",
+                "children":
+                [
+                    {
+                        "type": "folder",
+                        "position": "column",
+                        "children":
+                        [
+                            {
+                                "name": "PAYTABLE_PAGE0_TEXT10_MOB",
+                                "type": "TEXT",
+                                "pstype": "text",
+                                "position":
+                                {
+                                    "x": 461,
+                                    "y": 1342
+                                },
+                                "bounds":
+                                [
+                                    410,
+                                    1342,
+                                    512,
+                                    1372
+                                ],
+                                "width": 102,
+                                "height": 30,
+                                "leadingOffset": -3,
+                                "offsetTop": 0
+                            },
+                            {
+                                "name": "PAYTABLE_PAGE0_TEXT11_MOB",
+                                "type": "TEXT",
+                                "pstype": "text",
+                                "position":
+                                {
+                                    "x": 461,
+                                    "y": 1398
+                                },
+                                "bounds":
+                                [
+                                    239,
+                                    1398,
+                                    683,
+                                    1454
+                                ],
+                                "width": 444,
+                                "height": 56,
+                                "leadingOffset": -5,
+                                "offsetTop": 26
+                            },
+                            {
+                                "name": "IMAGE_04",
+                                "type": "IMG",
+                                "pstype": "image",
+                                "position":
+                                {
+                                    "x": 359,
+                                    "y": 1484
+                                },
+                                "width": 204,
+                                "height": 200,
+                                "bounds":
+                                [
+                                    359,
+                                    1484,
+                                    563,
+                                    1684
+                                ],
+                                "src": "paytable_mob-04.png",
+                                "offsetTop": 30
+                            },
+                            {
+                                "name": "PAYOUTS_5_MOB",
+                                "type": "TEXT",
+                                "pstype": "payout",
+                                "position":
+                                {
+                                    "x": 456,
+                                    "y": 1706
+                                },
+                                "bounds":
+                                [
+                                    327,
+                                    1706,
+                                    585,
+                                    1855
+                                ],
+                                "width": 258,
+                                "height": 149,
+                                "leadingOffset": -12,
+                                "symbolId": 12,
+                                "offsetTop": 22
+                            },
+                            {
+                                "name": "PAYTABLE_PAGE0_TEXT12_MOB",
+                                "type": "TEXT",
+                                "pstype": "text",
+                                "position":
+                                {
+                                    "x": 461,
+                                    "y": 1846
+                                },
+                                "bounds":
+                                [
+                                    279,
+                                    1846,
+                                    642,
+                                    1902
+                                ],
+                                "width": 363,
+                                "height": 56,
+                                "leadingOffset": -5,
+                                "offsetTop": -9
+                            }
+                        ],
+                        "height": 0,
+                        "marginBottom": 0,
+                        "bounds":
+                        [
+                            239,
+                            1342,
+                            683,
+                            1902
+                        ],
+                        "offsetTop": 0
+                    }
+                ],
+                "height": 0,
+                "marginBottom": 0,
+                "bounds":
+                [
+                    239,
+                    1342,
+                    683,
+                    1902
+                ],
+                "offsetTop": 35
+            },
+            {
+                "type": "folder",
+                "position": "columns",
+                "children":
+                [
+                    {
+                        "type": "folder",
+                        "position": "column",
+                        "children":
+                        [
+                            {
+                                "name": "PAYTABLE_PAGE0_TEXT13_MOB",
+                                "type": "TEXT",
+                                "pstype": "text",
+                                "position":
+                                {
+                                    "x": 460,
+                                    "y": 1967
+                                },
+                                "bounds":
+                                [
+                                    401,
+                                    1967,
+                                    519,
+                                    1997
+                                ],
+                                "width": 118,
+                                "height": 30,
+                                "leadingOffset": -3,
+                                "offsetTop": 0
+                            },
+                            {
+                                "name": "IMAGE_05",
+                                "type": "IMG",
+                                "pstype": "image",
+                                "position":
+                                {
+                                    "x": 379,
+                                    "y": 2028
+                                },
+                                "width": 162,
+                                "height": 174,
+                                "bounds":
+                                [
+                                    379,
+                                    2028,
+                                    541,
+                                    2202
+                                ],
+                                "src": "paytable_mob-05.png",
+                                "offsetTop": 31
+                            },
+                            {
+                                "name": "PAYTABLE_PAGE0_TEXT14_MOB",
+                                "type": "TEXT",
+                                "pstype": "text",
+                                "position":
+                                {
+                                    "x": 460,
+                                    "y": 2230
+                                },
+                                "bounds":
+                                [
+                                    280,
+                                    2230,
+                                    639,
+                                    2257
+                                ],
+                                "width": 359,
+                                "height": 27,
+                                "leadingOffset": -2,
+                                "offsetTop": 28
+                            },
+                            {
+                                "name": "PAYTABLE_PAGE0_TEXT15_MOB",
+                                "type": "TEXT",
+                                "pstype": "text",
+                                "position":
+                                {
+                                    "x": 459,
+                                    "y": 2272
+                                },
+                                "bounds":
+                                [
+                                    293,
+                                    2272,
+                                    625,
+                                    2299
+                                ],
+                                "width": 332,
+                                "height": 27,
+                                "leadingOffset": -2,
+                                "offsetTop": 15
+                            },
+                            {
+                                "name": "PAYTABLE_PAGE0_TEXT15_2_MOB",
+                                "type": "TEXT",
+                                "pstype": "text",
+                                "position":
+                                {
+                                    "x": 460,
+                                    "y": 2312
+                                },
+                                "bounds":
+                                [
+                                    272,
+                                    2312,
+                                    648,
+                                    2338
+                                ],
+                                "width": 376,
+                                "height": 26,
+                                "leadingOffset": -2,
+                                "offsetTop": 13
+                            }
+                        ],
+                        "height": 0,
+                        "marginBottom": 0,
+                        "bounds":
+                        [
+                            272,
+                            1967,
+                            648,
+                            2338
+                        ],
+                        "offsetTop": 0
+                    }
+                ],
+                "height": 0,
+                "marginBottom": 0,
+                "bounds":
+                [
+                    272,
+                    1967,
+                    648,
+                    2338
+                ],
+                "offsetTop": 65
+            },
+            {
+                "type": "folder",
+                "position": "columns",
+                "children":
+                [
+                    {
+                        "type": "folder",
+                        "position": "column",
+                        "children":
+                        [
+                            {
+                                "name": "IMAGE_06",
+                                "type": "IMG",
+                                "pstype": "image",
+                                "position":
+                                {
+                                    "x": 193,
+                                    "y": 2400
+                                },
+                                "width": 189,
+                                "height": 171,
+                                "bounds":
+                                [
+                                    193,
+                                    2400,
+                                    382,
+                                    2571
+                                ],
+                                "src": "paytable_mob-06.png",
+                                "offsetTop": 0
+                            }
+                        ],
+                        "height": 0,
+                        "marginBottom": 0,
+                        "bounds":
+                        [
+                            193,
+                            2400,
+                            382,
+                            2571
+                        ],
+                        "offsetTop": 0
+                    },
+                    {
+                        "type": "folder",
+                        "position": "column",
+                        "children":
+                        [
+                            {
+                                "name": "PAYOUTS_3_MOB",
+                                "type": "TEXT",
+                                "pstype": "payout",
+                                "position":
+                                {
+                                    "x": 588,
+                                    "y": 2437
+                                },
+                                "bounds":
+                                [
+                                    459,
+                                    2437,
+                                    717,
+                                    2526
+                                ],
+                                "width": 258,
+                                "height": 89,
+                                "leadingOffset": -7,
+                                "symbolId": 8,
+                                "offsetTop": 0
+                            }
+                        ],
+                        "height": 0,
+                        "marginBottom": 0,
+                        "bounds":
+                        [
+                            459,
+                            2437,
+                            717,
+                            2526
+                        ],
+                        "offsetTop": 0
+                    }
+                ],
+                "height": 0,
+                "marginBottom": 0,
+                "bounds":
+                [
+                    193,
+                    2400,
+                    717,
+                    2571
+                ],
+                "offsetTop": 62
+            },
+            {
+                "type": "folder",
+                "position": "columns",
+                "children":
+                [
+                    {
+                        "type": "folder",
+                        "position": "column",
+                        "children":
+                        [
+                            {
+                                "name": "IMAGE_07",
+                                "type": "IMG",
+                                "pstype": "image",
+                                "position":
+                                {
+                                    "x": 189,
+                                    "y": 2606
+                                },
+                                "width": 204,
+                                "height": 172,
+                                "bounds":
+                                [
+                                    189,
+                                    2606,
+                                    393,
+                                    2778
+                                ],
+                                "src": "paytable_mob-07.png",
+                                "offsetTop": 0
+                            }
+                        ],
+                        "height": 0,
+                        "marginBottom": 0,
+                        "bounds":
+                        [
+                            189,
+                            2606,
+                            393,
+                            2778
+                        ],
+                        "offsetTop": 0
+                    },
+                    {
+                        "type": "folder",
+                        "position": "column",
+                        "children":
+                        [
+                            {
+                                "name": "PAYOUTS_3_MOB",
+                                "type": "TEXT",
+                                "pstype": "payout",
+                                "position":
+                                {
+                                    "x": 588,
+                                    "y": 2647
+                                },
+                                "bounds":
+                                [
+                                    459,
+                                    2647,
+                                    717,
+                                    2736
+                                ],
+                                "width": 258,
+                                "height": 89,
+                                "leadingOffset": -7,
+                                "symbolId": 7,
+                                "offsetTop": 0
+                            }
+                        ],
+                        "height": 0,
+                        "marginBottom": 0,
+                        "bounds":
+                        [
+                            459,
+                            2647,
+                            717,
+                            2736
+                        ],
+                        "offsetTop": 0
+                    }
+                ],
+                "height": 0,
+                "marginBottom": 0,
+                "bounds":
+                [
+                    189,
+                    2606,
+                    717,
+                    2778
+                ],
+                "offsetTop": 35
+            },
+            {
+                "type": "folder",
+                "position": "columns",
+                "children":
+                [
+                    {
+                        "type": "folder",
+                        "position": "column",
+                        "children":
+                        [
+                            {
+                                "name": "IMAGE_08",
+                                "type": "IMG",
+                                "pstype": "image",
+                                "position":
+                                {
+                                    "x": 191,
+                                    "y": 2823
+                                },
+                                "width": 190,
+                                "height": 170,
+                                "bounds":
+                                [
+                                    191,
+                                    2823,
+                                    381,
+                                    2993
+                                ],
+                                "src": "paytable_mob-08.png",
+                                "offsetTop": 0
+                            }
+                        ],
+                        "height": 0,
+                        "marginBottom": 0,
+                        "bounds":
+                        [
+                            191,
+                            2823,
+                            381,
+                            2993
+                        ],
+                        "offsetTop": 0
+                    },
+                    {
+                        "type": "folder",
+                        "position": "column",
+                        "children":
+                        [
+                            {
+                                "name": "PAYOUTS_3_MOB",
+                                "type": "TEXT",
+                                "pstype": "payout",
+                                "position":
+                                {
+                                    "x": 588,
+                                    "y": 2860
+                                },
+                                "bounds":
+                                [
+                                    459,
+                                    2860,
+                                    717,
+                                    2949
+                                ],
+                                "width": 258,
+                                "height": 89,
+                                "leadingOffset": -7,
+                                "symbolId": 6,
+                                "offsetTop": 0
+                            }
+                        ],
+                        "height": 0,
+                        "marginBottom": 0,
+                        "bounds":
+                        [
+                            459,
+                            2860,
+                            717,
+                            2949
+                        ],
+                        "offsetTop": 0
+                    }
+                ],
+                "height": 0,
+                "marginBottom": 0,
+                "bounds":
+                [
+                    191,
+                    2823,
+                    717,
+                    2993
+                ],
+                "offsetTop": 45
+            },
+            {
+                "type": "folder",
+                "position": "columns",
+                "children":
+                [
+                    {
+                        "type": "folder",
+                        "position": "column",
+                        "children":
+                        [
+                            {
+                                "name": "IMAGE_09",
+                                "type": "IMG",
+                                "pstype": "image",
+                                "position":
+                                {
+                                    "x": 183,
+                                    "y": 3025
+                                },
+                                "width": 198,
+                                "height": 188,
+                                "bounds":
+                                [
+                                    183,
+                                    3025,
+                                    381,
+                                    3213
+                                ],
+                                "src": "paytable_mob-09.png",
+                                "offsetTop": 0
+                            }
+                        ],
+                        "height": 0,
+                        "marginBottom": 0,
+                        "bounds":
+                        [
+                            183,
+                            3025,
+                            381,
+                            3213
+                        ],
+                        "offsetTop": 0
+                    },
+                    {
+                        "type": "folder",
+                        "position": "column",
+                        "children":
+                        [
+                            {
+                                "name": "PAYOUTS_3_MOB",
+                                "type": "TEXT",
+                                "pstype": "payout",
+                                "position":
+                                {
+                                    "x": 588,
+                                    "y": 3074
+                                },
+                                "bounds":
+                                [
+                                    459,
+                                    3074,
+                                    717,
+                                    3163
+                                ],
+                                "width": 258,
+                                "height": 89,
+                                "leadingOffset": -7,
+                                "symbolId": 5,
+                                "offsetTop": 0
+                            }
+                        ],
+                        "height": 0,
+                        "marginBottom": 0,
+                        "bounds":
+                        [
+                            459,
+                            3074,
+                            717,
+                            3163
+                        ],
+                        "offsetTop": 0
+                    }
+                ],
+                "height": 0,
+                "marginBottom": 0,
+                "bounds":
+                [
+                    183,
+                    3025,
+                    717,
+                    3213
+                ],
+                "offsetTop": 32
+            },
+            {
+                "type": "folder",
+                "position": "columns",
+                "children":
+                [
+                    {
+                        "type": "folder",
+                        "position": "column",
+                        "children":
+                        [
+                            {
+                                "name": "IMAGE_10",
+                                "type": "IMG",
+                                "pstype": "image",
+                                "position":
+                                {
+                                    "x": 174,
+                                    "y": 3251
+                                },
+                                "width": 221,
+                                "height": 235,
+                                "bounds":
+                                [
+                                    174,
+                                    3251,
+                                    395,
+                                    3486
+                                ],
+                                "src": "paytable_mob-10.png",
+                                "offsetTop": 0
+                            }
+                        ],
+                        "height": 0,
+                        "marginBottom": 0,
+                        "bounds":
+                        [
+                            174,
+                            3251,
+                            395,
+                            3486
+                        ],
+                        "offsetTop": 0
+                    },
+                    {
+                        "type": "folder",
+                        "position": "column",
+                        "children":
+                        [
+                            {
+                                "name": "PAYOUTS_3_MOB",
+                                "type": "TEXT",
+                                "pstype": "payout",
+                                "position":
+                                {
+                                    "x": 588,
+                                    "y": 3319
+                                },
+                                "bounds":
+                                [
+                                    459,
+                                    3319,
+                                    717,
+                                    3408
+                                ],
+                                "width": 258,
+                                "height": 89,
+                                "leadingOffset": -7,
+                                "symbolId": 4,
+                                "offsetTop": 0
+                            }
+                        ],
+                        "height": 0,
+                        "marginBottom": 0,
+                        "bounds":
+                        [
+                            459,
+                            3319,
+                            717,
+                            3408
+                        ],
+                        "offsetTop": 0
+                    }
+                ],
+                "height": 0,
+                "marginBottom": 0,
+                "bounds":
+                [
+                    174,
+                    3251,
+                    717,
+                    3486
+                ],
+                "offsetTop": 38
+            },
+            {
+                "type": "folder",
+                "position": "relative",
+                "children":
+                [
+                    {
+                        "name": "PAYTABLE_PAGE0_TEXT16_MOB",
+                        "type": "TEXT",
+                        "pstype": "text",
+                        "position":
+                        {
+                            "x": 460,
+                            "y": 3570
+                        },
+                        "bounds":
+                        [
+                            337,
+                            3570,
+                            583,
+                            3600
+                        ],
+                        "width": 246,
+                        "height": 30,
+                        "leadingOffset": -3,
+                        "offsetTop": 0
+                    },
+                    {
+                        "name": "PAYTABLE_PAGE0_TEXT17_MOB",
+                        "type": "TEXT",
+                        "pstype": "text",
+                        "position":
+                        {
+                            "x": 460,
+                            "y": 3647
+                        },
+                        "bounds":
+                        [
+                            168,
+                            3647,
+                            752,
+                            3703
+                        ],
+                        "width": 584,
+                        "height": 56,
+                        "leadingOffset": -5,
+                        "offsetTop": 47
+                    },
+                    {
+                        "name": "PAYTABLE_PAGE0_TEXT18_MOB",
+                        "type": "TEXT",
+                        "pstype": "text",
+                        "position":
+                        {
+                            "x": 460,
+                            "y": 3734
+                        },
+                        "bounds":
+                        [
+                            206,
+                            3734,
+                            713,
+                            3785
+                        ],
+                        "width": 507,
+                        "height": 51,
+                        "leadingOffset": -4,
+                        "offsetTop": 31
+                    },
+                    {
+                        "name": "PAYTABLE_PAGE0_TEXT19_MOB",
+                        "type": "TEXT",
+                        "pstype": "text",
+                        "position":
+                        {
+                            "x": 460,
+                            "y": 3821
+                        },
+                        "bounds":
+                        [
+                            170,
+                            3821,
+                            750,
+                            3848
+                        ],
+                        "width": 580,
+                        "height": 27,
+                        "leadingOffset": -2,
+                        "offsetTop": 36
+                    },
+                    {
+                        "name": "PAYTABLE_PAGE0_TEXT20_MOB",
+                        "type": "TEXT",
+                        "pstype": "text",
+                        "position":
+                        {
+                            "x": 460,
+                            "y": 3879
+                        },
+                        "bounds":
+                        [
+                            137,
+                            3879,
+                            783,
+                            3906
+                        ],
+                        "width": 646,
+                        "height": 27,
+                        "leadingOffset": -2,
+                        "offsetTop": 31
+                    },
+                    {
+                        "name": "PAYTABLE_PAGE0_TEXT21_MOB",
+                        "type": "TEXT",
+                        "pstype": "text",
+                        "position":
+                        {
+                            "x": 460,
+                            "y": 3937
+                        },
+                        "bounds":
+                        [
+                            168,
+                            3937,
+                            752,
+                            3992
+                        ],
+                        "width": 584,
+                        "height": 55,
+                        "leadingOffset": -5,
+                        "offsetTop": 31
+                    },
+                    {
+                        "name": "PAYTABLE_PAGE0_TEXT22_MOB",
+                        "type": "TEXT",
+                        "pstype": "text",
+                        "position":
+                        {
+                            "x": 460,
+                            "y": 4023
+                        },
+                        "bounds":
+                        [
+                            340,
+                            4023,
+                            579,
+                            4060
+                        ],
+                        "width": 239,
+                        "height": 37,
+                        "leadingOffset": -3,
+                        "offsetTop": 31
+                    },
+                    {
+                        "name": "PAYTABLE_PAGE0_TEXT23_MOB",
+                        "type": "TEXT",
+                        "pstype": "text",
+                        "position":
+                        {
+                            "x": 460,
+                            "y": 4093
+                        },
+                        "bounds":
+                        [
+                            168,
+                            4093,
+                            751,
+                            4149
+                        ],
+                        "width": 583,
+                        "height": 56,
+                        "leadingOffset": -5,
+                        "offsetTop": 33
+                    },
+                    {
+                        "name": "IMAGE_11",
+                        "type": "IMG",
+                        "pstype": "image",
+                        "position":
+                        {
+                            "x": 72,
+                            "y": 4187
+                        },
+                        "width": 776,
+                        "height": 423,
+                        "bounds":
+                        [
+                            72,
+                            4187,
+                            848,
+                            4610
+                        ],
+                        "src": "paytable_mob-11.png",
+                        "offsetTop": 38
+                    }
+                ],
+                "height": 0,
+                "marginBottom": 0,
+                "bounds":
+                [
+                    72,
+                    3570,
+                    848,
+                    4610
+                ],
+                "offsetTop": 84
+            },
+            {
+                "type": "folder",
+                "position": "relative",
+                "children":
+                [
+                    {
+                        "name": "PAYTABLE_PAGE0_TEXT24_MOB",
+                        "type": "TEXT",
+                        "pstype": "text",
+                        "position":
+                        {
+                            "x": 460,
+                            "y": 4688
+                        },
+                        "bounds":
+                        [
+                            236,
+                            4688,
+                            684,
+                            4718
+                        ],
+                        "width": 448,
+                        "height": 30,
+                        "leadingOffset": -3,
+                        "offsetTop": 0
+                    },
+                    {
+                        "name": "PAYTABLE_PAGE0_TEXT25_MOB",
+                        "type": "TEXT",
+                        "pstype": "text",
+                        "position":
+                        {
+                            "x": 459,
+                            "y": 4761
+                        },
+                        "bounds":
+                        [
+                            213,
+                            4761,
+                            705,
+                            4788
+                        ],
+                        "width": 492,
+                        "height": 27,
+                        "leadingOffset": -2,
+                        "offsetTop": 43
+                    },
+                    {
+                        "type": "folder",
+                        "position": "columns",
+                        "children":
+                        [
+                            {
+                                "type": "folder",
+                                "position": "column",
+                                "children":
+                                [
+                                    {
+                                        "name": "IMAGE_12",
+                                        "type": "IMG",
+                                        "pstype": "image",
+                                        "position":
+                                        {
+                                            "x": 88,
+                                            "y": 4807
+                                        },
+                                        "width": 204,
+                                        "height": 200,
+                                        "bounds":
+                                        [
+                                            88,
+                                            4807,
+                                            292,
+                                            5007
+                                        ],
+                                        "src": "paytable_mob-12.png",
+                                        "offsetTop": 0
+                                    }
+                                ],
+                                "height": 0,
+                                "marginBottom": 0,
+                                "bounds":
+                                [
+                                    88,
+                                    4807,
+                                    292,
+                                    5007
+                                ],
+                                "offsetTop": 0
+                            },
+                            {
+                                "type": "folder",
+                                "position": "column",
+                                "children":
+                                [
+                                    {
+                                        "type": "folder",
+                                        "position": "columns",
+                                        "children":
+                                        [
+                                            {
+                                                "type": "folder",
+                                                "position": "column",
+                                                "children":
+                                                [
+                                                    {
+                                                        "name": "PAYOUTS_5_MOB",
+                                                        "type": "TEXT",
+                                                        "pstype": "payout",
+                                                        "position":
+                                                        {
+                                                            "x": 457,
+                                                            "y": 4831
+                                                        },
+                                                        "bounds":
+                                                        [
+                                                            328,
+                                                            4831,
+                                                            586,
+                                                            4980
+                                                        ],
+                                                        "width": 258,
+                                                        "height": 149,
+                                                        "leadingOffset": -12,
+                                                        "symbolId": 12,
+                                                        "offsetTop": 0
+                                                    }
+                                                ],
+                                                "height": 0,
+                                                "marginBottom": 0,
+                                                "bounds":
+                                                [
+                                                    328,
+                                                    4831,
+                                                    586,
+                                                    4980
+                                                ],
+                                                "offsetTop": 0
+                                            },
+                                            {
+                                                "type": "folder",
+                                                "position": "column",
+                                                "children":
+                                                [
+                                                    {
+                                                        "name": "IMAGE_13",
+                                                        "type": "IMG",
+                                                        "pstype": "image",
+                                                        "position":
+                                                        {
+                                                            "x": 616,
+                                                            "y": 4835
+                                                        },
+                                                        "width": 98,
+                                                        "height": 110,
+                                                        "bounds":
+                                                        [
+                                                            616,
+                                                            4835,
+                                                            714,
+                                                            4945
+                                                        ],
+                                                        "src": "paytable_mob-13.png",
+                                                        "offsetTop": 0
+                                                    }
+                                                ],
+                                                "height": 0,
+                                                "marginBottom": 0,
+                                                "bounds":
+                                                [
+                                                    616,
+                                                    4835,
+                                                    714,
+                                                    4945
+                                                ],
+                                                "offsetTop": 0
+                                            }
+                                        ],
+                                        "height": 0,
+                                        "marginBottom": 0,
+                                        "bounds":
+                                        [
+                                            328,
+                                            4831,
+                                            714,
+                                            4980
+                                        ],
+                                        "offsetTop": 0
+                                    }
+                                ],
+                                "height": 0,
+                                "marginBottom": 0,
+                                "bounds":
+                                [
+                                    328,
+                                    4831,
+                                    714,
+                                    4980
+                                ],
+                                "offsetTop": 0
+                            }
+                        ],
+                        "height": 0,
+                        "marginBottom": 0,
+                        "bounds":
+                        [
+                            88,
+                            4807,
+                            714,
+                            5007
+                        ],
+                        "offsetTop": 19
+                    },
+                    {
+                        "name": "IMAGE_14",
+                        "type": "IMG",
+                        "pstype": "image",
+                        "position":
+                        {
+                            "x": 72,
+                            "y": 5006
+                        },
+                        "width": 776,
+                        "height": 423,
+                        "bounds":
+                        [
+                            72,
+                            5006,
+                            848,
+                            5429
+                        ],
+                        "src": "paytable_mob-14.png",
+                        "offsetTop": -1
+                    },
+                    {
+                        "name": "PAYTABLE_PAGE0_TEXT26_MOB",
+                        "type": "TEXT",
+                        "pstype": "text",
+                        "position":
+                        {
+                            "x": 461,
+                            "y": 5467
+                        },
+                        "bounds":
+                        [
+                            158,
+                            5467,
+                            764,
+                            5494
+                        ],
+                        "width": 606,
+                        "height": 27,
+                        "leadingOffset": -2,
+                        "offsetTop": 38
+                    }
+                ],
+                "height": 0,
+                "marginBottom": 0,
+                "bounds":
+                [
+                    72,
+                    4688,
+                    848,
+                    5494
+                ],
+                "offsetTop": 78
+            },
+            {
+                "type": "folder",
+                "position": "relative",
+                "children":
+                [
+                    {
+                        "name": "PAYTABLE_PAGE0_TEXT27_MOB",
+                        "type": "TEXT",
+                        "pstype": "text",
+                        "position":
+                        {
+                            "x": 460,
+                            "y": 5577
+                        },
+                        "bounds":
+                        [
+                            359,
+                            5577,
+                            561,
+                            5607
+                        ],
+                        "width": 202,
+                        "height": 30,
+                        "leadingOffset": -3,
+                        "offsetTop": 0
+                    },
+                    {
+                        "name": "PAYTABLE_PAGE0_TEXT28_MOB",
+                        "type": "TEXT",
+                        "pstype": "text",
+                        "position":
+                        {
+                            "x": 461,
+                            "y": 5654
+                        },
+                        "bounds":
+                        [
+                            230,
+                            5654,
+                            691,
+                            5681
+                        ],
+                        "width": 461,
+                        "height": 27,
+                        "leadingOffset": -2,
+                        "offsetTop": 47
+                    },
+                    {
+                        "name": "IMAGE_15",
+                        "type": "IMG",
+                        "pstype": "image",
+                        "position":
+                        {
+                            "x": 72,
+                            "y": 5718
+                        },
+                        "width": 776,
+                        "height": 417,
+                        "bounds":
+                        [
+                            72,
+                            5718,
+                            848,
+                            6135
+                        ],
+                        "src": "paytable_mob-15.png",
+                        "offsetTop": 37
+                    },
+                    {
+                        "name": "PAYTABLE_PAGE0_TEXT29_MOB",
+                        "type": "TEXT",
+                        "pstype": "text",
+                        "position":
+                        {
+                            "x": 460,
+                            "y": 6179
+                        },
+                        "bounds":
+                        [
+                            198,
+                            6179,
+                            721,
+                            6206
+                        ],
+                        "width": 523,
+                        "height": 27,
+                        "leadingOffset": -2,
+                        "offsetTop": 44
+                    }
+                ],
+                "height": 0,
+                "marginBottom": 0,
+                "bounds":
+                [
+                    72,
+                    5577,
+                    848,
+                    6206
+                ],
+                "offsetTop": 83
+            },
+            {
+                "type": "folder",
+                "position": "relative",
+                "children":
+                [
+                    {
+                        "name": "PAYTABLE_PAGE0_TEXT30_MOB",
+                        "type": "TEXT",
+                        "pstype": "text",
+                        "position":
+                        {
+                            "x": 460,
+                            "y": 6288
+                        },
+                        "bounds":
+                        [
+                            274,
+                            6288,
+                            646,
+                            6318
+                        ],
+                        "width": 372,
+                        "height": 30,
+                        "leadingOffset": -3,
+                        "offsetTop": 0
+                    },
+                    {
+                        "name": "PAYTABLE_PAGE0_TEXT31_MOB",
+                        "type": "TEXT",
+                        "pstype": "text",
+                        "position":
+                        {
+                            "x": 465,
+                            "y": 6360
+                        },
+                        "bounds":
+                        [
+                            393,
+                            6360,
+                            536,
+                            6393
+                        ],
+                        "width": 143,
+                        "height": 33,
+                        "leadingOffset": -3,
+                        "offsetTop": 42
+                    },
+                    {
+                        "name": "IMAGE_16",
+                        "type": "IMG",
+                        "pstype": "image",
+                        "position":
+                        {
+                            "x": 203,
+                            "y": 6435
+                        },
+                        "width": 513,
+                        "height": 356,
+                        "bounds":
+                        [
+                            203,
+                            6435,
+                            716,
+                            6791
+                        ],
+                        "src": "paytable_mob-16.png",
+                        "offsetTop": 42
+                    },
+                    {
+                        "name": "PAYTABLE_PAGE0_TEXT32_MOB",
+                        "type": "TEXT",
+                        "pstype": "text",
+                        "position":
+                        {
+                            "x": 461,
+                            "y": 6836
+                        },
+                        "bounds":
+                        [
+                            128,
+                            6836,
+                            794,
+                            6863
+                        ],
+                        "width": 666,
+                        "height": 27,
+                        "leadingOffset": -2,
+                        "offsetTop": 45
+                    },
+                    {
+                        "name": "PAYTABLE_PAGE0_TEXT33_MOB",
+                        "type": "TEXT",
+                        "pstype": "text",
+                        "position":
+                        {
+                            "x": 461,
+                            "y": 6894
+                        },
+                        "bounds":
+                        [
+                            221,
+                            6894,
+                            700,
+                            6921
+                        ],
+                        "width": 479,
+                        "height": 27,
+                        "leadingOffset": -2,
+                        "offsetTop": 31
+                    },
+                    {
+                        "name": "PAYTABLE_PAGE0_TEXT34_MOB",
+                        "type": "TEXT",
+                        "pstype": "text",
+                        "position":
+                        {
+                            "x": 460,
+                            "y": 6952
+                        },
+                        "bounds":
+                        [
+                            280,
+                            6952,
+                            640,
+                            6974
+                        ],
+                        "width": 360,
+                        "height": 22,
+                        "leadingOffset": -2,
+                        "offsetTop": 31
+                    }
+                ],
+                "height": 0,
+                "marginBottom": 0,
+                "bounds":
+                [
+                    128,
+                    6288,
+                    794,
+                    6974
+                ],
+                "offsetTop": 82
+            },
+            {
+                "type": "folder",
+                "position": "relative",
+                "children":
+                [
+                    {
+                        "name": "PAYTABLE_PAGE0_TEXT35_MOB",
+                        "type": "TEXT",
+                        "pstype": "text",
+                        "position":
+                        {
+                            "x": 461,
+                            "y": 7012
+                        },
+                        "bounds":
+                        [
+                            242,
+                            7012,
+                            679,
+                            7039
+                        ],
+                        "width": 437,
+                        "height": 27,
+                        "leadingOffset": -2,
+                        "offsetTop": 0
+                    },
+                    {
+                        "name": "GAME_DATA_RTP_MOB",
+                        "type": "TEXT",
+                        "pstype": "gamedata",
+                        "position":
+                        {
+                            "x": 461,
+                            "y": 7049
+                        },
+                        "bounds":
+                        [
+                            384,
+                            7049,
+                            537,
+                            7077
+                        ],
+                        "width": 153,
+                        "height": 28,
+                        "leadingOffset": -2,
+                        "offsetTop": 10
+                    },
+                    {
+                        "name": "GAME_DATA_VERSION_MOB",
+                        "type": "TEXT",
+                        "pstype": "gamedata",
+                        "position":
+                        {
+                            "x": 460,
+                            "y": 7080
+                        },
+                        "bounds":
+                        [
+                            350,
+                            7080,
+                            569,
+                            7108
+                        ],
+                        "width": 219,
+                        "height": 28,
+                        "leadingOffset": -2,
+                        "offsetTop": 3
+                    },
+                    {
+                        "name": "GAME_DATA_DATE_MOB",
+                        "type": "TEXT",
+                        "pstype": "gamedata",
+                        "position":
+                        {
+                            "x": 461,
+                            "y": 7110
+                        },
+                        "bounds":
+                        [
+                            409,
+                            7110,
+                            512,
+                            7138
+                        ],
+                        "width": 103,
+                        "height": 28,
+                        "leadingOffset": -2,
+                        "offsetTop": 2
+                    }
+                ],
+                "height": 0,
+                "marginBottom": 0,
+                "bounds":
+                [
+                    242,
+                    7012,
+                    679,
+                    7138
+                ],
+                "offsetTop": 38
+            }
+        ],
+        "height": 0,
+        "marginBottom": 0,
+        "bounds":
+        [
+            72,
+            79,
+            848,
+            7138
+        ]
+    }
+}

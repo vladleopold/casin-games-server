@@ -1,0 +1,272 @@
+
+other-0.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bw_back_glow1
+  rotate: false
+  xy: 913, 1
+  size: 330, 330
+  orig: 369, 369
+  offset: 20, 19
+  index: -1
+bw_back_glow2
+  rotate: false
+  xy: 661, 1435
+  size: 330, 334
+  orig: 369, 369
+  offset: 20, 15
+  index: -1
+bw_back_shw_glow1
+  rotate: false
+  xy: 580, 1
+  size: 331, 331
+  orig: 369, 369
+  offset: 19, 19
+  index: -1
+circle_fx
+  rotate: false
+  xy: 1669, 604
+  size: 166, 166
+  orig: 256, 256
+  offset: 45, 45
+  index: -1
+lt_orb_fx/lt_orb_fx_00
+  rotate: true
+  xy: 1916, 218
+  size: 132, 131
+  orig: 342, 342
+  offset: 107, 109
+  index: -1
+lt_orb_fx/lt_orb_fx_01
+  rotate: true
+  xy: 1837, 636
+  size: 137, 150
+  orig: 342, 342
+  offset: 103, 94
+  index: -1
+lt_orb_fx/lt_orb_fx_02
+  rotate: true
+  xy: 1494, 607
+  size: 143, 153
+  orig: 342, 342
+  offset: 101, 97
+  index: -1
+lt_orb_fx/lt_orb_fx_03
+  rotate: true
+  xy: 1891, 474
+  size: 160, 156
+  orig: 342, 342
+  offset: 91, 98
+  index: -1
+lt_orb_fx/lt_orb_fx_04
+  rotate: false
+  xy: 1494, 433
+  size: 173, 172
+  orig: 342, 342
+  offset: 85, 87
+  index: -1
+lt_orb_fx/lt_orb_fx_05
+  rotate: true
+  xy: 1698, 424
+  size: 178, 191
+  orig: 342, 342
+  offset: 82, 80
+  index: -1
+lt_orb_fx/lt_orb_fx_06
+  rotate: true
+  xy: 1494, 239
+  size: 192, 202
+  orig: 342, 342
+  offset: 78, 75
+  index: -1
+lt_orb_fx/lt_orb_fx_07
+  rotate: false
+  xy: 1710, 218
+  size: 204, 204
+  orig: 342, 342
+  offset: 71, 72
+  index: -1
+lt_orb_fx/lt_orb_fx_08
+  rotate: false
+  xy: 1710, 1
+  size: 220, 215
+  orig: 342, 342
+  offset: 60, 70
+  index: -1
+lt_orb_fx/lt_orb_fx_09
+  rotate: true
+  xy: 1484, 1
+  size: 236, 224
+  orig: 342, 342
+  offset: 50, 64
+  index: -1
+lt_orb_fx/lt_orb_fx_10
+  rotate: true
+  xy: 1245, 1
+  size: 243, 237
+  orig: 342, 342
+  offset: 50, 56
+  index: -1
+lt_orb_fx/lt_orb_fx_11
+  rotate: false
+  xy: 525, 1780
+  size: 248, 254
+  orig: 342, 342
+  offset: 46, 47
+  index: -1
+lt_orb_fx/lt_orb_fx_12
+  rotate: false
+  xy: 273, 1784
+  size: 250, 254
+  orig: 342, 342
+  offset: 46, 50
+  index: -1
+lt_orb_fx/lt_orb_fx_13
+  rotate: true
+  xy: 1, 1784
+  size: 262, 270
+  orig: 342, 342
+  offset: 43, 42
+  index: -1
+lt_orb_fx/lt_orb_fx_14
+  rotate: true
+  xy: 1223, 333
+  size: 273, 269
+  orig: 342, 342
+  offset: 40, 41
+  index: -1
+lt_orb_fx/lt_orb_fx_15
+  rotate: true
+  xy: 339, 344
+  size: 333, 325
+  orig: 342, 342
+  offset: 5, 17
+  index: -1
+lt_orb_fx/lt_orb_fx_16
+  rotate: true
+  xy: 666, 334
+  size: 331, 326
+  orig: 342, 342
+  offset: 7, 16
+  index: -1
+lt_orb_fx/lt_orb_fx_17
+  rotate: true
+  xy: 325, 1101
+  size: 338, 328
+  orig: 342, 342
+  offset: 0, 14
+  index: -1
+lt_orb_fx/lt_orb_fx_18
+  rotate: true
+  xy: 1, 1443
+  size: 339, 331
+  orig: 342, 342
+  offset: 0, 11
+  index: -1
+lt_orb_fx/lt_orb_fx_19
+  rotate: true
+  xy: 245, 1
+  size: 341, 333
+  orig: 342, 342
+  offset: 1, 9
+  index: -1
+lt_orb_fx/lt_orb_fx_20
+  rotate: true
+  xy: 1, 758
+  size: 341, 333
+  orig: 342, 342
+  offset: 0, 9
+  index: -1
+lt_orb_fx/lt_orb_fx_21
+  rotate: true
+  xy: 1, 415
+  size: 341, 336
+  orig: 342, 342
+  offset: 1, 6
+  index: -1
+lt_orb_fx/lt_orb_fx_22
+  rotate: false
+  xy: 336, 758
+  size: 336, 337
+  orig: 342, 342
+  offset: 6, 5
+  index: -1
+lt_orb_fx/lt_orb_fx_23
+  rotate: false
+  xy: 334, 1441
+  size: 325, 337
+  orig: 342, 342
+  offset: 17, 5
+  index: -1
+lt_orb_fx/lt_orb_fx_24
+  rotate: false
+  xy: 1, 1101
+  size: 322, 340
+  orig: 342, 342
+  offset: 20, 2
+  index: -1
+lt_orb_fx/lt_orb_fx_25
+  rotate: false
+  xy: 655, 1097
+  size: 321, 336
+  orig: 342, 342
+  offset: 20, 6
+  index: -1
+lt_orb_fx/lt_orb_fx_26
+  rotate: true
+  xy: 674, 667
+  size: 321, 301
+  orig: 342, 342
+  offset: 18, 26
+  index: -1
+lt_orb_fx/lt_orb_fx_27
+  rotate: false
+  xy: 775, 1771
+  size: 315, 273
+  orig: 342, 342
+  offset: 19, 27
+  index: -1
+lt_orb_fx/lt_orb_fx_28
+  rotate: true
+  xy: 994, 333
+  size: 286, 227
+  orig: 342, 342
+  offset: 28, 37
+  index: -1
+placeholder_coin_particles
+  rotate: false
+  xy: 245, 366
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+rays_back
+  rotate: false
+  xy: 1, 1
+  size: 242, 412
+  orig: 242, 412
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 245, 344
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+star_blick
+  rotate: true
+  xy: 1916, 352
+  size: 120, 122
+  orig: 128, 128
+  offset: 5, 3
+  index: -1
+vfx_rays_1
+  rotate: true
+  xy: 977, 667
+  size: 317, 278
+  orig: 318, 278
+  offset: 0, 0
+  index: -1

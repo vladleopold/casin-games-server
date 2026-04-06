@@ -1,0 +1,83 @@
+
+gr_promo_menu_medal_tour.avif
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+first_place
+  rotate: true
+  xy: 154, 124
+  size: 41, 48
+  orig: 41, 48
+  offset: 0, 0
+  index: -1
+glow
+  rotate: true
+  xy: 154, 167
+  size: 51, 64
+  orig: 51, 64
+  offset: 0, 0
+  index: -1
+place
+  rotate: true
+  xy: 154, 81
+  size: 41, 48
+  orig: 41, 48
+  offset: 0, 0
+  index: -1
+place_sweep_00
+  rotate: false
+  xy: 2, 134
+  size: 64, 84
+  orig: 64, 84
+  offset: 0, 0
+  index: -1
+place_sweep_01
+  rotate: true
+  xy: 2, 68
+  size: 64, 84
+  orig: 64, 84
+  offset: 0, 0
+  index: -1
+place_sweep_02
+  rotate: true
+  xy: 68, 154
+  size: 64, 84
+  orig: 64, 84
+  offset: 0, 0
+  index: -1
+place_sweep_03
+  rotate: false
+  xy: 88, 68
+  size: 64, 84
+  orig: 64, 84
+  offset: 0, 0
+  index: -1
+place_sweep_04
+  rotate: true
+  xy: 2, 2
+  size: 64, 84
+  orig: 64, 84
+  offset: 0, 0
+  index: -1
+place_sweep_05
+  rotate: true
+  xy: 88, 2
+  size: 64, 84
+  orig: 64, 84
+  offset: 0, 0
+  index: -1
+second_place
+  rotate: false
+  xy: 174, 31
+  size: 41, 48
+  orig: 41, 48
+  offset: 0, 0
+  index: -1
+third_place
+  rotate: true
+  xy: 204, 124
+  size: 41, 48
+  orig: 41, 48
+  offset: 0, 0
+  index: -1

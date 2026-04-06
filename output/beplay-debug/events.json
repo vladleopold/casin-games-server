@@ -1,0 +1,1661 @@
+[
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/beplay/launch/tiger-s-prosperity",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 302,
+    "url": "http://127.0.0.1:8082/beplay/launch/tiger-s-prosperity"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/beplay/location?game=tiger-s-prosperity&key=&language=uk&operator=slotscity&lobbyUrl=https%3A%2F%2Fslotcity.ua%2F&currency=uah&depositUrl=https%3A%2F%2Fslotcity.ua%2Fcashbox%3Fbackgameurl%3Dbeplay-tigers-prosperity&exitTarget=self&channel=desktop&rgs=beplay&provider=beplay",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/location?game=tiger-s-prosperity&key=&language=uk&operator=slotscity&lobbyUrl=https%3A%2F%2Fslotcity.ua%2F&currency=uah&depositUrl=https%3A%2F%2Fslotcity.ua%2Fcashbox%3Fbackgameurl%3Dbeplay-tigers-prosperity&exitTarget=self&channel=desktop&rgs=beplay&provider=beplay"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/css/base-style.css",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/css/common-styles.css",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/css/common-loader.css",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/css/common-info-page.css",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/css/common-history.css",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/css/common-buy.css",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/css/buy-features.css",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/css/custom-style.css",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/css/fps.css",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/css/info-page.css",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/index-JJ0wudfQ.js",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/js/connector.js",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/loader.svg",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/svgs/logo.svg",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/icons/72.png",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/svgs/icon-star.svg",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/css/base-style.css"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/css/common-styles.css"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/css/common-loader.css"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/css/common-info-page.css"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/css/common-history.css"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/css/buy-features.css"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/css/common-buy.css"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/css/custom-style.css"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/css/fps.css"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/css/info-page.css"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/loader.svg"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/svgs/logo.svg"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/icons/72.png"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/svgs/icon-star.svg"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/js/connector.js"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/index-JJ0wudfQ.js"
+  },
+  {
+    "type": "console",
+    "level": "warning",
+    "text": "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio"
+  },
+  {
+    "type": "console",
+    "level": "warning",
+    "text": "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio"
+  },
+  {
+    "type": "console",
+    "level": "warning",
+    "text": "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/browserAll-DwPLYB28.js",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/webworkerAll-B8gHLWb1.js",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/webworkerAll-B8gHLWb1.js"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/browserAll-DwPLYB28.js"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/registerDevTools-BvmCotL0.js",
+    "postData": null
+  },
+  {
+    "type": "console",
+    "level": "warning",
+    "text": "[.WebGL-0x11400119e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+  },
+  {
+    "type": "console",
+    "level": "warning",
+    "text": "[.WebGL-0x11402f70000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/registerDevTools-BvmCotL0.js"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/assets-manifest.json",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/assets-manifest.json"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/sounds-manifest.json",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/sounds-manifest.json"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/i18n_default/de/texts-7lsMWg.json",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/i18n_default/en/texts-qNEKTQ.json",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/i18n_default/es/texts-VXsw_g.json",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/i18n_default/es-mx/texts-YQ_TDw.json",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/i18n_default/fr/texts-rKeNqA.json",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/i18n_default/nl/texts-hLNX3g.json",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/i18n_default/pt/texts-mP9uzg.json",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/i18n_default/ro/texts-MIhf5Q.json",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/i18n_default/ru/texts-KU151g.json",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/i18n_default/tr/texts-ugDIOg.json",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/i18n_default/uk/texts-NPGI.json",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/i18n_default/de/texts-7lsMWg.json"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/i18n_default/en/texts-qNEKTQ.json"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/i18n_default/es/texts-VXsw_g.json"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/i18n_default/es-mx/texts-YQ_TDw.json"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/i18n_default/fr/texts-rKeNqA.json"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/i18n_default/nl/texts-hLNX3g.json"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/i18n_default/pt/texts-mP9uzg.json"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/i18n_default/ro/texts-MIhf5Q.json"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/i18n_default/ru/texts-KU151g.json"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/i18n_default/tr/texts-ugDIOg.json"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/i18n_default/uk/texts-NPGI.json"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/fonts/Dobidoo.woff2",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/fonts/Dobidoo.woff2"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/fonts/Nunito-ExtraBold.woff2",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/fonts/Nunito-ExtraBold.woff2"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/fps/features-pJUzOw.avif.json",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/fps/features-pJUzOw.avif.json"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/fps/features-m4pKMQ.avif",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/fps/features-m4pKMQ.avif"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/plugin-manifest.json",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/plugin-manifest.json"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/plugins/starfield.js",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/plugins/starfield.js"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/svgs/sound_off.svg",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/svgs/sound_off.svg"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/fonts/WinFont-SSTmZw.avif",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/info/bf-images-j0Whkg.avif.json",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/info/info-images-sDshaQ.avif.json",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/Wheel_blue_arrow-2g8tWw.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/Wheel_blue_clouds_bottom-gNOdMA.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/Wheel_blue_clouds_upper-qv3IRA.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/Wheel_blue_wheel-87Dl2A.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/Wheel_blue_win_sector-4KgSrg.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/Wheel_gold_arrow-sNTZwA.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/Wheel_gold_clouds_bottom-dUgS.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/Wheel_gold_clouds_upper-EpzTew.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/Wheel_gold_wheel-6WxmZg.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/Wheel_gold_win_sector-yEWXdg.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/anticipation-EvRMnA.avif.atlas",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/anticipation-_Mk8SQ.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/background-znRODQ.avif.atlas",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/background-aP__kg.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/cell_anticipation-9UBoKg.avif.atlas",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/character-3CE2dQ.avif.atlas",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/character--De2Zg.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/coins-XOza1A.avif.json",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/counter-hgs-PA.avif.atlas",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/dialogues-9TpInw.avif.atlas",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/dialogues-eUMavw.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/fonts/Nunito-Black.woff2",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/fonts/WinFont-cxVSrQ.avif.fnt",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/fonts/counterFont-Qo0evw.avif.fnt",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/fonts/introFont-RtRq_w.avif.fnt",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/fonts/superFont-VKbwgQ.avif.fnt",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/game_logo-g1tx3g.avif.atlas",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/game_logo-ndA6aA.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/reels-Sdtcnw.avif.atlas",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/reels-cryj.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp1-T11Fow.avif.atlas",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp1-5H2ZCQ.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp2-M5FrCQ.avif.atlas",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp2-Rtuvyw.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp3--36nwA.avif.atlas",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp3-i3Pgrw.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp4-3RWZOg.avif.atlas",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp4-_owM_g.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp5-x70t.avif.atlas",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp5-FKzt7w.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp6-3T8RyA.avif.atlas",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp6-OaMzsA.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_lp-yA1tsQ.avif.atlas",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_lp-6kd_WQ.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_scat-8NMQIQ.avif.atlas",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_scat-wEtKhQ.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_wild-xREcCQ.avif.atlas",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_wild-fAT3yA.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/tiger's_prosperity_wheels_2208-Iiyrmw.avif.atlas",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/transition-adqsCA.avif.atlas",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/transition-uLuvzQ.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/wild_scatter_sym-2rNfFw.avif.atlas",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/wild_scatter_sym-o_qFQA.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/win_lines-M05XlA.avif.atlas",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/win_lines-s2eH.skel",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/wins_popup-0qb_.avif.atlas",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/wins_popup-22dWww.skel",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/fonts/Nunito-Black.woff2"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/info/bf-images-j0Whkg.avif.json"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/info/info-images-sDshaQ.avif.json"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/Wheel_blue_arrow-2g8tWw.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/Wheel_blue_clouds_bottom-gNOdMA.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/Wheel_blue_clouds_upper-qv3IRA.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/Wheel_blue_wheel-87Dl2A.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/Wheel_blue_win_sector-4KgSrg.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/Wheel_gold_arrow-sNTZwA.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/Wheel_gold_clouds_bottom-dUgS.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/Wheel_gold_wheel-6WxmZg.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/Wheel_gold_clouds_upper-EpzTew.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/Wheel_gold_win_sector-yEWXdg.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/anticipation-_Mk8SQ.skel"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/fonts/counterFont-s2y31Q.avif",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/fonts/introFont-dKBOxQ.avif",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/anticipation-EvRMnA.avif.atlas"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/fonts/superFont-dgQozQ.avif",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/background-znRODQ.avif.atlas"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/background-aP__kg.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/cell_anticipation-9UBoKg.avif.atlas"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/character-3CE2dQ.avif.atlas"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/character--De2Zg.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/coins-XOza1A.avif.json"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/counter-hgs-PA.avif.atlas"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/dialogues-9TpInw.avif.atlas"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/dialogues-eUMavw.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/fonts/WinFont-cxVSrQ.avif.fnt"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/fonts/counterFont-Qo0evw.avif.fnt"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/fonts/introFont-RtRq_w.avif.fnt"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/fonts/superFont-VKbwgQ.avif.fnt"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/game_logo-g1tx3g.avif.atlas"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/game_logo-ndA6aA.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/reels-Sdtcnw.avif.atlas"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/reels-cryj.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp1-T11Fow.avif.atlas"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp1-5H2ZCQ.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp2-M5FrCQ.avif.atlas"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp2-Rtuvyw.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp3--36nwA.avif.atlas"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp3-i3Pgrw.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp4-3RWZOg.avif.atlas"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp4-_owM_g.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp5-x70t.avif.atlas"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp5-FKzt7w.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp6-3T8RyA.avif.atlas"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp6-OaMzsA.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_lp-yA1tsQ.avif.atlas"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_lp-6kd_WQ.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_scat-8NMQIQ.avif.atlas"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_scat-wEtKhQ.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_wild-xREcCQ.avif.atlas"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_wild-fAT3yA.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/tiger's_prosperity_wheels_2208-Iiyrmw.avif.atlas"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/transition-adqsCA.avif.atlas"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/fonts/WinFont-SSTmZw.avif"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/transition-uLuvzQ.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/wild_scatter_sym-2rNfFw.avif.atlas"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/wild_scatter_sym-o_qFQA.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/win_lines-M05XlA.avif.atlas"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/win_lines-s2eH.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/wins_popup-0qb_.avif.atlas"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/wins_popup-22dWww.skel"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/fonts/counterFont-s2y31Q.avif"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/fonts/introFont-dKBOxQ.avif"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/wins_popup-NkB2nA.avif",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/win_lines-KjKDRQ.avif",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/fonts/superFont-dgQozQ.avif"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/wild_scatter_sym-IqlxTQ.avif",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/wins_popup-NkB2nA.avif"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/win_lines-KjKDRQ.avif"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/wild_scatter_sym-IqlxTQ.avif"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/transition-vnzoPQ.avif",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/tiger's_prosperity_wheels_2208-Im28Mw.avif",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/transition-vnzoPQ.avif"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/tiger's_prosperity_wheels_2208-Im28Mw.avif"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_wild-VpO1Hw.avif",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_scat-W1IH7A.avif",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_wild-VpO1Hw.avif"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_scat-W1IH7A.avif"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_lp-P7k0Zw.avif",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp6-R6GKoQ.avif",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_lp-P7k0Zw.avif"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp6-R6GKoQ.avif"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp5-qyjcOw.avif",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp5-qyjcOw.avif"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp4-11Zvsg.avif",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp3-Uxbh8Q.avif",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp4-11Zvsg.avif"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp3-Uxbh8Q.avif"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp2-Ug4ULA.avif",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp2-Ug4ULA.avif"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp1-V8eb3Q.avif",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/reels_2-Z73uaQ.avif",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/sym_hp1-V8eb3Q.avif"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/reels-Mp4d0Q.avif",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/reels_2-Z73uaQ.avif"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/reels-Mp4d0Q.avif"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/game_logo-gK2dyQ.avif",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/game_logo-gK2dyQ.avif"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/dialogues-OOey2w.avif",
+    "postData": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/counter-x7stlA.avif",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/dialogues-OOey2w.avif"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/counter-x7stlA.avif"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/coins-YXnPdg.avif",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/coins-YXnPdg.avif"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/character-_-66OQ.avif",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/character-_-66OQ.avif"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/cell_anticipation-j357JA.avif",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/cell_anticipation-j357JA.avif"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/background_2-HIhE0w.avif",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/background_2-HIhE0w.avif"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/background-2Eh89A.avif",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/background-2Eh89A.avif"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/anticipation-HfIM7Q.avif",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/main/anticipation-HfIM7Q.avif"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/info/info-images-k6sqOQ.avif",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/info/info-images-k6sqOQ.avif"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/info/bf-images-ezz7Ww.avif",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/info/bf-images-ezz7Ww.avif"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/api/env",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 404,
+    "url": "http://127.0.0.1:8082/api/env"
+  },
+  {
+    "type": "console",
+    "level": "error",
+    "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/api/config",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/api/config"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/js/translations.min.js",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/js/translations.min.js"
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/authenticate",
+    "postData": "{\"wallet\":\"demo\",\"operator\":\"slotscity\",\"key\":\"random-user-1456261041:995:usd\",\"provider\":\"beplay\",\"game\":\"tiger-s-prosperity\"}"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/authenticate"
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/game/info",
+    "postData": "{\"game\":\"tiger-s-prosperity\",\"provider\":\"beplay\"}"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/game/info"
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8082/beplay/api/game/recover",
+    "postData": "{\"game\":\"tiger-s-prosperity\",\"provider\":\"beplay\",\"complete\":false}"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/beplay/api/game/recover"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/version.json",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/version.json"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "Info | tiger-s-prosperity: v1.3.14-6485693, common: v2.1.25, server: v1.2.0"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/symbolsConfig-DO1i1qik.js",
+    "postData": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8082/filez/tiger-s-prosperity/snapshot/assets/symbolsConfig-DO1i1qik.js"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "cloth_back_port_left: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "cloth_back_port_right: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "cloth_back_port_top: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "cloth_back_land_back_big_anim_wb: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "r_cloth_port_wb: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "l_cloth_port_1_wb: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "l_cloth_port_2_wb: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "r_cloth_port_5_wb: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "l_cloth_port_6_wb: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "l_shoulder_land_wb: null"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "l_hand_cloth_land_part_2_wb: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "l_hand_cloth_land_part_back_wb: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "r_shoulder_land_wb: null"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "r_hand_cloth_land_part_2_wb: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "r_hand_cloth_land_part_back_wb: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "r_hand_cloth_land_part_2_wheel_anim_wb: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "log",
+    "text": "r_hand_cloth_land_part_back_wheel_anim_wb: [object Object]"
+  },
+  {
+    "type": "console",
+    "level": "warning",
+    "text": "Pagination container not found"
+  },
+  {
+    "type": "console",
+    "level": "warning",
+    "text": "Pagination arrows not found"
+  }
+]

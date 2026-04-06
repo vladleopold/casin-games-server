@@ -1,0 +1,21 @@
+{"frames": {
+
+"res/img/paylines/line_normal_5.png":
+{
+	"frame": {"x":0,"y":0,"w":924,"h":432},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":924,"h":432},
+	"sourceSize": {"w":924,"h":432}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "paylines-1.png",
+	"format": "RGBA8888",
+	"size": {"w":924,"h":924},
+	"scale": "1",
+	"related_multi_packs": [ "paylines-0.json" ],
+	"smartupdate": "$TexturePacker:SmartUpdate:c2baa3ef0cbe521815dda223cdf2d8ea:14b6cd1e2af7b8f59ad379a9c3ab69bd:d53d46d77c3dd214ccd19132ba9c5e73$"
+}
+}

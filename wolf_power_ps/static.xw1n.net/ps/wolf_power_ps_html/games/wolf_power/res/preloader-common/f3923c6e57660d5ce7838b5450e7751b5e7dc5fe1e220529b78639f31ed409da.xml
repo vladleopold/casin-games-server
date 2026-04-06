@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <string id="REALITY_CHECK_TITLE"     font="SFBold" color="rgba(255,255,255,0.9)" size="40" align="center">SESSION TIME REMINDER</string>
+    <string id="REALITY_CHECK_PLAY_TIME" font="SFBold" color="rgba(255,255,255,0.9)" size="40" align="center">You have been playing for:
+<string color="#ffffff">${time} minutes.</string></string>
+    <string id="REALITY_CHECK_EXTENDED_TIME"   x="341" y="-100" font="SFBold" color="rgba(255,255,255,0.9)" size="40" align="center">Extend session
+(minutes):</string>
+    <string id="REALITY_CHECK_EXTENDED_VALUE"  x="341" y="55" font="SFBold" color="#ffffff" size="60" align="center">${time}</string>
+
+    <string id="REALITY_CHECK_HISTORY_BUTTON" font="SFBold" color="rgba(152, 255, 159, 0.5)" size="30" align="center">SESSION HISTORY</string>
+    <string id="REALITY_CHECK_QUIT_BUTTON"    font="SFBold" color="rgba(255, 126, 126, 0.5)" size="30" align="center">QUIT GAME</string>
+
+    <string id="MESSAGE_POPUP_TITLE"   font="SFBold" color="#ffffff" size="40" align="center"></string>
+    <string id="MESSAGE_POPUP_MESSAGE" font="SFBold" color="#ffffff" size="30" align="center"></string>
+    <string id="MESSAGE_POPUP_BUTTON"  x="120"  y="40"  font="SFBold" color="#ffffff" size="30" align="center">${text}</string>
+</config>

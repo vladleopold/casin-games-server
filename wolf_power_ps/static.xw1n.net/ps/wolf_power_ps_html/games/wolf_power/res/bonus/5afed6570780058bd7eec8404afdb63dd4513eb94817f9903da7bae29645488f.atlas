@@ -1,0 +1,20 @@
+
+respin.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: false
+  xy: 2, 7
+  size: 256, 90
+  orig: 256, 90
+  offset: 0, 0
+  index: -1
+placeholder_respin
+  rotate: false
+  xy: 2, 2
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1

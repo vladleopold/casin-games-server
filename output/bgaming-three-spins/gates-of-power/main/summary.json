@@ -1,0 +1,141 @@
+{
+  "launchUrl": "http://127.0.0.1:8091/bgaming/location?token=d3125fcad73e59736d3ef84118792e6d&options=eyJ0YXJnZXRfZWxlbWVudCI6ImdhbWVfd3JhcHBlciIsImxhdW5jaF9vcHRpb25zIjp7ImdhbWVfbGF1bmNoZXJfdXJsIjoiaHR0cHM6Ly9nYXRlcy1vZi1wb3dlci5wdWJpbnRlcmxheWVyLm9ubGluZT90b2tlbj1kMzEyNWZjYWQ3M2U1OTczNmQzZWY4NDExODc5MmU2ZCIsImdhbWVfdXJsIjoiaHR0cHM6Ly9nYXRlcy1vZi1wb3dlci5wdWJpbnRlcmxheWVyLm9ubGluZT90b2tlbj1kMzEyNWZjYWQ3M2U1OTczNmQzZWY4NDExODc5MmU2ZCIsInN0cmF0ZWd5IjoiaWZyYW1lIn19&game=gates-of-power",
+  "game": "gates-of-power",
+  "mode": "main",
+  "targetSpins": 3,
+  "spinRequestCount": 0,
+  "apiRequestCount": 7,
+  "apiResponseCount": 7,
+  "pageErrors": 0,
+  "consoleErrors": 2,
+  "overrideApplied": false,
+  "overrideFeature": null,
+  "forceFeature": null,
+  "forceFeatureLevel": null,
+  "forceBet": null,
+  "bodyText": "20:46\nGATES OF POWER\nBalance 979.00 FUN\nTotal bet\n2.00 FUN",
+  "firstRequest": {
+    "type": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:8091/bgaming/api/gates-of-power",
+    "command": null,
+    "payload": {
+      "id": "9dbbc51f-20b5-4208-bb7c-1e30cac6dcbe",
+      "jsonrpc": "2.0",
+      "method": "init",
+      "params": {
+        "token": "d3125fcad73e59736d3ef84118792e6d"
+      }
+    },
+    "postData": "{\"id\":\"9dbbc51f-20b5-4208-bb7c-1e30cac6dcbe\",\"jsonrpc\":\"2.0\",\"method\":\"init\",\"params\":{\"token\":\"d3125fcad73e59736d3ef84118792e6d\"}}",
+    "at": 1775410773025
+  },
+  "firstResponse": {
+    "type": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:8091/bgaming/api/gates-of-power",
+    "command": null,
+    "payload": {
+      "id": "9dbbc51f-20b5-4208-bb7c-1e30cac6dcbe",
+      "result": {
+        "state": null,
+        "config": {
+          "bet_limits": [
+            10,
+            20,
+            30,
+            50,
+            70,
+            100,
+            150,
+            200,
+            250,
+            300,
+            400,
+            500,
+            600,
+            800,
+            1000,
+            1200,
+            1400,
+            1700
+          ],
+          "minimal_spin_time": null,
+          "autospin_variant": "standard",
+          "autospin_values": [
+            "10",
+            "25",
+            "50",
+            "100",
+            "250",
+            "500",
+            "750",
+            "1000",
+            "∞"
+          ],
+          "quick_spins_enabled": true,
+          "reality_check_time": null,
+          "purchased_features": [
+            "buy_bonus",
+            "buy_chance",
+            "buy_bonus_and_chance"
+          ],
+          "rtp": "96",
+          "default_bet": 200,
+          "freebets_limits": [
+            10,
+            20,
+            30,
+            50,
+            70,
+            100,
+            150,
+            200,
+            250,
+            300,
+            400,
+            500,
+            600,
+            800,
+            1000,
+            1200,
+            1400,
+            1700
+          ],
+          "displayed_rtp": "96.03"
+        },
+        "balance": 100000,
+        "currency": "fun",
+        "locale": "en",
+        "urls": {
+          "deposit_url": null,
+          "return_url": "https://slotcity.ua/",
+          "history_url": "https://gates-of-power.pubinterlayer.online/api/session-history?token=d3125fcad73e59736d3ef84118792e6d"
+        },
+        "freebets": null,
+        "state_lock": "SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAZp-6Xp0BYgABUYA.vxYEmG9UlkfBS7ZLid7x7xTFXK4yaJOB6zUai2L1M88",
+        "currency_attributes": {
+          "code": "FUN",
+          "exponent": 2,
+          "subunits": 100,
+          "symbol": null
+        }
+      },
+      "jsonrpc": "2.0"
+    },
+    "headers": {
+      "access-control-allow-headers": "Content-Type, X-Request-Id",
+      "access-control-allow-methods": "GET, POST, OPTIONS",
+      "access-control-allow-origin": "*",
+      "cache-control": "no-store",
+      "connection": "keep-alive",
+      "content-length": "1070",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Sun, 05 Apr 2026 17:39:33 GMT",
+      "keep-alive": "timeout=15",
+      "x-request-id": "e005a9a0b2744e0b93e92b59568d694c"
+    },
+    "body": "{\"id\":\"9dbbc51f-20b5-4208-bb7c-1e30cac6dcbe\",\"result\":{\"state\":null,\"config\":{\"bet_limits\":[10,20,30,50,70,100,150,200,250,300,400,500,600,800,1000,1200,1400,1700],\"minimal_spin_time\":null,\"autospin_variant\":\"standard\",\"autospin_values\":[\"10\",\"25\",\"50\",\"100\",\"250\",\"500\",\"750\",\"1000\",\"∞\"],\"quick_spins_enabled\":true,\"reality_check_time\":null,\"purchased_features\":[\"buy_bonus\",\"buy_chance\",\"buy_bonus_and_chance\"],\"rtp\":\"96\",\"default_bet\":200,\"freebets_limits\":[10,20,30,50,70,100,150,200,250,300,400,500,600,800,1000,1200,1400,1700],\"displayed_rtp\":\"96.03\"},\"balance\":100000,\"currency\":\"fun\",\"locale\":\"en\",\"urls\":{\"deposit_url\":null,\"return_url\":\"https://slotcity.ua/\",\"history_url\":\"https://gates-of-power.pubinterlayer.online/api/session-history?token=d3125fcad73e59736d3ef84118792e6d\"},\"freebets\":null,\"state_lock\":\"SFMyNTY.g2gDbAAAAANtAAAAJGU0MDZkMGI5LTgzMzAtNDc0Mi1iOGI3LTgzMjVhMjFlMzRjZXcDbmlsdwNuaWxqbgYAZp-6Xp0BYgABUYA.vxYEmG9UlkfBS7ZLid7x7xTFXK4yaJOB6zUai2L1M88\",\"currency_attributes\":{\"code\":\"FUN\",\"exponent\":2,\"subunits\":100,\"symbol\":null}},\"jsonrpc\":\"2.0\"}",
+    "at": 1775410773078
+  }
+}

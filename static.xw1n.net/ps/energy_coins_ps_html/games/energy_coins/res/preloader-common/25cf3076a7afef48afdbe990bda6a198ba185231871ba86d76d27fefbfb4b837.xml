@@ -1,0 +1,79 @@
+<config>
+    <string id="GIFTSPINS_USE_LATER" size="30" font="SFBold" color="#98FF9F" align="center">USE LATER</string>
+
+    <string id="GIFTSPINS_DELETE" size="30" font="SFBold" color="#FF7E7E" align="center">DELETE</string>
+
+    <string id="GIFTSPINS_START_BUTTON" x="200" y="57" size="60" font="SFBold" color="#FFFFFF" align="center">START</string>
+
+    <string id="GIFTSPINS_TITLE" font="SFBold" color="#ffffff" align="center" size="40">FREE SPINS</string>
+
+    <string id="GIFTSPINS_FT_TITLE" font="SFBold" color="#ffffff" align="center" size="40">FREE BONUS MODE</string>
+
+    <string id="GIFTSPINS_START_TEXT" font="SFBold" color="#ffffff" align="center" size="40">Enjoy your free game!</string>
+
+    <string id="GIFTSPINS_FT_START_TEXT" font="SFBold" color="#ffffff" align="center" size="40">You got a free entry to the main bonus feature!</string>
+
+    <string id="GIFTSPINS_PROGRESS_INFO" font="SF" color="rgba(255,255,255,0.5)" size="30" align="center">Game progress will be restored after
+the end of the Free Spins mode.</string>
+
+    <string id="GIFTSPINS_FT_PROGRESS_INFO" font="SF" color="rgba(255,255,255,0.5)" size="30" align="center">Game progress will be restored after
+the end of the Bonus mode.</string>
+
+    <string id="GIFTSPINS_VALID_UNTIL" font="SF" color="rgba(255,255,255,0.5)" size="30" align="center">Valid until: ${value}</string>
+
+    <string id="GIFTSPINS_EXPIRY_DAYS" font="SF" color="rgba(255,255,255,0.5)" size="30" align="center">Expiration period, days: ${value}</string>
+
+    <string id="GIFTSPINS_NUMBER" font="SFBold" align="center"><string color="rgba(255,255,255,0.5)" size="35">FREE SPINS</string>
+<n y="15"/><string color="#ffffff" size="135">${value}</string></string>
+
+    <string id="GIFTSPINS_BET" font="SFBold" align="center"><string size="35" color="rgba(255,255,255,0.5)">BET</string>
+<n y="15"/><string color="#ffffff" size="60">${value}</string></string>
+
+    <string id="GIFTSPINS_CONFIRM_POPUP" x="0" y="-100" font="SFBold" color="#ffffff" align="center" size="40">Are you sure you want to delete
+this FREE offer?</string>
+
+    <string id="GIFTSPINS_RECONNECT_TEXT" font="SFBold" color="#ffffff" align="center" size="40">Free Spins mode
+is in progress!</string>
+
+    <string id="GIFTSPINS_FT_RECONNECT_TEXT" font="SFBold" color="#ffffff" align="center" size="40">You`re still playing
+in Bonus mode!</string>
+
+    <string id="GIFTSPINS_NUMBER_LEFT" font="SFBold" align="center"><string size="35" color="rgba(255,255,255,0.5)">FREE SPINS LEFT</string>
+<n y="15"/><string size="135" color="#ffffff">${value}</string></string>
+
+    <string id="GIFTSPINS_NUMBER_PLAYED" font="SFBold" align="center"><string size="35" color="rgba(255,255,255,0.5)">FREE SPINS PLAYED</string>
+<n y="15"/><string size="60" color="#ffffff">${value}</string></string>
+
+    <string id="GIFTSPINS_TOTAL_WIN" font="SFBold" size="35" color="rgba(255,255,255,0.5)">TOTAL WIN</string>
+
+    <string id="GIFTSPINS_SUMMARY_TEXT" font="SFBold" color="#ffffff" align="center" size="40">The Free Spins mode is over.</string>
+
+    <string id="GIFTSPINS_FT_SUMMARY_TEXT" font="SFBold" color="#ffffff" align="center" size="40">Congratulations!</string>
+
+    <string id="GIFTSPINS_PROGRESS_RESTORATION" font="SF" color="rgba(255,255,255,0.5)" size="30" align="center">Game progress restored!</string>
+
+    <string id="GIFTSPINS_PROGRESS_DELETE" font="SF" color="rgba(255,255,255,0.5)" size="30" align="center">The progress of this offer will not be saved.</string>
+
+    <string id="GIFTSPINS_DELETE_TEXT" font="SFBold" color="#ffffff" align="center" size="40">The current Free Spins offer
+was canceled.</string>
+
+    <string id="GIFTSPINS_FT_DELETE_TEXT" font="SFBold" color="#ffffff" align="center" size="40">The current offer
+was canceled.</string>
+
+    <string id="GIFTSPINS_FLEXIBLE_SPINS" font="SFBold" linespacing="5" color="#ffffff" stroke="#0D4B2B 6" size="66" align="center">${spins}
+<string size="40" if="multiple">SPINS</string>
+<string size="40" ifnot="multiple">SPIN</string></string>
+
+    <string id="GIFTSPINS_FLEXIBLE_BET" font="SFBold" color="rgba(255,235,188,1)" size="34" align="center">${bet}<string color="rgba(255,235,188,0.6)"> / ROUND</string></string>
+
+    <string id="GIFTSPINS_FLEXIBLE_WELCOME_TEXT" font="SFBold" color="#ffffff" linespacing="5" align="center" size="38">Congratulations!
+Choose the best offer.</string>
+
+    <string id="GIFTSPINS_CASH_BLAST_START_TEXT" font="SFBold" color="#ffffff" align="center" linespacing="5" size="40">Enjoy your free game!
+Won in Cash Blast promo ${promo_name}</string>
+
+    <string id="GIFTSPINS_CASH_BLAST_SUMMARY_TEXT" font="SFBold" color="#ffffff" align="center" size="40">The Free Spins mode is over.
+Cash Blast promo
+${promo_name}</string>
+
+</config>

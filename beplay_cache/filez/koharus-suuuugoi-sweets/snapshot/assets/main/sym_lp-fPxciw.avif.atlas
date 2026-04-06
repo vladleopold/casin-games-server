@@ -1,0 +1,44 @@
+sym_lp-7GlmVQ.avif
+	size: 345, 532
+	format: RGBA4444
+	filter: Linear, Linear
+	scale: 0.4
+.misc/radial_glow
+	bounds: 223, 14, 104, 103
+	rotate: 90
+.misc/sunEfx
+	bounds: 2, 346, 184, 189
+	offsets: 9, 6, 200, 200
+	rotate: 90
+symbos/lp_1_cake
+	bounds: 193, 396, 134, 150
+	rotate: 90
+symbos/lp_1_leafes
+	bounds: 146, 193, 34, 32
+symbos/lp_1_topping_a
+	bounds: 146, 276, 68, 41
+	offsets: 0, 3, 68, 44
+	rotate: 90
+symbos/lp_1_topping_b
+	bounds: 146, 227, 47, 36
+	offsets: 0, 0, 49, 36
+	rotate: 90
+symbos/lp_1_topping_c
+	bounds: 2, 12, 77, 58
+	rotate: 90
+symbos/lp_2_cream_cat
+	bounds: 193, 254, 142, 140
+symbos/lp_3_donut
+	bounds: 184, 120, 139, 132
+symbos/lp_4_croissant
+	bounds: 2, 210, 142, 134
+symbos/lp_5_apple
+	bounds: 2, 91, 117, 122
+	offsets: 0, 0, 146, 135
+	rotate: 90
+symbos/lp_5_stick
+	bounds: 126, 128, 63, 53
+	rotate: 90
+symbos/lp_6
+	bounds: 126, 2, 116, 95
+	rotate: 90

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+
+<defs>
+<style>.white_90{fill:#999999;opacity:0.9;}.white_42{fill:#fff;opacity:0.42;}</style>
+
+<filter id="dropshadow" x="-10" y="-10" width="90" height="90" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+</filter>
+    
+</defs>
+
+<path class="white_90" filter="url(#dropshadow)" d="M50.41,25.1h0L30.13,1.91a5.64,5.64,0,0,0-7.94-.52,5.21,5.21,0,0,0-.52.53L1.39,25.1a5.61,5.61,0,0,0,4.23,9.32H7.88V45A5.62,5.62,0,0,0,13.5,50.6H17A5.59,5.59,0,0,0,22.58,45V35a.62.62,0,0,1,.62-.62h5.4a.62.62,0,0,1,.62.62V45a5.58,5.58,0,0,0,5.59,5.59H38.3A5.63,5.63,0,0,0,43.92,45V34.42h2.26a5.62,5.62,0,0,0,4.23-9.32Zm-4.23,4.32H41.42a2.5,2.5,0,0,0-2.5,2.5V45a.62.62,0,0,1-.62.62H34.81a.59.59,0,0,1-.42-.17.57.57,0,0,1-.17-.42V35a5.64,5.64,0,0,0-5.62-5.62H23.2A5.63,5.63,0,0,0,17.58,35V45a.59.59,0,0,1-.6.59H13.5a.62.62,0,0,1-.62-.62V31.92a2.5,2.5,0,0,0-2.5-2.5H5.62a.63.63,0,0,1-.47-1L25.49,5.15a.63.63,0,0,1,.88.06L46.65,28.39h0a.61.61,0,0,1,.15.41A.62.62,0,0,1,46.18,29.42Z" transform="translate(14 15)" />
+
+</svg>
