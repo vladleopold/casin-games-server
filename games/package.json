@@ -1,0 +1,7 @@
+{
+  "name": "games-render-entry",
+  "private": true,
+  "scripts": {
+    "start": "cd .. && npm start"
+  }
+}
