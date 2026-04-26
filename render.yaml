@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: games-server-backoffice
+    runtime: node
+    plan: free
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ADMIN_SESSION_SECRET
+        sync: false
+      - key: ADMIN_PUBLIC_ORIGIN
+        sync: false
+      - key: ADMIN_GOOGLE_CLIENT_ID
+        sync: false
+      - key: ADMIN_GOOGLE_CLIENT_SECRET
+        sync: false
+      - key: ADMIN_GOOGLE_ALLOWED_EMAILS
+        sync: false
+      - key: ADMIN_GOOGLE_ALLOWED_DOMAIN
+        sync: false
+      - key: ADMIN_DEV_AUTH_EMAIL
+        value: ""

@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "start": "node server.mjs",
     "discover:recommended": "node scripts/discover_recommended_games.mjs",
     "download:game-hall-assets": "node scripts/download_game_hall_assets.mjs",
     "download:popular-game-clients": "node scripts/download_popular_game_clients.mjs",
