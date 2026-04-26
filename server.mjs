@@ -15,7 +15,7 @@ import {
   serveAmaticStatic,
 } from "./lib/amatic-local.mjs";
 import { bgamingConfigs, buildBgamingLaunchUrl, getBgamingConfig } from "./lib/bgaming-configs.mjs";
-import { beplayConfigs, buildBeplayLaunchUrl, buildBeplayLocationParams, getBeplayConfig } from "./lib/beplay-configs.mjs";
+import { beplayConfigs, buildBeplayLaunchUrl, getBeplayConfig } from "./lib/beplay-configs.mjs";
 import { slotConfigs } from "./lib/slot-configs.mjs";
 import { serverConfig } from "./lib/server-config.mjs";
 import { SessionStore } from "./lib/session-store.mjs";
@@ -183,15 +183,17 @@ const THREE_OAKS_EXTERNAL_PROMO_STUB = `
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const sessionStores = new Map();
+const beplayLocalSessions = new Map();
 const bgamingLocalSessions = new Map();
 const rateLimiter = new RateLimiter({
   windowMs: serverConfig.rateLimitWindowMs,
   maxRequests: serverConfig.rateLimitMaxRequests,
 });
-const BEPLAY_GAME_ORIGIN = "https://game.beplay.games";
-const BEPLAY_API_ORIGIN = "https://gapie.beplay.games";
 const BEPLAY_CACHE_ROOT = path.join(__dirname, "beplay_cache");
 const BEPLAY_OVERRIDE_COOKIE = "beplay_override";
+const BEPLAY_SESSION_COOKIE = "beplay_session";
+const BEPLAY_LOCAL_DEFAULT_BALANCE = 995;
+const BEPLAY_LOCAL_SESSION_TTL_MS = 30 * 60 * 1000;
 const BGAMING_OVERRIDE_COOKIE = "bgaming_override";
 const BGAMING_SESSION_COOKIE = "bgaming_session";
 const BGAMING_UPSTREAM_COOKIE = "bgaming_upstream";
@@ -200,6 +202,93 @@ const BGAMING_LOCAL_DEFAULT_BET = 200;
 const BGAMING_LOCAL_SESSION_TTL_MS = 30 * 60 * 1000;
 const BGAMING_LOCAL_SYMBOLS = ["h1", "h2", "h3", "h4", "l1", "l2", "l3", "l4", "l5", "sc"];
 const BGAMING_LOCAL_TOP_MULTIPLIERS = ["rm2", "rm3", "rm5", "rm6", "rm8", "rm20", "rm25"];
+const BEPLAY_LOCAL_GAME_INFO = {
+  "tiger-s-prosperity": {
+    state: {},
+    bets: {
+      main: {
+        available: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.8, 1, 1.5, 2, 2.5, 3, 4, 5, 7.5, 10, 15, 20, 25, 50, 100],
+        default: 1,
+        coin: 20,
+      },
+      free_spins_buy: {
+        available: [10, 15, 20, 25, 30, 40, 50, 75, 100, 125, 150, 200, 250, 375, 500, 750, 1000, 1250, 2500, 5000],
+        default: 50,
+        coin: 1000,
+      },
+    },
+    config: {
+      paylines: [[2, 2, 2, 2, 2], [1, 1, 1, 1, 1], [0, 0, 0, 0, 0], [0, 1, 2, 1, 0], [2, 1, 0, 1, 2]],
+      paytable: {
+        0: [0, 0, 50, 160, 800],
+        1: [0, 0, 30, 120, 500],
+        2: [0, 0, 24, 80, 400],
+      },
+      paytableCoins: 20,
+      buyFeatureConfig: [{ action: "free_spins_buy", featureMultiplier: 50, featureType: 0 }],
+      version: "1.2.0-local",
+    },
+    settings: {
+      autoplayForbidden: "false",
+      defaultCampaignThemeName: "{\"freeBets\": \"default-free-bets\"}",
+    },
+    betLimits: {
+      minBet: 0.01,
+      maxBet: 10000,
+      maxExposure: 10000000,
+      currencyRate: 1,
+      currencyDecimals: 2,
+      currencyUnit: 0.01,
+      exchangeRate: 1,
+    },
+  },
+  "koharus-suuuugoi-sweets": {
+    state: {},
+    bets: {
+      main: {
+        available: [1, 2, 3, 4, 5, 6, 8, 10, 15, 20, 25, 30, 40, 50, 75, 100, 150, 200, 250, 500, 1000, 2000],
+        default: 1,
+        coin: 100,
+      },
+      "boost-main": {
+        available: [0.14, 0.28, 0.56, 0.84, 1.12, 1.4, 2.8, 4.2, 5.6, 7, 8.4, 11.2, 14, 21, 28, 35, 42, 56, 70, 105, 140, 210, 280, 350, 700, 1400, 2800],
+        default: 1.4,
+        coin: 140,
+      },
+      "free-spins-buy": {
+        available: [6, 12, 24, 36, 48, 60, 120, 180, 240, 300, 360, 480, 600, 900, 1200, 1500, 1800, 2400, 3000, 4500, 6000, 9000],
+        default: 60,
+        coin: 6000,
+      },
+    },
+    config: {
+      paylines: [[1, 1, 1, 1, 1], [0, 0, 0, 0, 0], [2, 2, 2, 2, 2], [0, 1, 2, 1, 0], [2, 1, 0, 1, 2]],
+      buyFeatureConfig: [
+        { action: "free-spins-buy", featureMultiplier: 60, featureType: 0 },
+        { action: "boost-main", featureMultiplier: 1.4, featureType: 1 },
+      ],
+      paytable: {
+        WILD: [0, 40, 400, 4000, 12000],
+        SCATTER: [0, 0, 100, 300, 1000],
+      },
+      paytableCoins: 100,
+      version: "1.0.2-local",
+    },
+    settings: {
+      autoplayForbidden: "false",
+      defaultCampaignThemeName: "{\"freeBets\": \"default-free-bets\"}",
+    },
+    betLimits: {
+      minBet: 0.01,
+      maxBet: 10000,
+      maxExposure: 10000000,
+      currencyRate: 1,
+      currencyDecimals: 2,
+      currencyUnit: 0.01,
+      exchangeRate: 1,
+    },
+  },
+};
 const THREE_OAKS_LIVE_TARGET_BALANCE = 10000;
 const THREE_OAKS_PRODUCT_DEFAULT_PLAYER_ID = String(process.env.THREE_OAKS_PRODUCT_PLAYER_ID ?? "prod-player-1").trim() || "prod-player-1";
 const THREE_OAKS_PRODUCT_DEFAULT_CURRENCY = String(process.env.THREE_OAKS_PRODUCT_CURRENCY ?? "USD").trim().toUpperCase() || "USD";
@@ -219,7 +308,10 @@ const ADMIN_GOOGLE_CLIENT_SECRET = String(process.env.ADMIN_GOOGLE_CLIENT_SECRET
 const ADMIN_GOOGLE_ALLOWED_EMAILS = parseCsvEnv(process.env.ADMIN_GOOGLE_ALLOWED_EMAILS).map((email) => email.toLowerCase());
 const ADMIN_GOOGLE_ALLOWED_DOMAIN = String(process.env.ADMIN_GOOGLE_ALLOWED_DOMAIN ?? "").trim().toLowerCase();
 const ADMIN_PUBLIC_ORIGIN = String(process.env.ADMIN_PUBLIC_ORIGIN ?? "").trim();
-const ADMIN_DEV_AUTH_EMAIL = String(process.env.ADMIN_DEV_AUTH_EMAIL ?? "").trim().toLowerCase();
+const ADMIN_DEV_AUTH_EMAIL = String(
+  process.env.ADMIN_DEV_AUTH_EMAIL
+  ?? ((!ADMIN_GOOGLE_CLIENT_ID && !ADMIN_GOOGLE_CLIENT_SECRET) ? "local-admin@localhost" : ""),
+).trim().toLowerCase();
 const ADMIN_DEV_AUTH_NAME = String(process.env.ADMIN_DEV_AUTH_NAME ?? "Local Admin").trim() || "Local Admin";
 const ADMIN_SESSION_SECRET = String(process.env.ADMIN_SESSION_SECRET ?? "").trim() || `${randomId()}${randomId()}`;
 const ADMIN_SESSION_SECRET_IS_EPHEMERAL = !process.env.ADMIN_SESSION_SECRET;
@@ -446,8 +538,8 @@ async function handleRequest(req, res, url, context) {
     const body = req.method === "GET" || req.method === "HEAD"
       ? null
       : await readBody(req, serverConfig.maxBodyBytes);
-    await proxyBeplayApi(req, res, url, body);
-    finalizeRequestLog(req, res, context, { route: "beplay_api_proxy" });
+    await handleBeplayLocalApi(req, res, url, body);
+    finalizeRequestLog(req, res, context, { route: "beplay_api_local" });
     return;
   }
 
@@ -993,7 +1085,7 @@ async function handleRequest(req, res, url, context) {
   }
 
   if (isIndexRequest(game, url.pathname)) {
-    await serveVirtualIndex(game, res);
+    await serveVirtualIndex(game, req, res);
     finalizeRequestLog(req, res, context, { gameId: game.id, route: "index" });
     return;
   }
@@ -2512,29 +2604,40 @@ async function applyPlayerBalanceActionViaMoneyServer(playerId, currency, action
     return null;
   }
 
-  const target = resolveBackofficeTemplate(settings.baseUrl, settings.writePathTemplate, {
-    action,
-    currency,
-    playerId,
-  });
-  const response = await fetch(target, {
-    body: JSON.stringify({
+  try {
+    const target = resolveBackofficeTemplate(settings.baseUrl, settings.writePathTemplate, {
       action,
-      actor: adminSession.email,
-      amountMajor: Number((amountMinor / 100).toFixed(2)),
-      amountMinor,
       currency,
       playerId,
-    }),
-    headers: {
-      ...buildMoneyServerHeaders(settings),
-      "content-type": "application/json",
-    },
-    method: "POST",
-  });
-  const payload = await readJsonResponseOrThrow(response, "Money server balance update failed");
-  return extractMoneyServerWalletPayload(payload, settings, playerId, currency)
-    ?? await readPlayerBalanceFromMoneyServer(playerId, currency);
+    });
+    const response = await fetch(target, {
+      body: JSON.stringify({
+        action,
+        actor: adminSession.email,
+        amountMajor: Number((amountMinor / 100).toFixed(2)),
+        amountMinor,
+        currency,
+        playerId,
+      }),
+      headers: {
+        ...buildMoneyServerHeaders(settings),
+        "content-type": "application/json",
+      },
+      method: "POST",
+    });
+    const payload = await readJsonResponseOrThrow(response, "Money server balance update failed");
+    return extractMoneyServerWalletPayload(payload, settings, playerId, currency)
+      ?? await readPlayerBalanceFromMoneyServer(playerId, currency);
+  } catch (error) {
+    writeStructuredLog("money_server_update_failed", {
+      action,
+      adminEmail: adminSession.email,
+      currency,
+      message: error?.message ?? "Unknown error",
+      playerId,
+    });
+    return null;
+  }
 }
 
 function syncResolvedPlayerBalanceToLocalState(playerId, currency, balance) {
@@ -2942,10 +3045,13 @@ function formatAdminDate(timestamp) {
   }
 }
 
-async function serveVirtualIndex(config, res) {
+async function serveVirtualIndex(config, req, res) {
   const physicalPath = getPhysicalIndexPath(__dirname, config);
   const data = await fs.promises.readFile(physicalPath, "utf8");
-  const html = rewriteIndexHtml(config, data, serverConfig.port);
+  const forwardedProto = String(req.headers["x-forwarded-proto"] ?? "").split(",")[0]?.trim().toLowerCase();
+  const protocol = forwardedProto === "https" ? "https" : "http";
+  const origin = `${protocol}://${req.headers.host}`;
+  const html = rewriteIndexHtml(config, data, origin);
   res.writeHead(200, {
     "Content-Type": "text/html; charset=utf-8",
     "Cache-Control": "no-store",
@@ -2960,21 +3066,340 @@ async function serveBeplayLocation(req, res, url) {
     return;
   }
 
-  const upstreamUrl = new URL(`${BEPLAY_GAME_ORIGIN}/location`);
-  upstreamUrl.search = buildBeplayLocationParams(config, url.searchParams).toString();
-  const response = await fetch(upstreamUrl);
-  const html = await response.text();
+  const html = await renderBeplayLocalLocationHtml(config);
   const override = readBeplayOverrideFromQuery(url.searchParams, config);
+  const sessionState = getOrCreateBeplayLocalSession(req.headers.cookie, config.game);
+  const cookies = [];
 
+  if (sessionState.created) {
+    cookies.push(serializeCookie(BEPLAY_SESSION_COOKIE, encodeURIComponent(JSON.stringify({
+      game: config.game,
+      sessionId: sessionState.session.sessionId,
+    })), Math.floor(BEPLAY_LOCAL_SESSION_TTL_MS / 1000)));
+  }
   if (override) {
-    res.setHeader("Set-Cookie", serializeCookie(BEPLAY_OVERRIDE_COOKIE, encodeURIComponent(JSON.stringify(override))));
+    cookies.push(serializeCookie(BEPLAY_OVERRIDE_COOKIE, encodeURIComponent(JSON.stringify(override))));
+  }
+  if (cookies.length > 0) {
+    res.setHeader("Set-Cookie", cookies);
   }
 
-  res.writeHead(response.status, {
-    "Content-Type": response.headers.get("content-type") ?? "text/html; charset=utf-8",
+  res.writeHead(200, {
+    "Content-Type": "text/html; charset=utf-8",
     "Cache-Control": "no-store",
   });
   res.end(html);
+}
+
+async function renderBeplayLocalLocationHtml(config) {
+  const snapshotRoot = path.join(BEPLAY_CACHE_ROOT, "filez", config.game, "snapshot");
+  const assetsDir = path.join(snapshotRoot, "assets");
+  const templatePath = path.join(BEPLAY_CACHE_ROOT, "templates", `${config.game}.location.html`);
+
+  const template = await fs.promises.readFile(templatePath, "utf8").catch(() => "");
+  if (!template) {
+    throw Object.assign(new Error(`Missing local BePlay location template for ${config.game}`), { statusCode: 500 });
+  }
+
+  const assetFiles = await fs.promises.readdir(assetsDir).catch(() => []);
+  const entryScript = assetFiles
+    .filter((name) => /^index-.*\.js$/i.test(name))
+    .sort()[0];
+  if (!entryScript) {
+    throw Object.assign(new Error(`Missing BePlay entry script for ${config.game}`), { statusCode: 500 });
+  }
+
+  return template
+    .replace(/<base href="[^"]*"\s*\/?>/i, `<base href="/filez/${config.game}/snapshot/" />`)
+    .replace(/<script type="module" crossorigin src="\.\/assets\/index-[^"]+\.js"><\/script>/i, `<script type="module" crossorigin src="./assets/${entryScript}"></script>`);
+}
+
+async function handleBeplayLocalApi(req, res, url, body) {
+  if (req.method === "GET" || req.method === "HEAD") {
+    sendJson(res, 405, { error: "BePlay local API expects POST JSON requests." });
+    return;
+  }
+
+  const endpoint = url.pathname.replace(/^\/beplay\/api/, "") || "/";
+  const payload = parseJsonBody(body);
+  const gameFromPayload = String(payload?.game ?? "").trim();
+  const cookieState = readBeplaySessionCookie(req.headers.cookie);
+  const resolvedGame = gameFromPayload || cookieState?.game || null;
+  const config = resolvedGame ? getBeplayConfig(resolvedGame) : null;
+
+  if (!config) {
+    sendJson(res, 404, { error: "Unknown BePlay game" });
+    return;
+  }
+
+  const sessionState = getOrCreateBeplayLocalSession(req.headers.cookie, config.game);
+  const responseHeaders = {
+    "Content-Type": "application/json; charset=utf-8",
+    "Cache-Control": "no-store",
+  };
+  if (sessionState.created) {
+    responseHeaders["Set-Cookie"] = serializeCookie(BEPLAY_SESSION_COOKIE, encodeURIComponent(JSON.stringify({
+      game: config.game,
+      sessionId: sessionState.session.sessionId,
+    })), Math.floor(BEPLAY_LOCAL_SESSION_TTL_MS / 1000));
+  }
+  const session = sessionState.session;
+
+  if (endpoint === "/authenticate") {
+    if (typeof payload?.key === "string" && payload.key.includes(":")) {
+      const parsedBalance = Number.parseFloat(payload.key.split(":")[1] ?? "");
+      if (Number.isFinite(parsedBalance) && parsedBalance > 0) {
+        session.balance = roundBeplayMoney(parsedBalance);
+      }
+    }
+    session.currency = String(payload?.currency ?? payload?.currencyCode ?? session.currency ?? "USD").toUpperCase();
+    session.token = `local.${config.game}.${randomId()}`;
+    session.updatedAt = Date.now();
+    res.writeHead(200, responseHeaders);
+    res.end(JSON.stringify({
+      token: session.token,
+      balance: session.balance,
+      currency: session.currency,
+      currencyDecimals: 2,
+      currencySymbol: session.currency,
+      jurisdiction: "mt",
+      playerId: session.playerId,
+      nickname: null,
+    }));
+    return;
+  }
+
+  if (endpoint === "/game/info") {
+    session.updatedAt = Date.now();
+    res.writeHead(200, responseHeaders);
+    res.end(JSON.stringify(getBeplayLocalGameInfo(config.game)));
+    return;
+  }
+
+  if (endpoint === "/game/recover") {
+    session.updatedAt = Date.now();
+    res.writeHead(200, responseHeaders);
+    res.end(JSON.stringify({ rounds: [] }));
+    return;
+  }
+
+  if (endpoint === "/campaigns") {
+    session.updatedAt = Date.now();
+    res.writeHead(200, responseHeaders);
+    res.end(JSON.stringify({ campaigns: [] }));
+    return;
+  }
+
+  if (endpoint === "/game/play") {
+    const override = readBeplayOverrideCookie(req.headers.cookie, config.game);
+    let playPayload = payload;
+    let overrideApplied = false;
+    if (override && typeof body === "string") {
+      const patchedBody = applyBeplayPlayOverride(body, override);
+      if (patchedBody !== body) {
+        playPayload = parseJsonBody(patchedBody);
+        overrideApplied = true;
+        writeStructuredLog("beplay_override_applied", {
+          gameId: override.game,
+          action: override.action,
+          bet: override.bet,
+        });
+      }
+    }
+
+    const action = String(playPayload?.action ?? "main").trim() || "main";
+    const requestedBet = Number.parseFloat(playPayload?.bet ?? "");
+    const info = getBeplayLocalGameInfo(config.game);
+    const defaultBet = Number(info?.bets?.main?.default ?? 1);
+    const bet = roundBeplayMoney(Number.isFinite(requestedBet) && requestedBet > 0 ? requestedBet : defaultBet);
+
+    if (session.balance < bet) {
+      res.writeHead(200, responseHeaders);
+      res.end(JSON.stringify({
+        code: "INSUFFICIENT_FUNDS",
+        message: "Insufficient funds",
+      }));
+      return;
+    }
+
+    const roundId = randomUUID();
+    const win = createBeplayLocalWin(action, bet);
+    const display = createBeplayLocalDisplay(config.game);
+    session.balance = roundBeplayMoney(session.balance - bet + win);
+    session.lastRound = {
+      roundId,
+      win,
+      bet,
+      action,
+      balance: session.balance,
+    };
+    session.updatedAt = Date.now();
+    session.rounds.set(roundId, session.lastRound);
+
+    const responsePayload = {
+      roundId,
+      wager: {
+        win,
+        state: {
+          display,
+          bet,
+          roundWin: win,
+          action,
+        },
+        data: {
+          winLines: [],
+          action,
+        },
+      },
+      balance: session.balance,
+    };
+
+    if (overrideApplied) {
+      const currentCookies = responseHeaders["Set-Cookie"];
+      responseHeaders["Set-Cookie"] = currentCookies
+        ? [currentCookies, clearCookie(BEPLAY_OVERRIDE_COOKIE)]
+        : clearCookie(BEPLAY_OVERRIDE_COOKIE);
+      responseHeaders["X-Beplay-Override-Applied"] = "1";
+    }
+
+    res.writeHead(200, responseHeaders);
+    res.end(JSON.stringify(responsePayload));
+    return;
+  }
+
+  if (endpoint === "/game/complete") {
+    const roundId = String(payload?.roundId ?? "").trim();
+    const roundState = (roundId && session.rounds.get(roundId))
+      || session.lastRound
+      || { win: 0, balance: session.balance };
+    if (roundId && session.rounds.has(roundId)) {
+      session.rounds.delete(roundId);
+    }
+    session.updatedAt = Date.now();
+    res.writeHead(200, responseHeaders);
+    res.end(JSON.stringify({
+      finalWin: roundState.win ?? 0,
+      balance: session.balance,
+    }));
+    return;
+  }
+
+  sendJson(res, 404, { error: `Unknown BePlay endpoint: ${endpoint}` });
+}
+
+function getBeplayLocalGameInfo(game) {
+  const info = BEPLAY_LOCAL_GAME_INFO[game];
+  if (!info) {
+    return {
+      state: {},
+      bets: {
+        main: {
+          available: [1, 2, 5, 10],
+          default: 1,
+          coin: 100,
+        },
+      },
+      config: {
+        paylines: [[1, 1, 1, 1, 1]],
+        paytable: {},
+        paytableCoins: 100,
+        version: "1.0.0-local",
+      },
+      settings: {
+        autoplayForbidden: "false",
+      },
+      betLimits: {
+        minBet: 0.01,
+        maxBet: 10000,
+        maxExposure: 10000000,
+        currencyRate: 1,
+        currencyDecimals: 2,
+        currencyUnit: 0.01,
+        exchangeRate: 1,
+      },
+    };
+  }
+  return JSON.parse(JSON.stringify(info));
+}
+
+function getOrCreateBeplayLocalSession(cookieHeader, expectedGame) {
+  pruneBeplayLocalSessions();
+  const cookieState = readBeplaySessionCookie(cookieHeader, expectedGame);
+  const existing = cookieState ? beplayLocalSessions.get(cookieState.sessionId) : null;
+  if (existing?.game === expectedGame) {
+    existing.updatedAt = Date.now();
+    return {
+      created: false,
+      session: existing,
+    };
+  }
+
+  const session = {
+    sessionId: randomId(),
+    game: expectedGame,
+    balance: BEPLAY_LOCAL_DEFAULT_BALANCE,
+    currency: "USD",
+    token: null,
+    playerId: randomUUID(),
+    rounds: new Map(),
+    lastRound: null,
+    updatedAt: Date.now(),
+  };
+  beplayLocalSessions.set(session.sessionId, session);
+  return {
+    created: true,
+    session,
+  };
+}
+
+function pruneBeplayLocalSessions() {
+  const cutoff = Date.now() - BEPLAY_LOCAL_SESSION_TTL_MS;
+  for (const [sessionId, session] of beplayLocalSessions.entries()) {
+    if ((session?.updatedAt ?? 0) < cutoff) {
+      beplayLocalSessions.delete(sessionId);
+    }
+  }
+}
+
+function readBeplaySessionCookie(cookieHeader, expectedGame) {
+  const rawValue = parseCookies(cookieHeader)[BEPLAY_SESSION_COOKIE];
+  if (!rawValue) {
+    return null;
+  }
+  try {
+    const parsed = JSON.parse(decodeURIComponent(rawValue));
+    if (!parsed?.game || !parsed?.sessionId) {
+      return null;
+    }
+    if (expectedGame && parsed.game !== expectedGame) {
+      return null;
+    }
+    return parsed;
+  } catch {
+    return null;
+  }
+}
+
+function roundBeplayMoney(value) {
+  return Number(Math.max(0, value).toFixed(2));
+}
+
+function createBeplayLocalDisplay(game) {
+  const symbolSets = {
+    "tiger-s-prosperity": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "koharus-suuuugoi-sweets": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+  };
+  const symbols = symbolSets[game] ?? [1, 2, 3, 4, 5, 6, 7];
+  return Array.from({ length: 5 }, () => (
+    Array.from({ length: 3 }, () => pickRandom(symbols))
+  ));
+}
+
+function createBeplayLocalWin(action, bet) {
+  const multipliers = action === "main"
+    ? [0, 0, 0, 0.2, 0.5, 1, 2]
+    : [0, 0.2, 0.5, 1, 2, 3, 5];
+  return roundBeplayMoney(bet * pickRandom(multipliers));
 }
 
 async function serveBgamingLocation(req, res, url) {
@@ -3026,46 +3451,6 @@ async function serveBgamingLocation(req, res, url) {
     "Set-Cookie": cookies,
   });
   res.end(patchBgamingHtml(resolved.html, config, req.headers.host, resolved));
-}
-
-async function proxyBeplayApi(req, res, url, body) {
-  const upstreamPath = url.pathname.replace(/^\/beplay\/api/, "") || "/";
-  const upstreamUrl = new URL(`${BEPLAY_API_ORIGIN}${upstreamPath}${url.search}`);
-  const headers = {};
-
-  for (const name of ["accept", "authorization", "content-type"]) {
-    const value = req.headers[name];
-    if (typeof value === "string" && value) {
-      headers[name] = value;
-    }
-  }
-
-  let upstreamBody = body;
-  const override = readBeplayOverrideCookie(req.headers.cookie);
-  if (upstreamPath === "/game/play" && typeof body === "string" && override) {
-    upstreamBody = applyBeplayPlayOverride(body, override);
-    if (upstreamBody !== body) {
-      res.setHeader("Set-Cookie", clearCookie(BEPLAY_OVERRIDE_COOKIE));
-      writeStructuredLog("beplay_override_applied", {
-        gameId: override.game,
-        action: override.action,
-        bet: override.bet,
-      });
-    }
-  }
-
-  const response = await fetch(upstreamUrl, {
-    method: req.method,
-    headers,
-    body: upstreamBody && req.method !== "GET" && req.method !== "HEAD" ? upstreamBody : undefined,
-  });
-  const payload = Buffer.from(await response.arrayBuffer());
-
-  res.writeHead(response.status, {
-    "Content-Type": response.headers.get("content-type") ?? "application/json; charset=utf-8",
-    "Cache-Control": "no-store",
-  });
-  res.end(payload);
 }
 
 async function proxyBgamingApi(req, res, url, body) {
@@ -3406,19 +3791,7 @@ async function serveBeplayAsset(req, res, pathname) {
     return;
   }
 
-  const upstreamUrl = `${BEPLAY_GAME_ORIGIN}${pathname}`;
-  const response = await fetch(upstreamUrl);
-  if (!response.ok) {
-    sendText(res, response.status, await response.text());
-    return;
-  }
-
-  const payload = Buffer.from(await response.arrayBuffer());
-  await fs.promises.mkdir(path.dirname(cachePath), { recursive: true });
-  await fs.promises.writeFile(cachePath, payload);
-
-  const stats = await fs.promises.stat(cachePath);
-  streamFileWithCache(req, res, cachePath, stats, serverConfig.staticMaxAgeSeconds);
+  sendText(res, 404, "BePlay asset not found in local cache");
 }
 
 async function serveStatic(config, req, pathname, res) {
@@ -4644,7 +5017,7 @@ function readBeplayOverrideFromQuery(searchParams, config) {
   };
 }
 
-function readBeplayOverrideCookie(cookieHeader) {
+function readBeplayOverrideCookie(cookieHeader, expectedGame) {
   const rawValue = parseCookies(cookieHeader)[BEPLAY_OVERRIDE_COOKIE];
   if (!rawValue) {
     return null;
@@ -4653,6 +5026,9 @@ function readBeplayOverrideCookie(cookieHeader) {
   try {
     const parsed = JSON.parse(decodeURIComponent(rawValue));
     if (!parsed?.game || !parsed?.action) {
+      return null;
+    }
+    if (expectedGame && parsed.game !== expectedGame) {
       return null;
     }
     return parsed;
