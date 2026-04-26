@@ -16,6 +16,7 @@ import {
 } from "./lib/amatic-local.mjs";
 import { bgamingConfigs, buildBgamingLaunchUrl, getBgamingConfig } from "./lib/bgaming-configs.mjs";
 import { beplayConfigs, buildBeplayLaunchUrl, getBeplayConfig } from "./lib/beplay-configs.mjs";
+import { playsonConfigs, buildPlaysonLaunchUrl, getPlaysonConfig } from "./lib/playson-configs.mjs";
 import { slotConfigs } from "./lib/slot-configs.mjs";
 import { serverConfig } from "./lib/server-config.mjs";
 import { SessionStore } from "./lib/session-store.mjs";
@@ -391,6 +392,7 @@ async function main() {
     console.log(`BePlay Tiger's Prosperity: http://${serverConfig.host}:${serverConfig.port}/beplay/launch/tiger-s-prosperity`);
     console.log(`BePlay Koharu’s Suuuugoi Sweets: http://${serverConfig.host}:${serverConfig.port}/beplay/launch/koharus-suuuugoi-sweets`);
     console.log(`BGaming Gates of Power: http://${serverConfig.host}:${serverConfig.port}/bgaming/launch/gates-of-power`);
+    console.log(`Playson Coin Strike: http://${serverConfig.host}:${serverConfig.port}/playson/launch/coin-strike`);
     console.log(`Amatic Lady Fruits 10 Easter: http://${serverConfig.host}:${serverConfig.port}/amatic/ladyfruits10easter/`);
   });
 
@@ -459,6 +461,18 @@ async function handleRequest(req, res, url, context) {
     return;
   }
 
+  if (url.pathname === "/playson/games") {
+    sendJson(res, 200, {
+      games: Object.values(playsonConfigs).map((config) => ({
+        game: config.game,
+        name: config.name,
+        launchUrl: buildPlaysonLaunchUrl(`http://${req.headers.host}`, config),
+      })),
+    });
+    finalizeRequestLog(req, res, context, { route: "playson_games" });
+    return;
+  }
+
   if (url.pathname === "/amatic/games") {
     sendJson(res, 200, {
       games: listAmaticGames(amaticConfigs),
@@ -512,6 +526,30 @@ async function handleRequest(req, res, url, context) {
   if (url.pathname === "/bgaming/location") {
     await serveBgamingLocation(req, res, url);
     finalizeRequestLog(req, res, context, { route: "bgaming_location", gameId: url.searchParams.get("game") });
+    return;
+  }
+
+  if (url.pathname.startsWith("/playson/launch/")) {
+    const gameId = decodeURIComponent(url.pathname.slice("/playson/launch/".length));
+    const config = getPlaysonConfig(gameId);
+    if (!config) {
+      sendText(res, 404, "Unknown Playson game");
+      finalizeRequestLog(req, res, context, { route: "playson_launch", failed: true });
+      return;
+    }
+
+    res.writeHead(302, {
+      Location: buildPlaysonLaunchUrl(`http://${req.headers.host}`, config, url.searchParams),
+      "Cache-Control": "no-store",
+    });
+    res.end();
+    finalizeRequestLog(req, res, context, { route: "playson_launch", gameId });
+    return;
+  }
+
+  if (url.pathname === "/playson/location") {
+    servePlaysonLocation(req, res, url);
+    finalizeRequestLog(req, res, context, { route: "playson_location", gameId: url.searchParams.get("game") });
     return;
   }
 
@@ -2172,7 +2210,18 @@ function getConnectedGamesCatalog() {
     type: "slot",
   }));
 
-  return [...localGames, ...amaticGames, ...bgamingGames, ...beplayGames]
+  const playsonGames = Object.values(playsonConfigs).map((config) => ({
+    configurable: false,
+    gameId: config.game,
+    launchPath: buildPlaysonLaunchUrl(`http://${serverConfig.host}:${serverConfig.port}`, config),
+    mode: "launch-bridge",
+    name: config.name ?? humanizeGameName(config.game),
+    provider: "playson",
+    source: "playson-bridge",
+    type: "slot",
+  }));
+
+  return [...localGames, ...amaticGames, ...bgamingGames, ...beplayGames, ...playsonGames]
     .sort((left, right) => left.name.localeCompare(right.name));
 }
 
@@ -3112,6 +3161,24 @@ async function renderBeplayLocalLocationHtml(config) {
   return template
     .replace(/<base href="[^"]*"\s*\/?>/i, `<base href="/filez/${config.game}/snapshot/" />`)
     .replace(/<script type="module" crossorigin src="\.\/assets\/index-[^"]+\.js"><\/script>/i, `<script type="module" crossorigin src="./assets/${entryScript}"></script>`);
+}
+
+function servePlaysonLocation(req, res, url) {
+  const config = getPlaysonConfig(url.searchParams.get("game"));
+  if (!config) {
+    sendText(res, 404, "Unknown Playson game");
+    return;
+  }
+
+  const target = new URL(`${config.gameId === "coinStrike" ? "/playson/coin-strike/" : "/"}`, `http://${req.headers.host}`);
+  target.searchParams.set("provider", "playson");
+  target.searchParams.set("game", url.searchParams.get("launchGame") ?? "coin_strike");
+
+  res.writeHead(302, {
+    Location: target.toString(),
+    "Cache-Control": "no-store",
+  });
+  res.end();
 }
 
 async function handleBeplayLocalApi(req, res, url, body) {
